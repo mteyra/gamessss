@@ -1,0 +1,3925 @@
+{
+  "version": 1,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "films": [
+    {
+      "id": "islands",
+      "src": "films/islands.mp4",
+      "poster": "films/islands.webp",
+      "duration": 61.125,
+      "bytes": 848098,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.541935483870969,
+          "title": "Make islands of two",
+          "text": "Choose one cat and one mouse. Everyone else lies side by side in pairs, with room to run between them."
+        },
+        {
+          "index": 1,
+          "start": 11.541935483870969,
+          "end": 19.238709677419354,
+          "title": "The cat follows the mouse",
+          "text": "The cat tries to make a gentle tag. The mouse can keep running or join an island."
+        },
+        {
+          "index": 2,
+          "start": 19.238709677419354,
+          "end": 26.612903225806452,
+          "title": "Slow down and join one end",
+          "text": "The mouse lies beside the left end of this pair. There are briefly three people."
+        },
+        {
+          "index": 3,
+          "start": 26.612903225806452,
+          "end": 33.987096774193546,
+          "title": "The opposite person gets up",
+          "text": "Player 2 leaves from the opposite end and becomes the mouse. The other two stay together."
+        },
+        {
+          "index": 4,
+          "start": 33.987096774193546,
+          "end": 40.78709677419354,
+          "title": "A tag changes both roles",
+          "text": "This time the cat reaches the mouse. Stop briefly to exchange roles."
+        },
+        {
+          "index": 5,
+          "start": 40.78709677419354,
+          "end": 50.096774193548384,
+          "title": "Give the new mouse a head start",
+          "text": "The tagged mouse is now the cat. The former cat gets three seconds to move away as the new mouse."
+        },
+        {
+          "index": 6,
+          "start": 50.096774193548384,
+          "end": 58.11612903225806,
+          "title": "Pause and rotate the cat",
+          "text": "After a minute, pause the chase. Choose a fresh cat, rebuild the pairs and start another timed round."
+        }
+      ]
+    },
+    {
+      "id": "manhunt",
+      "src": "films/manhunt.mp4",
+      "poster": "films/manhunt.webp",
+      "duration": 63.333008,
+      "bytes": 1010968,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.541935483870969,
+          "title": "Agree where everyone may go",
+          "text": "Set boundaries, a meeting point and a stop call. Choose a first hunter; this small example has three runners."
+        },
+        {
+          "index": 1,
+          "start": 11.541935483870969,
+          "end": 19.238709677419354,
+          "title": "Hide, then begin the search",
+          "text": "Runners get one minute to hide. Hunters search only within the agreed area; runners may keep moving."
+        },
+        {
+          "index": 2,
+          "start": 19.238709677419354,
+          "end": 27.58064516129032,
+          "title": "A tag begins the change",
+          "text": "The hunter gently tags runner 1. The caught runner announces it and counts to five before joining the search."
+        },
+        {
+          "index": 3,
+          "start": 27.58064516129032,
+          "end": 34.95483870967742,
+          "title": "Caught runners become hunters",
+          "text": "Runner 1 now searches too. The original hunter finds runner 2, who must also wait five seconds."
+        },
+        {
+          "index": 4,
+          "start": 34.95483870967742,
+          "end": 43.941935483870964,
+          "title": "Hunt from more than one direction",
+          "text": "The newest hunter joins. Hunter 1 catches the last free runner; there are no prisons or rescues in this version."
+        },
+        {
+          "index": 5,
+          "start": 43.941935483870964,
+          "end": 52.60645161290322,
+          "title": "Stop when everyone is caught",
+          "text": "All runners have changed sides, so the hunters win this round. If time expires first, the remaining runners win together."
+        },
+        {
+          "index": 6,
+          "start": 52.60645161290322,
+          "end": 60.30322580645161,
+          "title": "Everyone returns to the meeting point",
+          "text": "Count the whole group and rotate the first hunter. Give the runners a new hiding minute."
+        }
+      ]
+    },
+    {
+      "id": "sardines",
+      "src": "films/sardines.mp4",
+      "poster": "films/sardines.webp",
+      "duration": 48.666667,
+      "bytes": 776947,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.251612903225805,
+          "title": "Pick a place everyone can fit",
+          "text": "Choose one hider and accessible hiding areas. Everyone else waits at a meeting point."
+        },
+        {
+          "index": 1,
+          "start": 10.251612903225805,
+          "end": 17.051612903225806,
+          "title": "Let the hider go first",
+          "text": "Give the hider one minute. Then the others search independently or in pairs."
+        },
+        {
+          "index": 2,
+          "start": 17.051612903225806,
+          "end": 23.851612903225806,
+          "title": "Finding means joining",
+          "text": "Searcher 1 finds the hider. They quietly sit beside them instead of calling out the discovery."
+        },
+        {
+          "index": 3,
+          "start": 23.851612903225806,
+          "end": 30.903225806451612,
+          "title": "Each finder makes the group bigger",
+          "text": "Searcher 2 joins too. The last searcher must now find a whole hidden group."
+        },
+        {
+          "index": 4,
+          "start": 30.903225806451612,
+          "end": 38.277419354838706,
+          "title": "The last searcher finds everyone",
+          "text": "The shared reveal ends the round. Being last is a finale, not an elimination or penalty."
+        },
+        {
+          "index": 5,
+          "start": 38.277419354838706,
+          "end": 45.651612903225804,
+          "title": "Return together and rotate",
+          "text": "Regroup and choose a new hider. Use the agreed stop call if the search timer ends first."
+        }
+      ]
+    },
+    {
+      "id": "blob-tag",
+      "src": "films/blob-tag.mp4",
+      "poster": "films/blob-tag.webp",
+      "duration": 49.083333,
+      "bytes": 601314,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.929032258064517,
+          "title": "Start with a linked pair",
+          "text": "The two blob players link hands or elbows. Their free hands make gentle tags."
+        },
+        {
+          "index": 1,
+          "start": 9.929032258064517,
+          "end": 17.948387096774194,
+          "title": "A catch joins the chain",
+          "text": "Stop safely after the tag. Player 3 joins the blob, which now moves as a group of three."
+        },
+        {
+          "index": 2,
+          "start": 17.948387096774194,
+          "end": 24.748387096774195,
+          "title": "Four people trigger a split",
+          "text": "Another catch brings the blob to four. Four is the signal to divide."
+        },
+        {
+          "index": 3,
+          "start": 24.748387096774195,
+          "end": 31.548387096774196,
+          "title": "Make two separate pairs",
+          "text": "Break the middle link. Both pairs can now move and tag independently."
+        },
+        {
+          "index": 4,
+          "start": 31.548387096774196,
+          "end": 38.348387096774196,
+          "title": "Each pair keeps growing",
+          "text": "Both blobs catch another runner. Larger games repeat the grow-to-four, split-in-two rule until everyone joins."
+        },
+        {
+          "index": 5,
+          "start": 38.348387096774196,
+          "end": 46.04516129032258,
+          "title": "Choose the next starting pair",
+          "text": "This small round is complete. The last two caught can start together while everyone else spreads out."
+        }
+      ]
+    },
+    {
+      "id": "octopus",
+      "src": "films/octopus.mp4",
+      "poster": "films/octopus.webp",
+      "duration": 51.5,
+      "bytes": 779069,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.606451612903225,
+          "title": "Start behind one shore",
+          "text": "All fish begin on the same shore. Only the octopus starts in the ocean."
+        },
+        {
+          "index": 1,
+          "start": 9.606451612903225,
+          "end": 17.30322580645161,
+          "title": "Cross when the octopus calls",
+          "text": "All fish travel to the other shore. The octopus moves to intercept fish before they reach safety."
+        },
+        {
+          "index": 2,
+          "start": 17.30322580645161,
+          "end": 25.96774193548387,
+          "title": "A caught fish becomes a crab",
+          "text": "Fish 1 was tagged. It stays at this exact spot for the rest of the round, with feet planted."
+        },
+        {
+          "index": 3,
+          "start": 25.96774193548387,
+          "end": 33.987096774193546,
+          "title": "Cross back past the crabs",
+          "text": "Fish 2 passes within the crab’s reach and becomes another crab. Fish 3 reaches the opposite shore safely."
+        },
+        {
+          "index": 4,
+          "start": 33.987096774193546,
+          "end": 41.68387096774193,
+          "title": "The last fish is caught",
+          "text": "On another crossing the octopus catches fish 3. All fish are now stationary, so the round ends."
+        },
+        {
+          "index": 5,
+          "start": 41.68387096774193,
+          "end": 48.48387096774193,
+          "title": "Reset the ocean",
+          "text": "Everyone becomes a fish again except the new octopus. Return the fish to one shore."
+        }
+      ]
+    },
+    {
+      "id": "shadow-tag",
+      "src": "films/shadow-tag.mp4",
+      "poster": "films/shadow-tag.webp",
+      "duration": 49.375,
+      "bytes": 613073,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.574193548387097,
+          "title": "Find clear shadows",
+          "text": "Choose a sunny open area and one tagger. The dark shapes are the players’ shadows on the ground."
+        },
+        {
+          "index": 1,
+          "start": 10.574193548387097,
+          "end": 18.270967741935483,
+          "title": "Step on a shadow",
+          "text": "The tagger steps on player 1’s shadow and calls their name and “caught”. No body contact is needed."
+        },
+        {
+          "index": 2,
+          "start": 18.270967741935483,
+          "end": 25.070967741935483,
+          "title": "Give the new tagger room",
+          "text": "Player 1 becomes the tagger. Pause briefly while the previous tagger moves away."
+        },
+        {
+          "index": 3,
+          "start": 25.070967741935483,
+          "end": 31.870967741935484,
+          "title": "Find another moving shadow",
+          "text": "The new tagger steps onto player 2’s shadow. Everyone plays honestly about the contact."
+        },
+        {
+          "index": 4,
+          "start": 31.870967741935484,
+          "end": 38.670967741935485,
+          "title": "Keep everybody playing",
+          "text": "Player 2 is now the tagger. The previous tagger returns to running after a brief pause."
+        },
+        {
+          "index": 5,
+          "start": 38.670967741935485,
+          "end": 46.36774193548387,
+          "title": "Finish at the short timer",
+          "text": "Call the stop. This is continuous play, with no elimination; swap the starting tagger for another round."
+        }
+      ]
+    },
+    {
+      "id": "line-tag",
+      "src": "films/line-tag.mp4",
+      "poster": "films/line-tag.webp",
+      "duration": 50.208333,
+      "bytes": 750305,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.606451612903225,
+          "title": "Choose connected court lines",
+          "text": "Walk the allowed routes first. Everyone, including the tagger, must move along these lines."
+        },
+        {
+          "index": 1,
+          "start": 9.606451612903225,
+          "end": 16.980645161290322,
+          "title": "A tagged runner blocks the line",
+          "text": "The tagger reaches player 1. Player 1 stops exactly there and becomes a visible roadblock."
+        },
+        {
+          "index": 2,
+          "start": 16.980645161290322,
+          "end": 24.35483870967742,
+          "title": "Use a different intersection",
+          "text": "Player 2 takes the lower route. Runners cannot squeeze past roadblocks or jump a gap between lines."
+        },
+        {
+          "index": 3,
+          "start": 24.35483870967742,
+          "end": 32.696774193548386,
+          "title": "Taggers can carefully walk around",
+          "text": "The tagger walks around the roadblock, rejoins the clear line below it and follows it to catch player 2."
+        },
+        {
+          "index": 4,
+          "start": 32.696774193548386,
+          "end": 40.39354838709677,
+          "title": "One runner ends this round",
+          "text": "Player 3 is the last runner. Stop now, or stop at two minutes if more runners remain."
+        },
+        {
+          "index": 5,
+          "start": 40.39354838709677,
+          "end": 47.19354838709677,
+          "title": "Everybody rejoins",
+          "text": "Remove all roadblocks and choose a new tagger. Every chosen line is open again."
+        }
+      ]
+    },
+    {
+      "id": "everybodys-it",
+      "src": "films/everybodys-it.mp4",
+      "poster": "films/everybodys-it.webp",
+      "duration": 48.291667,
+      "bytes": 632534,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.3,
+          "title": "Everyone starts at zero",
+          "text": "Set a three-minute timer. Every player may gently tag any other player."
+        },
+        {
+          "index": 1,
+          "start": 9.3,
+          "end": 16.996774193548386,
+          "title": "Count one successful tag",
+          "text": "Player 1 tags player 2 and adds one to their own count. Player 2 stays free to move."
+        },
+        {
+          "index": 2,
+          "start": 16.996774193548386,
+          "end": 24.370967741935484,
+          "title": "Being tagged does not stop you",
+          "text": "Player 2 immediately keeps playing and later tags player 3. Nobody freezes or sits out."
+        },
+        {
+          "index": 3,
+          "start": 24.370967741935484,
+          "end": 31.42258064516129,
+          "title": "Find somebody different",
+          "text": "Player 1 tags player 4 for a second point. Avoid immediate repeated tags on the same person."
+        },
+        {
+          "index": 4,
+          "start": 31.42258064516129,
+          "end": 38.47419354838709,
+          "title": "Stop and compare your counts",
+          "text": "Freeze at the stop signal. Compare counts or personal bests; all four players participated throughout."
+        },
+        {
+          "index": 5,
+          "start": 38.47419354838709,
+          "end": 45.27419354838709,
+          "title": "Reset every score together",
+          "text": "Everyone returns to zero. Start another short round with the same no-elimination rule."
+        }
+      ]
+    },
+    {
+      "id": "stuck-in-the-mud",
+      "src": "films/stuck-in-the-mud.mp4",
+      "poster": "films/stuck-in-the-mud.webp",
+      "duration": 56.75,
+      "bytes": 703384,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.606451612903225,
+          "title": "Spread out and start the timer",
+          "text": "Choose taggers and a two-minute round. The remaining players are free runners."
+        },
+        {
+          "index": 1,
+          "start": 9.606451612903225,
+          "end": 16.406451612903226,
+          "title": "A tag makes you stationary",
+          "text": "The tagger catches player 1. Player 1 stays still with hands held forward."
+        },
+        {
+          "index": 2,
+          "start": 16.406451612903226,
+          "end": 23.206451612903226,
+          "title": "Bring two rescuers together",
+          "text": "Two free runners approach the stuck player. Each touches one of the stuck player’s shoulders."
+        },
+        {
+          "index": 3,
+          "start": 23.206451612903226,
+          "end": 30.258064516129032,
+          "title": "Clap the two free hands",
+          "text": "While touching the shoulders, the rescuers clap their other hands together. That completes the rescue."
+        },
+        {
+          "index": 4,
+          "start": 30.258064516129032,
+          "end": 37.95483870967742,
+          "title": "The rescued player can run",
+          "text": "All three runners are free again. The tagger keeps chasing; a rescued player can be caught later."
+        },
+        {
+          "index": 5,
+          "start": 37.95483870967742,
+          "end": 46.941935483870964,
+          "title": "End at the timer or full freeze",
+          "text": "Here time runs out with free runners remaining, so the runners win. Taggers win if everyone becomes stuck first."
+        },
+        {
+          "index": 6,
+          "start": 46.941935483870964,
+          "end": 53.74193548387096,
+          "title": "Choose new taggers",
+          "text": "Reset every stuck player and rotate the tagger role before the next short round."
+        }
+      ]
+    },
+    {
+      "id": "rps-chase",
+      "src": "films/rps-chase.mp4",
+      "poster": "films/rps-chase.webp",
+      "duration": 51.166667,
+      "bytes": 827556,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.606451612903225,
+          "title": "Face a partner at centre",
+          "text": "Each pair starts between two home lines. Partners will run toward different homes."
+        },
+        {
+          "index": 1,
+          "start": 9.606451612903225,
+          "end": 16.406451612903226,
+          "title": "Reveal rock, paper or scissors",
+          "text": "Use the same count. Paper beats rock in these examples; replay any tied pair."
+        },
+        {
+          "index": 2,
+          "start": 16.406451612903226,
+          "end": 24.425806451612903,
+          "title": "The winner becomes the chaser",
+          "text": "A1 chases B1 toward the right home. In the other pair, B2 chases A2 toward the left home."
+        },
+        {
+          "index": 3,
+          "start": 24.425806451612903,
+          "end": 32.12258064516129,
+          "title": "A tag or home ends the chase",
+          "text": "B1 is tagged before home. A2 reaches home safely. Either result ends that pair’s chase."
+        },
+        {
+          "index": 4,
+          "start": 32.12258064516129,
+          "end": 39.81935483870968,
+          "title": "Both partners return",
+          "text": "Caught and safe players both come back to their original side. This version has no elimination or cumulative score."
+        },
+        {
+          "index": 5,
+          "start": 39.81935483870968,
+          "end": 48.16129032258065,
+          "title": "Shift along for a new opponent",
+          "text": "Move one line along to create new pairs. Play another reveal and chase, for five rounds in total."
+        }
+      ]
+    },
+    {
+      "id": "dragon-tail",
+      "src": "films/dragon-tail.mp4",
+      "poster": "films/dragon-tail.webp",
+      "duration": 51.583333,
+      "bytes": 652642,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "Make one comfortable connected line",
+          "text": "Use light hands on the hips or shoulders ahead, where comfortable. Front is head; back is tail."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 18.593548387096774,
+          "title": "Curl the dragon at walking pace",
+          "text": "The head tries to gently tag the tail. Everyone moves together without pulling the line apart."
+        },
+        {
+          "index": 2,
+          "start": 18.593548387096774,
+          "end": 26.29032258064516,
+          "title": "Stop if the connection breaks",
+          "text": "This gap breaks the line. Everyone pauses immediately; the head cannot claim a tag during the break."
+        },
+        {
+          "index": 3,
+          "start": 26.29032258064516,
+          "end": 33.09032258064516,
+          "title": "Reconnect and restart",
+          "text": "Restore every connection before the chase continues. Keep a comfortable walking pace."
+        },
+        {
+          "index": 4,
+          "start": 33.09032258064516,
+          "end": 39.890322580645154,
+          "title": "Tag the tail without breaking",
+          "text": "The head reaches the tail while the dragon stays connected. Stop the whole line."
+        },
+        {
+          "index": 5,
+          "start": 39.890322580645154,
+          "end": 48.55483870967741,
+          "title": "Move the head to the back",
+          "text": "The old head becomes the new tail, and player 2 becomes head. Continue until everyone has led the dragon."
+        }
+      ]
+    },
+    {
+      "id": "capture-the-flag",
+      "src": "films/capture-the-flag.mp4",
+      "poster": "films/capture-the-flag.webp",
+      "duration": 65.916667,
+      "bytes": 1205245,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Give each team a flag and holding zone",
+          "text": "You are safe on your own half. Agree space around flag and holding zones that defenders must respect."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 20.529032258064518,
+          "title": "Enter their half and take their flag",
+          "text": "A1 crosses into coral territory and picks up the coral flag. It must come back across centre."
+        },
+        {
+          "index": 2,
+          "start": 20.529032258064518,
+          "end": 29.838709677419356,
+          "title": "A tag sends the carrier to holding",
+          "text": "B1 tags A1 before the return. The flag goes back to its zone, and A1 enters the coral holding area."
+        },
+        {
+          "index": 3,
+          "start": 29.838709677419356,
+          "end": 37.21290322580645,
+          "title": "A free teammate can rescue one player",
+          "text": "A2 reaches the holding zone and gently tags A1. That frees one held teammate."
+        },
+        {
+          "index": 4,
+          "start": 37.21290322580645,
+          "end": 46.522580645161284,
+          "title": "The rescued pair walks safely home",
+          "text": "Both players get a safe walk to their own half before rejoining. Meanwhile A3 makes a new attempt on the flag."
+        },
+        {
+          "index": 5,
+          "start": 46.522580645161284,
+          "end": 54.21935483870967,
+          "title": "Cross centre with the flag to score",
+          "text": "A3 carries the coral flag into the green half. That successful return scores one point."
+        },
+        {
+          "index": 6,
+          "start": 54.21935483870967,
+          "end": 62.88387096774193,
+          "title": "Reset both flags and every player",
+          "text": "Return the flags to their zones and release all held players. Keep the score; first to three returns wins."
+        }
+      ]
+    },
+    {
+      "id": "hoop-rescue",
+      "src": "films/hoop-rescue.mp4",
+      "poster": "films/hoop-rescue.webp",
+      "duration": 63.708008,
+      "bytes": 1393427,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Give captured opponents a rescue zone",
+          "text": "Each team stays in its half. Caught players wait in the floor zone behind the opposing team."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 19.238709677419354,
+          "title": "Direct hits send players to waiting",
+          "text": "These two below-waist hits send A2 and A3 to the rescue zone. Bounced hits do not count."
+        },
+        {
+          "index": 2,
+          "start": 19.238709677419354,
+          "end": 29.838709677419352,
+          "title": "A waiting player can catch a pass",
+          "text": "A1 recovers the ball and passes to waiting A2. The catch earns A2 a free walk home; an active-player catch has no extra bonus."
+        },
+        {
+          "index": 3,
+          "start": 29.838709677419352,
+          "end": 37.53548387096774,
+          "title": "Shoot a basket from your half",
+          "text": "A2 passes back and walks safely home. A1 scores in the opposing basket without crossing centre."
+        },
+        {
+          "index": 4,
+          "start": 37.53548387096774,
+          "end": 45.232258064516124,
+          "title": "The whole waiting team comes back",
+          "text": "Every green player still waiting may return. Pause throws for the walk home; play then continues."
+        },
+        {
+          "index": 5,
+          "start": 45.232258064516124,
+          "end": 53.89677419354838,
+          "title": "Leave no opponents active to win",
+          "text": "Later, all coral players have been sent to rescue. With nobody left in their half, green wins the round."
+        },
+        {
+          "index": 6,
+          "start": 53.89677419354838,
+          "end": 60.69677419354838,
+          "title": "Reset all players for another round",
+          "text": "Release both rescue zones, share the balls and rotate starting sides."
+        }
+      ]
+    },
+    {
+      "id": "noodle-keeper",
+      "src": "films/noodle-keeper.mp4",
+      "poster": "films/noodle-keeper.webp",
+      "duration": 65.916667,
+      "bytes": 1342651,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Put one keeper in each goal area",
+          "text": "Two teams stay on their halves. Each keeper has a low-held noodle and a wide cone goal to defend."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 19.883870967741935,
+          "title": "Ordinary low hits still put you out",
+          "text": "A direct hit below the waist sends A2 to waiting. Floor-bounced hits do not count."
+        },
+        {
+          "index": 2,
+          "start": 19.883870967741935,
+          "end": 30.161290322580644,
+          "title": "The noodle stops a rolling ball",
+          "text": "Green recovers the ball and rolls toward goal. The keeper blocks with the noodle held low; noodle contact alone does not eliminate the keeper."
+        },
+        {
+          "index": 3,
+          "start": 30.161290322580644,
+          "end": 39.148387096774194,
+          "title": "A clean catch eliminates the thrower",
+          "text": "B2 collects the blocked ball, then throws. A3 catches the live throw, so B2 goes out; the keeper stays active."
+        },
+        {
+          "index": 4,
+          "start": 39.148387096774194,
+          "end": 47.81290322580645,
+          "title": "Send a low ball through the goal",
+          "text": "The keeper misses this roll. It passes below knee height through the goal and scores green one point."
+        },
+        {
+          "index": 5,
+          "start": 47.81290322580645,
+          "end": 55.50967741935484,
+          "title": "A point ends this short round",
+          "text": "Everyone returns after a goal or a full-team elimination. No one waits through the next point."
+        },
+        {
+          "index": 6,
+          "start": 55.50967741935484,
+          "end": 62.883870967741935,
+          "title": "Rotate keepers and keep the score",
+          "text": "Choose fresh keepers and share the balls evenly. The first team to three points wins."
+        }
+      ]
+    },
+    {
+      "id": "medic-dodgeball",
+      "src": "films/medic-dodgeball.mp4",
+      "poster": "films/medic-dodgeball.webp",
+      "duration": 67,
+      "bytes": 1145572,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.541935483870969,
+          "title": "Secretly choose one medic per team",
+          "text": "The host knows both medics. Our teaching diagram marks them M so you can see how healing works."
+        },
+        {
+          "index": 1,
+          "start": 11.541935483870969,
+          "end": 20.206451612903226,
+          "title": "A hit makes you stationary",
+          "text": "A direct low hit or dropped catch makes you stay at your current spot. You do not leave the court."
+        },
+        {
+          "index": 2,
+          "start": 20.206451612903226,
+          "end": 30.806451612903224,
+          "title": "Stationary does not mean unable to play",
+          "text": "A2 picks up the ball without leaving the spot, then hits B2. Stationary players can catch and throw; a catch makes its thrower stationary."
+        },
+        {
+          "index": 3,
+          "start": 30.806451612903224,
+          "end": 37.60645161290322,
+          "title": "A moving medic can restore you",
+          "text": "The green medic touches A2’s shoulder. A2 can move again immediately."
+        },
+        {
+          "index": 4,
+          "start": 37.60645161290322,
+          "end": 47.88387096774193,
+          "title": "A hit medic loses the healing power",
+          "text": "Stationary B2 hits the medic. The medic now stays planted and cannot heal anyone, including themselves, although they can still catch and throw."
+        },
+        {
+          "index": 5,
+          "start": 47.88387096774193,
+          "end": 57.19354838709677,
+          "title": "Stop at full freeze or five minutes",
+          "text": "Here five minutes end with moving players on both teams: a draw. Making the entire opposing team stationary wins earlier."
+        },
+        {
+          "index": 6,
+          "start": 57.19354838709677,
+          "end": 63.993548387096766,
+          "title": "Reset and choose different medics",
+          "text": "Everyone moves again. Quietly give the medic jobs to new players before restarting."
+        }
+      ]
+    },
+    {
+      "id": "gaga",
+      "src": "films/gaga.mp4",
+      "poster": "films/gaga.webp",
+      "duration": 67.583333,
+      "bytes": 977262,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.509677419354837,
+          "title": "Start with a hand on the wall",
+          "text": "Everyone begins inside a safe pit. Keep the entry and exit clear. A host drops the ball into the centre."
+        },
+        {
+          "index": 1,
+          "start": 12.509677419354837,
+          "end": 19.309677419354838,
+          "title": "Wait for the third bounce",
+          "text": "Call “ga, ga, go” on three bounces. Play begins on “go”."
+        },
+        {
+          "index": 2,
+          "start": 19.309677419354838,
+          "end": 27.974193548387095,
+          "title": "Strike with an open hand",
+          "text": "Player 1 strikes the ball along the floor. Its below-knee contact puts player 3 out—even an own hit would count."
+        },
+        {
+          "index": 3,
+          "start": 27.974193548387095,
+          "end": 37.92903225806452,
+          "title": "A clean airborne catch reverses it",
+          "text": "Player 1 reaches the loose ball and strikes it airborne. Player 2 catches it, so the last hitter, player 1, leaves the pit."
+        },
+        {
+          "index": 4,
+          "start": 37.92903225806452,
+          "end": 47.883870967741935,
+          "title": "Over the wall means a pause",
+          "text": "Player 2 sends the ball outside. As the last toucher, player 2 is out. Pause, retrieve the ball and restart with three bounces."
+        },
+        {
+          "index": 5,
+          "start": 47.883870967741935,
+          "end": 56.87096774193548,
+          "title": "The last player remaining wins",
+          "text": "After the three-bounce restart, player 4 strikes a low ball that catches player 5. Player 4 is the last one in."
+        },
+        {
+          "index": 6,
+          "start": 56.87096774193548,
+          "end": 64.56774193548387,
+          "title": "Bring everyone back",
+          "text": "All players return for a new short round. Begin again with a hand on the wall and three bounces."
+        }
+      ]
+    },
+    {
+      "id": "four-corners",
+      "src": "films/four-corners.mp4",
+      "poster": "films/four-corners.webp",
+      "duration": 55.958008,
+      "bytes": 926996,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.251612903225805,
+          "title": "Give each team one square",
+          "text": "Four teams begin with equal balls. Players must remain within their own square during play."
+        },
+        {
+          "index": 1,
+          "start": 10.251612903225805,
+          "end": 18.593548387096774,
+          "title": "A direct low hit eliminates",
+          "text": "A1 hits D1 below the waist. D1 waits beyond the court; a floor bounce would make the hit dead."
+        },
+        {
+          "index": 2,
+          "start": 18.593548387096774,
+          "end": 26.935483870967744,
+          "title": "A catch puts the thrower out",
+          "text": "A2 catches B1’s live throw. B1 leaves the court. This version does not rescue anyone for a catch."
+        },
+        {
+          "index": 3,
+          "start": 26.935483870967744,
+          "end": 37.21290322580646,
+          "title": "A team is out when its square empties",
+          "text": "C1 collects a loose ball entering the square and hits D2. Team D has nobody active, while the other teams keep playing."
+        },
+        {
+          "index": 4,
+          "start": 37.21290322580646,
+          "end": 45.554838709677426,
+          "title": "Stop at one team or three minutes",
+          "text": "The last active team wins. Here three minutes expire while several teams remain, so call a draw."
+        },
+        {
+          "index": 5,
+          "start": 45.554838709677426,
+          "end": 52.929032258064524,
+          "title": "Return all four teams",
+          "text": "Everyone goes back to their original square and balls are shared evenly for the next short round."
+        }
+      ]
+    },
+    {
+      "id": "two-pin",
+      "src": "films/two-pin.mp4",
+      "poster": "films/two-pin.webp",
+      "duration": 62.875,
+      "bytes": 1400044,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Place two pins near each back line",
+          "text": "Protect your two pins without holding or moving them. All throws come from your own half."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 18.019354838709678,
+          "title": "Ordinary hits create waiting players",
+          "text": "A direct below-waist hit sends A2 out. Bounced hits do not count."
+        },
+        {
+          "index": 2,
+          "start": 18.019354838709678,
+          "end": 27.329032258064515,
+          "title": "A fallen pin rescues your team",
+          "text": "A1 collects the loose ball and topples coral’s first pin. Every eliminated green player returns, including A2. Leave the pin down."
+        },
+        {
+          "index": 3,
+          "start": 27.329032258064515,
+          "end": 36.63870967741936,
+          "title": "A catch has no rescue bonus",
+          "text": "The loose ball rolls back across centre. A1 throws again, but B1 catches: A1 goes out, and no waiting player returns."
+        },
+        {
+          "index": 4,
+          "start": 36.63870967741936,
+          "end": 46.270967741935486,
+          "title": "The second pin stays a live target",
+          "text": "B1 returns a throw that bounces dead. A2 collects it, topples the other coral pin and rescues green’s waiting players again."
+        },
+        {
+          "index": 5,
+          "start": 46.270967741935486,
+          "end": 53.07096774193548,
+          "title": "Two fallen opposing pins wins",
+          "text": "Green wins immediately. Eliminating every opposing player would also end the round."
+        },
+        {
+          "index": 6,
+          "start": 53.07096774193548,
+          "end": 59.87096774193548,
+          "title": "Rebuild for a new round",
+          "text": "Stand up all four pins, return all players and distribute the balls again."
+        }
+      ]
+    },
+    {
+      "id": "castleball",
+      "src": "films/castleball.mp4",
+      "poster": "films/castleball.webp",
+      "duration": 61.125,
+      "bytes": 1072535,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.541935483870969,
+          "title": "Build two castles per team",
+          "text": "Each castle uses one flat hoop, four leaning sides and one top hoop. Practise stable builds before adding balls."
+        },
+        {
+          "index": 1,
+          "start": 11.541935483870969,
+          "end": 18.916129032258066,
+          "title": "Throw to topple a castle",
+          "text": "A1 throws from the green half and knocks down a coral castle. Green scores one point."
+        },
+        {
+          "index": 2,
+          "start": 18.916129032258066,
+          "end": 26.612903225806452,
+          "title": "Body hits do not eliminate players",
+          "text": "This throw touches B3, who stays active. Players may block or catch, but nobody crosses centre."
+        },
+        {
+          "index": 3,
+          "start": 26.612903225806452,
+          "end": 35.27741935483871,
+          "title": "Rebuild during the action",
+          "text": "Coral rebuilds its fallen castle while other players continue. Rebuilding restores a target; it does not erase the point already scored."
+        },
+        {
+          "index": 4,
+          "start": 35.27741935483871,
+          "end": 43.29677419354839,
+          "title": "Both teams keep scoring topples",
+          "text": "A coral throw knocks down a green castle. Coral adds one point; players remain active on both sides."
+        },
+        {
+          "index": 5,
+          "start": 43.29677419354839,
+          "end": 51.31612903225806,
+          "title": "Compare scores at five minutes",
+          "text": "Call the stop and compare how many castles each team toppled. This example is tied at one each."
+        },
+        {
+          "index": 6,
+          "start": 51.31612903225806,
+          "end": 58.11612903225806,
+          "title": "Rebuild before the next round",
+          "text": "Put every castle upright again. Reset scores and start a fresh timed round."
+        }
+      ]
+    },
+    {
+      "id": "protect-president",
+      "src": "films/protect-president.mp4",
+      "poster": "films/protect-president.webp",
+      "duration": 55.041667,
+      "bytes": 1114096,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.541935483870969,
+          "title": "Choose a president on each team",
+          "text": "Presidents are marked P. They may dodge within their half but do not throw. Their teammates are guards."
+        },
+        {
+          "index": 1,
+          "start": 11.541935483870969,
+          "end": 18.34193548387097,
+          "title": "Guards can be eliminated normally",
+          "text": "A direct below-waist hit sends guard A2 to waiting. Bounced balls are dead."
+        },
+        {
+          "index": 2,
+          "start": 18.34193548387097,
+          "end": 27.006451612903227,
+          "title": "A guard’s catch has two effects",
+          "text": "B1 recovers the loose ball and throws again. A1 catches it: B1 goes out and waiting teammate A2 returns."
+        },
+        {
+          "index": 3,
+          "start": 27.006451612903227,
+          "end": 35.02580645161291,
+          "title": "The president can dodge too",
+          "text": "The coral president moves to a new gap. Guards defend without grabbing or surrounding the president with contact."
+        },
+        {
+          "index": 4,
+          "start": 35.02580645161291,
+          "end": 43.04516129032258,
+          "title": "One legal president hit wins",
+          "text": "A1’s below-waist throw hits the coral president. The round ends immediately, even though coral still has active guards."
+        },
+        {
+          "index": 5,
+          "start": 43.04516129032258,
+          "end": 52.03225806451613,
+          "title": "Rotate presidents and start again",
+          "text": "Reset every guard and choose new presidents. If three minutes pass without a president hit, call a draw and rotate anyway."
+        }
+      ]
+    },
+    {
+      "id": "nationball",
+      "src": "films/nationball.mp4",
+      "poster": "films/nationball.webp",
+      "duration": 65.25,
+      "bytes": 1395640,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Give each team a lane behind the opponents",
+          "text": "The outside lanes belong to the opposite-side teams. A two-metre no-throw buffer separates each lane from active court."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 22.78709677419355,
+          "title": "A hit moves you to your outside lane",
+          "text": "A2 is hit below the waist and moves behind coral. The player is still on the green team, and stays outside for this round."
+        },
+        {
+          "index": 2,
+          "start": 22.78709677419355,
+          "end": 30.161290322580648,
+          "title": "Outside players can collect and pass",
+          "text": "A2 collects a loose ball and passes it to A1. Outside players are not spectators."
+        },
+        {
+          "index": 3,
+          "start": 30.161290322580648,
+          "end": 37.85806451612903,
+          "title": "Outside players can throw at opponents",
+          "text": "A2’s next throw hits B2 from behind. B2 moves to the coral outside lane behind green."
+        },
+        {
+          "index": 4,
+          "start": 37.85806451612903,
+          "end": 46.52258064516129,
+          "title": "Catching does not bring anyone inside",
+          "text": "B1 catches A1’s live throw safely. No one is eliminated for this catch, and A2 and B2 stay outside."
+        },
+        {
+          "index": 5,
+          "start": 46.52258064516129,
+          "end": 54.86451612903226,
+          "title": "An empty inside team loses",
+          "text": "Later, the other green players are also hit and move outside. Green has nobody left inside, so coral wins."
+        },
+        {
+          "index": 6,
+          "start": 54.86451612903226,
+          "end": 62.23870967741936,
+          "title": "Return everyone and switch sides",
+          "text": "All players return inside. Swap starting halves and assign the outside lanes behind the new opponents."
+        }
+      ]
+    },
+    {
+      "id": "sprout-ball",
+      "src": "films/sprout-ball.mp4",
+      "poster": "films/sprout-ball.webp",
+      "duration": 71.375,
+      "bytes": 1020561,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.832258064516129,
+          "title": "Everyone begins as a moving sprout",
+          "text": "There are no teams. Use two or three soft balls; a holder has at most three steps and five seconds before throwing."
+        },
+        {
+          "index": 1,
+          "start": 12.832258064516129,
+          "end": 21.496774193548386,
+          "title": "Remember the player who got you",
+          "text": "Player 1 hits player 2. Player 2 becomes a stationary seed who cannot handle balls, and remembers player 1."
+        },
+        {
+          "index": 2,
+          "start": 21.496774193548386,
+          "end": 30.161290322580644,
+          "title": "A catch can bring someone else back",
+          "text": "Player 3 catches player 1’s live throw. Player 1 becomes a seed, so player 2 immediately sprouts again."
+        },
+        {
+          "index": 3,
+          "start": 30.161290322580644,
+          "end": 40.438709677419354,
+          "title": "A different throw creates a new link",
+          "text": "Player 2 hits player 4. Player 4 waits as a seed and remembers player 2; player 1 is still waiting for player 3."
+        },
+        {
+          "index": 4,
+          "start": 40.438709677419354,
+          "end": 49.10322580645161,
+          "title": "The next hit releases that seed",
+          "text": "Player 3 hits player 2. Player 4 returns because the person who got them has just become a seed."
+        },
+        {
+          "index": 5,
+          "start": 49.10322580645161,
+          "end": 59.38064516129032,
+          "title": "One catch can release several sprouts",
+          "text": "Player 4 catches player 3’s throw. Player 3 becomes a seed, so both players 1 and 2 return: player 3 had got them both."
+        },
+        {
+          "index": 6,
+          "start": 59.38064516129032,
+          "end": 68.36774193548386,
+          "title": "Stop at one sprout or the timer",
+          "text": "A sole moving sprout wins, but revivals can keep the round going. Here the timer ends; reset every seed."
+        }
+      ]
+    },
+    {
+      "id": "money-ball",
+      "src": "films/money-ball.mp4",
+      "poster": "films/money-ball.webp",
+      "duration": 61.708008,
+      "bytes": 1225114,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Make the money ball unmistakable",
+          "text": "Use a larger soft ball for the money ball. Ordinary balls retain their normal hit and catch rules."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 18.916129032258063,
+          "title": "An ordinary catch is only an out",
+          "text": "B2 catches A1’s ordinary ball. A1 waits; ordinary-ball catches never revive teammates or win immediately."
+        },
+        {
+          "index": 2,
+          "start": 18.916129032258063,
+          "end": 27.258064516129032,
+          "title": "The money ball cannot be hoarded",
+          "text": "A2 controls the money ball. Throw it across centre within five seconds; deliberately rolling it eliminates the thrower."
+        },
+        {
+          "index": 3,
+          "start": 27.258064516129032,
+          "end": 34.95483870967742,
+          "title": "A money-ball hit has two effects",
+          "text": "A2 legally hits B3 below the waist. B3 goes out, and one waiting green player returns."
+        },
+        {
+          "index": 4,
+          "start": 34.95483870967742,
+          "end": 43.29677419354839,
+          "title": "The other team prepares its throw",
+          "text": "Coral recovers the money ball. B1 has the same five-second deadline and the same risk of a catch."
+        },
+        {
+          "index": 5,
+          "start": 43.29677419354839,
+          "end": 50.99354838709677,
+          "title": "A money-ball catch wins immediately",
+          "text": "A3 catches B1’s live money-ball throw. Green wins at once, even with other coral players still active."
+        },
+        {
+          "index": 6,
+          "start": 50.99354838709677,
+          "end": 58.69032258064516,
+          "title": "Return everyone for the next round",
+          "text": "Reset all players and balls. Eliminating the whole opposing team is the other way to win."
+        }
+      ]
+    },
+    {
+      "id": "rollerball",
+      "src": "films/rollerball.mp4",
+      "poster": "films/rollerball.webp",
+      "duration": 55,
+      "bytes": 815430,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.864516129032257,
+          "title": "Separate the roller from the dodgers",
+          "text": "Mark a wide dodging strip and a rolling line a few metres away. One roller begins with the ball."
+        },
+        {
+          "index": 1,
+          "start": 11.864516129032257,
+          "end": 21.496774193548383,
+          "title": "Roll along the floor at the feet",
+          "text": "Dodgers move sideways inside the strip. A below-waist rolling hit sends player 2 to waiting; a high throw would not count."
+        },
+        {
+          "index": 2,
+          "start": 21.496774193548383,
+          "end": 28.87096774193548,
+          "title": "Pause while retrieving the ball",
+          "text": "Nobody starts the next roll yet. Retrieve the ball and wait until every dodger is ready."
+        },
+        {
+          "index": 3,
+          "start": 28.87096774193548,
+          "end": 36.89032258064516,
+          "title": "Restart only when everyone is ready",
+          "text": "The next low roll catches player 3. Players 1 and 4 keep dodging sideways in their strip."
+        },
+        {
+          "index": 4,
+          "start": 36.89032258064516,
+          "end": 44.58709677419355,
+          "title": "The final remaining dodger wins",
+          "text": "After retrieval, another low roll catches player 1. Player 4 is the last dodger in the strip."
+        },
+        {
+          "index": 5,
+          "start": 44.58709677419355,
+          "end": 51.961290322580645,
+          "title": "Give the winner a new job",
+          "text": "Player 4 becomes the roller. All waiting players and the previous roller return as dodgers."
+        }
+      ]
+    },
+    {
+      "id": "flunkyball",
+      "src": "films/flunkyball.mp4",
+      "poster": "films/flunkyball.webp",
+      "duration": 62.833333,
+      "bytes": 1106299,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.864516129032257,
+          "title": "Two teams, ten tokens each",
+          "text": "This lesson follows green’s ten tokens. Each team has a bowl behind its line; a bottle stands halfway between them."
+        },
+        {
+          "index": 1,
+          "start": 11.864516129032257,
+          "end": 18.664516129032258,
+          "title": "Knock the bottle down",
+          "text": "A green throw topples the bottle. Only a hit starts the token relay."
+        },
+        {
+          "index": 2,
+          "start": 18.664516129032258,
+          "end": 25.716129032258063,
+          "title": "Bank one token",
+          "text": "One green runner carries one token to the bowl. Meanwhile coral races to the bottle and ball."
+        },
+        {
+          "index": 3,
+          "start": 25.716129032258063,
+          "end": 35.670967741935485,
+          "title": "Return and tag the next",
+          "text": "The first runner returns and tags the second. Coral stands the bottle and collects the ball, but must still get everybody behind its line."
+        },
+        {
+          "index": 4,
+          "start": 35.670967741935485,
+          "end": 44.65806451612903,
+          "title": "Everyone back: “Stop!”",
+          "text": "Coral has the ball, an upright bottle and everyone behind its line. Stop the relay. The unbanked carried token returns to the supply."
+        },
+        {
+          "index": 5,
+          "start": 44.65806451612903,
+          "end": 51.45806451612903,
+          "title": "A miss earns no relay",
+          "text": "Coral throws next and misses. Nobody moves tokens; the bottle is already upright."
+        },
+        {
+          "index": 6,
+          "start": 51.45806451612903,
+          "end": 59.8,
+          "title": "Rotate throwers and repeat",
+          "text": "Green keeps its banked token and rotates throwers. The first team with all ten banked after a stop call wins."
+        }
+      ]
+    },
+    {
+      "id": "kubb",
+      "src": "films/kubb.mp4",
+      "poster": "films/kubb.webp",
+      "duration": 58.208333,
+      "bytes": 834732,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "Five kubbs on each baseline",
+          "text": "The king stands in the middle. Green begins with six underarm, end-over-end baton throws from its baseline."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 18.916129032258063,
+          "title": "A baseline kubb falls",
+          "text": "Green knocks over one coral kubb. Finish the six-throw turn before coral replies. Never hit the king this early."
+        },
+        {
+          "index": 2,
+          "start": 18.916129032258063,
+          "end": 28.2258064516129,
+          "title": "Throw fallen kubbs back in",
+          "text": "Before throwing batons, coral tosses its fallen kubb into green’s half. Stand it where it lands: it is now a field kubb."
+        },
+        {
+          "index": 3,
+          "start": 28.2258064516129,
+          "end": 37.53548387096774,
+          "title": "Clear the field kubb first",
+          "text": "Coral must knock down this field kubb before attacking baseline kubbs. Surviving field kubbs would let green advance its next throwing line."
+        },
+        {
+          "index": 4,
+          "start": 37.53548387096774,
+          "end": 45.87741935483871,
+          "title": "Then clear the baseline",
+          "text": "Continue through later turns. Here coral has finally cleared every green kubb. The king is now its legal final target."
+        },
+        {
+          "index": 5,
+          "start": 45.87741935483871,
+          "end": 55.18709677419355,
+          "title": "Return to the original baseline",
+          "text": "The king shot comes from coral’s original baseline. Topple it now to win; toppling it before clearing the opposing kubbs loses immediately."
+        }
+      ]
+    },
+    {
+      "id": "molkky",
+      "src": "films/molkky.mp4",
+      "poster": "films/molkky.webp",
+      "duration": 62.666667,
+      "bytes": 1130543,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.864516129032257,
+          "title": "Twelve pins and one thrower",
+          "text": "Players take turns throwing the wooden pin underarm. The twelve numbered targets start together and will spread across the field."
+        },
+        {
+          "index": 1,
+          "start": 11.864516129032257,
+          "end": 18.916129032258063,
+          "title": "Exactly one falls: score its number",
+          "text": "Only pin twelve falls fully. A scores twelve, even though just one pin fell."
+        },
+        {
+          "index": 2,
+          "start": 18.916129032258063,
+          "end": 27.258064516129032,
+          "title": "Stand it where it fell",
+          "text": "Return pin twelve upright at its new position. Do not rebuild the original cluster. B takes the next throw."
+        },
+        {
+          "index": 3,
+          "start": 27.258064516129032,
+          "end": 34.63225806451613,
+          "title": "Several fall: score the count",
+          "text": "B knocks down three pins. That scores three, regardless of the numbers printed on those pins."
+        },
+        {
+          "index": 4,
+          "start": 34.63225806451613,
+          "end": 42.65161290322581,
+          "title": "Keep the spread-out targets",
+          "text": "Stand each fallen pin where it stopped and keep adding scores. In this later example, A has reached forty-seven."
+        },
+        {
+          "index": 5,
+          "start": 42.65161290322581,
+          "end": 50.348387096774196,
+          "title": "Above fifty resets to twenty-five",
+          "text": "A knocks down only pin eight. Forty-seven plus eight is fifty-five, so A’s total resets to twenty-five."
+        },
+        {
+          "index": 6,
+          "start": 50.348387096774196,
+          "end": 59.65806451612903,
+          "title": "Exactly fifty wins",
+          "text": "Retrieve the thrower for a winning example: B has forty-four and topples only six, reaching fifty exactly. Three consecutive scoreless throws eliminate a player."
+        }
+      ]
+    },
+    {
+      "id": "petanque",
+      "src": "films/petanque.mp4",
+      "poster": "films/petanque.webp",
+      "duration": 55.625,
+      "bytes": 828172,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.509677419354837,
+          "title": "Throw from one shared circle",
+          "text": "Singles uses three boules each. Keep both feet grounded in the circle during a throw. The jack is the small target ball."
+        },
+        {
+          "index": 1,
+          "start": 12.509677419354837,
+          "end": 19.561290322580643,
+          "title": "Jack, then the first boule",
+          "text": "Green throws the jack six to ten metres, then sends its first boule near it."
+        },
+        {
+          "index": 2,
+          "start": 19.561290322580643,
+          "end": 27.25806451612903,
+          "title": "Farther away means play again",
+          "text": "Coral’s first boule finishes farther from the jack. Coral must throw again; turns do not simply alternate."
+        },
+        {
+          "index": 3,
+          "start": 27.25806451612903,
+          "end": 35.277419354838706,
+          "title": "Become closest: switch the turn",
+          "text": "Coral’s second boule is now closer than green’s first. Green must play until closer or out of boules."
+        },
+        {
+          "index": 4,
+          "start": 35.277419354838706,
+          "end": 43.941935483870964,
+          "title": "Count only the closer team",
+          "text": "After all six boules, two green boules lie inside the distance of coral’s nearest. Green scores two; coral scores zero."
+        },
+        {
+          "index": 5,
+          "start": 43.941935483870964,
+          "end": 52.60645161290322,
+          "title": "The scoring team starts again",
+          "text": "Make the next throwing circle near the old jack. Green starts the new end. Continue until a team reaches thirteen."
+        }
+      ]
+    },
+    {
+      "id": "bocce",
+      "src": "films/bocce.mp4",
+      "poster": "films/bocce.webp",
+      "duration": 58,
+      "bytes": 963898,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.3,
+          "title": "Four balls per team",
+          "text": "Eight large balls share a narrow lane. Green starts with the small pallino."
+        },
+        {
+          "index": 1,
+          "start": 9.3,
+          "end": 16.1,
+          "title": "Roll into the far half",
+          "text": "Green rolls the pallino beyond halfway, then rolls its first ball towards it."
+        },
+        {
+          "index": 2,
+          "start": 16.1,
+          "end": 24.44193548387097,
+          "title": "Coral is farther away",
+          "text": "Coral’s first ball finishes farther from the pallino. Coral keeps rolling until it gets closer or runs out of balls."
+        },
+        {
+          "index": 3,
+          "start": 24.44193548387097,
+          "end": 31.24193548387097,
+          "title": "Now green must play",
+          "text": "Coral’s second ball becomes the nearest. Green now has to improve its position."
+        },
+        {
+          "index": 4,
+          "start": 31.24193548387097,
+          "end": 39.26129032258065,
+          "title": "A ball can move another",
+          "text": "Green uses its remaining balls. The last roll displaces coral’s close ball; contact is part of the game."
+        },
+        {
+          "index": 5,
+          "start": 39.26129032258065,
+          "end": 47.28064516129032,
+          "title": "Finish all eight, then measure",
+          "text": "Coral rolls its last two. Two green balls are nearer than coral’s nearest: two points to green only."
+        },
+        {
+          "index": 6,
+          "start": 47.28064516129032,
+          "end": 54.97741935483871,
+          "title": "Reverse direction for the next end",
+          "text": "The scoring team begins again from the other end. First to twelve wins this starter game."
+        }
+      ]
+    },
+    {
+      "id": "cornhole",
+      "src": "films/cornhole.mp4",
+      "poster": "films/cornhole.webp",
+      "duration": 56.416667,
+      "bytes": 904543,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Four bags each, one far board",
+          "text": "Opponents alternate underarm throws towards the board at the other end. Finish all eight bags before scoring."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 18.019354838709678,
+          "title": "Through the hole scores three",
+          "text": "Green’s first bag goes through the hole: three potential round points."
+        },
+        {
+          "index": 2,
+          "start": 18.019354838709678,
+          "end": 25.393548387096775,
+          "title": "On the board scores one",
+          "text": "Coral’s bag rests on the board: one point. A ground-first bag scores zero and is removed."
+        },
+        {
+          "index": 3,
+          "start": 25.393548387096775,
+          "end": 35.99354838709677,
+          "title": "Alternate until every bag settles",
+          "text": "The remaining throws leave green with five and coral with four: green has one hole and two board bags; coral has one hole and one board bag."
+        },
+        {
+          "index": 4,
+          "start": 35.99354838709677,
+          "end": 42.79354838709677,
+          "title": "Cancel the smaller score",
+          "text": "Subtract coral’s four from green’s five. Only one point is added to green’s running total."
+        },
+        {
+          "index": 5,
+          "start": 42.79354838709677,
+          "end": 53.39354838709677,
+          "title": "Play back from the other end",
+          "text": "Collect the bags and throw towards the other board. Green scored, so green starts. First to twenty-one or more after a round wins; there is no bust."
+        }
+      ]
+    },
+    {
+      "id": "kanjam",
+      "src": "films/kanjam.mp4",
+      "poster": "films/kanjam.webp",
+      "duration": 68.5,
+      "bytes": 1100166,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Partners stand at opposite goals",
+          "text": "Each pair has a thrower and a redirecting partner. The partner may touch the disc once, without catching or carrying it."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 19.883870967741935,
+          "title": "Deflect onto the outside: one",
+          "text": "The partner redirects the throw into the outside of the goal. This assisted outside hit scores one."
+        },
+        {
+          "index": 2,
+          "start": 19.883870967741935,
+          "end": 28.225806451612904,
+          "title": "Hit directly: two",
+          "text": "Return the disc and compare another throw: it hits the outside with no partner touch. This direct outside hit scores two."
+        },
+        {
+          "index": 3,
+          "start": 28.225806451612904,
+          "end": 37.21290322580645,
+          "title": "Deflect inside: three",
+          "text": "Return the disc, then the partner redirects a fresh throw into the goal. An assisted entry scores three. A ground-first throw scores zero."
+        },
+        {
+          "index": 4,
+          "start": 37.21290322580645,
+          "end": 45.87741935483871,
+          "title": "Both partners throw once",
+          "text": "The partner throws back towards the other goal. After both partners have thrown once, the opposing pair takes its team turn."
+        },
+        {
+          "index": 5,
+          "start": 45.87741935483871,
+          "end": 55.18709677419355,
+          "title": "An overshoot subtracts the throw",
+          "text": "Exactly twenty-one is required. At twenty, a three-point throw would overshoot, so subtract three: the total becomes seventeen. Complete equal team turns."
+        },
+        {
+          "index": 6,
+          "start": 55.18709677419355,
+          "end": 65.46451612903226,
+          "title": "Direct entry wins immediately",
+          "text": "Collect the disc. A fresh shot goes through the slot unassisted and stays inside: an immediate win, regardless of score. An unassisted top entry also wins."
+        }
+      ]
+    },
+    {
+      "id": "ladder-toss",
+      "src": "films/ladder-toss.mp4",
+      "poster": "films/ladder-toss.webp",
+      "duration": 60.458333,
+      "bytes": 981349,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.832258064516129,
+          "title": "Three rungs, three values",
+          "text": "The top rung is three points, middle two, bottom one. Each side has three bolas and takes all three throws before the other side."
+        },
+        {
+          "index": 1,
+          "start": 12.832258064516129,
+          "end": 20.529032258064515,
+          "title": "Green throws all three",
+          "text": "Green leaves one bola on top and two on the middle. Do not score or remove them yet."
+        },
+        {
+          "index": 2,
+          "start": 20.529032258064515,
+          "end": 29.838709677419352,
+          "title": "Coral can knock one off",
+          "text": "Coral’s top-rung throw dislodges green’s top bola. Coral also lands one on the bottom and misses one. Knocked-off bolas no longer count."
+        },
+        {
+          "index": 3,
+          "start": 29.838709677419352,
+          "end": 39.47096774193548,
+          "title": "Count what is still hanging",
+          "text": "Green has two middle bolas: four. Coral has top plus bottom: four. This starter version adds both totals, with no bonuses or cancellation."
+        },
+        {
+          "index": 4,
+          "start": 39.47096774193548,
+          "end": 48.13548387096774,
+          "title": "Discard a round that overshoots",
+          "text": "Later example: green’s nineteen plus four exceeds twenty-one, so green stays on nineteen. Coral’s seventeen plus four reaches exactly twenty-one."
+        },
+        {
+          "index": 5,
+          "start": 48.13548387096774,
+          "end": 57.445161290322574,
+          "title": "Complete the round, then declare it",
+          "text": "Coral wins after the complete round. Clear the frame. Alternate the starting side; if both reach twenty-one together, play another round."
+        }
+      ]
+    },
+    {
+      "id": "washer-toss",
+      "src": "films/washer-toss.mp4",
+      "poster": "films/washer-toss.webp",
+      "duration": 53.208333,
+      "bytes": 826367,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.251612903225805,
+          "title": "Three washers per side",
+          "text": "Opponents alternate tossing towards the far box. Finish all six washers before working out the score."
+        },
+        {
+          "index": 1,
+          "start": 10.251612903225805,
+          "end": 17.051612903225806,
+          "title": "Inside the cup scores three",
+          "text": "Green’s washer finishes inside the centre cup. It is worth three round points."
+        },
+        {
+          "index": 2,
+          "start": 17.051612903225806,
+          "end": 25.39354838709677,
+          "title": "Elsewhere in the box scores one",
+          "text": "Coral’s washer lands inside the box but outside its cup: one round point. Outside the box is zero."
+        },
+        {
+          "index": 3,
+          "start": 25.39354838709677,
+          "end": 35.0258064516129,
+          "title": "Finish the alternating throws",
+          "text": "Green adds one box washer and misses once. Coral’s other two miss. The settled round totals are four for green and one for coral."
+        },
+        {
+          "index": 4,
+          "start": 35.0258064516129,
+          "end": 41.8258064516129,
+          "title": "Subtract the lower score",
+          "text": "Four minus one leaves three. Add three to green’s running total; coral adds nothing."
+        },
+        {
+          "index": 5,
+          "start": 41.8258064516129,
+          "end": 50.16774193548387,
+          "title": "Play back towards the other box",
+          "text": "Collect washers and reverse direction. The scoring side starts. First to twenty-one or more after a round wins."
+        }
+      ]
+    },
+    {
+      "id": "croquet",
+      "src": "films/croquet.mp4",
+      "poster": "films/croquet.webp",
+      "duration": 56.333333,
+      "bytes": 1084645,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Everyone aims at the same hoop",
+          "text": "This example begins at hoop one from its marked playing side. The stroke order is always blue, red, black, yellow."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 18.98709677419355,
+          "title": "Blue takes one stroke",
+          "text": "Blue approaches the current hoop. That uses its turn; red plays next."
+        },
+        {
+          "index": 2,
+          "start": 18.98709677419355,
+          "end": 27.329032258064515,
+          "title": "A hit gives no extra stroke",
+          "text": "Red hits blue’s ball away. Contact is allowed, but red gets no bonus stroke. Black is still next."
+        },
+        {
+          "index": 3,
+          "start": 27.329032258064515,
+          "end": 34.70322580645161,
+          "title": "Completely through earns one",
+          "text": "Black passes completely through the hoop from the correct side. Blue and black’s team earns one point."
+        },
+        {
+          "index": 4,
+          "start": 34.70322580645161,
+          "end": 44.65806451612903,
+          "title": "Next hoop, same ball positions",
+          "text": "Everyone now contests the next hoop. Yellow’s stroke goes out; replace its ball where it crossed the boundary. Other balls stay where they stopped."
+        },
+        {
+          "index": 5,
+          "start": 44.65806451612903,
+          "end": 53.32258064516129,
+          "title": "Keep the colour order",
+          "text": "Blue plays again, then red. Follow the source’s twelve-hoop route. First to seven points wins; at six-all, contest hoop three again."
+        }
+      ]
+    },
+    {
+      "id": "disc-golf",
+      "src": "films/disc-golf.mp4",
+      "poster": "films/disc-golf.webp",
+      "duration": 64.916667,
+      "bytes": 894031,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.574193548387097,
+          "title": "Start at the marked tee",
+          "text": "Choose tees, baskets and boundaries before playing. Everyone throws one at a time from this tee."
+        },
+        {
+          "index": 1,
+          "start": 10.574193548387097,
+          "end": 19.561290322580646,
+          "title": "Each first throw counts one",
+          "text": "A and B take their first throws. Their landing places become their next throwing positions. B is farther from the basket."
+        },
+        {
+          "index": 2,
+          "start": 19.561290322580646,
+          "end": 27.258064516129032,
+          "title": "The farther player throws next",
+          "text": "B throws from the previous landing place, not from the tee. B has now used two throws."
+        },
+        {
+          "index": 3,
+          "start": 27.258064516129032,
+          "end": 35.92258064516129,
+          "title": "Out adds one penalty",
+          "text": "A’s second throw crosses the boundary. Add one penalty, making three strokes. Resume just inside where the disc last crossed out."
+        },
+        {
+          "index": 4,
+          "start": 35.92258064516129,
+          "end": 43.941935483870964,
+          "title": "Continue from the new lie",
+          "text": "A is farther away, so A throws again from the boundary lie. This approach makes A’s count four."
+        },
+        {
+          "index": 5,
+          "start": 43.941935483870964,
+          "end": 53.89677419354838,
+          "title": "Every finishing throw still counts",
+          "text": "B finishes in three. A then finishes in five, including the penalty. A disc must finish in the basket for this hole to end."
+        },
+        {
+          "index": 6,
+          "start": 53.89677419354838,
+          "end": 61.916129032258056,
+          "title": "Record and move together",
+          "text": "Record both hole totals, then move to the next tee. Lowest combined throw count across the agreed course wins."
+        }
+      ]
+    },
+    {
+      "id": "gorodki",
+      "src": "films/gorodki.mp4",
+      "poster": "films/gorodki.webp",
+      "duration": 64.916667,
+      "bytes": 949720,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Build one five-block figure",
+          "text": "Both sides play the same agreed figure. This example starts with a row. Use soft practice pieces and a clear throwing area."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 20.529032258064518,
+          "title": "Take the first underarm throw",
+          "text": "The baton scatters the row. Several blocks move outside, but a block’s centre crossing the line is not enough."
+        },
+        {
+          "index": 2,
+          "start": 20.529032258064518,
+          "end": 29.193548387096776,
+          "title": "Count only fully cleared blocks",
+          "text": "Three blocks are completely outside. One still overlaps the square’s edge and one remains inside. Leave them where they stopped."
+        },
+        {
+          "index": 3,
+          "start": 29.193548387096776,
+          "end": 36.245161290322585,
+          "title": "Use the second throw",
+          "text": "The second baton clears the last two pieces completely. A used two throws for this figure."
+        },
+        {
+          "index": 4,
+          "start": 36.245161290322585,
+          "end": 46.5225806451613,
+          "title": "Rebuild identically for the opponent",
+          "text": "Record two throws for A. Rebuild the same row for B; each turn allows two baton throws, repeating as needed until the square is empty."
+        },
+        {
+          "index": 5,
+          "start": 46.5225806451613,
+          "end": 53.5741935483871,
+          "title": "Repeat with the cross",
+          "text": "After both sides finish the row, play the same agreed cross figure. Record every throw used."
+        },
+        {
+          "index": 6,
+          "start": 53.5741935483871,
+          "end": 61.91612903225807,
+          "title": "Then play the five-block well",
+          "text": "Finish the short game with the well. Add each side’s throws across all three figures; the smaller total wins."
+        }
+      ]
+    },
+    {
+      "id": "kho-kho",
+      "src": "films/kho-kho.mp4",
+      "poster": "films/kho-kho.webp",
+      "duration": 57.333333,
+      "bytes": 881969,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.251612903225805,
+          "title": "One chaser, three runners",
+          "text": "This small example has four seated chasers facing alternate sides. One teammate chases; three opponents run."
+        },
+        {
+          "index": 1,
+          "start": 10.251612903225805,
+          "end": 17.625806451612902,
+          "title": "The runner crosses the lane",
+          "text": "Runners may cross. The active chaser cannot cross or reverse direction except around an end cone."
+        },
+        {
+          "index": 2,
+          "start": 17.625806451612902,
+          "end": 26.29032258064516,
+          "title": "Tap a back: “Kho!”",
+          "text": "The chaser taps a seated teammate’s back, calls “kho” and takes their seat. That teammate starts on the side they face."
+        },
+        {
+          "index": 3,
+          "start": 26.29032258064516,
+          "end": 33.66451612903226,
+          "title": "A gentle tag scores one",
+          "text": "The new chaser reaches runner 1. A gentle tag scores one; that runner leaves this batch."
+        },
+        {
+          "index": 4,
+          "start": 33.66451612903226,
+          "end": 40.71612903225807,
+          "title": "Finish the batch",
+          "text": "After the other two runners are tagged, all three are out. The chasing team has three points."
+        },
+        {
+          "index": 5,
+          "start": 40.71612903225807,
+          "end": 47.516129032258064,
+          "title": "Send the next three",
+          "text": "A fresh batch enters. Keep chasing and handing over until the five-minute turn ends."
+        },
+        {
+          "index": 6,
+          "start": 47.516129032258064,
+          "end": 54.31612903225806,
+          "title": "Now exchange roles",
+          "text": "Coral chases; green runs. Give both teams equal time. The side with more tags wins."
+        }
+      ]
+    },
+    {
+      "id": "kabaddi",
+      "src": "films/kabaddi.mp4",
+      "poster": "films/kabaddi.webp",
+      "duration": 61.208008,
+      "bytes": 993799,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.541935483870969,
+          "title": "Tags replace tackles",
+          "text": "This is the tag-belt adaptation. Teams stay in their halves until one raider crosses; every player begins with a removable tag."
+        },
+        {
+          "index": 1,
+          "start": 11.541935483870969,
+          "end": 18.34193548387097,
+          "title": "One raider enters",
+          "text": "Green sends one raider across. They have up to twenty seconds to collect tags and return."
+        },
+        {
+          "index": 2,
+          "start": 18.34193548387097,
+          "end": 26.038709677419355,
+          "title": "Take a defender’s tag",
+          "text": "The raider removes coral 1’s tag. It is only a potential point until the raider gets back home."
+        },
+        {
+          "index": 3,
+          "start": 26.038709677419355,
+          "end": 33.41290322580645,
+          "title": "Cross home to score",
+          "text": "The raider returns safely. One collected tag becomes one point. All tags are returned after the raid."
+        },
+        {
+          "index": 4,
+          "start": 33.41290322580645,
+          "end": 40.21290322580645,
+          "title": "The other team raids",
+          "text": "Now coral sends one raider into green’s half. Teams alternate and rotate who raids."
+        },
+        {
+          "index": 5,
+          "start": 40.21290322580645,
+          "end": 49.522580645161284,
+          "title": "Lose your tag, lose the raid",
+          "text": "Green removes the raider’s tag before they return. Green gets one defence point. Timeout or stepping out has the same result."
+        },
+        {
+          "index": 6,
+          "start": 49.522580645161284,
+          "end": 58.18709677419354,
+          "title": "Reset tags and take turns",
+          "text": "Restore every tag. After equal numbers of raids, the higher total wins. There is no tackling, holding or contact blocking."
+        }
+      ]
+    },
+    {
+      "id": "lagori",
+      "src": "films/lagori.mp4",
+      "poster": "films/lagori.webp",
+      "duration": 55.041667,
+      "bytes": 878826,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Stack seven discs",
+          "text": "Green attacks from the throwing line. Coral fields. The attackers have up to three throws total to topple the stack."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 19.883870967741935,
+          "title": "One hit starts the scramble",
+          "text": "The stack falls. Attackers can now rebuild while defenders recover the ball. Three missed opening throws would swap the roles."
+        },
+        {
+          "index": 2,
+          "start": 19.883870967741935,
+          "end": 26.683870967741935,
+          "title": "Rebuild while they retrieve",
+          "text": "Two attackers replace three discs. Coral retrieves the ball and can pass it between fielders."
+        },
+        {
+          "index": 3,
+          "start": 26.683870967741935,
+          "end": 35.670967741935485,
+          "title": "A low hit puts one out",
+          "text": "Coral passes and gently hits attacker 1 below the knees. That player leaves this round; the other attackers keep rebuilding."
+        },
+        {
+          "index": 4,
+          "start": 35.670967741935485,
+          "end": 44.012903225806454,
+          "title": "Seven discs: “Lagori!”",
+          "text": "The remaining attackers complete all seven and call “Lagori!” Green scores one. If every attacker were out first, coral would score."
+        },
+        {
+          "index": 5,
+          "start": 44.012903225806454,
+          "end": 52.03225806451613,
+          "title": "Reset and swap roles",
+          "text": "Rebuild the starting tower and swap attackers and fielders. Play six rounds with equal attacking turns; most points wins."
+        }
+      ]
+    },
+    {
+      "id": "peteca",
+      "src": "films/peteca.mp4",
+      "poster": "films/peteca.webp",
+      "duration": 54.666667,
+      "bytes": 775813,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "Start behind the baseline",
+          "text": "Play singles here. Each side has one open-hand strike to return the peteca; there are no teammate passes."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 18.270967741935483,
+          "title": "Serve with an open hand",
+          "text": "Green strikes the peteca from behind the baseline. The shuttle crosses the net into coral’s court."
+        },
+        {
+          "index": 2,
+          "start": 18.270967741935483,
+          "end": 25.96774193548387,
+          "title": "Return it with one strike",
+          "text": "Coral returns it immediately with one open-hand strike. Catching, double touches and failed returns lose the rally."
+        },
+        {
+          "index": 3,
+          "start": 25.96774193548387,
+          "end": 34.309677419354834,
+          "title": "Land it inside the court",
+          "text": "Green sends the next strike into an empty corner. The peteca lands inside coral’s court: one point to green."
+        },
+        {
+          "index": 4,
+          "start": 34.309677419354834,
+          "end": 42.00645161290322,
+          "title": "The rally winner serves",
+          "text": "Reset the shuttle behind green’s baseline. In these starter rules, the side that won the rally serves next."
+        },
+        {
+          "index": 5,
+          "start": 42.00645161290322,
+          "end": 51.63870967741935,
+          "title": "Win a short set",
+          "text": "Continue to eleven with a two-point lead; 11–9 is one winning example. Change ends during the set and win two sets for the match."
+        }
+      ]
+    },
+    {
+      "id": "sepak-takraw",
+      "src": "films/sepak-takraw.mp4",
+      "poster": "films/sepak-takraw.webp",
+      "duration": 62.833008,
+      "bytes": 990707,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 13.477419354838709,
+          "title": "Three players on each side",
+          "text": "The server stands on the service mark. A teammate supplies the toss. Use feet, legs, torso or head; hands and arms cannot touch the ball."
+        },
+        {
+          "index": 1,
+          "start": 13.477419354838709,
+          "end": 21.174193548387095,
+          "title": "Toss to the server",
+          "text": "The teammate tosses to the server. The server kicks this ball over the net to start the rally."
+        },
+        {
+          "index": 2,
+          "start": 21.174193548387095,
+          "end": 27.974193548387095,
+          "title": "Kick it across",
+          "text": "Green’s serve travels into coral’s court. Coral now has up to three touches to return it."
+        },
+        {
+          "index": 3,
+          "start": 27.974193548387095,
+          "end": 34.774193548387096,
+          "title": "First touch keeps it up",
+          "text": "Coral 1 lifts the ball with a foot towards teammate 2. Count one touch."
+        },
+        {
+          "index": 4,
+          "start": 34.774193548387096,
+          "end": 42.148387096774194,
+          "title": "Second touch sets it",
+          "text": "Coral 2 raises the ball towards teammate 3. Count two. One player may also take multiple touches."
+        },
+        {
+          "index": 5,
+          "start": 42.148387096774194,
+          "end": 49.2,
+          "title": "Third touch goes over",
+          "text": "Coral 3 returns it across. A fourth touch would lose the point; three is the limit."
+        },
+        {
+          "index": 6,
+          "start": 49.2,
+          "end": 59.800000000000004,
+          "title": "Grounded ball: coral scores",
+          "text": "The ball lands in green’s court. Coral gains one and serves next: serving teams alternate after every point. Win two sets; sets are to fifteen, or seventeen after 14–14."
+        }
+      ]
+    },
+    {
+      "id": "ki-o-rahi",
+      "src": "films/ki-o-rahi.mp4",
+      "poster": "films/ki-o-rahi.webp",
+      "duration": 68.166667,
+      "bytes": 1246956,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Two roles, three zones",
+          "text": "This teaching adaptation has seven pou outside. Kīoma stay outside except two central guards; Taniwha have two inner players and outside teammates."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 20.206451612903226,
+          "title": "Touch one new pou",
+          "text": "A Kīoma carrier touches a pou with the ball: one pending point. Touching this same post again adds nothing."
+        },
+        {
+          "index": 2,
+          "start": 20.206451612903226,
+          "end": 28.870967741935484,
+          "title": "A different pou adds one",
+          "text": "Kīoma travel outside to another post. Two different pou now mean two pending points; they have not yet been banked."
+        },
+        {
+          "index": 3,
+          "start": 28.870967741935484,
+          "end": 39.47096774193548,
+          "title": "Carry in and ground",
+          "text": "The scoring carrier crosses the inner ring and grounds centrally, banking both points. No passing during the crossing. A lost tag or ball would erase the pending total."
+        },
+        {
+          "index": 4,
+          "start": 39.47096774193548,
+          "end": 46.84516129032258,
+          "title": "Opponents restart outside",
+          "text": "After either side scores, the other side restarts at the outer edge. Pending pou points reset to zero."
+        },
+        {
+          "index": 5,
+          "start": 46.84516129032258,
+          "end": 55.50967741935484,
+          "title": "Pass to an inner player",
+          "text": "Taniwha pass from outside to an inner shooter. Kīoma’s two central guards may block or catch without touching the barrel."
+        },
+        {
+          "index": 6,
+          "start": 55.50967741935484,
+          "end": 65.14193548387097,
+          "title": "Hit the tupu for one",
+          "text": "The shot hits the central target: one Taniwha point. Kīoma restart outside. Swap roles every five minutes and compare totals after equal time."
+        }
+      ]
+    },
+    {
+      "id": "lippa",
+      "src": "films/lippa.mp4",
+      "poster": "films/lippa.webp",
+      "duration": 54.083333,
+      "bytes": 895036,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Clear the hitting area",
+          "text": "The short lippa rests on a base with one tapered end exposed. Only the hitter is in front of the waiting line."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 18.98709677419355,
+          "title": "Tap the tapered end",
+          "text": "The long bat taps one end. The short stick lifts into the air."
+        },
+        {
+          "index": 2,
+          "start": 18.98709677419355,
+          "end": 27.006451612903227,
+          "title": "Strike it while airborne",
+          "text": "Strike the lifted stick away. Everybody waits until it lands and stops. A complete miss still uses an attempt."
+        },
+        {
+          "index": 3,
+          "start": 27.006451612903227,
+          "end": 34.70322580645161,
+          "title": "Measure whole bat-lengths",
+          "text": "Measure from the base to the stopped stick. This throw reaches four whole bat-lengths; the short remainder adds nothing."
+        },
+        {
+          "index": 4,
+          "start": 34.70322580645161,
+          "end": 43.36774193548387,
+          "title": "Retrieve only on the signal",
+          "text": "The leader gives the signal after measuring. The hitter retrieves the stick; the next attempt starts from the same base."
+        },
+        {
+          "index": 5,
+          "start": 43.36774193548387,
+          "end": 51.064516129032256,
+          "title": "Five attempts, then the next player",
+          "text": "An example five-throw total is eighteen. Give every player five attempts; the highest combined distance wins."
+        }
+      ]
+    },
+    {
+      "id": "bete-ombro",
+      "src": "films/bete-ombro.mp4",
+      "poster": "films/bete-ombro.webp",
+      "duration": 55.958333,
+      "bytes": 909374,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Two targets, two batters",
+          "text": "A batter defends each target. A grounded bat inside its base makes that batter safe. Fielders bowl from behind the opposite ends."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 19.883870967741935,
+          "title": "Bowl at the far target",
+          "text": "Coral bowls the soft ball towards the right-hand target. Its batter tries to hit the ball away."
+        },
+        {
+          "index": 2,
+          "start": 19.883870967741935,
+          "end": 27.58064516129032,
+          "title": "Hit away, then decide to run",
+          "text": "The batter sends the ball into space. Fielders chase it; the batters may now exchange ends."
+        },
+        {
+          "index": 3,
+          "start": 27.58064516129032,
+          "end": 35.92258064516129,
+          "title": "One exchange scores one",
+          "text": "Both batters reach the opposite bases and ground their bats. This completed exchange scores one run in the teaching adaptation."
+        },
+        {
+          "index": 4,
+          "start": 35.92258064516129,
+          "end": 45.55483870967742,
+          "title": "An exposed target can fall",
+          "text": "On another attempted exchange, a fielder knocks over an unprotected target. Batting and fielding roles must switch; an airborne catch also switches them."
+        },
+        {
+          "index": 5,
+          "start": 45.55483870967742,
+          "end": 52.92903225806452,
+          "title": "The other pair bats",
+          "text": "Reset the targets. Coral now bats and green fields. Continue until one pair completes its tenth run."
+        }
+      ]
+    },
+    {
+      "id": "ampe",
+      "src": "films/ampe.mp4",
+      "poster": "films/ampe.webp",
+      "duration": 55.458333,
+      "bytes": 689181,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.509677419354837,
+          "title": "Choose opposite scoring roles",
+          "text": "A scores for matching feet; B scores for different feet. The L and R labels refer to each player’s own left and right."
+        },
+        {
+          "index": 1,
+          "start": 12.509677419354837,
+          "end": 19.309677419354838,
+          "title": "Clap on one shared beat",
+          "text": "Clap together so both players make their choice at the same moment."
+        },
+        {
+          "index": 2,
+          "start": 19.309677419354838,
+          "end": 26.10967741935484,
+          "title": "Make a small jump",
+          "text": "Jump together. Each player chooses one foot to put forward when landing."
+        },
+        {
+          "index": 3,
+          "start": 26.10967741935484,
+          "end": 35.41935483870968,
+          "title": "Both choose left: a match",
+          "text": "Both land with their own left foot forward. The feet match, so A earns one point. Both choosing right would also match."
+        },
+        {
+          "index": 4,
+          "start": 35.41935483870968,
+          "end": 43.438709677419354,
+          "title": "Left and right: different",
+          "text": "On the next beat, A chooses left and B chooses right. The feet differ, so B earns one point."
+        },
+        {
+          "index": 5,
+          "start": 43.438709677419354,
+          "end": 52.4258064516129,
+          "title": "Reach ten, then switch roles",
+          "text": "Repeat until one player reaches ten. Swap matching and different scoring roles for the next game; groups can then rotate partners."
+        }
+      ]
+    },
+    {
+      "id": "pilolo",
+      "src": "films/pilolo.mp4",
+      "poster": "films/pilolo.webp",
+      "duration": 55.708333,
+      "bytes": 853902,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Hide one token per player",
+          "text": "The leader hides three tokens while these three searchers wait out of sight. Everybody then gathers behind the shared start-and-finish line."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 18.98709677419355,
+          "title": "“Pilolo!” means search",
+          "text": "The leader calls “Pilolo!” Searchers enter the agreed area, each looking for one token."
+        },
+        {
+          "index": 2,
+          "start": 18.98709677419355,
+          "end": 26.683870967741935,
+          "title": "Find one, then go home",
+          "text": "A finds a token. Take just one and head back; never take a token from another player."
+        },
+        {
+          "index": 3,
+          "start": 26.683870967741935,
+          "end": 35.670967741935485,
+          "title": "Cross the line carrying it",
+          "text": "A crosses the finish line with the token first and wins this round. B has also found one and is returning."
+        },
+        {
+          "index": 4,
+          "start": 35.670967741935485,
+          "end": 43.36774193548387,
+          "title": "Let everyone finish",
+          "text": "B and C complete their searches and return with one token each. Keep the round open until everyone finishes."
+        },
+        {
+          "index": 5,
+          "start": 43.36774193548387,
+          "end": 52.677419354838705,
+          "title": "Change the leader and hide again",
+          "text": "A becomes the next leader. Hide the tokens again. Play five rounds and count first finishes, or celebrate each round separately."
+        }
+      ]
+    },
+    {
+      "id": "jianzi",
+      "src": "films/jianzi.mp4",
+      "poster": "films/jianzi.webp",
+      "duration": 56.583333,
+      "bytes": 829178,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "A circle shares one shuttle",
+          "text": "This is a cooperative keep-up circle. Everyone has room to lift a leg. Count successful contacts together."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 18.916129032258063,
+          "title": "Kick upward to start",
+          "text": "A drops the jianzi towards a foot and kicks it up. The first successful contact makes the count one."
+        },
+        {
+          "index": 2,
+          "start": 18.916129032258063,
+          "end": 27.258064516129032,
+          "title": "Pass with another foot touch",
+          "text": "B keeps the shuttle airborne and directs it towards C. That is contact two. Hands and arms cannot help."
+        },
+        {
+          "index": 3,
+          "start": 27.258064516129032,
+          "end": 35.92258064516129,
+          "title": "A knee can keep it alive",
+          "text": "C lifts the shuttle with a knee towards D. Count three; feet are not the only legal body part."
+        },
+        {
+          "index": 4,
+          "start": 35.92258064516129,
+          "end": 44.26451612903226,
+          "title": "The floor ends this rally",
+          "text": "The shuttle falls before D returns it. The rally ends at three; record three as the group’s current best."
+        },
+        {
+          "index": 5,
+          "start": 44.26451612903226,
+          "end": 53.5741935483871,
+          "title": "Start from zero with someone new",
+          "text": "B starts the next rally at zero. Keep the best score and try to beat it before the five-minute session ends."
+        }
+      ]
+    },
+    {
+      "id": "dibeke",
+      "src": "films/dibeke.mp4",
+      "poster": "films/dibeke.webp",
+      "duration": 69.458333,
+      "bytes": 1039115,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.864516129032257,
+          "title": "Safe boxes at opposite ends",
+          "text": "Green runs and coral fields. The roller calls one runner into the kicking area. Only the end boxes are safe."
+        },
+        {
+          "index": 1,
+          "start": 11.864516129032257,
+          "end": 19.561290322580643,
+          "title": "Call a name and roll",
+          "text": "The roller calls runner 1 and rolls the ball towards them. They must kick it beyond halfway."
+        },
+        {
+          "index": 2,
+          "start": 19.561290322580643,
+          "end": 29.19354838709677,
+          "title": "Kick long and run",
+          "text": "The kick passes halfway, so runner 1 must cross. Runner 2 chooses to join. Missed or short kicks retry; three failures dismiss the kicker."
+        },
+        {
+          "index": 3,
+          "start": 29.19354838709677,
+          "end": 38.180645161290315,
+          "title": "Reach the far safe box",
+          "text": "Runner 1 reaches safety and scores one crossing in this adaptation. Coral retrieves the ball while runner 2 is still exposed."
+        },
+        {
+          "index": 4,
+          "start": 38.180645161290315,
+          "end": 48.780645161290316,
+          "title": "A low hit outside puts you out",
+          "text": "The fielder gently throws below runner 2’s knees. That runner leaves this innings; a runner already inside the safe box cannot be put out."
+        },
+        {
+          "index": 5,
+          "start": 48.780645161290316,
+          "end": 58.09032258064515,
+          "title": "Everyone safe or out: restart",
+          "text": "The action stops once everyone is safe or out. The roller calls the next runner; keep the completed crossing on the scoreboard."
+        },
+        {
+          "index": 6,
+          "start": 58.09032258064515,
+          "end": 66.43225806451612,
+          "title": "Give each team an innings",
+          "text": "Swap after five minutes or when everyone is out. Give equal innings; the team with more completed crossings wins."
+        }
+      ]
+    },
+    {
+      "id": "tchoukball",
+      "src": "films/tchoukball.mp4",
+      "poster": "films/tchoukball.webp",
+      "duration": 67.208333,
+      "bytes": 1247011,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.864516129032257,
+          "title": "Two frames, either end",
+          "text": "Both teams may shoot at either frame. The marked semicircles are not scoring landing areas. This drawing uses a small example."
+        },
+        {
+          "index": 1,
+          "start": 11.864516129032257,
+          "end": 21.174193548387095,
+          "title": "Pass without interference",
+          "text": "Defenders do not intercept or block passes. Hold for at most three seconds, take at most three steps, and shoot within three team passes."
+        },
+        {
+          "index": 2,
+          "start": 21.174193548387095,
+          "end": 30.16129032258064,
+          "title": "Shoot, then watch the rebound",
+          "text": "Green shoots at the left frame. The rebound is still live: coral can catch it before it lands outside the semicircle."
+        },
+        {
+          "index": 3,
+          "start": 30.16129032258064,
+          "end": 38.180645161290315,
+          "title": "A catch changes the attack",
+          "text": "Coral catches the rebound. There is no point. Coral now attacks, with the same passing and shooting limits."
+        },
+        {
+          "index": 4,
+          "start": 38.180645161290315,
+          "end": 45.8774193548387,
+          "title": "An uncaught rebound scores",
+          "text": "Coral shoots at the other frame. This rebound lands in court outside its semicircle, so coral scores one."
+        },
+        {
+          "index": 5,
+          "start": 45.8774193548387,
+          "end": 54.21935483870967,
+          "title": "The conceding team restarts",
+          "text": "Green restarts behind that baseline. After three consecutive shots at one frame, the next shot must use the other frame."
+        },
+        {
+          "index": 6,
+          "start": 54.21935483870967,
+          "end": 64.1741935483871,
+          "title": "A bad landing rewards opponents",
+          "text": "A shot landing inside the semicircle gives opponents one point. Missing the frame or rebounding out does too. A dropped pass instead changes possession."
+        }
+      ]
+    },
+    {
+      "id": "kin-ball",
+      "src": "films/kin-ball.mp4",
+      "poster": "films/kin-ball.webp",
+      "duration": 60.416667,
+      "bytes": 1154519,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.574193548387097,
+          "title": "Three teams surround one ball",
+          "text": "Each colour has four players. Three green players support the ball; the fourth prepares to hit."
+        },
+        {
+          "index": 1,
+          "start": 10.574193548387097,
+          "end": 17.625806451612902,
+          "title": "Call before the hit",
+          "text": "The hitter calls “Omnikin” and another team’s colour. Only that called team must make the catch."
+        },
+        {
+          "index": 2,
+          "start": 17.625806451612902,
+          "end": 25.967741935483872,
+          "title": "Send the ball outward",
+          "text": "Hit outward or upward, never downward. This introduction requires at least three metres of travel. Give the called team room."
+        },
+        {
+          "index": 3,
+          "start": 25.967741935483872,
+          "end": 34.95483870967742,
+          "title": "Catch, support, prepare again",
+          "text": "Coral controls the ball before it lands. Coral’s players now support it and prepare their next hit. Rotate hitters within each team."
+        },
+        {
+          "index": 4,
+          "start": 34.95483870967742,
+          "end": 42.00645161290322,
+          "title": "Choose the next receivers",
+          "text": "Coral calls purple before sending the ball away. Green and coral leave purple space to catch."
+        },
+        {
+          "index": 5,
+          "start": 42.00645161290322,
+          "end": 49.703225806451606,
+          "title": "A miss scores for both rivals",
+          "text": "The ball reaches the floor before purple controls it. Green and coral each score one point."
+        },
+        {
+          "index": 6,
+          "start": 49.703225806451606,
+          "end": 57.39999999999999,
+          "title": "The faulting team restarts",
+          "text": "Purple supports the ball and starts again. After ten minutes, the highest score wins; a tie may stand."
+        }
+      ]
+    },
+    {
+      "id": "ultimate",
+      "src": "films/ultimate.mp4",
+      "poster": "films/ultimate.webp",
+      "duration": 52.166667,
+      "bytes": 794130,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.251612903225805,
+          "title": "Start behind the end-zone lines",
+          "text": "Coral defends and holds the opening disc. Green attacks the end zone at the right."
+        },
+        {
+          "index": 1,
+          "start": 10.251612903225805,
+          "end": 17.625806451612902,
+          "title": "The defence throws the pull",
+          "text": "Coral throws to green to start the point. Green teammates spread out to offer passing options."
+        },
+        {
+          "index": 2,
+          "start": 17.625806451612902,
+          "end": 25.64516129032258,
+          "title": "Catch, stop, and pivot",
+          "text": "The holder cannot run with the disc. A nearby marker counts ten seconds aloud while teammates move into space."
+        },
+        {
+          "index": 3,
+          "start": 25.64516129032258,
+          "end": 32.696774193548386,
+          "title": "Catch inside the end zone",
+          "text": "Green 3 catches a teammate’s pass inside the coral end zone. Green scores one point."
+        },
+        {
+          "index": 4,
+          "start": 32.696774193548386,
+          "end": 39.49677419354838,
+          "title": "Switch ends after each point",
+          "text": "The scoring team now throws the next opening disc. Both teams change ends."
+        },
+        {
+          "index": 5,
+          "start": 39.49677419354838,
+          "end": 49.12903225806451,
+          "title": "A failed pass changes possession",
+          "text": "After the next pull, coral drops a pass. Green takes possession immediately. Interceptions, out-of-bounds passes and a completed ten-count also turn it over."
+        }
+      ]
+    },
+    {
+      "id": "jugger",
+      "src": "films/jugger.mp4",
+      "poster": "films/jugger.webp",
+      "duration": 61.416667,
+      "bytes": 869241,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.832258064516129,
+          "title": "Choose the unarmed runners",
+          "text": "R marks each team’s runner. Spar players use inspected padded equipment for gentle tags below the shoulders. This introduction excludes chains, wrestling and pinning."
+        },
+        {
+          "index": 1,
+          "start": 12.832258064516129,
+          "end": 21.81935483870968,
+          "title": "Runners collect the centre ball",
+          "text": "On “Jugger!”, runners approach the ball. Only a runner may pick it up, carry it or place it in a goal."
+        },
+        {
+          "index": 2,
+          "start": 21.81935483870968,
+          "end": 31.451612903225808,
+          "title": "A gentle tag pauses a player",
+          "text": "A tagged spar player raises a hand and sits or kneels if comfortable. Count five audible beats, one-and-a-half seconds apart, before rejoining."
+        },
+        {
+          "index": 3,
+          "start": 31.451612903225808,
+          "end": 40.76129032258065,
+          "title": "A tagged runner drops immediately",
+          "text": "Green’s runner is tagged and puts the ball down immediately. Nobody may grab a body or block a player with their body."
+        },
+        {
+          "index": 4,
+          "start": 40.76129032258065,
+          "end": 50.07096774193549,
+          "title": "A runner places the ball",
+          "text": "Coral’s active runner collects the loose ball and places it in green’s goal. Coral scores one. The five-beat player can now rejoin."
+        },
+        {
+          "index": 5,
+          "start": 50.07096774193549,
+          "end": 58.41290322580646,
+          "title": "Reset everyone after a point",
+          "text": "Return to the baselines with the ball at centre. Rotate runners. First to three points wins this introductory match."
+        }
+      ]
+    },
+    {
+      "id": "roundnet",
+      "src": "films/roundnet.mp4",
+      "poster": "films/roundnet.webp",
+      "duration": 56.666667,
+      "bytes": 843578,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.541935483870969,
+          "title": "Two pairs, one round net",
+          "text": "The server faces the receiver. Leave clear space in every direction; there are no fixed sides after the serve."
+        },
+        {
+          "index": 1,
+          "start": 11.541935483870969,
+          "end": 18.34193548387097,
+          "title": "Serve down onto the net",
+          "text": "Green strikes down onto the net. The rebound travels towards coral’s receiver."
+        },
+        {
+          "index": 2,
+          "start": 18.34193548387097,
+          "end": 26.68387096774194,
+          "title": "Alternate your team’s touches",
+          "text": "Coral 1 sends the ball to coral 2. These are touches one and two. Nobody catches or carries the ball."
+        },
+        {
+          "index": 3,
+          "start": 26.68387096774194,
+          "end": 36.31612903225807,
+          "title": "Return by the third touch",
+          "text": "Coral 2 sets to coral 1, who uses touch three to hit the net. Green moves around it to receive. Give opponents room."
+        },
+        {
+          "index": 4,
+          "start": 36.31612903225807,
+          "end": 46.593548387096774,
+          "title": "A ground touch ends the rally",
+          "text": "Green cannot return the ball before it lands. Coral scores one. Rim hits, double net bounces and too many touches also lose the rally."
+        },
+        {
+          "index": 5,
+          "start": 46.593548387096774,
+          "end": 53.64516129032258,
+          "title": "The point winner serves",
+          "text": "Coral serves next. Alternate your team’s server when regaining service. Play to eleven, winning by two."
+        }
+      ]
+    },
+    {
+      "id": "danish-longball",
+      "src": "films/danish-longball.mp4",
+      "poster": "films/danish-longball.webp",
+      "duration": 65.333008,
+      "bytes": 956814,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.929032258064517,
+          "title": "Mark home and the far base",
+          "text": "Choose batting order and a pitcher. Keep waiting players outside the bat area."
+        },
+        {
+          "index": 1,
+          "start": 9.929032258064517,
+          "end": 18.270967741935486,
+          "title": "One swing, then run",
+          "text": "The pitcher tosses underarm. After one swing, hit or miss, put the bat down and run to the far base."
+        },
+        {
+          "index": 2,
+          "start": 18.270967741935486,
+          "end": 28.870967741935488,
+          "title": "The far base is safe",
+          "text": "The runner reaches safety while a fielder retrieves the bounced ball. An airborne catch would put the batter out. The runner may wait at this base."
+        },
+        {
+          "index": 3,
+          "start": 28.870967741935488,
+          "end": 35.670967741935485,
+          "title": "The pitcher can freeze play",
+          "text": "The runner starts home. Fielders return the ball to the pitcher, who calls “Freeze”."
+        },
+        {
+          "index": 4,
+          "start": 35.670967741935485,
+          "end": 44.33548387096774,
+          "title": "Return to the last safe base",
+          "text": "In this version, the untagged runner returns to the far base. Wait until play is live to try again."
+        },
+        {
+          "index": 5,
+          "start": 44.33548387096774,
+          "end": 52.35483870967742,
+          "title": "An out-and-back scores one",
+          "text": "On a later live play, the runner commits to coming home and completes the return. That scores one run."
+        },
+        {
+          "index": 6,
+          "start": 52.35483870967742,
+          "end": 62.30967741935484,
+          "title": "Fielders tag with ball in hand",
+          "text": "The next runner is gently tagged between bases and is out. Never throw at runners. Three outs switch teams and clear waiting runners."
+        }
+      ]
+    },
+    {
+      "id": "newcomb",
+      "src": "films/newcomb.mp4",
+      "poster": "films/newcomb.webp",
+      "duration": 55.708333,
+      "bytes": 758973,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 9.606451612903225,
+          "title": "Spread out on each side",
+          "text": "A low net divides the court. Green’s server begins behind the back line."
+        },
+        {
+          "index": 1,
+          "start": 9.606451612903225,
+          "end": 17.30322580645161,
+          "title": "Throw a serve over the net",
+          "text": "Coral catches the serve before it lands. Newcomb uses catches and throws instead of volleyball contacts."
+        },
+        {
+          "index": 2,
+          "start": 17.30322580645161,
+          "end": 25.96774193548387,
+          "title": "Stay where you catch",
+          "text": "The catcher stays in place, with feet on the ground, and must throw back within three seconds. No blocking or spiking."
+        },
+        {
+          "index": 3,
+          "start": 25.96774193548387,
+          "end": 32.76774193548387,
+          "title": "Return directly to opponents",
+          "text": "Coral throws directly over the net. This starter version does not allow passes between teammates."
+        },
+        {
+          "index": 4,
+          "start": 32.76774193548387,
+          "end": 43.04516129032258,
+          "title": "Make the return land inside",
+          "text": "Green catches, then returns into an empty part of coral’s court. It lands inside: green scores one. Drops, net throws and out-balls lose a point."
+        },
+        {
+          "index": 5,
+          "start": 43.04516129032258,
+          "end": 52.67741935483871,
+          "title": "Serve after winning the point",
+          "text": "Green serves again. Rotate the server when your team gains service so everyone has a turn. First to eleven wins; nobody goes out."
+        }
+      ]
+    },
+    {
+      "id": "endball",
+      "src": "films/endball.mp4",
+      "poster": "films/endball.webp",
+      "duration": 55.958333,
+      "bytes": 859138,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "Put catchers behind opposite lines",
+          "text": "Each team has a catcher behind the far end line. The other players stay inside the court."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 20.529032258064515,
+          "title": "Pass and stay still",
+          "text": "Green 1 passes underarm to green 2. The holder stays still. Defenders can intercept passes, but cannot touch the holder or their held ball."
+        },
+        {
+          "index": 2,
+          "start": 20.529032258064515,
+          "end": 29.838709677419352,
+          "title": "Include every court teammate",
+          "text": "Green 3 receives next. All three court players in this small example have now touched the ball, so a scoring pass becomes legal."
+        },
+        {
+          "index": 3,
+          "start": 29.838709677419352,
+          "end": 36.89032258064516,
+          "title": "Find the end-line catcher",
+          "text": "The catcher moves along the line while staying behind it. A caught legal pass scores one."
+        },
+        {
+          "index": 4,
+          "start": 36.89032258064516,
+          "end": 44.58709677419355,
+          "title": "Rotate the catcher and restart",
+          "text": "Green rotates its catcher. Coral receives the restart and must include all its court players before scoring."
+        },
+        {
+          "index": 5,
+          "start": 44.58709677419355,
+          "end": 52.92903225806452,
+          "title": "An interception turns it over",
+          "text": "Green intercepts a coral pass. Green starts a new possession. Dropped passes and out-balls also give the opponents possession."
+        }
+      ]
+    },
+    {
+      "id": "speedball",
+      "src": "films/speedball.mp4",
+      "poster": "films/speedball.webp",
+      "duration": 61.833333,
+      "bytes": 1035231,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.509677419354837,
+          "title": "Ground balls use feet",
+          "text": "Dribble or kick a ball on the ground. Nobody may simply pick it up. Cone goals and end zones offer different scoring routes."
+        },
+        {
+          "index": 1,
+          "start": 12.509677419354837,
+          "end": 20.529032258064515,
+          "title": "Kick into a controlled catch",
+          "text": "Green lofts a controlled kick towards a teammate. The receiver must catch it before it touches the ground."
+        },
+        {
+          "index": 2,
+          "start": 20.529032258064515,
+          "end": 29.516129032258064,
+          "title": "Now throwing is allowed",
+          "text": "The airborne catch changes the ball to aerial play. The holder must pass, shoot or drop within three seconds or three steps."
+        },
+        {
+          "index": 3,
+          "start": 29.516129032258064,
+          "end": 36.31612903225806,
+          "title": "An end-zone catch scores one",
+          "text": "Green 3 catches a teammate’s pass in the opposing end zone. Green scores one."
+        },
+        {
+          "index": 4,
+          "start": 36.31612903225806,
+          "end": 43.11612903225806,
+          "title": "Opponents restart at centre",
+          "text": "Coral takes a free pass at centre after the score."
+        },
+        {
+          "index": 5,
+          "start": 43.11612903225806,
+          "end": 50.812903225806444,
+          "title": "A drop restores feet-only play",
+          "text": "Coral drops the aerial ball. It is a ground ball again immediately; coral must now kick it."
+        },
+        {
+          "index": 6,
+          "start": 50.812903225806444,
+          "end": 58.832258064516125,
+          "title": "A ground goal scores three",
+          "text": "Coral kicks the ground ball between the opposing goal cones. Coral scores three, then green restarts at centre."
+        }
+      ]
+    },
+    {
+      "id": "korfball",
+      "src": "films/korfball.mp4",
+      "poster": "films/korfball.webp",
+      "duration": 65.333333,
+      "bytes": 1081659,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 13.477419354838709,
+          "title": "Assign halves and matched defenders",
+          "text": "A full team has four attackers in one half and four defenders in the other. This small drawing shows the roles, with agreed defending pairs."
+        },
+        {
+          "index": 1,
+          "start": 13.477419354838709,
+          "end": 22.141935483870967,
+          "title": "Recognise a defended shot",
+          "text": "Coral A faces green A, stands between player and basket, is within arm’s reach, and actively blocks. All four conditions matter."
+        },
+        {
+          "index": 2,
+          "start": 22.141935483870967,
+          "end": 30.161290322580644,
+          "title": "A defended basket does not score",
+          "text": "Green shoots anyway. Even though the ball goes through, a defended shot gives possession to the defence."
+        },
+        {
+          "index": 3,
+          "start": 30.161290322580644,
+          "end": 38.825806451612905,
+          "title": "Pass to the attacking half",
+          "text": "Coral passes towards its attackers. Players stay in their assigned halves and cannot run or dribble while holding the ball."
+        },
+        {
+          "index": 4,
+          "start": 38.825806451612905,
+          "end": 45.6258064516129,
+          "title": "An undefended basket scores one",
+          "text": "Coral’s attacker shoots without a qualifying defender and scores. Green receives a centre restart."
+        },
+        {
+          "index": 5,
+          "start": 45.6258064516129,
+          "end": 54.29032258064516,
+          "title": "Count goals across both teams",
+          "text": "On the next attack, green scores an undefended basket. There have now been two total goals: one by each team."
+        },
+        {
+          "index": 6,
+          "start": 54.29032258064516,
+          "end": 62.30967741935484,
+          "title": "Swap halves after two goals",
+          "text": "Both teams exchange attacking and defending halves after every two total goals. The conceding team restarts at centre."
+        }
+      ]
+    },
+    {
+      "id": "sitting-volleyball",
+      "src": "films/sitting-volleyball.mp4",
+      "poster": "films/sitting-volleyball.webp",
+      "duration": 56.666667,
+      "bytes": 930745,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.832258064516129,
+          "title": "Begin seated on a smooth court",
+          "text": "The server waits behind the end line. In this introduction, keep part of your torso on the floor when playing the ball."
+        },
+        {
+          "index": 1,
+          "start": 12.832258064516129,
+          "end": 19.63225806451613,
+          "title": "The serve may be blocked",
+          "text": "Green serves. Unlike standing volleyball, coral may block the serve at the net."
+        },
+        {
+          "index": 2,
+          "start": 19.63225806451613,
+          "end": 26.683870967741935,
+          "title": "Move along the floor",
+          "text": "Coral’s block sends the ball back. Green moves along the floor to cover its landing path."
+        },
+        {
+          "index": 3,
+          "start": 26.683870967741935,
+          "end": 35.34838709677419,
+          "title": "Use up to three contacts",
+          "text": "Green keeps the ball up with separate contacts. No catching or throwing; consecutive touches by one player are normally faults."
+        },
+        {
+          "index": 4,
+          "start": 35.34838709677419,
+          "end": 44.65806451612903,
+          "title": "Every rally awards a point",
+          "text": "Green returns the ball into coral’s court, where it lands. Green scores one. Faults and out-balls also award the opponents a point."
+        },
+        {
+          "index": 5,
+          "start": 44.65806451612903,
+          "end": 53.64516129032258,
+          "title": "The point winner serves next",
+          "text": "Green serves next. Rotate the serving order when service changes teams. The introductory set ends at fifteen with a two-point lead."
+        }
+      ]
+    },
+    {
+      "id": "hooverball",
+      "src": "films/hooverball.mp4",
+      "poster": "films/hooverball.webp",
+      "duration": 57.291667,
+      "bytes": 941261,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.864516129032257,
+          "title": "Mark front and back halves",
+          "text": "Use a comfortable net height and a light ball for this version. Divide both sides into front and back halves."
+        },
+        {
+          "index": 1,
+          "start": 11.864516129032257,
+          "end": 18.664516129032258,
+          "title": "Throw the serve over",
+          "text": "Green serves from behind the back line. Coral catches it in the front half."
+        },
+        {
+          "index": 2,
+          "start": 18.664516129032258,
+          "end": 26.683870967741935,
+          "title": "A front catch must go deep",
+          "text": "Coral returns directly from the catch position into green’s back half. No running or passing to teammates."
+        },
+        {
+          "index": 3,
+          "start": 26.683870967741935,
+          "end": 35.34838709677419,
+          "title": "A back catch has both options",
+          "text": "Green caught in the back half, so its return may reach either coral half. Green chooses the front again."
+        },
+        {
+          "index": 4,
+          "start": 35.34838709677419,
+          "end": 45.94838709677419,
+          "title": "A short front return is a fault",
+          "text": "Coral catches in front but returns into green’s front half. That is too short: green scores one. Drops, net throws and out-balls also lose points."
+        },
+        {
+          "index": 5,
+          "start": 45.94838709677419,
+          "end": 54.29032258064516,
+          "title": "Rotate the rally winner’s server",
+          "text": "Green won the rally and serves. Rotate its server after this point. Play to eleven with a two-point lead."
+        }
+      ]
+    },
+    {
+      "id": "hoop-pass",
+      "src": "films/hoop-pass.mp4",
+      "poster": "films/hoop-pass.webp",
+      "duration": 64.291667,
+      "bytes": 781459,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Link hands around the hoop",
+          "text": "With everyone’s agreement, close the circle with a hoop around one joined pair of hands. Choose one direction."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 19.561290322580646,
+          "title": "Pass your body through",
+          "text": "Person 2 carefully steps through the hoop. Neighbours lift or lower their joined hands to help; nobody pulls anyone through."
+        },
+        {
+          "index": 2,
+          "start": 19.561290322580646,
+          "end": 28.225806451612904,
+          "title": "Keep the hand chain intact",
+          "text": "The hoop is now between people 2 and 3. It moves along the existing hand link, ready for person 3."
+        },
+        {
+          "index": 3,
+          "start": 28.225806451612904,
+          "end": 36.245161290322585,
+          "title": "Comfort comes before the chain",
+          "text": "If someone needs to release a grip, pause. Nobody is eliminated and there is no penalty for stopping."
+        },
+        {
+          "index": 4,
+          "start": 36.245161290322585,
+          "end": 43.61935483870968,
+          "title": "Reconnect and continue together",
+          "text": "Restore a comfortable link and continue in the same direction. The hoop passes people 3 and 4."
+        },
+        {
+          "index": 5,
+          "start": 43.61935483870968,
+          "end": 51.96129032258065,
+          "title": "Return to the starting link",
+          "text": "After people 5, 6 and 1 pass through, the hoop returns to its original link. The whole group succeeds."
+        },
+        {
+          "index": 6,
+          "start": 51.96129032258065,
+          "end": 61.27096774193549,
+          "title": "Make the next circuit smoother",
+          "text": "Discuss what helped. Reset comfortably and try a second circuit together. An opening hoop or agreed seated adaptation can change the movement."
+        }
+      ]
+    },
+    {
+      "id": "ninja",
+      "src": "films/ninja.mp4",
+      "poster": "films/ninja.webp",
+      "duration": 56.666667,
+      "bytes": 696705,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 13.477419354838709,
+          "title": "Agree an order and freeze",
+          "text": "Count down, take one step into a starting pose, then freeze. H marks a hand: only gentle taps to the back of a hand count."
+        },
+        {
+          "index": 1,
+          "start": 13.477419354838709,
+          "end": 22.787096774193547,
+          "title": "One action, one possible dodge",
+          "text": "Player 1 makes one continuous attempt. Only targeted player 2 may dodge once. The tap misses; both freeze in their new poses."
+        },
+        {
+          "index": 2,
+          "start": 22.787096774193547,
+          "end": 31.129032258064512,
+          "title": "A hand tap ends that player’s round",
+          "text": "Player 2 uses the next turn to tap player 3’s hand. Player 3 leaves this short round."
+        },
+        {
+          "index": 3,
+          "start": 31.129032258064512,
+          "end": 38.8258064516129,
+          "title": "Keep the original turn order",
+          "text": "Skip eliminated player 3. Player 4 acts next and taps player 1. Nobody else moves in response."
+        },
+        {
+          "index": 4,
+          "start": 38.8258064516129,
+          "end": 45.625806451612895,
+          "title": "The last active player wins",
+          "text": "Player 2 taps player 4’s hand. Only player 2 remains, so this round ends."
+        },
+        {
+          "index": 5,
+          "start": 45.625806451612895,
+          "end": 53.64516129032258,
+          "title": "Everybody returns for another round",
+          "text": "Everyone rejoins. Move the starting player one place around the original circle: player 2 starts the next round."
+        }
+      ]
+    },
+    {
+      "id": "zip-zap-zop",
+      "src": "films/zip-zap-zop.mp4",
+      "poster": "films/zip-zap-zop.webp",
+      "duration": 53.458333,
+      "bytes": 739289,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "Learn the repeating sequence",
+          "text": "Everyone can see one another. Practise a comfortable passing gesture and agree a target of thirty uninterrupted passes."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 19.238709677419354,
+          "title": "Send Zip to a clear receiver",
+          "text": "Player 1 gestures to player 3 and says “Zip”. The receiver must know the gesture is for them."
+        },
+        {
+          "index": 2,
+          "start": 19.238709677419354,
+          "end": 26.93548387096774,
+          "title": "The receiver sends Zap",
+          "text": "Player 3 chooses player 6 and sends “Zap”. The direction is unpredictable, but the word order is fixed."
+        },
+        {
+          "index": 3,
+          "start": 26.93548387096774,
+          "end": 33.73548387096774,
+          "title": "The next receiver sends Zop",
+          "text": "Player 6 sends “Zop” to player 4. The next word must return to “Zip”."
+        },
+        {
+          "index": 4,
+          "start": 33.73548387096774,
+          "end": 41.754838709677415,
+          "title": "Pause when the order breaks",
+          "text": "Player 4 says the wrong word. Pause together. Nobody is eliminated. An unclear receiver also triggers a pause."
+        },
+        {
+          "index": 5,
+          "start": 41.754838709677415,
+          "end": 50.41935483870967,
+          "title": "Restart with the last receiver",
+          "text": "Player 4 restarts at “Zip” and sends it to player 5. Reset the uninterrupted count and work towards thirty together."
+        }
+      ]
+    },
+    {
+      "id": "roshambo-rockstar",
+      "src": "films/roshambo-rockstar.mp4",
+      "poster": "films/roshambo-rockstar.webp",
+      "duration": 59.583333,
+      "bytes": 1071013,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "Begin in individual pairs",
+          "text": "Introduce yourselves. Reveal rock, paper or scissors together on “shoot”. Replay ties until each pair has a winner."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 18.593548387096774,
+          "title": "The other player becomes a supporter",
+          "text": "Players 1, 3, 5 and 7 win these example duels. Their partners remain involved as supporters."
+        },
+        {
+          "index": 2,
+          "start": 18.593548387096774,
+          "end": 25.393548387096775,
+          "title": "Winners challenge other winners",
+          "text": "Each winner finds another winner. Supporters follow at a comfortable distance and cheer without crowding."
+        },
+        {
+          "index": 3,
+          "start": 25.393548387096775,
+          "end": 34.380645161290325,
+          "title": "Whole supporter groups transfer",
+          "text": "Players 1 and 5 win. Players 3 and 7, together with their existing supporters, join the new winners. Only two competitors remain."
+        },
+        {
+          "index": 4,
+          "start": 34.380645161290325,
+          "end": 41.432258064516134,
+          "title": "Play the final duel",
+          "text": "Player 1 reveals paper; player 5 reveals rock. Paper wins. Both finalists have supporters around them."
+        },
+        {
+          "index": 5,
+          "start": 41.432258064516134,
+          "end": 49.7741935483871,
+          "title": "Celebrate the whole group",
+          "text": "Player 1 is this round’s rockstar. The other finalist and their supporters join in; everyone remains part of the event."
+        },
+        {
+          "index": 6,
+          "start": 49.7741935483871,
+          "end": 56.5741935483871,
+          "title": "Restart from individual pairs",
+          "text": "Mix partners so people meet someone new. Everyone becomes a competitor again."
+        }
+      ]
+    },
+    {
+      "id": "parachute-popcorn",
+      "src": "films/parachute-popcorn.mp4",
+      "poster": "films/parachute-popcorn.webp",
+      "duration": 54.333008,
+      "bytes": 872010,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 10.896774193548387,
+          "title": "Place popcorn in the centre",
+          "text": "Everyone holds the edge comfortably, around waist height. Use soft, lightweight balls and agree a stop signal."
+        },
+        {
+          "index": 1,
+          "start": 10.896774193548387,
+          "end": 18.270967741935483,
+          "title": "Shake together on Pop",
+          "text": "Practise lifting and lowering together. On “Pop!”, bounce the fabric while keeping hold and staying in place."
+        },
+        {
+          "index": 2,
+          "start": 18.270967741935483,
+          "end": 27.58064516129032,
+          "title": "Bounce balls over the edge",
+          "text": "Two balls leave the parachute. Steer with the fabric rather than reaching in with your hands. Keep working on the remaining two."
+        },
+        {
+          "index": 3,
+          "start": 27.58064516129032,
+          "end": 35.277419354838706,
+          "title": "The final ball ends the attempt",
+          "text": "All four balls are off. Lower the parachute and stop moving it. The group has succeeded."
+        },
+        {
+          "index": 4,
+          "start": 35.277419354838706,
+          "end": 43.29677419354839,
+          "title": "Collect only after stopping",
+          "text": "With the parachute lowered and still, collect the balls. Nobody chases a ball while the group is still shaking."
+        },
+        {
+          "index": 5,
+          "start": 43.29677419354839,
+          "end": 51.31612903225806,
+          "title": "Refill and try another rhythm",
+          "text": "Return the balls to the centre. Try another round with a shared lifting rhythm or smaller comfortable movements."
+        }
+      ]
+    },
+    {
+      "id": "human-knot",
+      "src": "films/human-knot.mp4",
+      "poster": "films/human-knot.webp",
+      "duration": 69.125,
+      "bytes": 1026921,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.509677419354837,
+          "title": "Choose two different hand partners",
+          "text": "Each person joins right hands with a non-neighbour, then left hands with a different non-neighbour. This six-person drawing shows the resulting connections."
+        },
+        {
+          "index": 1,
+          "start": 12.509677419354837,
+          "end": 21.174193548387095,
+          "title": "Agree on one movement",
+          "text": "Trace who is connected to whom. Suggest one slow movement at a time. Nobody should pull, twist or lift another person."
+        },
+        {
+          "index": 2,
+          "start": 21.174193548387095,
+          "end": 30.16129032258064,
+          "title": "A facilitator may allow a cut",
+          "text": "This example uses one of the two optional cuts. Players 5 and 2 briefly release their connection, with everyone’s agreement."
+        },
+        {
+          "index": 3,
+          "start": 30.16129032258064,
+          "end": 39.47096774193548,
+          "title": "Move without changing partners",
+          "text": "Use the opening to rearrange slowly. All the other hand partners stay connected. The drawing spreads the same connection chain into a loop."
+        },
+        {
+          "index": 4,
+          "start": 39.47096774193548,
+          "end": 47.81290322580645,
+          "title": "Restore the exact same connection",
+          "text": "Players 5 and 2 join hands again. A cut is a temporary release, not permission to choose different partners."
+        },
+        {
+          "index": 5,
+          "start": 47.81290322580645,
+          "end": 56.47741935483871,
+          "title": "Recognise a workable ending",
+          "text": "This knot becomes one loop. Some become several loops, and some cannot untangle safely. Explaining why is also a valid finish."
+        },
+        {
+          "index": 6,
+          "start": 56.47741935483871,
+          "end": 66.10967741935484,
+          "title": "Release and make a fresh knot",
+          "text": "Release all grips, discuss what helped, and start a fresh knot if everyone wants another round. Anyone may release immediately for discomfort."
+        }
+      ]
+    },
+    {
+      "id": "silent-lineup",
+      "src": "films/silent-lineup.mp4",
+      "poster": "films/silent-lineup.webp",
+      "duration": 58.208333,
+      "bytes": 760091,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.832258064516129,
+          "title": "Choose the order and first end",
+          "text": "This example uses number cards. You could instead agree on birthday month and day, without the year, or another comfortable shared criterion."
+        },
+        {
+          "index": 1,
+          "start": 12.832258064516129,
+          "end": 21.174193548387095,
+          "title": "Communicate without speech",
+          "text": "Players gesture and move themselves into a line. Nobody pulls or pushes another person. Signing, writing or agreed aids can help."
+        },
+        {
+          "index": 2,
+          "start": 21.174193548387095,
+          "end": 28.87096774193548,
+          "title": "Signal when the line is ready",
+          "text": "When everyone believes the order is correct, signal completion together. Now it is time to check."
+        },
+        {
+          "index": 3,
+          "start": 28.87096774193548,
+          "end": 38.50322580645161,
+          "title": "Read the values from one end",
+          "text": "Read aloud: one, two, four, three, five. Four and three are reversed. The group can repair the line rather than starting over."
+        },
+        {
+          "index": 4,
+          "start": 38.50322580645161,
+          "end": 46.522580645161284,
+          "title": "Return to gestures and repair",
+          "text": "Players carrying three and four swap places using gestures. Check again: the whole line is now correctly ordered."
+        },
+        {
+          "index": 5,
+          "start": 46.522580645161284,
+          "end": 55.18709677419354,
+          "title": "Choose a new challenge together",
+          "text": "The group has completed one correct line. Try a new criterion or split into smaller groups for the next round."
+        }
+      ]
+    },
+    {
+      "id": "balloon-bop",
+      "src": "films/balloon-bop.mp4",
+      "poster": "films/balloon-bop.webp",
+      "duration": 55.958333,
+      "bytes": 825058,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Link only with everyone’s agreement",
+          "text": "Float the balloon into the centre of a clear space. Agree a shared target, such as twenty touches."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 18.593548387096774,
+          "title": "Use a gentle first touch",
+          "text": "Keep the balloon up using hands, arms or shoulders. Do not kick. Count every touch aloud."
+        },
+        {
+          "index": 2,
+          "start": 18.593548387096774,
+          "end": 27.258064516129032,
+          "title": "Move the whole circle together",
+          "text": "The balloon drifts right. Everyone adjusts while keeping the hand chain linked. After several touches, the count has reached seven."
+        },
+        {
+          "index": 3,
+          "start": 27.258064516129032,
+          "end": 35.6,
+          "title": "A landing resets the count",
+          "text": "The balloon reaches the floor. Pause and reset the count. A broken hand chain also means pausing and resetting."
+        },
+        {
+          "index": 4,
+          "start": 35.6,
+          "end": 43.94193548387097,
+          "title": "Plan a better next attempt",
+          "text": "Regroup comfortably. Discuss how to cover the drifting side, then float the balloon again with the count at zero."
+        },
+        {
+          "index": 5,
+          "start": 43.94193548387097,
+          "end": 52.92903225806452,
+          "title": "Reach the group’s target",
+          "text": "On a later attempt, the group reaches twenty touches. Celebrate the shared target, or use your previous best as the next challenge."
+        }
+      ]
+    },
+    {
+      "id": "group-juggle",
+      "src": "films/group-juggle.mp4",
+      "poster": "films/group-juggle.webp",
+      "duration": 68.166667,
+      "bytes": 906990,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.509677419354837,
+          "title": "Begin with one soft object",
+          "text": "A says someone’s name and checks they are ready before an underarm toss. Each receiver chooses someone who has not yet received."
+        },
+        {
+          "index": 1,
+          "start": 12.509677419354837,
+          "end": 21.174193548387095,
+          "title": "Choose a new receiver each time",
+          "text": "A sends to D, then D sends to B. No receiver repeats while the first circuit is being built."
+        },
+        {
+          "index": 2,
+          "start": 21.174193548387095,
+          "end": 31.129032258064512,
+          "title": "Return to the starter",
+          "text": "B sends to E, E to C, and C back to A. Everyone has received once. Repeat this exact order until the group remembers it."
+        },
+        {
+          "index": 3,
+          "start": 31.129032258064512,
+          "end": 38.180645161290315,
+          "title": "Add a second object behind",
+          "text": "Restart the same sequence, then introduce a second object behind the first. Both follow A–D–B–E–C–A."
+        },
+        {
+          "index": 4,
+          "start": 38.180645161290315,
+          "end": 47.490322580645156,
+          "title": "Pause the dropped object’s journey",
+          "text": "B drops the first object. Retrieve it and resume from B; do not restart it from A or change its next receiver."
+        },
+        {
+          "index": 5,
+          "start": 47.490322580645156,
+          "end": 55.832258064516125,
+          "title": "Resume from the same player",
+          "text": "B retrieves the object, then sends it to E. Check readiness before the toss; the original order stays intact."
+        },
+        {
+          "index": 6,
+          "start": 55.832258064516125,
+          "end": 65.14193548387097,
+          "title": "Finish every object’s circuit",
+          "text": "Continue the same order until both objects have completed their circuits back to A. Add more objects only when the group is ready."
+        }
+      ]
+    },
+    {
+      "id": "giants-wizards-elves",
+      "src": "films/giants-wizards-elves.mp4",
+      "poster": "films/giants-wizards-elves.webp",
+      "duration": 64.291667,
+      "bytes": 1120083,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.187096774193549,
+          "title": "Learn the three-way cycle",
+          "text": "Giants beat elves, elves beat wizards, and wizards beat giants. Practise tall, pointy-ear and spell-casting gestures with a clear gap between teams."
+        },
+        {
+          "index": 1,
+          "start": 12.187096774193549,
+          "end": 19.883870967741935,
+          "title": "Choose one secret team character",
+          "text": "Each team huddles and agrees on one character. Everyone in that team must reveal the same choice."
+        },
+        {
+          "index": 2,
+          "start": 19.883870967741935,
+          "end": 28.87096774193548,
+          "title": "Reveal together across the gap",
+          "text": "On the shared countdown, green performs giants and coral performs elves. Stay on your own side; this is the points version."
+        },
+        {
+          "index": 3,
+          "start": 28.87096774193548,
+          "end": 36.24516129032258,
+          "title": "Award one point to the winner",
+          "text": "Giants beat elves, so green earns one point. No chasing or capturing follows the reveal."
+        },
+        {
+          "index": 4,
+          "start": 36.24516129032258,
+          "end": 43.29677419354839,
+          "title": "Matching characters produce a tie",
+          "text": "In the next round, both teams choose wizards. Neither team scores; huddle and choose again."
+        },
+        {
+          "index": 5,
+          "start": 43.29677419354839,
+          "end": 51.961290322580645,
+          "title": "Change who leads the huddle",
+          "text": "Choose a new huddle leader for each round. Continue revealing one shared character per team until seven rounds are complete."
+        },
+        {
+          "index": 6,
+          "start": 51.961290322580645,
+          "end": 61.27096774193548,
+          "title": "Compare points after seven rounds",
+          "text": "This example ends with four green wins, two coral wins and one tie. Green wins four–two. Equal totals would share the win."
+        }
+      ]
+    },
+    {
+      "id": "wink-murder",
+      "src": "films/wink-murder.mp4",
+      "poster": "films/wink-murder.webp",
+      "duration": 67.25,
+      "bytes": 1002287,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 12.509677419354837,
+          "title": "Select the winker in secret",
+          "text": "The detective looks away while a facilitator selects player 2. This teaching diagram reveals the secret; the detective must not be told."
+        },
+        {
+          "index": 1,
+          "start": 12.509677419354837,
+          "end": 19.309677419354838,
+          "title": "The detective watches from the centre",
+          "text": "The detective returns. Everyone looks around naturally without announcing who the winker is."
+        },
+        {
+          "index": 2,
+          "start": 19.309677419354838,
+          "end": 29.587096774193547,
+          "title": "Wink at one player quietly",
+          "text": "Player 2 makes eye contact and winks at player 5 while trying to avoid the detective’s attention. Only one player is targeted at a time."
+        },
+        {
+          "index": 3,
+          "start": 29.587096774193547,
+          "end": 38.89677419354838,
+          "title": "The target makes a seated exit",
+          "text": "Player 5 pauses briefly, then performs a seated dramatic exit and folds their arms. They are out of this short round."
+        },
+        {
+          "index": 4,
+          "start": 38.89677419354838,
+          "end": 47.56129032258064,
+          "title": "A wrong guess uses one chance",
+          "text": "The detective guesses player 4. That is wrong, leaving two guesses. Three wrong guesses would let the winker win."
+        },
+        {
+          "index": 5,
+          "start": 47.56129032258064,
+          "end": 56.548387096774185,
+          "title": "A correct guess ends the round",
+          "text": "The detective identifies player 2 on the second guess and wins. Also stop after two minutes; otherwise the winker wins."
+        },
+        {
+          "index": 6,
+          "start": 56.548387096774185,
+          "end": 64.24516129032257,
+          "title": "Reveal, rotate, invite everyone back",
+          "text": "Reveal the winker, change roles and bring every player back into the circle for another short round."
+        }
+      ]
+    },
+    {
+      "id": "big-wind-blows",
+      "src": "films/big-wind-blows.mp4",
+      "poster": "films/big-wind-blows.webp",
+      "duration": 60.458008,
+      "bytes": 985688,
+      "chapters": [
+        {
+          "index": 0,
+          "start": 3.2,
+          "end": 11.219354838709677,
+          "title": "Leave one player without a spot",
+          "text": "There is one fewer marked spot than people. One caller starts in the centre. Keep paths clear."
+        },
+        {
+          "index": 1,
+          "start": 11.219354838709677,
+          "end": 21.174193548387095,
+          "title": "Call a fact true about yourself",
+          "text": "The caller says, “The big wind blows for everyone who likes music!” In this example, players 1, 3 and 5 share that fact."
+        },
+        {
+          "index": 2,
+          "start": 21.174193548387095,
+          "end": 30.16129032258064,
+          "title": "Walk to a non-adjacent open spot",
+          "text": "Those players and the caller move. Choose a different spot more than one position away. Walk without grabbing or pushing."
+        },
+        {
+          "index": 3,
+          "start": 30.16129032258064,
+          "end": 40.438709677419354,
+          "title": "The person left becomes caller",
+          "text": "Player 5 has no spot, so becomes the new caller. Nobody is eliminated. If two people reach one spot together, pause and agree who stays."
+        },
+        {
+          "index": 4,
+          "start": 40.438709677419354,
+          "end": 48.78064516129032,
+          "title": "No movement means another statement",
+          "text": "Player 5 tries a true fact nobody else shares. Everyone stays put, so player 5 tries a new statement."
+        },
+        {
+          "index": 5,
+          "start": 48.78064516129032,
+          "end": 57.44516129032258,
+          "title": "Keep discovering common ground",
+          "text": "The new statement involves different people. Continue until several have called or five minutes pass, then share something the group discovered."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+// Run against an isolated Firefox instance, never an existing user browser.
+// firefox --headless --no-remote --profile /tmp/gamessss-qa --remote-debugging-port 9296
+// SITE_URL=http://127.0.0.1:8879 node tools/browser-check.mjs
+// Writes research/learner-browser-check.json and temporary PNG screenshots.
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const base=process.env.SITE_URL||'http://127.0.0.1:8879';
+const ws=new WebSocket(process.env.BIDI_URL||'ws://127.0.0.1:9296/session');
+await new Promise((resolve,reject)=>{ws.onopen=resolve;ws.onerror=reject;});
+let serial=0,context;const pending=new Map(),logs=[],checks=[];
+ws.onmessage=({data})=>{const m=JSON.parse(data);if(m.id){const p=pending.get(m.id);if(p){clearTimeout(p.timer);pending.delete(m.id);m.type==='error'?p.reject(new Error(JSON.stringify(m))):p.resolve(m.result);}}else logs.push(m);};
+const call=(method,params={})=>new Promise((resolve,reject)=>{const id=++serial,timer=setTimeout(()=>{pending.delete(id);reject(new Error(`${method} timed out`));},30000);pending.set(id,{resolve,reject,timer});ws.send(JSON.stringify({id,method,params}));});
+const evaluate=async expression=>{const r=await call('script.evaluate',{expression:`(async()=>JSON.stringify(await(${expression}))??'null')()`,target:{context},awaitPromise:true});if(r.type==='exception')throw new Error(JSON.stringify(r));return JSON.parse(r.result.value);};
+const ready=condition=>evaluate(`new Promise((resolve,reject)=>{let count=0;function check(){let found=false;try{found=(${condition});}catch{}if(found)resolve(true);else if(count++>1000)reject(new Error('Page readiness timeout'));else setTimeout(check,20);}check();})`);
+const settle=()=>evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))');
+const viewport=(width,height)=>call('browsingContext.setViewport',{context,viewport:{width,height},devicePixelRatio:1});
+const navigate=async path=>{await call('browsingContext.navigate',{context,url:new URL(path,base).href,wait:'complete'});await evaluate(`document.fonts.ready.then(()=>{const style=document.createElement('style');style.textContent='*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}';document.head.append(style);return true;})`);};
+const click=selector=>evaluate(`(()=>{const el=document.querySelector(${JSON.stringify(selector)});if(!el)throw new Error('Missing control: '+${JSON.stringify(selector)});el.click();return true;})()`);
+const fill=(selector,value,event='input')=>evaluate(`(()=>{const el=document.querySelector(${JSON.stringify(selector)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event(${JSON.stringify(event)},{bubbles:true}));return true;})()`);
+const key=value=>call('input.performActions',{context,actions:[{type:'key',id:'keyboard',actions:[{type:'keyDown',value},{type:'keyUp',value}]}]});
+const check=(name,actual,expected=true)=>{assert.deepEqual(actual,expected,name);checks.push(name);console.log(`✓ ${name}`);};
+const shot=async name=>{const r=await call('browsingContext.captureScreenshot',{context,origin:'viewport',format:{type:'image/png'}});await fs.writeFile(`/tmp/gamessss-v2-${name}.png`,Buffer.from(r.data,'base64'));};
+try{
+ await call('session.new',{capabilities:{alwaysMatch:{browserName:'firefox'}}});
+ await call('session.subscribe',{events:['log.entryAdded']});({context}=await call('browsingContext.create',{type:'tab'}));
+ await viewport(1440,900);await navigate('/?tour=1');await evaluate('localStorage.removeItem("gamessss-motion-paused")');await navigate('/?tour=1');await ready('document.querySelector("#tutorial-stage svg")');
+ check('Introduction is an interactive Islands example',await evaluate('document.querySelectorAll("[data-library-list]:first-of-type .library-game").length>=72'));
+ await shot('intro');await click('[data-next-step]');await ready('document.querySelector("[data-tutorial-count]").textContent==="MOVE 1"');
+ check('Clicking introductory court advances a real rule',await evaluate('document.querySelector("[data-tutorial-caption]").textContent.includes("gentle tag")'));
+ await click('[data-tour-next]');check('Second intro teaches per-move and per-game navigation',await evaluate('document.querySelectorAll(".control-card").length>=4'));
+ await click('[data-route-game]');check('Intro navigation example is clickable',await evaluate('document.querySelector("[data-route-name]").textContent'),'Manhunt');
+ await call('input.performActions',{context,actions:[{type:'key',id:'keyboard',actions:[{type:'keyDown',value:'\uE008'},{type:'keyDown',value:'\uE012'},{type:'keyUp',value:'\uE012'},{type:'keyUp',value:'\uE008'}]}]});check('Intro Shift + Left goes backward',await evaluate('document.querySelector("[data-route-name]").textContent'),'Islands');
+ await click('[data-tour-start]');check('Learning starts immediately at Islands setup',await evaluate('document.querySelector("h1").textContent'),'Islands');
+ await shot('islands-setup');
+ await click('[data-next-hotspot]');await evaluate('new Promise(r=>setTimeout(r,450))');
+ const mid=await evaluate('({value:+document.querySelector("[data-scrub]").value,pos:document.querySelector("[data-node=mouse]").getAttribute("transform")})');
+ check('The move interpolates actual player geometry',mid.value>0&&mid.value<1000&&!mid.pos.includes('translate(250 185)'));
+ await click('[data-play-move]');const paused=await evaluate('document.querySelector("[data-node=mouse]").getAttribute("transform")');await evaluate('new Promise(r=>setTimeout(r,150))');
+ check('Pause freezes the diagram',await evaluate('document.querySelector("[data-node=mouse]").getAttribute("transform")'),paused);
+ await fill('[data-scrub]','1000');check('Scrub reaches the authored endpoint',await evaluate('document.querySelector("[data-node=mouse]").getAttribute("transform")'),'translate(250 185) rotate(0)');
+ await fill('[data-scrub]','0');check('Scrub restores the previous geometry',await evaluate('document.querySelector("[data-node=mouse]").getAttribute("transform")'),'translate(300 245) rotate(0)');
+ await click('[data-replay]');await evaluate('new Promise(r=>setTimeout(r,150))');check('Replay restarts the move',await evaluate('+document.querySelector("[data-scrub]").value>0&&+document.querySelector("[data-scrub]").value<1000'));
+ await click('[data-motion-toggle]');check('Still frame setting finishes without animation',await evaluate('document.querySelector("[data-motion-status]").textContent==="STILL FRAME"&&document.querySelector("[data-play-move]").disabled'));
+ await click('[data-step="3"]');await shot('islands-role-change');
+ check('Islands shows the opposite person become the mouse',await evaluate('document.querySelector("[data-node=p2]").textContent==="M"&&document.querySelector("#step-title").textContent.includes("opposite")'));
+ await evaluate('document.querySelector("#learn-main").focus()');await key('\uE012');check('Left arrow returns one move',await evaluate('document.querySelector("[data-step][aria-current=step]").dataset.step'),'2');
+ await call('input.performActions',{context,actions:[{type:'key',id:'keyboard',actions:[{type:'keyDown',value:'\uE008'},{type:'keyDown',value:'\uE014'},{type:'keyUp',value:'\uE014'},{type:'keyUp',value:'\uE008'}]}]});
+ check('Shift + Right skips a whole game and resets to setup',await evaluate('document.querySelector("h1").textContent!=="Islands"&&document.querySelector("[data-step][aria-current=step]").dataset.step==="0"'));
+ await key('l');await ready('document.querySelector("#library-dialog").open');await fill('#library-dialog input','flankyball');
+ check('Library understands aliases',await evaluate('document.querySelectorAll("#library-dialog .library-game").length'),1);
+ await click('#library-dialog .library-game');check('Library opens the selected lesson',await evaluate('document.querySelector("h1").textContent'),'Flunkyball · token edition');
+ await fill('[data-library-search]','');await shot('flunkyball');
+ await evaluate('localStorage.removeItem("gamessss-lineup-v1")');await navigate('/?game=flunkyball');await ready('document.querySelector("[data-save]")');await click('[data-save]');await click('[data-open-lineup]');
+ check('Lesson save integrates with ordered lineup',await evaluate('document.querySelector(".lineup-buttons a").getAttribute("href")'),'presentation.html?games=flunkyball');await click('dialog [data-close]');await settle();
+ await click('[data-full-rules]');
+ check('Complete rules and cited sources stay available',await evaluate('document.querySelector("dialog[open] .rule-list li")!==null&&document.querySelectorAll("dialog[open] .rule-source a").length>0'));
+ await click('dialog [data-demo-next]');check('Full-rules examples honour the still-frame setting',await evaluate('document.body.classList.contains("motion-paused")&&document.querySelectorAll("dialog animate,dialog animateMotion,dialog animateTransform").length===0'));
+ await key('\uE00C');await settle();
+ const audit=await evaluate(`(async()=>{const {loadGames}=await import('./core.js'),{LESSONS}=await import('./lessons.js'),games=await loadGames(),failures=[];let states=0;for(const game of games){document.querySelector('[data-choose-game="'+game.id+'"]').click();for(let i=0;i<LESSONS[game.id].steps.length;i++){document.querySelector('[data-step="'+i+'"]').click();states++;const svg=document.querySelector('.lesson-canvas'),xml=new DOMParser().parseFromString(new XMLSerializer().serializeToString(svg),'image/svg+xml');if(document.querySelector('#step-title').textContent!==LESSONS[game.id].steps[i].title||xml.querySelector('parsererror')||document.documentElement.scrollWidth>innerWidth)failures.push(game.id+':'+i);}}return{games:games.length,states,failures};})()`);
+ check('Every authored game state renders matching captions and valid SVG',audit.failures,[]);check('All 72 games have animated lessons',audit.games,72);console.log(`Inspected ${audit.states} states.`);
+ const reversed=await evaluate('(async()=>{const {loadGames}=await import("./core.js");return (await loadGames()).map(g=>g.id).reverse();})()');await navigate('/?games='+reversed.join(','));await ready('document.querySelector("[data-next-game]")');check('A full 72-game custom order survives URL normalization',await evaluate('new URL(location.href).searchParams.get("games").split(",")'),reversed);
+ await navigate('/?game=kho-kho&step=4');await ready('document.querySelector("[data-step][aria-current=step]")');check('Direct links restore a specific move',await evaluate('document.querySelector("[data-step][aria-current=step]").dataset.step'),'3');await shot('kho-kho');
+ await navigate('/?games=flunkyball,islands,hoop-pass');await ready('document.querySelector("h1").textContent.includes("Flunkyball")');await click('[data-next-game]');check('Selected lineups preserve game order',await evaluate('document.querySelector("h1").textContent'),'Islands');await click('[data-next-game]');check('Selected lineup ends with chosen final game',await evaluate('document.querySelector("h1").textContent==="Hoop Pass"&&document.querySelector("[data-next-game]").disabled'));
+ await viewport(390,844);await navigate('/?game=islands&step=4');await ready('document.querySelector("#step-title")');await shot('mobile-islands');
+ check('Phone learner has no horizontal overflow',await evaluate('document.documentElement.scrollWidth<=innerWidth&&document.querySelector("#learn-main").scrollWidth<=document.querySelector("#learn-main").clientWidth'));
+ await evaluate('document.querySelector("[data-next-step]").scrollIntoView({block:"center"})');await click('[data-next-step]');check('Phone move returns the animation to view',await evaluate('document.querySelector(".court-card").getBoundingClientRect().top>=58&&document.querySelector(".court-card").getBoundingClientRect().top<130'));
+ await click('[data-library-open]');check('Phone library stays inside viewport',await evaluate('document.querySelector("#library-dialog").open&&document.querySelector("#library-dialog").getBoundingClientRect().height<=innerHeight'));await shot('mobile-library');await click('[data-close-library]');
+ await navigate('/atlas.html');await ready('document.querySelectorAll(".game-card").length===72');check('Filtered atlas links directly to lessons',await evaluate('document.querySelector(".card-open").getAttribute("href").includes("presentation.html?game=")'));await shot('mobile-atlas');
+ await fill('#game-search','flankyball');check('Atlas alias search preserved',await evaluate('document.querySelectorAll(".game-card").length'),1);await click('#clear-filters');
+ await viewport(1440,900);await navigate('/?game=tchoukball&step=3');await ready('document.querySelector("#step-title")');await shot('tchoukball');
+ await navigate('/?game=islands&step=6');await ready('document.querySelector("[data-sequence]")');await fill('[data-scrub]','500');await click('[data-sequence]');check('Sequence playback respects still mode after manual scrubbing',await evaluate('document.querySelector("[data-motion-status]").textContent==="STILL FRAME"&&+document.querySelector("[data-scrub]").value===1000'));await click('[data-sequence]');await click('[data-motion-toggle]');await fill('[data-speed]','2','change');await click('[data-sequence]');
+ await ready('document.querySelector("[data-step][aria-current=step]").dataset.step==="6"&&document.querySelector("[data-sequence]").getAttribute("aria-pressed")==="false"');
+ check('Play sequence advances, animates, and stops on the final move',await evaluate('document.querySelector("[data-motion-status]").textContent==="MOVE COMPLETE"'));
+ await evaluate('document.querySelector("#learn-main").focus()');await key('r');await evaluate('new Promise(r=>setTimeout(r,100))');await key(' ');
+ check('Keyboard replay and Space pause work on the focused lesson',await evaluate('document.querySelector("[data-motion-status]").textContent==="PAUSED"'));
+ await key('?');check('Keyboard opens help',await evaluate('document.querySelector("#help-dialog").open'));await key('\uE00C');await settle();
+ await viewport(1280,720);await navigate('/?game=hoop-rescue&step=5');await ready('document.querySelector("#step-title")');await shot('compact-desktop-hoop');check('Compact desktop retains horizontal fit',await evaluate('document.documentElement.scrollWidth<=innerWidth'));
+
+ await navigate('/field-guide.html');await ready('document.querySelectorAll(".source-entry").length===72');check('All 72 field-guide entries remain',await evaluate('document.querySelectorAll(".source-entry").length'),72);
+ await navigate('/print.html?games=islands,flunkyball,hoop-pass');await ready('document.querySelectorAll(".print-page").length===3');check('Printable lineup keeps its order',await evaluate('[...document.querySelectorAll(".print-page h1")].map(el=>el.textContent)'),['Islands','Flunkyball · token edition','Hoop Pass']);
+ const errors=logs.filter(m=>m.method==='log.entryAdded'&&m.params.level==='error').map(m=>m.params.text);check('No browser console errors',errors,[]);
+ await fs.writeFile(new URL('../research/learner-browser-check.json',import.meta.url),JSON.stringify({checkedAt:new Date().toISOString(),browser:'Firefox headless, isolated profile',states:audit.states,checks,consoleErrors:errors},null,2)+'\n');console.log(`${checks.length} browser checks passed.`);
+}finally{try{await call('session.end');}catch{}ws.close();}

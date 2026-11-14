@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Browse all games · GAMESSSS</title><meta name="description" content="Find a game for your group. Filter 72 animated game films by people, space and equipment."><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="style.css"><style>.atlas{padding-top:35px}.atlas-heading h2{font-size:48px}.atlas-heading p{font-size:14px}.card-open{display:block;color:inherit;text-decoration:none}.card-watch{display:block;font-size:10px;font-weight:800;margin-top:15px;color:#536b3b}.site-footer{font-size:12px}@media(max-width:760px){.atlas-heading h2{font-size:38px}}</style></head>
+<body><a class="skip-link" href="#atlas">Skip to games</a><header class="site-header"><a class="wordmark" href="./">GAME<span>SSSS</span><i>✳</i></a><nav aria-label="Main navigation"><a href="field-guide.html">Field guide</a><button class="nav-lineup" data-open-lineup>Your lineup <span data-lineup-count>0</span></button></nav><a class="button button-small" href="presentation.html">Watch a game →</a></header><main>
+    <section class="atlas section-pad" id="atlas" aria-labelledby="atlas-title">
+      <div class="section-kicker"><span class="mono">72 ANIMATED GAME LESSONS</span><span class="mono">BROWSE BY GROUP, SPACE & EQUIPMENT</span></div>
+      <div class="atlas-heading"><h2 id="atlas-title">Find a game.</h2><p>Choose a game to learn it through clickable animations.</p></div>
+      <div id="family-tabs" class="family-tabs" aria-label="Game families"></div>
+      <div class="atlas-tools">
+        <label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><input id="game-search" type="search" placeholder="A name, a place, a pool noodle…" aria-label="Search games by name, place or equipment"></label>
+        <label class="filter-select"><span>GROUP SIZE</span><select id="players-filter"><option value="">Any group</option><option value="4">4 people</option><option value="8">8 people</option><option value="12">12 people</option><option value="20">20 people</option><option value="30">30 people</option></select></label>
+        <label class="filter-select"><span>YOUR SPACE</span><select id="space-filter"><option value="">Anywhere</option><option value="small">Small space</option><option value="medium">Court / garden</option><option value="large">Big open field</option></select></label>
+        <label class="gear-filter"><input id="gear-filter" type="checkbox"><span>No equipment</span></label>
+      </div>
+      <div class="results-bar"><p id="results-count" role="status">Loading the atlas…</p><button id="clear-filters" class="text-button" hidden>Clear filters ×</button><button class="text-button" id="atlas-random">Pick one for me ↗</button></div>
+      <div id="game-grid" class="game-grid"></div>
+      <div id="empty-state" class="empty-state" hidden><span>↝</span><h3>A little too specific.</h3><p>Try a bigger space, a different group size, or fewer filters.</p><button class="button button-dark" id="reset-empty">Show all games</button></div>
+      <div class="atlas-footnote"><span>✳</span><p>Group sizes, ages and timings are hosting suggestions. Each game includes animated examples, full rules and sources.</p><a href="field-guide.html">Read the field notes ↗</a></div>
+    </section>
+
+</main><footer class="site-footer"><a href="./">Back to the films →</a><a href="field-guide.html">Field guide & sources →</a><a href="gamessss-field-guide.pdf" download>Download all 72 games · PDF ↓</a></footer><div id="toast" class="toast" role="status"></div><div id="dialog-root"></div><script type="module" src="atlas.js"></script></body></html>

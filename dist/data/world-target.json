@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "kho-kho",
+    "name": "Kho Kho",
+    "aliases": [
+      "Kho-kho"
+    ],
+    "family": "world",
+    "tagline": "You can pass the chase.",
+    "region": "India / South Asia",
+    "country": "India",
+    "players": [
+      12,
+      18
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Cones"
+    ],
+    "noEquipment": false,
+    "hook": "The fastest route to a runner might be through a teammate. Seated chasers become switches in a living circuit, handing over pursuit the moment a runner changes sides.",
+    "setup": "Mark a rectangle, a central lane and an end cone at each end. Divide teams equally; all but one chaser sit along the lane facing alternate sides.",
+    "steps": [
+      "Send three runners into the court. One active chaser begins beyond an end cone.",
+      "Runners may change direction and cross the lane. The chaser cannot cross it or reverse direction except around an end cone.",
+      "Tap a seated teammate’s back and call “kho”; sit in their place as they begin chasing on the side they face.",
+      "Each gentle tag scores one. Tagged runners leave; send the next three when a batch is out. Recycle batches if needed.",
+      "After five minutes, swap chasing and running. Give both teams equal turns."
+    ],
+    "win": "Most tags after both teams have chased wins; a tie stands.",
+    "twist": "Your position and facing direction can matter more than your speed.",
+    "variation": "Intro adaptation: walk through one practice chase before running.",
+    "care": "Leave generous gaps between seated players; runners go around people, never over them.",
+    "ruleStatus": "starter",
+    "ruleNote": "Shorter innings and flexible team sizes; the source explains the full nine-a-side game.",
+    "sources": [
+      {
+        "title": "Tamil Nadu Kho Kho Association — Game explanation",
+        "url": "https://tamilnadukhokhoassociation.com/game-explanation/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": true
+  },
+  {
+    "id": "kabaddi",
+    "name": "Kabaddi · tag edition",
+    "aliases": [
+      "Tag kabaddi"
+    ],
+    "family": "world",
+    "tagline": "One raider. An entire half full of trouble.",
+    "region": "South Asia / school adaptation",
+    "country": "India",
+    "players": [
+      6,
+      14
+    ],
+    "minutes": [
+      10,
+      15
+    ],
+    "ages": "9+",
+    "energy": 3,
+    "space": "medium",
+    "equipment": [
+      "Cones",
+      "Tag belts"
+    ],
+    "noEquipment": false,
+    "hook": "A raid is a tiny heist: cross the line, collect a tag, escape. The defenders must cooperate without crowding each other, while the raider decides how much risk is enough.",
+    "setup": "Mark two equal halves. Form two teams and give every player a removable tag belt. Choose a timekeeper.",
+    "steps": [
+      "Teams alternate sending one raider into the other half for up to 20 seconds.",
+      "The raider tries to remove defenders’ tags, then return across the centre line.",
+      "Defenders stop the raid by removing the raider’s tag. No tackling, holding or blocking with contact.",
+      "A safe return earns one point per tag collected. Losing the tag, stepping out or running out of time earns the defence one point instead.",
+      "Return all tags after each raid; rotate raiders so everyone has a turn."
+    ],
+    "win": "After equal numbers of raids, the higher total wins.",
+    "twist": "Every extra target makes the journey home more dangerous.",
+    "variation": "Intro adaptation: begin with one raider versus two defenders.",
+    "care": "Use a timer instead of breath holding; keep tags easy to remove and leave run-off space.",
+    "ruleStatus": "house",
+    "ruleNote": "This designed tag-belt game removes tackling, breath control, eliminations and bonus-line rules from kabaddi.",
+    "sources": [
+      {
+        "title": "Oak National Academy — Kabaddi rules and basic skills",
+        "url": "https://www.thenational.academy/teachers/lessons/kabaddi-rules-and-basic-skills"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "lagori",
+    "name": "Lagori",
+    "aliases": [
+      "Seven stones",
+      "Pitthu",
+      "Satoliya",
+      "Ezhu Kallu"
+    ],
+    "family": "world",
+    "tagline": "Break the tower. Then rebuild it under pressure.",
+    "region": "India / South Asia",
+    "country": "India",
+    "players": [
+      6,
+      16
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam ball",
+      "7 stackable foam discs",
+      "Cones"
+    ],
+    "noEquipment": false,
+    "hook": "The same tower is first your target and then your responsibility. Once it falls, the neat throwing contest becomes a frantic rebuilding mission, with decoys buying precious seconds for the builders.",
+    "setup": "Stack seven discs inside a centre circle. Mark a throwing line and boundaries. One team attacks; the other fields.",
+    "steps": [
+      "Attackers take up to three throws total to topple the stack. If all miss, swap roles.",
+      "Once it falls, attackers scatter and try to rebuild all seven discs.",
+      "Defenders recover and pass the ball, trying to hit attackers gently below the knees. Hit players leave this round.",
+      "A complete stack plus the call “Lagori!” earns attackers one point. Putting all attackers out earns defenders one.",
+      "Reset the tower and swap roles after either result. Play six rounds."
+    ],
+    "win": "Most points after equal attacking turns wins.",
+    "twist": "The best throw creates the problem you now have to solve.",
+    "variation": "Intro adaptation: use five discs and roll the ball to tag feet.",
+    "care": "Use soft discs instead of stone or tile; no close-range throws at a builder.",
+    "ruleStatus": "starter",
+    "ruleNote": "This fixes three team attempts and alternating rounds; catches, attempts and finishes vary locally.",
+    "sources": [
+      {
+        "title": "Traditional Games Federation of India — Satoliya",
+        "url": "https://www.traditionalgamesindia.com/games-list/satoliya-the-seven-stone/"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": true
+  },
+  {
+    "id": "peteca",
+    "name": "Peteca",
+    "aliases": [],
+    "family": "world",
+    "tagline": "Badminton’s flight. Volleyball’s hands. Just one touch.",
+    "region": "Brazil",
+    "country": "Brazil",
+    "players": [
+      2,
+      4
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Peteca shuttle",
+      "Net",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "A feathered shuttle slows dramatically after a strike. That gives you time to read its flight, but only one touch to send it back: doubles becomes a conversation about who will commit.",
+    "setup": "Mark a rectangular court divided by a net. Play singles or doubles, with the net at a comfortable height.",
+    "steps": [
+      "Serve by striking the peteca with one open hand from behind the baseline.",
+      "The receiving side gets one hand strike to return it over the net; no catching or teammate passes.",
+      "Landing in the opposite court earns a point. Out, a double touch or a failed return gives the other side a point.",
+      "For this short introduction, the rally winner serves next. Play to 11, winning by two; swap ends halfway."
+    ],
+    "win": "First side to win two short sets wins.",
+    "twist": "One touch makes every return a decision, not a setup pass.",
+    "variation": "Cooperative adaptation: remove the net and count consecutive group hand strikes.",
+    "care": "Use a light beginner peteca and avoid hard downward hits near faces.",
+    "ruleStatus": "house",
+    "ruleNote": "One-touch mechanics are documented; rally scoring to 11 and winner-serves are our introductory format.",
+    "sources": [
+      {
+        "title": "Peteca International — Condensed rules",
+        "url": "https://peteca.net/rules/"
+      }
+    ],
+    "diagram": "net",
+    "spotlight": false
+  },
+  {
+    "id": "sepak-takraw",
+    "name": "Sepak takraw",
+    "aliases": [
+      "Kick volleyball"
+    ],
+    "family": "world",
+    "tagline": "Three touches. No hands. A whole new net game.",
+    "region": "Southeast Asia",
+    "country": "Malaysia",
+    "players": [
+      6,
+      6
+    ],
+    "minutes": [
+      15,
+      30
+    ],
+    "ages": "12+",
+    "energy": 3,
+    "space": "medium",
+    "equipment": [
+      "Soft takraw training ball",
+      "Net",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "A foot becomes a setter’s hand and a knee becomes a receiving platform. The famous acrobatics are optional: a gentle three-touch rally already feels like discovering a new way to move.",
+    "setup": "Create a net court for two teams of three. Use a low net and soft training ball for a first session.",
+    "steps": [
+      "A teammate tosses the ball to the server, who kicks it over from a marked service spot.",
+      "Return it within three touches using feet, legs, torso or head; hands and arms cannot contact it.",
+      "One player may take more than one touch. Keep the ball airborne and stay on your side.",
+      "A grounded ball, out-ball, net contact or fourth touch gives opponents one point. Alternate the serving team after each point.",
+      "Play to 15; at 14–14, play to 17. Take a break and change ends between sets."
+    ],
+    "win": "Win two sets to win the match.",
+    "twist": "The three-touch pattern feels familiar; the body language is completely different.",
+    "variation": "Learning adaptation: allow one bounce per side, clearly agreed before starting.",
+    "care": "Start with low kicks and knee control; leave overhead kicks to coached practice.",
+    "ruleStatus": "starter",
+    "ruleNote": "Regu scoring follows the cited 2024 rules; training ball, net height and dimensions are introductory adjustments.",
+    "sources": [
+      {
+        "title": "Sepak Takraw Association of Canada — Regu rules",
+        "url": "https://www.sepaktakraw.ca/regu-sepak-takraw"
+      }
+    ],
+    "diagram": "net",
+    "spotlight": false
+  },
+  {
+    "id": "ki-o-rahi",
+    "name": "Kī-o-rahi",
+    "aliases": [
+      "Ki o Rahi"
+    ],
+    "family": "world",
+    "tagline": "Two teams. Two entirely different ways to score.",
+    "region": "Aotearoa New Zealand / Māori",
+    "country": "New Zealand",
+    "players": [
+      10,
+      14
+    ],
+    "minutes": [
+      15,
+      25
+    ],
+    "ages": "10+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft ball",
+      "7 outer markers",
+      "Central barrel",
+      "Cones",
+      "Tag belts"
+    ],
+    "noEquipment": false,
+    "hook": "One team collects points around the outside, then tries to bank them in the middle. The other fires at a central target. The same circular field becomes two overlapping tactical worlds.",
+    "setup": "Mark an outer zone, inner ring and central target zone with a barrel (tupu). Put seven pou markers outside. Two Kīoma guards stay centrally; other Kīoma stay outside. Two Taniwha play the inner ring; others stay outside.",
+    "steps": [
+      "Kīoma run or pass outside, earning one pending point for each different pou touched with the ball; repeat touches add nothing.",
+      "A Kīoma carrier banks that total by carrying across the inner ring and grounding centrally. Only a scoring carrier may leave the outside, apart from the guards.",
+      "Taniwha pass into the inner ring and shoot at the tupu for one point. Kīoma guards may block or catch, without touching the barrel.",
+      "A removed carrier tag, drop, interception or out-ball hands possession to opponents at the outer edge and erases pending pou points. No passing during a Kīoma crossing.",
+      "After either side scores, opponents restart outside. Swap roles every five minutes, giving equal time in each role."
+    ],
+    "win": "After equal time in each role, the higher total wins.",
+    "twist": "There is no single shared goal: each side reads the field differently.",
+    "variation": "Learning adaptation: practise each scoring role separately before combining them.",
+    "care": "Use tag belts and a soft ball; mark a no-standing buffer around the barrel.",
+    "ruleStatus": "house",
+    "ruleNote": "Designed teaching version: simplified zones, single-tag turnovers and alternating scoring restarts. Local ture differ; learn with Māori practitioners where possible.",
+    "sources": [
+      {
+        "title": "Tū Mātau Ora — Kī-o-rahi ture and information",
+        "url": "https://tumatauora.org/ki-o-rahi-ture/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": true
+  },
+  {
+    "id": "lippa",
+    "name": "Lippa",
+    "aliases": [
+      "S-cianco",
+      "Tip-cat"
+    ],
+    "family": "world",
+    "tagline": "Flick it up. Hit it away. Measure in bat-lengths.",
+    "region": "Italy / European tip-cat traditions",
+    "country": "Italy",
+    "players": [
+      2,
+      8
+    ],
+    "minutes": [
+      15,
+      25
+    ],
+    "ages": "12+",
+    "energy": 2,
+    "space": "large",
+    "equipment": [
+      "Purpose-made lippa set",
+      "Measuring tape",
+      "Boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "The ball is a short tapered stick, and the serve is a trick: strike its end so it jumps, then hit it in mid-air. Even one clean connection feels like a small invention.",
+    "setup": "Use a large, clear field and a marked hitting base. Everyone except the hitter waits behind a safety line.",
+    "steps": [
+      "Place the short lippa on its base with a tapered end accessible.",
+      "Tap that end with the longer bat to lift it, then strike it away in the air.",
+      "A complete miss uses an attempt. After a valid hit, wait until it stops and measure from the base.",
+      "Score one point per whole bat-length. Retrieve only on the leader’s signal.",
+      "Give every player five attempts and add their distances."
+    ],
+    "win": "Highest combined distance wins; tied players share the win.",
+    "twist": "You create your own airborne ball before you can hit it.",
+    "variation": "Documented variant: fielders can cancel a hit by catching; reserve this for suitable coached equipment and space.",
+    "care": "Flying wood needs a very large exclusion area; use purpose-made soft training equipment for beginners.",
+    "ruleStatus": "starter",
+    "ruleNote": "This uses FIGeST’s distance-only format, with five attempts; regional fielding and scoring versions also exist.",
+    "sources": [
+      {
+        "title": "FIGeST — Lippa technical sheet and rules",
+        "url": "https://figest.it/lippa/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "bete-ombro",
+    "name": "Bete-ombro",
+    "aliases": [
+      "Taco",
+      "Bets",
+      "Bete"
+    ],
+    "family": "world",
+    "tagline": "Two bats, two targets, and a race between them.",
+    "region": "Brazil",
+    "country": "Brazil",
+    "players": [
+      4,
+      4
+    ],
+    "minutes": [
+      15,
+      25
+    ],
+    "ages": "10+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "2 light bats",
+      "Soft ball",
+      "2 plastic targets",
+      "Base markers"
+    ],
+    "noEquipment": false,
+    "hook": "Two friends defend little targets at opposite ends. A successful hit gives both of them a reason to sprint. The fielders want more than an out: they want possession of the bats.",
+    "setup": "Set a target inside a small base circle at each end. Two batters defend one each; two fielders bowl from behind opposite ends.",
+    "steps": [
+      "A fielder bowls the soft ball towards the far target. Its batter tries to strike it away.",
+      "After a hit, batters may exchange ends while fielders retrieve. In this adaptation, each completed exchange scores one.",
+      "A grounded bat inside a base makes that batter safe. Fielders can knock over an unprotected target with the ball.",
+      "A toppled target or clean airborne catch swaps batting and fielding roles.",
+      "Continue from the new roles; announce and agree pauses before anyone leaves a base."
+    ],
+    "win": "First pair to ten runs wins after completing the last exchange.",
+    "twist": "The prize for good fielding is the right to become the batting team.",
+    "variation": "Intro adaptation: bowl underarm along the ground for easier first hits.",
+    "care": "Leave room for bat swings. No throws at runners, and no clashing bats while running.",
+    "ruleStatus": "house",
+    "ruleNote": "This removes body-hit outs and bat-tapping during runs; catch rules and scoring vary around Brazil.",
+    "sources": [
+      {
+        "title": "UNICENTRO Early Childhood Education Laboratory — Bete Ombro",
+        "url": "https://www3.unicentro.br/brinquedoteca/brincadeiras/bete-ombro/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "ampe",
+    "name": "Ampe",
+    "aliases": [],
+    "family": "world",
+    "tagline": "Clap. Jump. Choose a foot. Read your opponent.",
+    "region": "Ghana / West Africa",
+    "country": "Ghana",
+    "players": [
+      2,
+      20
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 2,
+    "space": "small",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "This tiny rhythmic duel has no equipment and almost no waiting. You jump together, reveal a foot together, and discover whether you predicted each other or fell into the same pattern again.",
+    "setup": "Face a partner with room between you. One player scores for matching feet, the other for different feet; agree which is which.",
+    "steps": [
+      "Clap together to establish a shared beat.",
+      "On the beat, make a small jump and land with one foot forward.",
+      "If both chose left or both chose right, the matching player gets one point. Otherwise the different-feet player gets one.",
+      "Reset and repeat until someone reaches ten. Switch scoring roles for the next game.",
+      "For a group, rotate partners after every game and keep the rhythm going."
+    ],
+    "win": "First to ten wins a game; play both scoring roles.",
+    "twist": "Rock-paper-scissors becomes a whole-body rhythm.",
+    "variation": "Access adaptation: stay seated and reveal a left or right hand on the beat.",
+    "care": "Use soft knees and small jumps; feet never need to touch the other person.",
+    "ruleStatus": "starter",
+    "ruleNote": "This fixes matching/different scoring roles; names and tournament formats vary.",
+    "sources": [
+      {
+        "title": "Open University TESSA Ghana — Games and physical exercise",
+        "url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=154309&section=2.6"
+      },
+      {
+        "title": "Omoniyi and Afrifa — Ampe exercise study, game description",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7036453/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "pilolo",
+    "name": "Pilolo",
+    "aliases": [],
+    "family": "world",
+    "tagline": "A treasure hunt with a sprint finish.",
+    "region": "Ghana",
+    "country": "Ghana",
+    "players": [
+      4,
+      20
+    ],
+    "minutes": [
+      5,
+      15
+    ],
+    "ages": "6+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Large coloured tokens",
+      "Start-line markers"
+    ],
+    "noEquipment": false,
+    "hook": "The search is only half the game. Once you find an object, you still have to get home. A hiding place close to the finish can be more valuable than an obvious one.",
+    "setup": "Choose a leader and a bounded search area. The leader hides one large token per player while everyone waits out of sight.",
+    "steps": [
+      "Gather players behind a clear start-and-finish line.",
+      "On “Pilolo!”, search the agreed area for one token.",
+      "After finding one, return across the finish line carrying it. Do not take tokens from other players.",
+      "The first returning player wins that round; let everyone finish their search.",
+      "Change the leader, hide the tokens again and start another round."
+    ],
+    "win": "Play five rounds and count first finishes, or simply celebrate each round’s finder.",
+    "twist": "The best search route is also an escape route.",
+    "variation": "Cooperative adaptation: time how quickly the whole group brings every token home.",
+    "care": "Use visible boundaries and reachable hiding spots; no roads, climbing or tiny swallowable objects.",
+    "ruleStatus": "starter",
+    "ruleNote": "The search-and-return mechanic is documented; our five-round tally and large tokens are hosting choices.",
+    "sources": [
+      {
+        "title": "Open University TESSA Ghana — Pilolo",
+        "url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=154309&section=2.6"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": false
+  },
+  {
+    "id": "jianzi",
+    "name": "Jianzi",
+    "aliases": [
+      "Ti jianzi",
+      "毽子"
+    ],
+    "family": "world",
+    "tagline": "A feather, a foot, and one more impossible save.",
+    "region": "China / East Asia",
+    "country": "China",
+    "players": [
+      3,
+      8
+    ],
+    "minutes": [
+      5,
+      15
+    ],
+    "ages": "7+",
+    "energy": 2,
+    "space": "small",
+    "equipment": [
+      "Jianzi shuttlecock"
+    ],
+    "noEquipment": false,
+    "hook": "The weighted feather drops differently from a ball: quick enough to demand attention, slow enough for a clever rescue. A circle becomes a shared little laboratory of ankles, knees and timing.",
+    "setup": "Stand in a loose circle on level ground with a jianzi. Leave room for each player to lift a leg comfortably.",
+    "steps": [
+      "Drop the shuttle towards a foot and kick it upward to begin.",
+      "Keep it airborne with feet, knees or other body parts except hands and arms.",
+      "Pass to another player whenever possible; count every successful contact aloud.",
+      "When it touches the ground, end the rally and begin again from zero with a different starter."
+    ],
+    "win": "Try to beat the group’s best rally within five minutes.",
+    "twist": "The score belongs to the whole circle, including whoever makes the save.",
+    "variation": "Learning adaptation: allow one catch to reset control, then restart counting after the next kick.",
+    "care": "Keep kicks low and upward, away from others’ faces; enlarge the circle as confidence grows.",
+    "ruleStatus": "starter",
+    "ruleNote": "This is cooperative circle kicking; competitive net shuttlecock has a separate rulebook.",
+    "sources": [
+      {
+        "title": "CanadaGo4Sport — Jianzi circle activity",
+        "url": "https://www.canadago4sport.com/Manipulative-Retain/jianzi"
+      },
+      {
+        "title": "International Shuttlecock Federation — Shuttlecock",
+        "url": "https://www.shuttlecock-world.org/shuttlecock"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "dibeke",
+    "name": "Dibeke",
+    "aliases": [
+      "Diwiki",
+      "Skaloulo"
+    ],
+    "family": "world",
+    "tagline": "Kick once. Make the fielders chase a whole team.",
+    "region": "South Africa",
+    "country": "South Africa",
+    "players": [
+      12,
+      24
+    ],
+    "minutes": [
+      15,
+      25
+    ],
+    "ages": "10+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam ball",
+      "Cones",
+      "Score sheet"
+    ],
+    "noEquipment": false,
+    "hook": "A single kicker can send several teammates running between safe boxes. Fielders suddenly have many possible targets, while runners decide whether to stay safe or help create a distracting wave of movement.",
+    "setup": "Mark two safe boxes at opposite ends, a halfway line and a kicking area. Split into runners and fielders; choose a roller.",
+    "steps": [
+      "The roller calls a runner’s name and rolls the ball to the kicking area.",
+      "That player kicks beyond halfway and must run to the opposite safe box. Teammates may run too. Retry a miss or short kick; three failed kicks dismiss the kicker.",
+      "Fielders pass the foam ball and gently throw below runners’ knees. A hit outside a safe box puts that runner out for the innings.",
+      "Each completed crossing scores one run in this adaptation. Stop when everyone is safe or out; roll to the next runner.",
+      "Swap roles after everyone is out or five minutes. Give each team equal innings."
+    ],
+    "win": "Most total crossings after equal innings wins.",
+    "twist": "Teammates can flood the field to make one runner harder to stop.",
+    "variation": "Gentler adaptation: use hand tags by a stationary ball-holder instead of thrown tags.",
+    "care": "Use a soft ball only, with no close-range shots; safe boxes need room for the whole team.",
+    "ruleStatus": "house",
+    "ruleNote": "Based on Dibeke’s kick-and-run structure; short equal innings and direct run totals replace the full scoring system.",
+    "sources": [
+      {
+        "title": "Ulwazi Programme — Dibeke",
+        "url": "https://www.ulwaziprogramme.org/dibeke/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "flunkyball",
+    "name": "Flunkyball · token edition",
+    "aliases": [
+      "Flunky Ball",
+      "Bierball",
+      "Flankyball"
+    ],
+    "family": "target",
+    "tagline": "A knocked bottle starts a race against the reset.",
+    "region": "Germany / festival-game adaptation",
+    "country": "Germany",
+    "players": [
+      6,
+      16
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "medium",
+    "equipment": [
+      "Soft ball",
+      "Plastic bottle partly filled with water",
+      "20 large tokens",
+      "2 bowls",
+      "Cones"
+    ],
+    "noEquipment": false,
+    "hook": "One accurate throw starts two different races: one team scores while the other rebuilds the field. This version keeps Flunkyball’s frantic stop-call rhythm and swaps the usual adult drinking for tokens.",
+    "setup": "Two teams face each other behind lines about five metres from a centre bottle. Give each team ten tokens and a bowl one metre behind its line.",
+    "steps": [
+      "Teams alternate one throw at the bottle, rotating throwers.",
+      "When it falls, the throwing team starts a relay: one player at a time carries one token to their bowl, returns and tags the next.",
+      "The other team resets the bottle, retrieves the ball and gets everyone back behind its line.",
+      "Only then call “Stop!” No more tokens may enter the bowl; a carried token returns to the supply.",
+      "Swap throwing teams after every attempt. A miss starts no relay."
+    ],
+    "win": "First team to bank all ten tokens wins after the stop call.",
+    "twist": "Your target is also your opponent’s reset button.",
+    "variation": "Access adaptation: pass tokens along a seated line instead of running the relay.",
+    "care": "Use plastic and a soft ball; keep relay lanes behind the teams, away from the retrieval route.",
+    "ruleStatus": "house",
+    "ruleNote": "Flunkyball is commonly an adult drinking game. Token-relay scoring here is a designed alcohol-free adaptation.",
+    "sources": [
+      {
+        "title": "Flunkyball Verband Dortmund — Regelwerk",
+        "url": "https://www.flunken.de/regelwerk"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": true
+  },
+  {
+    "id": "kubb",
+    "name": "Kubb",
+    "aliases": [
+      "Viking chess"
+    ],
+    "family": "target",
+    "tagline": "Knock down a block. Create tomorrow’s problem.",
+    "region": "Sweden / international lawn play",
+    "country": "Sweden",
+    "players": [
+      2,
+      12
+    ],
+    "minutes": [
+      20,
+      40
+    ],
+    "ages": "8+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "Kubb set",
+      "Boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "Fallen blocks return as new targets in the middle of the court. Every successful attack changes the next turn, until one team earns a shot at the king that has been waiting all along.",
+    "setup": "Mark a roughly 5 × 8 metre rectangle. Put five kubbs on each baseline and the king in the centre. Divide six batons between teammates.",
+    "steps": [
+      "Throw batons underarm, end over end, at opposing kubbs. For a simple opening, give each team six throws per turn.",
+      "Before their reply, opponents toss fallen kubbs into your half; stand them where they land as field kubbs.",
+      "Clear all field kubbs before attacking baseline kubbs. If any remain, opponents may throw from the line of the surviving field kubb closest to the centre.",
+      "Re-throw an out-of-bounds field kubb once; a second miss lets opponents place it, at least a baton-length from king and boundaries.",
+      "After clearing every opposing kubb, shoot at the king from your original baseline. Toppling it early loses immediately."
+    ],
+    "win": "Clear the opposing kubbs, then topple the king legally.",
+    "twist": "A successful hit sends its target back into the game.",
+    "variation": "Use the documented 2–4–6 baton opening when both teams know the basics.",
+    "care": "Everyone stands clear of the target half; collect wooden pieces only when throwing stops.",
+    "ruleStatus": "starter",
+    "ruleNote": "Casual six-baton opening; competition opening sequences and details vary by ruleset.",
+    "sources": [
+      {
+        "title": "Kubb World — Game rules",
+        "url": "https://www.kubb.world/game-rules"
+      },
+      {
+        "title": "USA Kubb — Rules and tips",
+        "url": "https://www.usakubb.org/rules"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "molkky",
+    "name": "Mölkky",
+    "aliases": [
+      "Molky",
+      "Molkky"
+    ],
+    "family": "target",
+    "tagline": "One pin means its number. Many pins mean their count.",
+    "region": "Finland",
+    "country": "Finland",
+    "players": [
+      2,
+      8
+    ],
+    "minutes": [
+      15,
+      30
+    ],
+    "ages": "7+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "Mölkky set",
+      "Score sheet"
+    ],
+    "noEquipment": false,
+    "hook": "The pins spread wider after every throw, turning a simple skittle game into a moving arithmetic puzzle. You might need the lonely twelve, or deliberately aim for two low-value pins instead.",
+    "setup": "Arrange the twelve numbered pins in the set’s starting cluster. Mark a throwing line about 3.5 metres away and choose turn order.",
+    "steps": [
+      "Throw the wooden throwing pin underarm to knock down numbered pins.",
+      "If exactly one falls fully, score its number. If several fall, score the number of fallen pins.",
+      "Stand them upright where they fell, so the target pattern gradually spreads.",
+      "Take turns adding scores. Going above 50 resets your total to 25; three consecutive scoreless throws eliminate you.",
+      "Keep playing until someone reaches exactly 50."
+    ],
+    "win": "Exactly 50 wins. House fallback: if eliminations leave one player, they win; if none remain, share the result.",
+    "twist": "Better aim can mean knocking over fewer pins.",
+    "variation": "Intro adaptation: after three misses, lose five points instead of leaving the game.",
+    "care": "Wait behind the throwing line and check the entire spread before each throw.",
+    "ruleStatus": "documented",
+    "ruleNote": "These are the maker’s basic rules; the no-elimination option is an adaptation.",
+    "sources": [
+      {
+        "title": "Mölkky Oy — Rules",
+        "url": "https://www.molkky.com/game/rules/"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "petanque",
+    "name": "Pétanque",
+    "aliases": [
+      "Petanque",
+      "Boules"
+    ],
+    "family": "target",
+    "tagline": "A quiet little throw can completely change the picture.",
+    "region": "France",
+    "country": "France",
+    "players": [
+      2,
+      6
+    ],
+    "minutes": [
+      15,
+      30
+    ],
+    "ages": "7+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "Boules",
+      "Small jack",
+      "Throwing circle",
+      "Measuring tape"
+    ],
+    "noEquipment": false,
+    "hook": "Every ball is both a possible point and a piece of terrain. Sometimes you roll close; sometimes you knock an opponent away. The team that is losing the current position gets to keep trying.",
+    "setup": "Choose level gravel or firm ground. Play singles or pairs with three boules per player, or triples with two. Mark a shared throwing circle.",
+    "steps": [
+      "Throw the small jack 6–10 metres away, then send the first boule towards it.",
+      "The other team throws until it becomes closest or uses all its boules.",
+      "Continue with whichever team is not closest. Keep both feet grounded inside the circle while throwing.",
+      "After all balls are played, only the closer team scores: one for each boule nearer than the opponent’s nearest.",
+      "The scoring team starts the next end from a circle near the previous jack."
+    ],
+    "win": "First team to 13 points wins.",
+    "twist": "You choose between building a better position and destroying theirs.",
+    "variation": "Access adaptation: use soft indoor boules and shorter measured distances.",
+    "care": "Keep people out of the landing area; metal boules are heavy even on gentle throws.",
+    "ruleStatus": "starter",
+    "ruleNote": "A basic introduction; dead-jack situations and measurement disputes are covered by the full rules.",
+    "sources": [
+      {
+        "title": "Federation of Pétanque USA — How to play",
+        "url": "https://www.usapetanque.org/how-to-play-peacutetanque.html"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "bocce",
+    "name": "Bocce",
+    "aliases": [
+      "Boccia lawn game"
+    ],
+    "family": "target",
+    "tagline": "Read the ground. Roll a better answer.",
+    "region": "Italy / international lawn play",
+    "country": "Italy",
+    "players": [
+      2,
+      8
+    ],
+    "minutes": [
+      15,
+      30
+    ],
+    "ages": "6+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "8 bocce balls",
+      "Pallino target ball",
+      "Boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "A slow ball can be the boldest move on the court. Bocce rewards reading tiny slopes, using an opponent’s ball as a stop, and leaving your next teammate something useful to build on.",
+    "setup": "Mark a long, narrow lane. Split eight balls equally between two teams and choose who throws the small pallino first.",
+    "steps": [
+      "Roll the pallino into the far half, then roll your first ball near it.",
+      "The team farther from the pallino keeps playing until it gets closer or runs out of balls.",
+      "When one team has no balls left, the other rolls its remaining balls. Contact between balls can change the result.",
+      "At the end, the closest team scores one for each ball nearer than the opponents’ closest.",
+      "The scoring team begins the next end, reversing the direction of play."
+    ],
+    "win": "First to 12 points wins this starter game.",
+    "twist": "The surface is part of your strategy.",
+    "variation": "Access adaptation: let a player use a rolling ramp with their chosen direction.",
+    "care": "Choose balls players can control; retrieve only after the end is scored.",
+    "ruleStatus": "starter",
+    "ruleNote": "Open-bocce scoring on a casual lane; regulation courts add specific wall and foul-line rules.",
+    "sources": [
+      {
+        "title": "United States Bocce Federation — Open rules",
+        "url": "https://usbf.us/wp-content/uploads/2023/05/USBF-Open-Rules_03-23-23.pdf"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "cornhole",
+    "name": "Cornhole",
+    "aliases": [
+      "Beanbag toss"
+    ],
+    "family": "target",
+    "tagline": "Slide, block, or drop straight through.",
+    "region": "United States",
+    "country": "United States",
+    "players": [
+      2,
+      4
+    ],
+    "minutes": [
+      10,
+      25
+    ],
+    "ages": "6+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "2 cornhole boards",
+      "8 beanbags"
+    ],
+    "noEquipment": false,
+    "hook": "A bag in the way might be a mistake, a blockade or a ramp. Because scores cancel at the end of the round, your last throw can erase an opponent’s brilliant opening.",
+    "setup": "Face two boards towards each other. Standard adult spacing is about 8.2 metres; bring them closer for beginners. Use four bags per side.",
+    "steps": [
+      "Opponents alternate underarm throws at the far board until each has thrown four bags.",
+      "A bag through the hole scores three; a bag resting on the board scores one. Ground-first bags score zero and are removed.",
+      "Wait until all bags settle, then subtract the lower round score from the higher. Only the difference is added.",
+      "Throw from the other end next round; the side that scored throws first. At a tied round, keep the previous order."
+    ],
+    "win": "First to 21 or more at the end of a round wins; there is no bust penalty.",
+    "twist": "A last bag can turn a whole round into zero.",
+    "variation": "Learning adaptation: start closer and gradually move back after successful rounds.",
+    "care": "Keep the lane clear and use beanbags light enough for every player.",
+    "ruleStatus": "documented",
+    "ruleNote": "Core American Cornhole Association scoring; shortened distances are a casual adjustment.",
+    "sources": [
+      {
+        "title": "American Cornhole Association — Official rules",
+        "url": "https://www.playcornhole.org/pages/rules"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "kanjam",
+    "name": "KanJam",
+    "aliases": [
+      "Kan Jam"
+    ],
+    "family": "target",
+    "tagline": "Your partner is the last-metre flight controller.",
+    "region": "United States",
+    "country": "United States",
+    "players": [
+      4,
+      4
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "Flying disc",
+      "2 KanJam goals"
+    ],
+    "noEquipment": false,
+    "hook": "The throw is only the beginning. Your teammate gets a single chance to redirect the disc, turning a near miss into a hit or a glorious downward dunk. Precision and improvisation share the same point.",
+    "setup": "Set two goals facing each other, normally about 15 metres apart; shorten for beginners. Each pair has one teammate at each end.",
+    "steps": [
+      "Throw from behind your goal towards your partner’s goal. They may redirect once, without catching or carrying.",
+      "A deflected outside hit scores one; an unassisted outside hit scores two; a deflection inside scores three.",
+      "Partners each throw once per team turn, then the other pair takes its turn. A ground-first throw scores zero.",
+      "Reach exactly 21; if a throw would exceed it, subtract that throw’s value instead. Complete equal team turns.",
+      "An unassisted disc staying inside through the slot or top wins immediately. Otherwise, ties use equal overtime turns."
+    ],
+    "win": "Exactly 21 after equal turns, or an instant-win direct entry.",
+    "twist": "The best shot may need someone else to finish it.",
+    "variation": "Intro adaptation: shorten the gap until each player can reach the goal comfortably.",
+    "care": "Use controlled throws and open-hand deflections; keep spectators behind the goals.",
+    "ruleStatus": "starter",
+    "ruleNote": "Scoring follows KanJam’s rules; the linked guides explain complete turns, direct entries and overtime.",
+    "sources": [
+      {
+        "title": "KanJam — How to play",
+        "url": "https://www.kanjam.com/pages/how-to-play"
+      },
+      {
+        "title": "MIT Intramural Sports — Kan Jam rules",
+        "url": "https://intramurals.mit.edu/kan-jam-rules-2/"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "ladder-toss",
+    "name": "Ladder toss",
+    "aliases": [
+      "Ladder golf",
+      "Bolo toss"
+    ],
+    "family": "target",
+    "tagline": "Aim for a rung. Hope it stays there.",
+    "region": "United States / garden play",
+    "country": "United States",
+    "players": [
+      2,
+      4
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "7+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [
+      "Ladder-toss frame",
+      "6 soft bolas"
+    ],
+    "noEquipment": false,
+    "hook": "Two balls tied together spin through the air and wrap around a rung. But a point is not safe yet: the next throw can shake your perfect landing straight back onto the grass.",
+    "setup": "Stand a three-rung frame on level ground and mark a comfortable throwing line. Give each side three differently coloured bolas.",
+    "steps": [
+      "Each side tosses all three bolas underarm, then the other side takes its turn.",
+      "Leave landed bolas in place until the whole round ends; knocked-off bolas no longer score.",
+      "Score one for the bottom rung, two for the middle and three for the top.",
+      "For this simple version, use no bonuses or cancellation. Add each side’s remaining points, then clear the frame.",
+      "Reach exactly 21; if your round would exceed 21, discard that round’s points. Alternate which side starts."
+    ],
+    "win": "First to exactly 21 after a complete round wins; play another round if both reach it.",
+    "twist": "Points can literally fall off the scoreboard.",
+    "variation": "Documented bonus option: add one for all three on one rung, or one on each rung.",
+    "care": "Use soft bolas, not golf balls, for younger groups; nobody stands near the frame during throws.",
+    "ruleStatus": "starter",
+    "ruleNote": "This uses the university guide’s rung values and bust rule, with explicit simple turn order and no bonuses.",
+    "sources": [
+      {
+        "title": "CSU Channel Islands — Basic ladder golf rules",
+        "url": "https://www.csuci.edu/student-life/recreation/ladder-golf-rules.html"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "washer-toss",
+    "name": "Washer toss",
+    "aliases": [
+      "Washers"
+    ],
+    "family": "target",
+    "tagline": "A small ring. A smaller target. A very loud success.",
+    "region": "North America",
+    "country": "United States",
+    "players": [
+      2,
+      4
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [
+      "2 target boxes with centre cups",
+      "6 rubber washers"
+    ],
+    "noEquipment": false,
+    "hook": "The satisfying part is the tiny landing zone. A gentle toss can bounce into the box or disappear into the centre cup, and one good round can cancel every point your opponent thought they had.",
+    "setup": "Place two cup-in-box targets a few metres apart. Play singles or pairs, with teammates at opposite ends. Give each side three washers.",
+    "steps": [
+      "Alternate tossing washers into the far box until all six have been thrown.",
+      "A washer in the centre cup scores three; elsewhere inside the box scores one. Outside scores zero.",
+      "Subtract the lower round score from the higher; only the difference is added to the leading side.",
+      "Collect washers and play back towards the other box. The side that scored starts the next round."
+    ],
+    "win": "First to 21 or more at the end of a round wins.",
+    "twist": "The safe one-point box surrounds the tempting three-point cup.",
+    "variation": "Precision adaptation: shrink the centre cup once everyone is landing in the box.",
+    "care": "Use large rubber washers for casual play and keep feet clear of the targets.",
+    "ruleStatus": "starter",
+    "ruleNote": "Box-and-cup format; washer games have many regional scores. We omit edge instant-wins, skunks and exact-21 variants.",
+    "sources": [
+      {
+        "title": "Gather Together Games — Washer toss",
+        "url": "https://gathertogethergames.com/washer-toss"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "croquet",
+    "name": "Golf croquet",
+    "aliases": [
+      "Golf Croquet"
+    ],
+    "family": "target",
+    "tagline": "Everyone wants the same hoop. Only one gets it.",
+    "region": "England / international croquet",
+    "country": "United Kingdom",
+    "players": [
+      2,
+      4
+    ],
+    "minutes": [
+      20,
+      45
+    ],
+    "ages": "8+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "4 croquet balls",
+      "Mallets",
+      "6 hoops",
+      "Centre peg"
+    ],
+    "noEquipment": false,
+    "hook": "One stroke per turn makes this a patient tactical duel. You can line up your next shot, block a rival or knock their ball away, but while you prepare, someone else may simply score.",
+    "setup": "Use a croquet lawn layout with six hoops. Blue and black face red and yellow. Start near corner four; review the source’s route diagram together.",
+    "steps": [
+      "Take one stroke in the fixed order blue, red, black, yellow; each player controls their assigned colour or colours.",
+      "Everyone contests the same current hoop from its marked playing side.",
+      "The first ball completely through it scores one for its side. All players then contest the next hoop.",
+      "Hitting another ball gives no extra stroke. If a ball leaves the lawn, replace it on the boundary where it crossed.",
+      "Follow the numbered twelve-hoop route in the source diagram, keeping balls where they finish. If the score reaches 6–6, contest hoop three again."
+    ],
+    "win": "First side to seven hoop points wins.",
+    "twist": "You can move an opponent’s ball without ever earning an extra turn.",
+    "variation": "Short-session adaptation: play seven contested hoops, first side to four.",
+    "care": "Keep mallet swings low and wait well clear of the striker; wider hoops make an easier introduction.",
+    "ruleStatus": "starter",
+    "ruleNote": "Golf croquet, not association croquet; advanced offside and fault rules remain in the full guide.",
+    "sources": [
+      {
+        "title": "Croquet England — Play golf croquet",
+        "url": "https://www.croquetengland.org.uk/play-golf-croquet/"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "disc-golf",
+    "name": "Disc golf",
+    "aliases": [
+      "Frisbee golf"
+    ],
+    "family": "target",
+    "tagline": "Turn the park into a course, one flight at a time.",
+    "region": "United States / international disc sport",
+    "country": "United States",
+    "players": [
+      2,
+      6
+    ],
+    "minutes": [
+      20,
+      45
+    ],
+    "ages": "8+",
+    "energy": 1,
+    "space": "large",
+    "equipment": [
+      "Flying discs",
+      "Disc-golf baskets or agreed targets",
+      "Score sheet"
+    ],
+    "noEquipment": false,
+    "hook": "The pleasure is choosing a route: a direct throw through a gap or a gentle curve around it. Every landing becomes the start of the next problem, and a short putt can matter as much as a huge drive.",
+    "setup": "Use an established course, or agree a short course of safe basket targets on permitted open ground. Pick tees and boundaries before throwing.",
+    "steps": [
+      "Everyone throws from the marked tee, one at a time.",
+      "Play each next throw from where your previous disc stopped. The farthest player usually throws next.",
+      "Count every throw until the disc finishes in the basket. A target-course adaptation may instead require touching a named target.",
+      "For this starter round, an out-of-bounds throw adds one penalty; resume just inside where it last crossed out.",
+      "Record the total for the hole, then move together to the next tee."
+    ],
+    "win": "Lowest total throw count across the agreed course wins.",
+    "twist": "Your previous mistake becomes the next place you have to solve.",
+    "variation": "Doubles adaptation: both teammates throw, choose the better landing and both continue from there.",
+    "care": "Never throw towards people or animals; wait for the entire landing area to clear.",
+    "ruleStatus": "starter",
+    "ruleNote": "Core disc-golf format; use the actual course’s signs and current rules for formal rounds.",
+    "sources": [
+      {
+        "title": "PDGA — Description of the game",
+        "url": "https://www.pdga.com/rules/official-rules-disc-golf/800"
+      },
+      {
+        "title": "Swiss Disc Golf Association — How to play",
+        "url": "https://discgolf.ch/en/playing-disc-golf/how-to-play-disc-golf/this-is-disc-golf/"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": false
+  },
+  {
+    "id": "gorodki",
+    "name": "Gorodki",
+    "aliases": [
+      "Городки"
+    ],
+    "family": "target",
+    "tagline": "Demolish a tiny wooden skyline.",
+    "region": "Russia / Eastern Europe",
+    "country": "Russia",
+    "players": [
+      2,
+      8
+    ],
+    "minutes": [
+      15,
+      25
+    ],
+    "ages": "10+",
+    "energy": 1,
+    "space": "medium",
+    "equipment": [
+      "5 soft cylindrical blocks",
+      "Soft throwing baton",
+      "Square boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "The target is a little sculpture made from five blocks. Knocking it down is not enough: every piece must leave the square. Each new shape asks for a different angle of demolition.",
+    "setup": "Mark a target square and a throwing line. Build the same five-block figure for each side; use soft practice pieces and generous clear space.",
+    "steps": [
+      "Take turns with two underarm baton throws at the figure.",
+      "A block counts only when it is completely outside the target square.",
+      "Leave remaining pieces where they stop. Continue until all five have cleared.",
+      "Record the throws used, rebuild for the next player or team, and repeat with the next agreed shape.",
+      "For this short game, use three figures: a straight row, a cross and a five-block well."
+    ],
+    "win": "Fewest total throws across the three figures wins.",
+    "twist": "A collapsed target can still refuse to leave.",
+    "variation": "Documented informal option: give equal limited throws and compare blocks cleared instead.",
+    "care": "Use soft equipment for introductions; traditional heavy batons require a dedicated protected throwing area.",
+    "ruleStatus": "house",
+    "ruleNote": "A soft-equipment three-figure introduction; formal gorodki uses a prescribed series of figures and distances.",
+    "sources": [
+      {
+        "title": "International Gorodki Federation — Game and figures",
+        "url": "https://www.gorodki.org/IFGS/about/rules0.htm"
+      },
+      {
+        "title": "International Gorodki Federation — Simplified rules",
+        "url": "https://www.gorodki.org/IFGS/about/rules7.htm"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  }
+]

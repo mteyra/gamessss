@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "islands",
+    "name": "Islands",
+    "aliases": [
+      "Island Tag",
+      "Cat and Mouse",
+      "Partner Switch Tag",
+      "Train Tag"
+    ],
+    "family": "chase",
+    "tagline": "Two is company. Three is a chase.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      30
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "The safest place in the room lasts only until somebody joins you. A chase jumps from pair to pair, and people who looked comfortably out of the action suddenly become its main character.",
+    "setup": "Use an even number: choose one cat and one mouse. Everyone else lies side by side in pairs, with wide running lanes between islands.",
+    "steps": [
+      "The cat tries to gently tag the mouse; everybody else stays in their pair.",
+      "The mouse can escape by slowing down and lying beside either end of a pair.",
+      "An island holds two: the person at the opposite end gets up and becomes the new mouse.",
+      "If tagged, the mouse becomes the cat and the old cat becomes the mouse. Give the new mouse three seconds to leave.",
+      "After a minute, pause and choose a fresh cat so one person does not do all the chasing."
+    ],
+    "win": "Play timed rounds; there is no overall winner.",
+    "twist": "Arriving at safety sends somebody else into danger.",
+    "variation": "Use standing pairs instead: join at one end and release the opposite person.",
+    "care": "No diving or jumping over islands. Use standing pairs when getting down and up is unsuitable.",
+    "ruleStatus": "starter",
+    "ruleNote": "The pair-switch mechanic is documented; the grace period and timed rotation are hosting adaptations.",
+    "sources": [
+      {
+        "title": "PE Universe · Island Tag",
+        "url": "https://peuniverse.com/video/island-tag/"
+      },
+      {
+        "title": "Urban Initiatives · Cat and Mouse Tag",
+        "url": "https://www.uicoach.org/recess-games/catandmouse"
+      }
+    ],
+    "diagram": "islands",
+    "spotlight": true
+  },
+  {
+    "id": "manhunt",
+    "name": "Manhunt",
+    "aliases": [
+      "Build-up Manhunt",
+      "Infection",
+      "One-touch-touch-all"
+    ],
+    "family": "chase",
+    "tagline": "Every person caught makes the hunt bigger.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      6,
+      30
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "Hide-and-seek develops a serious trust problem. The friend hiding beside you can become a hunter in seconds, and a quiet start slowly turns into a coordinated search for the last few runners.",
+    "setup": "Agree clear boundaries, a meeting point and a stop call. Choose one or two hunters and give everyone else one minute to hide.",
+    "steps": [
+      "Hunters search within the agreed area; runners may hide or move.",
+      "A gentle shoulder or back tag turns a runner into a hunter.",
+      "The tagged player announces the change, counts to five, then joins the search.",
+      "There are no prisons or rescues in this version. Newly caught players keep playing.",
+      "Stop when everyone is caught or the timer ends. Regroup, count everyone and rotate the first hunter."
+    ],
+    "win": "Hunters win if everyone is caught; runners still free at the timer win together.",
+    "twist": "The searching team grows with every successful tag.",
+    "variation": "Hosting adaptation: play in daylight with a smaller area and walking-only movement.",
+    "care": "Keep roads, water, buildings and climbable hiding spots outside the boundary. Anyone can call an immediate stop.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses the infection variant. “One-touch-touch-all” is the user’s remembered name, not a verified universal alias.",
+    "sources": [
+      {
+        "title": "Manhunt IRL · Build-up Manhunt",
+        "url": "https://manhuntgame.com/variations/build-up-manhunt"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": true
+  },
+  {
+    "id": "sardines",
+    "name": "Sardines",
+    "aliases": [
+      "Reverse Hide-and-Seek"
+    ],
+    "family": "chase",
+    "tagline": "Find the hiding place. Become the hiding place.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      5,
+      20
+    ],
+    "minutes": [
+      5,
+      15
+    ],
+    "ages": "6+",
+    "energy": 1,
+    "space": "large",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "The search party keeps mysteriously disappearing. Finding the hidden player does not end your turn: it gives you a place in an increasingly hard-to-hide crowd trying very hard not to laugh.",
+    "setup": "Choose one hider and agree accessible hiding areas large enough for the whole group. Everyone else waits at a meeting point.",
+    "steps": [
+      "Give the hider one minute to choose a place.",
+      "The others search independently or in pairs.",
+      "When you find the hider, quietly join them instead of announcing the discovery.",
+      "Each finder joins the hiding group until only one searcher remains.",
+      "End when everyone has found the group, or call everyone back at the agreed time. Rotate the hider."
+    ],
+    "win": "The shared reveal ends the round; being last is a funny finale, not a penalty.",
+    "twist": "The hiding team grows while the searching team shrinks.",
+    "variation": "Pair searchers for younger groups; both join the hiders when they find them.",
+    "care": "Never use locked, cramped or airless hiding spaces. Keep all players within a supervised boundary.",
+    "ruleStatus": "starter",
+    "ruleNote": "Sources differ on who hides next; rotate volunteers in this starter version.",
+    "sources": [
+      {
+        "title": "Online Scout Manager · Sardines",
+        "url": "https://www.onlinescoutmanager.co.uk/programme.php?action=view&id=57422"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": false
+  },
+  {
+    "id": "blob-tag",
+    "name": "Blob Tag",
+    "aliases": [
+      "Splitting Blob"
+    ],
+    "family": "chase",
+    "tagline": "One chase. Then two. Then four.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      10,
+      30
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "8+",
+    "energy": 2,
+    "space": "large",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "The challenge is no longer just running away. Chasers have to steer together, and every fourth player triggers a split: suddenly there are two coordinated blobs closing the gaps instead of one.",
+    "setup": "Two volunteers form the first blob by linking elbows or hands. Everyone else spreads out inside a generous boundary.",
+    "steps": [
+      "The blob moves as a unit and tags with its free hands.",
+      "A tagged player stops safely and joins the blob.",
+      "At four people, split into two pairs. Both pairs can now chase.",
+      "Every new blob repeats the same grow-to-four, split-in-two cycle.",
+      "End when all players belong to blobs. The last two caught can start the next round."
+    ],
+    "win": "The round ends when everyone has joined; try a new starting pair each time.",
+    "twist": "Your opponent multiplies instead of getting longer forever.",
+    "variation": "Hosting adaptation: connected pairs walk while unlinked runners move at a gentle jog.",
+    "care": "Never pull a partner. If a link breaks, stop and reconnect; use loose hand links when elbows are uncomfortable.",
+    "ruleStatus": "starter",
+    "ruleNote": "This uses the splitting-at-four form; the single giant chain is a separate variation.",
+    "sources": [
+      {
+        "title": "Playworks · Blob Tag",
+        "url": "https://www.playworks.org/game-library/blob-tag/"
+      }
+    ],
+    "diagram": "chase",
+    "spotlight": false
+  },
+  {
+    "id": "octopus",
+    "name": "Octopus",
+    "aliases": [
+      "Octopus Tag",
+      "Seaweed Tag"
+    ],
+    "family": "chase",
+    "tagline": "Every crossing redraws the ocean.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      30
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "One moving octopus is manageable. A whole sea of stationary tentacles is another story. Each caught runner leaves a new obstacle, so the route that worked last crossing may now be completely closed.",
+    "setup": "Mark two opposite shores. One octopus starts in the middle; all fish begin behind the same shore.",
+    "steps": [
+      "The octopus calls for the fish to cross. All fish travel to the opposite shore.",
+      "The octopus can move and gently tag fish before they reach safety.",
+      "Tagged fish stay where caught as stationary crabs, keeping their feet planted.",
+      "On later crossings, crabs can tag passing fish within easy reach; new catches become crabs too.",
+      "Repeat crossings until all fish are caught. Reset the ocean and choose a new octopus."
+    ],
+    "win": "Celebrate the last fish caught, then begin a fresh round.",
+    "twist": "The players themselves become the obstacle course.",
+    "variation": "Hosting adaptation: allow crabs to turn on the spot while everyone crosses at walking pace.",
+    "care": "No grabbing, lunging or blocking with feet. Leave room between shores and walls.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses one roaming octopus and stationary caught players; other local versions differ.",
+    "sources": [
+      {
+        "title": "Youth Group Games · Octopus Tag",
+        "url": "https://youthgroupgames.com.au/games/octopus-tag/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "shadow-tag",
+    "name": "Shadow Tag",
+    "aliases": [
+      "Shadow Chase"
+    ],
+    "family": "chase",
+    "tagline": "Catch the part of me that touches the sun.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      3,
+      14
+    ],
+    "minutes": [
+      3,
+      8
+    ],
+    "ages": "5+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "You are running two races at once: one with your body, one with the shape beside it. The angle of the light changes the tactics, and no player has to touch another.",
+    "setup": "Use a bright open space with distinct shadows. Choose one tagger and mark a boundary away from traffic.",
+    "steps": [
+      "The tagger tries to step on another player’s shadow.",
+      "Call the player’s name and “caught” when the step lands; everyone plays honestly.",
+      "That player becomes the tagger. Pause briefly so the previous tagger can move away.",
+      "Keep exchanging the role until the agreed short timer ends."
+    ],
+    "win": "This is continuous play; finish at the timer and swap starting taggers.",
+    "twist": "Your target moves beside the person you are chasing.",
+    "variation": "Try pairs at walking pace, swapping the chaser after every successful shadow tag.",
+    "care": "Step on shadows, never feet. Choose a new game when shadows become unclear.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses partner shadow-tag mechanics in a group; pause and time limit are hosting choices.",
+    "sources": [
+      {
+        "title": "PE Central · Shadow Tag",
+        "url": "https://www.pecentral.org/lessonideas/ViewLesson.asp?ID=25"
+      }
+    ],
+    "diagram": "chase",
+    "spotlight": false
+  },
+  {
+    "id": "line-tag",
+    "name": "Line Tag",
+    "aliases": [
+      "Pac Tag",
+      "Pac-Man Tag"
+    ],
+    "family": "chase",
+    "tagline": "The gym floor becomes a living maze.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      5,
+      16
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "8+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "Painted court markings suddenly become roads, junctions and dead ends. Once tagged players block a route, you have to read the whole map instead of just outrunning the person behind you.",
+    "setup": "Choose connected court lines and one or two taggers. Walk the allowed routes together before starting.",
+    "steps": [
+      "Everyone moves only along the chosen lines, including the taggers.",
+      "Change direction at intersections; never jump across a gap between lines.",
+      "If tagged, stop at that point and become a visible roadblock.",
+      "Runners cannot pass roadblocks; taggers may carefully walk around them and rejoin the line.",
+      "Reset when one runner remains or after two minutes; choose new taggers and reopen every route."
+    ],
+    "win": "Try to be the last runner; everyone rejoins after the short reset.",
+    "twist": "Getting caught changes the map for everybody else.",
+    "variation": "Hosting adaptation: roadblocks stand beside their point and mark it, rather than sitting on the floor.",
+    "care": "Walk at busy junctions. Never step over another player; use the standing roadblock option when needed.",
+    "ruleStatus": "starter",
+    "ruleNote": "Requires existing connected floor markings; standing roadblocks and timed resets are adaptations.",
+    "sources": [
+      {
+        "title": "Playworks · Pac Tag",
+        "url": "https://www.playworks.org/game-library/pac-tag/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "everybodys-it",
+    "name": "Everybody’s It",
+    "aliases": [
+      "Everyone’s It Tag"
+    ],
+    "family": "chase",
+    "tagline": "You are the hunter. So is literally everyone.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      6,
+      30
+    ],
+    "minutes": [
+      3,
+      8
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "medium",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "No safe side. No single person to keep an eye on. Everyone is trying to collect tags while slipping away, so the whole game becomes a rapid sequence of tiny, reversible decisions.",
+    "setup": "Mark a clear space and agree a three-minute round. Everyone starts with a personal score of zero.",
+    "steps": [
+      "On “go”, every player may gently tag any other player.",
+      "Add one to your own count for each successful tag.",
+      "Being tagged does not freeze or eliminate you; keep moving.",
+      "Avoid immediate repeated tags on the same person. At the stop signal, freeze and compare scores or personal bests.",
+      "Reset every score and try another short round."
+    ],
+    "win": "Count your tags at the timer; no one sits out.",
+    "twist": "Attack and defence happen at exactly the same time.",
+    "variation": "Use the documented subtraction variant: lose one point whenever someone tags you.",
+    "care": "Use light shoulder tags and enough room to turn. Walk if the group begins colliding.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses Playworks’ continuous scoring version; other games with this name use elimination.",
+    "sources": [
+      {
+        "title": "Playworks · Everyone’s It Tag",
+        "url": "https://www.playworks.org/game-library/everyones-it-tag/"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": false
+  },
+  {
+    "id": "stuck-in-the-mud",
+    "name": "Stuck in the Mud",
+    "aliases": [
+      "Freeze Tag",
+      "Two-person Rescue Tag"
+    ],
+    "family": "chase",
+    "tagline": "Escaping is easy. Coming back to help is the game.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      30
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "Freeze tag becomes a rescue mission. As the field fills with stranded friends, free runners have to choose between saving themselves and making a coordinated trip back into the most dangerous part of the court.",
+    "setup": "Choose one or two taggers. Set a two-minute round and let the remaining runners spread out.",
+    "steps": [
+      "Taggers gently tag runners below shoulder height.",
+      "Tagged runners stay still with hands held forward: they are stuck.",
+      "Two free runners rescue a stuck player together: each touches one shoulder and they clap their free hands together.",
+      "The rescued runner can move again. Taggers continue until everybody is stuck or time runs out.",
+      "Rotate taggers and reset the whole group for another round."
+    ],
+    "win": "Taggers win by freezing everyone; runners win if anyone remains free at the timer.",
+    "twist": "Rescue takes two people, so bravery alone is not enough.",
+    "variation": "Hosting adaptation: a pair can rescue by standing beside the player and counting together, without touching.",
+    "care": "No camping beside stuck players. Agree comfortable contact; use the no-touch rescue when preferred.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses the Scouts/RFU two-rescuer variant, not the familiar crawl-under-legs version.",
+    "sources": [
+      {
+        "title": "Scouts · Play stuck in the mud",
+        "url": "https://www.scouts.org.uk/activities/play-stuck-in-the-mud/"
+      }
+    ],
+    "diagram": "chase",
+    "spotlight": false
+  },
+  {
+    "id": "rps-chase",
+    "name": "Rock–Paper–Scissors Chase",
+    "aliases": [
+      "Rock Paper Scissor Tag",
+      "Roshambo Tag"
+    ],
+    "family": "chase",
+    "tagline": "A hand game with a running commentary.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      4,
+      30
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "You cannot prepare to sprint until you know whether you won. A tiny hand gesture instantly decides who chases whom, turning a familiar three-choice game into a brilliant test of reaction.",
+    "setup": "Mark a centre line and a home line on each side. Make two equal lines of players facing a partner at the centre.",
+    "steps": [
+      "Each pair plays rock–paper–scissors on the same count. Replay ties.",
+      "The winner chases; the loser turns toward their own home line.",
+      "A gentle tag before the home line completes the chase. Reaching home means escape.",
+      "Both return to their starting side, whether caught or safe.",
+      "Shift one line along to meet a new opponent and repeat for five rounds."
+    ],
+    "win": "Each chase has a catcher or escapee; the starter version has no elimination or cumulative score.",
+    "twist": "The same person can attack or retreat from one second to the next.",
+    "variation": "Each team can secretly agree one gesture; the losing team runs together and tagged players change teams.",
+    "care": "Use parallel lanes and generous run-off behind home lines. No pushing at the turnaround.",
+    "ruleStatus": "starter",
+    "ruleNote": "Individual-pair rules are the default; team conversion is a documented variation.",
+    "sources": [
+      {
+        "title": "Playworks · Rock Paper Scissor Tag",
+        "url": "https://www.playworks.org/game-library/rock-paper-scissor-tag/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "dragon-tail",
+    "name": "Dragon’s Tail",
+    "aliases": [
+      "Catch the Dragon’s Tail"
+    ],
+    "family": "chase",
+    "tagline": "A very long creature with a very short plan.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      6,
+      12
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "One group becomes one gloriously uncoordinated animal. Its head wants to reach its tail, while the middle has to negotiate every turn; the funniest moment is realising you are helping both sides.",
+    "setup": "Form a line with light hands on the hips or shoulders ahead, where comfortable. Front player is head; last player is tail.",
+    "steps": [
+      "Move at walking pace while staying connected.",
+      "The head tries to gently tag the tail; the tail tries to stay out of reach.",
+      "If the line breaks, everyone pauses, reconnects and starts again.",
+      "When the tail is tagged, stop. The head moves to the back and becomes the new tail.",
+      "Continue until everyone has had a turn at the front."
+    ],
+    "win": "Complete the rotation together; there is no individual elimination.",
+    "twist": "Your pursuer and your escape route are attached to you.",
+    "variation": "Hosting adaptation: use short groups of six so everyone reaches the head more often.",
+    "care": "No yanking, tight whips or running. Let go immediately if anybody loses balance.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses the head-catching-its-own-tail form; pause-on-break is an added hosting rule.",
+    "sources": [
+      {
+        "title": "City of Toronto · Dragon’s Tail Tag",
+        "url": "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/physical-activity/outdoors-the-ultimate-playground/games/go-play-tag/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "capture-the-flag",
+    "name": "Capture the Flag",
+    "aliases": [
+      "CTF"
+    ],
+    "family": "chase",
+    "tagline": "Someone has to make the impossible run.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      10,
+      30
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "2 flags or cloths",
+      "Boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "One player draws attention, another slips through, and somebody takes a detour to rescue a teammate. The best run often belongs to the person nobody noticed until the flag was already moving.",
+    "setup": "Divide a field in half. Each team gets a visible flag zone and a holding zone; establish space around both for defenders to respect.",
+    "steps": [
+      "Enter the opposing half to steal its flag and carry it across the centre line.",
+      "On the opponents’ half, a gentle tag sends you to their holding zone. You are safe on your own half.",
+      "If tagged carrying the flag, return it to its zone and go to the holding area.",
+      "A free teammate can tag one held player to rescue them; both walk safely home before rejoining.",
+      "A successful flag return scores one point. Reset flags and all players; play first to three."
+    ],
+    "win": "First team to return the opposing flag three times wins this starter match.",
+    "twist": "The best attack may begin with a rescue.",
+    "variation": "Use the documented mass-rescue variant: reaching the holding zone frees the whole group.",
+    "care": "No tackling or grabbing flags from hands. Keep defenders back from flag and holding zones.",
+    "ruleStatus": "starter",
+    "ruleNote": "First-to-three scoring is a hosting choice; flag-zone and rescue rules vary locally.",
+    "sources": [
+      {
+        "title": "Playworks · Capture the Flag",
+        "url": "https://www.playworks.org/game-library/capture-the-flag/"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "hoop-rescue",
+    "name": "Hoop Rescue Dodgeball",
+    "aliases": [
+      "Basketball Rescue Dodgeball",
+      "Prison Break Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "One impossible basket. Everybody comes back.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      10,
+      30
+    ],
+    "minutes": [
+      8,
+      15
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "Basketball hoop",
+      "Floor markers"
+    ],
+    "noEquipment": false,
+    "hook": "The team is nearly gone. One player looks past every defender and sends the ball toward the hoop. A single basket can erase the entire collapse: suddenly all those waiting teammates are back.",
+    "setup": "Divide a basketball court into two halves. Mark a floor-level rescue zone behind each team for caught opponents; start with equal balls.",
+    "steps": [
+      "Stay in your half. A direct ball hit below the waist sends you to the rescue zone behind your opponents. Bounced hits do not count.",
+      "Waiting players can catch a pass from their own team to earn a free walk home.",
+      "Active players may catch incoming throws to stay safe; this starter version adds no catch bonus.",
+      "Score in the opponents’ basket without crossing centre and your entire waiting team returns.",
+      "Win a round by sending all opponents to the rescue zone. Reset everyone and rotate starting sides."
+    ],
+    "win": "Send every opponent to the rescue zone before they engineer a comeback.",
+    "twist": "The basketball hoop becomes a team-wide undo button.",
+    "variation": "Hosting adaptation: lower the basket or move a marked shooting line closer for mixed abilities.",
+    "care": "Use floor zones rather than standing on benches. Pause throws while players cross home; no hard or high throws.",
+    "ruleStatus": "starter",
+    "ruleNote": "Based on documented basket rescue; benches and barricades are omitted and catching is simplified.",
+    "sources": [
+      {
+        "title": "Elementary PE Games · Barricade Bench Dodgeball",
+        "url": "https://www.pegames.org/full-length/barricade-bench-dodgeball"
+      }
+    ],
+    "diagram": "dodge",
+    "spotlight": true
+  },
+  {
+    "id": "noodle-keeper",
+    "name": "Noodle Keeper Dodgeball",
+    "aliases": [
+      "Goalkeeper Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "A goalkeeper. A pool noodle. Unreasonable confidence.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      24
+    ],
+    "minutes": [
+      8,
+      15
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "2 pool noodles",
+      "Cones for 2 goals"
+    ],
+    "noEquipment": false,
+    "hook": "Now there is something else to defend. A goalkeeper with a ridiculous foam extension can turn a perfect shot away, while the rest of the team decides whether to target players or the open goal.",
+    "setup": "Make two teams on opposite halves, with a wide cone goal at each end. Choose a keeper per team and mark a small keeper area.",
+    "steps": [
+      "Stay in your half. Direct hits below the waist put players out until the next point; bounced hits do not count.",
+      "A clean catch puts the thrower out. Keepers follow the same body-hit rule.",
+      "Keepers can block with a noodle held low; noodle contact alone does not put them out.",
+      "A rolled or thrown ball passing through the opposing goal below knee height scores one point. Eliminating the whole opposing team also scores one.",
+      "After a point, all players return, balls are shared evenly and keepers rotate. First to three wins."
+    ],
+    "win": "Score three points through goals or full-team eliminations.",
+    "twist": "Dodgeball suddenly has a goal and a specialist defender.",
+    "variation": "House option: remove player eliminations and score only goals for continuous play.",
+    "care": "Use cones, not rigid goalposts. Keep noodles below waist height; never swing at people.",
+    "ruleStatus": "house",
+    "ruleNote": "A user-inspired house game designed for this atlas; the source supports noodle use, not this exact goal ruleset.",
+    "sources": [
+      {
+        "title": "S&S Worldwide · Dodgeball variations, including noodle blocking",
+        "url": "https://www.ssww.com/blog/dodgeball-game-variations-for-summer-camp-recreation/"
+      }
+    ],
+    "diagram": "dodge",
+    "spotlight": true
+  },
+  {
+    "id": "medic-dodgeball",
+    "name": "Medic Dodgeball",
+    "aliases": [
+      "Doctor Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "Find the healer. Protect the comeback.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      10,
+      30
+    ],
+    "minutes": [
+      5,
+      15
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "Boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "Getting hit changes your role instead of ending your game. A secret medic can restore movement, but every rescue reveals a little more about who the other team should be watching.",
+    "setup": "Split a rectangle into two team halves. Each team secretly identifies one medic to the host; distribute balls evenly.",
+    "steps": [
+      "Stay in your half. A direct hit below the waist or a dropped catch makes you stationary; bounced hits do not count.",
+      "Catching a live throw makes the thrower stationary instead.",
+      "Stationary players stay at their spot but may still catch and throw.",
+      "Only a moving medic can restore a teammate with a gentle shoulder tap. Once hit, the medic cannot heal anyone, including themselves.",
+      "The round ends when an entire team is stationary, or after five minutes. Reset and choose new medics."
+    ],
+    "win": "Make every opponent stationary; if time expires, call a draw and rotate medics.",
+    "twist": "Your most valuable player is revealed by helping others.",
+    "variation": "Hosting adaptation: identify medics with a bib for younger groups who need clearer roles.",
+    "care": "Offer a standing stationary pose instead of kneeling. Aim low and give stationary players breathing room.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses the version where stationary players may still throw; a timed draw is our hosting choice.",
+    "sources": [
+      {
+        "title": "Playworks · Medic Dodgeball",
+        "url": "https://www.playworks.org/game-library/medic-dodgeball/"
+      }
+    ],
+    "diagram": "dodge",
+    "spotlight": false
+  },
+  {
+    "id": "gaga",
+    "name": "Gaga",
+    "aliases": [
+      "Ga-Ga Ball",
+      "Octoball"
+    ],
+    "family": "dodge",
+    "tagline": "All the drama happens below the knees.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      6,
+      18
+    ],
+    "minutes": [
+      3,
+      8
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "medium",
+    "equipment": [
+      "Soft foam ball",
+      "Safe Gaga pit or low-sided enclosure"
+    ],
+    "noEquipment": false,
+    "hook": "A rebound you barely noticed becomes the next threat. Inside a small shared arena, everyone slaps the same ball low and keeps their feet moving; even a self-inflicted bounce can end your round.",
+    "setup": "Use a safe pit with clear entry and exit. Everyone starts with a hand on the wall; a host drops the ball in the centre.",
+    "steps": [
+      "Call “ga, ga, go” on three bounces; play begins on “go”.",
+      "Strike the ball with an open hand. Do not carry, throw or kick it.",
+      "A ball touching you below the knee puts you out, even from your own hit. Exit carefully.",
+      "A clean airborne catch puts the last hitter out. If the ball leaves the pit, its last toucher is out; pause, retrieve and restart with three bounces.",
+      "The last player in wins; everyone returns for the next short round."
+    ],
+    "win": "Be the final player in the pit.",
+    "twist": "The walls keep yesterday’s shot alive as tomorrow’s problem.",
+    "variation": "Common local option: forbid consecutive touches until the ball hits a wall or another player.",
+    "care": "Use a soft ball and uncrowded pit. Do not climb or sit on the walls; adapt the target zone with the group.",
+    "ruleStatus": "starter",
+    "ruleNote": "Combines the Gaga Center’s below-knee game with a documented ball-out rule; double-touch rules differ by venue.",
+    "sources": [
+      {
+        "title": "The Gaga Center · Rules of Gaga Ball",
+        "url": "https://www.gagacenter.com/about/what-is-gaga/"
+      },
+      {
+        "title": "Medford Public Schools · Gaga Pit Rules",
+        "url": "https://www.mps02155.org/students-families/gaga-pit-rules"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "four-corners",
+    "name": "Four-Corner Dodgeball",
+    "aliases": [
+      "4-Way Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "Three opponents. Nowhere to hide your weak side.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      12,
+      32
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "A front line is comforting until attacks can come from three directions. Four teams share a court, making every safe-looking corner part of somebody else’s shooting angle.",
+    "setup": "Divide a court into four equal squares. Put one team and an equal number of soft balls in each square.",
+    "steps": [
+      "Stay within your square and throw only below opponents’ waists.",
+      "A direct live hit puts you out; a floor bounce makes the ball dead.",
+      "Catch a live throw and its thrower is out. No catch rescues in this starter round.",
+      "Out players wait beyond the court; a team with nobody left is eliminated.",
+      "The last team with active players wins. At three minutes, stop and reset everyone if no team has won."
+    ],
+    "win": "Be the last team with players in the court, or draw at the time limit.",
+    "twist": "Defending one boundary leaves two others exposed.",
+    "variation": "Hosting adaptation: freeze all balls, rotate teams one square, then restart on the host’s signal.",
+    "care": "Split large groups across courts. No throwing into waiting areas; leave a buffer between players and walls.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses four-team elimination; rotation is an optional stopped-play adaptation.",
+    "sources": [
+      {
+        "title": "The Summer Camp Source · 4 Way Dodgeball",
+        "url": "https://thesummercampsource.com/4-way-dodgeball/"
+      },
+      {
+        "title": "Recess Cleveland · 4-Corner Dodgeball",
+        "url": "https://app.recesscleveland.com/games/4-corner-dodgeball"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "two-pin",
+    "name": "Two-Pin Dodgeball",
+    "aliases": [
+      "Two Pin Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "Two targets. Two chances to turn everything around.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      24
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "4 light plastic pins",
+      "Boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "Players can dodge, but the pins cannot. Suddenly defenders have to commit to a place, and a desperate shot at a distant target can both revive your whole team and put victory within reach.",
+    "setup": "Split the court into halves. Each team places two light pins near its back line and starts with equal balls.",
+    "steps": [
+      "Remain in your half. Direct hits below the waist eliminate; bounced hits do not count.",
+      "A clean catch eliminates the thrower but does not rescue a teammate.",
+      "Knock over an opposing pin with a ball and every eliminated player on your team returns.",
+      "Leave knocked-down pins down. Do not move or hold your own pins during play.",
+      "Knock both opposing pins down, or eliminate all opposing players, to win. Reset pins and players for the next round."
+    ],
+    "win": "Win through either two fallen pins or one fully eliminated team.",
+    "twist": "A target doubles as a life refill.",
+    "variation": "House option: use only target scoring, with no player elimination, for a gentler round.",
+    "care": "Use lightweight pins and soft balls. Defend from in front without standing on or grabbing the pin.",
+    "ruleStatus": "starter",
+    "ruleNote": "This documented form rescues players only through pins, not catches.",
+    "sources": [
+      {
+        "title": "The Summer Camp Source · 2 Pin Dodgeball",
+        "url": "https://thesummercampsource.com/2-pin-dodgeball/"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "castleball",
+    "name": "Castleball",
+    "aliases": [
+      "Castle Ball",
+      "Hula-Hoop Castleball"
+    ],
+    "family": "dodge",
+    "tagline": "Build it. Defend it. Try not to love it too much.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      30
+    ],
+    "minutes": [
+      8,
+      15
+    ],
+    "ages": "8+",
+    "energy": 2,
+    "space": "large",
+    "equipment": [
+      "24 sturdy hula hoops",
+      "Soft foam balls"
+    ],
+    "noEquipment": false,
+    "hook": "The target is something your team just built. Attackers, blockers and hurried rebuilders are all useful, so the game keeps generating small jobs even when throwing is not your favourite part.",
+    "setup": "Make two teams on separate halves. Each builds two castles: one hoop flat, four leaning sides, one resting on top.",
+    "steps": [
+      "Practise making stable castles before adding balls.",
+      "On the signal, throw from your half to knock down opposing castles.",
+      "Players may block or catch, but never cross the centre. Hits on players do not eliminate them.",
+      "Each toppled castle scores one for the attacking team. Rebuild fallen castles while play continues.",
+      "Stop after five minutes, compare scores and rebuild for another round."
+    ],
+    "win": "Most castles toppled during the timed round wins.",
+    "twist": "Construction is an active role in the middle of the match.",
+    "variation": "Hosting adaptation: begin with one castle per team and pause play for rebuilds.",
+    "care": "Keep castles away from walls. Aim at structures, use soft balls, and protect a working rebuilder’s space.",
+    "ruleStatus": "starter",
+    "ruleNote": "This is target-only Castleball; player-elimination versions also exist.",
+    "sources": [
+      {
+        "title": "PHYSEDGAMES · Castleball",
+        "url": "https://physedgames.com/castleball/"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": true
+  },
+  {
+    "id": "protect-president",
+    "name": "Protect the President",
+    "aliases": [
+      "VIP Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "The strongest thrower may not be your most important player.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      24
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "2 identifying bibs"
+    ],
+    "noEquipment": false,
+    "hook": "Your team can be winning everywhere and still lose in one moment. The protected player changes everyone’s priorities: a good block, a quiet position and a timely rescue become as valuable as a throw.",
+    "setup": "Make two teams on opposite court halves. Each identifies a president who dodges but does not throw. Rotate this role every round.",
+    "steps": [
+      "Stay on your half and throw below the waist. A direct live hit eliminates a guard; a bounced ball is dead.",
+      "Guards can catch incoming balls: the thrower goes out and one waiting teammate returns.",
+      "Guards defend without grabbing or surrounding the president with contact. The president may move within their half.",
+      "A legal hit on the opposing president immediately wins the round.",
+      "After three minutes without a winner, draw. Reset all players and choose new presidents."
+    ],
+    "win": "Land a legal below-waist hit on the opposing president.",
+    "twist": "One player’s survival matters more than the scoreboard.",
+    "variation": "Hosting adaptation: keep the president secret, with the host checking the choice before play.",
+    "care": "Use soft balls; no diving in front of shots or close-range volleys. Allow anyone to decline the president role.",
+    "ruleStatus": "starter",
+    "ruleNote": "Visible, non-throwing presidents and a three-minute draw are hosting adaptations.",
+    "sources": [
+      {
+        "title": "The Summer Camp Source · Protect the President",
+        "url": "https://thesummercampsource.com/protect-the-president/"
+      }
+    ],
+    "diagram": "dodge",
+    "spotlight": false
+  },
+  {
+    "id": "nationball",
+    "name": "Nationball",
+    "aliases": [
+      "Nation Ball",
+      "Outside Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "Out of the court. Still very much in the game.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      10,
+      30
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "Boundary markers"
+    ],
+    "noEquipment": false,
+    "hook": "Eliminating an opponent opens a new threat behind you. Players outside the court can still attack and pass, turning a familiar two-sided game into a problem of front, back and everywhere between.",
+    "setup": "Make two team halves. Give each team an outside lane behind its opponents, separated from the active court by a two-metre no-throw buffer.",
+    "steps": [
+      "Start with equal balls. From your half, throw below opposing players’ waists.",
+      "A direct hit sends a player outside to their team’s assigned lane; floor-bounced hits do not count.",
+      "Outside players can collect loose balls, pass to teammates and throw at active opponents. They stay outside for the round.",
+      "Active players may catch live throws to make them safe; this starter version has no catch bonus or revival.",
+      "When one team has nobody inside, the other wins. Reset everyone and switch starting sides."
+    ],
+    "win": "Leave the opposing team with no active players inside the court.",
+    "twist": "Elimination changes your position rather than ending your participation.",
+    "variation": "Hosting adaptation: outside players pass only, reducing the number of attack directions.",
+    "care": "Use a clear separation between inside players and outside throwers. No shots from point-blank range.",
+    "ruleStatus": "starter",
+    "ruleNote": "Uses the no-return outside-player version; rear lanes, a buffer and simplified catches are hosting adaptations.",
+    "sources": [
+      {
+        "title": "The Summer Camp Source · Nation Ball",
+        "url": "https://thesummercampsource.com/nation-ball/"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "sprout-ball",
+    "name": "Sprout Ball",
+    "aliases": [
+      "Resurrection Dodgeball",
+      "Sproutball"
+    ],
+    "family": "dodge",
+    "tagline": "Remember who got you. Their downfall is your comeback.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      24
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls"
+    ],
+    "noEquipment": false,
+    "hook": "The player who put you out is now the most interesting person on the court. As soon as they fall, you return; one well-placed shot can suddenly bring a whole cluster of rivals back.",
+    "setup": "Use one open, bounded space with no teams. Spread the players out and start with two or three soft balls.",
+    "steps": [
+      "A player holding a ball gets at most three steps and five seconds to throw below another player’s waist.",
+      "A direct hit or dropped catch makes you a stationary “seed” who cannot handle balls; floor-bounced hits do not count.",
+      "Catch a live throw and its thrower becomes a seed instead.",
+      "Remember the person who got you: when they become a seed, you immediately return as a moving sprout.",
+      "Finish when only one sprout remains or the timer ends. Reset all seeds for the next round."
+    ],
+    "win": "Be the last moving sprout; a timed round may finish without a sole winner.",
+    "twist": "Every elimination leaves a chain of possible revivals.",
+    "variation": "Documented option: seeds can reach for nearby balls and throw to free themselves.",
+    "care": "Use a standing seed pose if kneeling is unsuitable. Keep shots low and leave stationary players space.",
+    "ruleStatus": "starter",
+    "ruleNote": "The eliminator-linked return is central; this starter omits the source’s three-bounce opening.",
+    "sources": [
+      {
+        "title": "Playworks · Sprout Ball",
+        "url": "https://www.playworks.org/game-library/sprout-ball/"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": true
+  },
+  {
+    "id": "money-ball",
+    "name": "Money Ball Dodgeball",
+    "aliases": [
+      "Power Ball Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "One ball. Two ways to turn the game.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      8,
+      24
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "8+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft foam balls",
+      "1 larger soft ball in a distinct colour"
+    ],
+    "noEquipment": false,
+    "hook": "One ball carries completely different stakes. A hit brings somebody back; a catch ends the entire round. Both teams watch it nervously, because hanging onto it is not an option.",
+    "setup": "Divide a court into team halves. Identify the larger, soft money ball clearly and agree a five-second possession limit.",
+    "steps": [
+      "Stay in your half. Direct below-waist hits eliminate players; bounced hits do not count.",
+      "Ordinary-ball catches eliminate the thrower but never revive teammates.",
+      "A team holding the money ball must throw it across centre within five seconds; deliberately rolling it loses that thrower.",
+      "A legal money-ball hit eliminates its target and returns one waiting player from the throwing team.",
+      "Catch a live money-ball throw to win immediately. Eliminating every opponent also wins; reset for another round."
+    ],
+    "win": "Catch the money ball or eliminate the whole opposing team.",
+    "twist": "The strongest comeback tool is also an instant-loss risk.",
+    "variation": "House option: a money-ball catch rescues the whole team instead of ending the game.",
+    "care": "The special ball must still be soft and light. No hard throws or aiming above the waist.",
+    "ruleStatus": "starter",
+    "ruleNote": "Five-second possession is a hosting addition; the rescue and instant-catch win are documented.",
+    "sources": [
+      {
+        "title": "The Summer Camp Source · Money Ball Dodgeball",
+        "url": "https://thesummercampsource.com/money-ball-dodgeball/"
+      }
+    ],
+    "diagram": "dodge",
+    "spotlight": false
+  },
+  {
+    "id": "rollerball",
+    "name": "Rollerball",
+    "aliases": [
+      "Rolling Dodgeball"
+    ],
+    "family": "dodge",
+    "tagline": "Dodgeball gets down to earth.",
+    "region": "Playgrounds & camps worldwide",
+    "country": "Worldwide",
+    "players": [
+      4,
+      12
+    ],
+    "minutes": [
+      3,
+      8
+    ],
+    "ages": "5+",
+    "energy": 2,
+    "space": "small",
+    "equipment": [
+      "1 soft ball",
+      "Floor markers"
+    ],
+    "noEquipment": false,
+    "hook": "With one rolling ball and one clear direction of attack, the game becomes wonderfully readable. A small sidestep matters more than a powerful throw, making it an easy first taste of dodging.",
+    "setup": "Mark a wide dodging strip and a separate rolling line a few metres away. Choose one roller; everyone else starts in the strip.",
+    "steps": [
+      "The roller sends the ball along the floor toward the dodgers’ feet.",
+      "Dodgers stay inside their strip and move sideways to avoid contact.",
+      "A below-waist rolling hit sends a dodger to the waiting area for this short round. High throws do not count.",
+      "Pause while the ball is retrieved; restart only when everybody is ready.",
+      "The last dodger becomes the next roller. All players return for the new round."
+    ],
+    "win": "Be the last dodger; then take a turn as roller.",
+    "twist": "One low ball makes tiny changes of direction matter.",
+    "variation": "Hosting adaptation: give everyone three lives so early hits do not end their turn immediately.",
+    "care": "Use floor markings instead of lining bodies directly against a wall. Roll gently; never kick or throw the ball.",
+    "ruleStatus": "starter",
+    "ruleNote": "Based on Playworks’ rolling game; a marked strip replaces the wall and retrieval is paused.",
+    "sources": [
+      {
+        "title": "Playworks · Rollerball",
+        "url": "https://www.playworks.org/game-library/rollerball/"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  }
+]

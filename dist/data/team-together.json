@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "tchoukball",
+    "name": "Tchoukball",
+    "aliases": [],
+    "family": "team",
+    "tagline": "Two teams. Two targets. Both belong to everyone.",
+    "region": "Switzerland / international clubs",
+    "country": "Switzerland",
+    "players": [
+      8,
+      14
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "10+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Two rebound frames",
+      "Soft handball",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "Your opponents must let you pass and shoot. Their job begins when the ball ricochets off the net. Suddenly, defence means reading geometry, and either end of the court can become your target.",
+    "setup": "Place a rebound frame at each end of a rectangular court, each inside a marked 3 m semicircle. Make two teams; begin outside the semicircles.",
+    "steps": [
+      "Pass freely without interference. Hold for at most three seconds, take at most three steps, and shoot within three team passes.",
+      "Shoot at either frame. After three consecutive shots at one frame, the next shot must use the other.",
+      "Score one if the rebound lands in court outside the semicircle. A defender catching it starts their team's attack.",
+      "A shot missing the frame, rebounding out, or landing inside the semicircle gives the opposition one point. Dropped passes give them possession.",
+      "After a point, the conceding team restarts behind that baseline. After a passing fault, touch the ball to the floor before passing."
+    ],
+    "win": "Play a 10-minute introduction; most points wins.",
+    "twist": "Nobody owns a goal, and intercepting is forbidden.",
+    "variation": "Teaching adaptation: begin with one frame and alternate attacks.",
+    "care": "Secure frames; leave landing room. Start with standing shots and no dives.",
+    "ruleStatus": "starter",
+    "ruleNote": "Condensed introduction; consult the federation rules for frame faults and competition details.",
+    "sources": [
+      {
+        "title": "Tchoukball UK — How to Play",
+        "url": "https://www.tchoukball.org.uk/how-to-play/"
+      },
+      {
+        "title": "FITB — Rules of Tchoukball",
+        "url": "https://fitb.org/rules/"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": true
+  },
+  {
+    "id": "kin-ball",
+    "name": "KIN-BALL",
+    "aliases": [
+      "Kinball",
+      "Omnikin"
+    ],
+    "family": "team",
+    "tagline": "Call a colour. Launch a very big problem.",
+    "region": "Québec, Canada / international clubs",
+    "country": "Canada",
+    "players": [
+      12,
+      12
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "10+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "KIN-BALL sport ball",
+      "Three colours of bibs",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "Three teams share one court and an enormous lightweight ball. You only become the receiving team when your colour is called, so anticipation matters just as much as the frantic collective catch.",
+    "setup": "Make three teams of four, each with a colour. Clear a generous indoor court; keep everyone away from walls and overhead fittings.",
+    "steps": [
+      "Three teammates support the ball; the fourth calls 'Omnikin' and another team's colour before hitting it.",
+      "Send the ball outward or upward, never downward. For this introduction, require it to travel at least 3 m.",
+      "The called team must control it before it reaches the floor. Everyone else gives them space.",
+      "After a successful catch, that team prepares the next hit. Rotate hitters so one player never hits twice consecutively.",
+      "If a team drops the ball, sends it out, or commits a fault, both other teams score one. The faulting team restarts."
+    ],
+    "win": "After 10 minutes, the team with the most points wins; a tie may stand.",
+    "twist": "Every error helps two opponents at once.",
+    "variation": "Teaching adaptation: call the colour before setting the ball to give receivers extra time.",
+    "care": "Use the proper lightweight ball. Practise group catches; no body contact or blocking.",
+    "ruleStatus": "starter",
+    "ruleNote": "Teaching format with a 3 m minimum; competitive call restrictions, timing and period scoring are more detailed.",
+    "sources": [
+      {
+        "title": "Kin-Ball Association of Singapore — About the Sport",
+        "url": "https://www.kinball.sg/about-kin-ball-sport/"
+      },
+      {
+        "title": "Kin-Ball Federation of India — Basic Rules",
+        "url": "https://www.kin-ball.in/"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": true
+  },
+  {
+    "id": "ultimate",
+    "name": "Ultimate",
+    "aliases": [
+      "Ultimate Frisbee",
+      "Flying disc"
+    ],
+    "family": "team",
+    "tagline": "The disc flies. The thrower stays put.",
+    "region": "United States / international clubs",
+    "country": "United States",
+    "players": [
+      6,
+      14
+    ],
+    "minutes": [
+      10,
+      25
+    ],
+    "ages": "9+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Flying disc",
+      "Eight cones"
+    ],
+    "noEquipment": false,
+    "hook": "A beautifully floating pass can do what sprinting cannot: carry the attack across the field. Everyone can become the next receiver, and players share responsibility for making honest calls.",
+    "setup": "Mark a rectangular field with an end zone at each end. Split into equal teams; scale the field to the group's throwing range.",
+    "steps": [
+      "Start on opposite end-zone lines. The defending team throws the disc to the attackers to begin the point.",
+      "Catch, stop, and pivot to pass. You cannot run with the disc; teammates move to find space.",
+      "A nearby marker counts ten seconds aloud. A drop, interception, out-of-bounds pass or completed stall turns possession over immediately.",
+      "Catch a teammate's pass inside the opponents' end zone for one point. Change ends; the scoring team throws the next opening disc.",
+      "Avoid contact and resolve disputed calls together. If a foul call is contested, replay the affected pass."
+    ],
+    "win": "For a short game, first to five points wins.",
+    "twist": "Movement belongs to the receivers; fair play belongs to everyone.",
+    "variation": "Teaching adaptation: allow 15 seconds to throw while beginners learn to pivot.",
+    "care": "Use a soft disc with beginners; leave clear run-off space and avoid diving near others.",
+    "ruleStatus": "starter",
+    "ruleNote": "Small-sided introduction using USA Ultimate's basic rules, with a shorter scoring target.",
+    "sources": [
+      {
+        "title": "USA Ultimate — Ultimate in 10 Simple Rules",
+        "url": "https://usaultimate.org/rules/10-simple-rules/"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "jugger",
+    "name": "Jugger",
+    "aliases": [
+      "Foam Jugger",
+      "Jugg"
+    ],
+    "family": "team",
+    "tagline": "Escort your runner through a forest of foam.",
+    "region": "Germany / international Jugger communities",
+    "country": "Germany",
+    "players": [
+      10,
+      10
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "14+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Checked padded Jugger spars",
+      "Foam ball",
+      "Two ground goals",
+      "Beat timer"
+    ],
+    "noEquipment": false,
+    "hook": "Only one player per team can score. Everyone else clears a route with carefully controlled foam tags, while a steady beat decides when tagged players can return to the action.",
+    "setup": "Two teams each choose one unarmed runner and four spar players. Put a foam ball at centre and a ground goal near each baseline.",
+    "steps": [
+      "On 'Jugger!', runners try to collect the ball. Only runners may carry it or place it in the opposing goal.",
+      "Spar players use gentle padded tags on agreed body zones below the shoulders. This introduction excludes chains, wrestling and pinning.",
+      "A tagged player raises a hand, kneels if comfortable, and counts five audible beats, 1.5 seconds apart. Then they rejoin.",
+      "A tagged runner immediately puts the ball down. Simultaneous tags deactivate both players; nobody grabs or blocks bodies.",
+      "Placing the ball in the opposing goal scores one. Reset everyone to baselines and the ball to centre. Rotate runners between points."
+    ],
+    "win": "First to three points wins the introductory match.",
+    "twist": "The scorer has no spar; the protectors cannot score.",
+    "variation": "Teaching adaptation: try walking Jugger before increasing the pace.",
+    "care": "Learn with an experienced facilitator and inspected equipment. Exclude head, neck, hands and groin; stop on hard contact.",
+    "ruleStatus": "house",
+    "ruleNote": "Recreational introduction derived from Jugger; several contact and equipment rules are deliberately removed.",
+    "sources": [
+      {
+        "title": "Swedish Jugger Association — Rules of the Game",
+        "url": "https://jugger.se/en/about-jugger/rules-of-the-game/"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "roundnet",
+    "name": "Roundnet",
+    "aliases": [
+      "Spikeball"
+    ],
+    "family": "team",
+    "tagline": "Volleyball turned sideways, with no side to defend.",
+    "region": "International clubs / parks and beaches",
+    "country": "Worldwide",
+    "players": [
+      4,
+      4
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "10+",
+    "energy": 3,
+    "space": "medium",
+    "equipment": [
+      "Roundnet set",
+      "Roundnet ball"
+    ],
+    "noEquipment": false,
+    "hook": "The net lies flat like a tiny trampoline. Once the serve bounces, the whole circle becomes available, and an innocent set can turn into a shot behind everyone's backs.",
+    "setup": "Put the round net on level ground with clear space all around. Two pairs stand around it; the server faces the receiver.",
+    "steps": [
+      "Serve by striking the ball down onto the net so it rebounds towards the receiver. Use easy serves to begin.",
+      "The receiving pair has up to three alternating touches to send the ball back onto the net. No catching or carrying.",
+      "After the serve, move around all 360 degrees. Give opponents room to reach the ball; replay an obstructed rally.",
+      "A ground touch, rim hit, double bounce on the net, or failure to return within three touches gives the opponents one point.",
+      "The point-winning team serves next; alternate your team's server when regaining service. Reset positions for each serve."
+    ],
+    "win": "Play to 11, winning by two, for a short introductory game.",
+    "twist": "There is no permanent 'your side' once a rally starts.",
+    "variation": "Teaching adaptation: permit one catch-and-toss as the first touch.",
+    "care": "Do not jump into the net or dive into another player's path.",
+    "ruleStatus": "house",
+    "ruleNote": "Casual starter format; current competition rules add service, boundary and no-drop-zone details.",
+    "sources": [
+      {
+        "title": "Australian Roundnet Association — Roundnet Basics",
+        "url": "https://roundnet.com.au/pages/go-play"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "danish-longball",
+    "name": "Danish Longball",
+    "aliases": [
+      "Swedish longball",
+      "Longball"
+    ],
+    "family": "team",
+    "tagline": "One faraway safe base. A very tempting journey home.",
+    "region": "Scandinavia / school games",
+    "country": "Denmark",
+    "players": [
+      8,
+      24
+    ],
+    "minutes": [
+      15,
+      25
+    ],
+    "ages": "9+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Foam bat",
+      "Soft ball",
+      "Cones",
+      "Two base areas"
+    ],
+    "noEquipment": false,
+    "hook": "The safe base can fill with a whole crowd of runners, all waiting for the same opening. The fielders must decide whether to pursue an out or shut the journey down.",
+    "setup": "Mark a home base and a runner base roughly 10–20 m apart. Split into batting and fielding teams; assign a pitcher and a batting order.",
+    "steps": [
+      "The pitcher tosses underarm. After one swing, hit or miss, place the bat down and run to the far base.",
+      "A runner may wait at the far base with others, then attempt a return when play is live. Once returning, keep going.",
+      "An airborne catch puts the batter out; a gentle ball-in-hand tag puts a runner out between bases. Never throw at runners.",
+      "Fielders can return the ball to the pitcher, who calls 'Freeze'. In this version, untagged runners return to their last safe base.",
+      "Each completed out-and-back run scores one. Three outs switch the teams; runners still waiting are cleared."
+    ],
+    "win": "Play three equal batting innings each; highest total wins.",
+    "twist": "Several runners can share the safe base and burst home together.",
+    "variation": "Use a batting tee so everyone can make a controlled first hit.",
+    "care": "Mark a bat exclusion area. Fielders and waiting batters stay outside it.",
+    "ruleStatus": "house",
+    "ruleNote": "Based on a PE teaching version; the freeze/reset rule is explicitly simplified here.",
+    "sources": [
+      {
+        "title": "ThePhysicalEducator — Danish Longball",
+        "url": "https://www.thephysicaleducator.com/games/danish-longball"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "newcomb",
+    "name": "Newcomb",
+    "aliases": [
+      "Newcombe ball",
+      "Catch volleyball"
+    ],
+    "family": "team",
+    "tagline": "Catch your breath. Then find the empty space.",
+    "region": "School and recreation courts worldwide",
+    "country": "Worldwide",
+    "players": [
+      4,
+      12
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "6+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Soft ball",
+      "Low net or visible ribbon",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "The satisfying tactics of volleyball arrive before the tricky ball skills. Catching gives everyone a moment to scan the other court, spot the gap, and choose where the next problem lands.",
+    "setup": "Split a small rectangular court with a low net. Make equal teams, spreading players across each half.",
+    "steps": [
+      "A player behind the back line throws the ball over the net to start. The other side catches it before it lands.",
+      "The catcher stays in place and throws back within three seconds. Keep feet on the ground; no blocking or spiking.",
+      "For this simple version, the catcher returns directly rather than passing to teammates.",
+      "If a ball lands inside the opposing court, score one. A throw into the net, out of bounds, or dropped catch gives the other team one.",
+      "The team that won the point serves. Rotate the server each time your team gains service so everyone has a turn."
+    ],
+    "win": "First to 11 points wins; no player is eliminated.",
+    "twist": "Catching changes the pace, but placement still wins rallies.",
+    "variation": "Progress to a caught first contact followed by a volleyball-style return.",
+    "care": "Use a light ball and lower the net to suit throwing reach. Keep the net clearly visible.",
+    "ruleStatus": "starter",
+    "ruleNote": "A simple catch-and-throw teaching version; Newcomb scoring and passing conventions vary.",
+    "sources": [
+      {
+        "title": "Coaching Volleyball — Game: Newcomb",
+        "url": "https://coachingvb.com/game-newcomb/"
+      }
+    ],
+    "diagram": "net",
+    "spotlight": false
+  },
+  {
+    "id": "endball",
+    "name": "Endball",
+    "aliases": [
+      "End ball",
+      "Goalie endball"
+    ],
+    "family": "team",
+    "tagline": "Your goal is a teammate who can catch.",
+    "region": "School PE / invasion-game teaching",
+    "country": "Worldwide",
+    "players": [
+      6,
+      12
+    ],
+    "minutes": [
+      8,
+      15
+    ],
+    "ages": "7+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Soft ball",
+      "Court markers",
+      "Team bibs"
+    ],
+    "noEquipment": false,
+    "hook": "Instead of aiming at a fixed goal, find your teammate sliding along the end line. Everyone must contribute to the attack, so the quiet player in space can be the crucial link.",
+    "setup": "Mark a rectangle with an end line at each end. Each team stations one catcher behind the opposite end line; others play inside.",
+    "steps": [
+      "Start with one team at its own end. Pass underarm through the court; the ball-holder stays still in this version.",
+      "Everyone on the playing court must touch the ball during the possession before your team can score.",
+      "Defenders can intercept passes but cannot touch the ball-holder or knock the ball from their hands.",
+      "A legal pass caught by your end-line catcher scores one. The catcher may move along the line while staying behind it.",
+      "Rotate the scoring team's catcher, then give the other team a restart. Dropped or out-of-bounds passes also turn possession over."
+    ],
+    "win": "Play eight minutes; highest score wins.",
+    "twist": "The target moves, and every teammate has to join the passing chain.",
+    "variation": "Teaching adaptation: remove the all-touch condition for a first practice round.",
+    "care": "Give the catcher clear space behind the line. Match passes to the receiver's reach.",
+    "ruleStatus": "starter",
+    "ruleNote": "Based on the University of Victoria activity; possession restarts and stationary passing are specified for this introduction.",
+    "sources": [
+      {
+        "title": "University of Victoria — Endball Activity Sheet",
+        "url": "https://web.uvic.ca/~thopper/tactic/Units/KristinaJamie/PE452%20Project/activity%20sheets/endball.html"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "speedball",
+    "name": "Speedball",
+    "aliases": [
+      "Soccer-handball speedball"
+    ],
+    "family": "team",
+    "tagline": "The ball hits the floor. The sport changes.",
+    "region": "United States / school PE",
+    "country": "United States",
+    "players": [
+      8,
+      16
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "10+",
+    "energy": 3,
+    "space": "large",
+    "equipment": [
+      "Soft football-sized ball",
+      "Two cone goals",
+      "End-zone markers"
+    ],
+    "noEquipment": false,
+    "hook": "One moment you are playing a passing game with your hands. A dropped ball instantly turns it into football, until a carefully lofted kick brings it back into someone's hands again.",
+    "setup": "Mark a rectangle with a cone goal and a shallow end zone at each end. Make two equal teams; begin with a free pass at centre.",
+    "steps": [
+      "A ball on the ground must be played with feet. Dribble or pass; nobody simply picks it up.",
+      "A controlled kick caught before touching the ground turns it into an aerial ball. Now teammates may throw and catch.",
+      "A ball-holder must pass, shoot or drop it within three seconds or three steps. A drop immediately restores feet-only play.",
+      "In this version, kick a ground ball through the opposing cone goal for three points, or catch a pass in their end zone for one.",
+      "After scoring, the other team takes a free pass at centre. Interceptions change possession; out-of-bounds balls give opponents a free pass at that edge."
+    ],
+    "win": "After 10 minutes, the higher score wins.",
+    "twist": "The ball's relationship with the ground selects the rules.",
+    "variation": "Teaching adaptation: make every score worth one while learning the transitions.",
+    "care": "No high kicks, slide tackles or body contact. Loft passes only into clear space.",
+    "ruleStatus": "house",
+    "ruleNote": "Compact version of school Speedball; basketball scoring and advanced kicks are omitted.",
+    "sources": [
+      {
+        "title": "Cranford High School — Speedball Study Guide",
+        "url": "https://chs.cranfordschools.org/athletics/pe_links/speedball.html"
+      }
+    ],
+    "diagram": "territory",
+    "spotlight": false
+  },
+  {
+    "id": "korfball",
+    "name": "Korfball",
+    "aliases": [
+      "Korfbal"
+    ],
+    "family": "team",
+    "tagline": "Before you can shoot, you have to get free.",
+    "region": "Netherlands / international clubs",
+    "country": "Netherlands",
+    "players": [
+      16,
+      16
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "10+",
+    "energy": 2,
+    "space": "large",
+    "equipment": [
+      "Two korfball posts",
+      "Ball",
+      "Court markers",
+      "Team bibs"
+    ],
+    "noEquipment": false,
+    "hook": "A basket without a backboard can be attacked from every direction. But a well-positioned defender makes a shot illegal, so clever passing and movement matter more than simply shooting over someone.",
+    "setup": "Use two court halves with a basket in each. Each eight-player team puts four attackers in one half and four defenders in the other.",
+    "steps": [
+      "Stay in your assigned half. Move the ball by passing; do not run or dribble while holding it.",
+      "In this introduction, agree matched defending pairs before play. Defenders may intercept but cannot take a held ball or make contact.",
+      "A shot is defended if the assigned opponent faces you, stands between you and the basket within arm's reach, and actively tries to block it.",
+      "An undefended shot through the basket scores one. A defended shot gives possession to the defence, even if it goes in.",
+      "The conceding team restarts at centre after a score. After every two total goals, swap halves and attacking/defending roles."
+    ],
+    "win": "Play 10 minutes; most goals wins.",
+    "twist": "Good defence removes the shot itself, not just its chance of success.",
+    "variation": "Use lower baskets to make passing and finding space the main challenge.",
+    "care": "Secure posts and leave clearance around them. Agree balanced matchups collaboratively.",
+    "ruleStatus": "house",
+    "ruleNote": "Introductory matched-pair adaptation; official Korfball uses mixed teams and same-gender defending rules.",
+    "sources": [
+      {
+        "title": "Swiss Korfball — What Is Korfball?",
+        "url": "https://www.swisskorfball.ch/what-is-korfball_en.html"
+      }
+    ],
+    "diagram": "target",
+    "spotlight": false
+  },
+  {
+    "id": "sitting-volleyball",
+    "name": "Sitting Volleyball",
+    "aliases": [
+      "Sitzvolleyball",
+      "Volley assis"
+    ],
+    "family": "team",
+    "tagline": "Lower the net. Discover a completely different rally.",
+    "region": "International ParaVolley clubs",
+    "country": "Worldwide",
+    "players": [
+      6,
+      12
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "9+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Volleyball or light training ball",
+      "Low net",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "The floor becomes part of the technique. Quick hand-supported movement, low angles and a net close to eye level make familiar volleyball decisions feel wonderfully different, even to experienced standing players.",
+    "setup": "Use a smooth, clean court up to 10 × 6 m with a low net around 1.1 m. Start seated, with equal teams on each side.",
+    "steps": [
+      "Serve from behind your end line. Keep part of your torso in contact with the floor when playing the ball in this introduction.",
+      "Use up to three team contacts to return it over the net. Do not catch or throw; consecutive contacts by one player are normally faults.",
+      "Players move along the floor to cover space. Blocking the serve is allowed, unlike in standing volleyball.",
+      "A ball landing inside the opposition's court scores one. A fault or ball out gives the opponents one; every rally scores.",
+      "The point winner serves. When service changes teams, rotate the serving order so everyone participates."
+    ],
+    "win": "For an introduction, first to 15 points with a two-point lead wins.",
+    "twist": "A lower viewpoint changes both the attack angles and the movement skills.",
+    "variation": "Teaching adaptation: permit a catch on the first contact with a soft training ball.",
+    "care": "Check floor comfort and shoulder load. Agree suitable movement adaptations; do not assume sitting suits every body.",
+    "ruleStatus": "starter",
+    "ruleNote": "Short recreational set; full ParaVolley rules contain contact exceptions and competition eligibility details.",
+    "sources": [
+      {
+        "title": "World ParaVolley — Sitting Volleyball",
+        "url": "https://worldparavolley.org/disciplines/sitting-volleyball/"
+      }
+    ],
+    "diagram": "net",
+    "spotlight": false
+  },
+  {
+    "id": "hooverball",
+    "name": "Hooverball",
+    "aliases": [
+      "Hoover-Ball",
+      "Light-ball Hooverball"
+    ],
+    "family": "team",
+    "tagline": "Catch, return, repeat. No teammate can bail you out.",
+    "region": "United States / historic White House exercise game",
+    "country": "United States",
+    "players": [
+      4,
+      8
+    ],
+    "minutes": [
+      10,
+      20
+    ],
+    "ages": "12+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Light foam training ball",
+      "Net",
+      "Court markers"
+    ],
+    "noEquipment": false,
+    "hook": "Originally a medicine-ball workout associated with President Herbert Hoover, this catch-and-return game offers a surprising placement puzzle: a catch near the net must be returned deep. Here, start with a light ball.",
+    "setup": "Divide a net court into front and back halves on each side. Make teams of two to four; use a comfortable net height.",
+    "steps": [
+      "Serve from behind the back line by throwing the ball over the net.",
+      "Catch a return before it lands and throw it straight back from where you caught it. No running or teammate passes.",
+      "If you caught it in your front half, your return must reach the opponents' back half. A back-half catch may target either half.",
+      "A dropped catch, throw into the net or out, or short front-half return gives the other team a point.",
+      "For this light-ball version, the team winning the rally serves next; rotate its server after each point."
+    ],
+    "win": "Play to 11 points with a two-point lead.",
+    "twist": "Your catching position determines where you are allowed to throw.",
+    "variation": "Try the historical tennis scoring once everyone knows the placement rule.",
+    "care": "This version uses a light ball. Historical medicine-ball play demands different strength and catching preparation.",
+    "ruleStatus": "house",
+    "ruleNote": "Light-ball adaptation with rally scoring; historical rules use a medicine ball and tennis scoring.",
+    "sources": [
+      {
+        "title": "U.S. National Park Service — Hoover-Ball",
+        "url": "https://www.nps.gov/teachers/classrooms/hooverball.htm"
+      }
+    ],
+    "diagram": "net",
+    "spotlight": false
+  },
+  {
+    "id": "hoop-pass",
+    "name": "Hoop Pass",
+    "aliases": [
+      "Hula Hoop Challenge",
+      "Hula Hoop Pass"
+    ],
+    "family": "together",
+    "tagline": "A whole group, threaded through one hoop.",
+    "region": "Playgrounds / cooperative group games",
+    "country": "Worldwide",
+    "players": [
+      6,
+      16
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [
+      "Large hula hoop"
+    ],
+    "noEquipment": false,
+    "hook": "The hoop looks impossibly small once everyone's hands are linked. The solution is a shared little choreography: step, duck, lift, pause, and make the next person's turn easier than your own.",
+    "setup": "Form a comfortably spaced circle. With everyone's agreement, link hands and place a hoop over one joined pair before closing the circle.",
+    "steps": [
+      "Move the hoop to the next person without breaking the chain of hands.",
+      "Each person carefully passes their body through the hoop, with neighbours helping by lifting or lowering their joined hands.",
+      "Keep going in the same direction until the hoop returns to its starting link.",
+      "Pause if anyone needs to release their grip. Reset comfortably and continue; nobody is eliminated.",
+      "Discuss the smoothest movement, then try a second circuit together."
+    ],
+    "win": "The whole group succeeds when the hoop completes a circuit.",
+    "twist": "Helping your neighbour is part of moving your own body through.",
+    "variation": "Add a second hoop travelling in the opposite direction once one circuit feels easy.",
+    "care": "Never pull arms or force someone through. Use an opening hoop or pass it around a seated person's reach as agreed.",
+    "ruleStatus": "documented",
+    "ruleNote": "A cooperative challenge; stopping or releasing for comfort is always allowed.",
+    "sources": [
+      {
+        "title": "Playworks — Hula Hoop Challenge",
+        "url": "https://www.playworks.org/game-library/hula-hoop-challenge/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "ninja",
+    "name": "Ninja",
+    "aliases": [
+      "Ninja Slap",
+      "Hand-tap Ninja"
+    ],
+    "family": "together",
+    "tagline": "One move. One dodge. Freeze in your ridiculous pose.",
+    "region": "Camp and youth-group circles",
+    "country": "Worldwide",
+    "players": [
+      4,
+      12
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "8+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "Part reaction test, part living sculpture. Every attack leaves the group frozen in a new arrangement, and you must wait for your next turn while planning around everyone else's improbable poses.",
+    "setup": "Form a loose circle with plenty of space. Agree the turn order and use only gentle taps to the back of a hand.",
+    "steps": [
+      "Count down together, then each take one step into a starting pose and freeze.",
+      "On your turn, make one continuous movement to tap another player's hand, or reposition yourself.",
+      "Only the targeted player may make one dodging movement. Both players then freeze in their new poses.",
+      "A player whose hand is tapped leaves this short round. Continue with the next active player in the original turn order.",
+      "When one player remains, everyone rejoins and the starting player moves one place around the circle."
+    ],
+    "win": "The last player remaining wins the round.",
+    "twist": "Your awkward finishing pose is the next person's tactical opportunity.",
+    "variation": "House version: each hand is one life; retire only the tapped hand until both are out.",
+    "care": "Tap rather than slap. No grabs, head contact, kicks or wild jumps; seated play works with a shared reach boundary.",
+    "ruleStatus": "starter",
+    "ruleNote": "Hand-only, one-hit-out version; many groups use two hands or different target zones.",
+    "sources": [
+      {
+        "title": "Ninja Slap — Rules",
+        "url": "https://www.ninjaslap.com/"
+      },
+      {
+        "title": "Scouts — Play a Game of Ninja",
+        "url": "https://www.scouts.org.uk/activities/play-a-game-of-ninja/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "zip-zap-zop",
+    "name": "Zip Zap Zop",
+    "aliases": [
+      "Zip Zap",
+      "Theatre energy circle"
+    ],
+    "family": "together",
+    "tagline": "An invisible ball made entirely of attention.",
+    "region": "Theatre warm-ups / group workshops",
+    "country": "Worldwide",
+    "players": [
+      6,
+      20
+    ],
+    "minutes": [
+      3,
+      8
+    ],
+    "ages": "6+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "A sound and a gesture travel from person to person as though the circle shares one nervous system. The fun is finding a collective rhythm, then watching it wobble when someone gets surprised.",
+    "setup": "Stand or sit in a circle where everyone can see one another. Practise a clear, comfortable passing gesture.",
+    "steps": [
+      "One player gestures clearly towards another and says 'Zip'. Make sure the receiver knows it is for them.",
+      "That receiver sends 'Zap' to someone else; the next sends 'Zop'.",
+      "Continue the repeating Zip–Zap–Zop sequence, sending it across the circle in unpredictable directions.",
+      "If the order breaks or nobody knows who received it, laugh, pause and restart at 'Zip' with the last receiver.",
+      "Try to build 30 uninterrupted passes together before ending the round."
+    ],
+    "win": "The group succeeds at its shared uninterrupted-pass target; nobody goes out.",
+    "twist": "The rhythm is fixed, but the recipient is always a surprise.",
+    "variation": "Once confident, add a clap to every pass or replace the three sounds together.",
+    "care": "Name the receiver if visual cues are hard to follow. Agree a comfortable volume and pace.",
+    "ruleStatus": "starter",
+    "ruleNote": "Cooperative version with an added practice target; local Zip/Zap/Boing games may use different rules.",
+    "sources": [
+      {
+        "title": "The Theater Door — Zip Zap Zop",
+        "url": "https://thetheaterdoor.com/exercises/warm-ups/zip-zap-zop/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "roshambo-rockstar",
+    "name": "Roshambo Rockstar",
+    "aliases": [
+      "Rock Paper Scissors Cheerleader",
+      "RPS Cheer Tournament"
+    ],
+    "family": "together",
+    "tagline": "Lose a duel. Gain a whole new team.",
+    "region": "Playgrounds / large-group icebreakers",
+    "country": "Worldwide",
+    "players": [
+      8,
+      60
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "A tiny hand game grows into an absurd sporting final. Every defeated player joins the winner's supporters, so the last two contestants arrive surrounded by whole crowds who want them to win.",
+    "setup": "Spread out in pairs. Agree to reveal on 'shoot' and review rock beats scissors, scissors beats paper, paper beats rock.",
+    "steps": [
+      "Partners introduce themselves and play one deciding round; replay ties.",
+      "The winner looks for another winner to challenge. Their partner becomes a supporter and follows at a comfortable distance.",
+      "After each duel, the losing player and their whole supporter group join the new winner's supporters.",
+      "Keep combining groups until only two competitors remain. Everyone supports one finalist.",
+      "Play the final duel, celebrate both players, then mix partners and restart from individual pairs."
+    ],
+    "win": "The last duel produces the round's rockstar; everyone remains part of the event.",
+    "twist": "The support teams grow precisely because people lose.",
+    "variation": "Use silent jazz hands and signed encouragement for a quieter tournament.",
+    "care": "No grabbing or crowding the finalists. Keep cheering friendly and allow participants to watch without chanting.",
+    "ruleStatus": "documented",
+    "ruleNote": "The Playworks version is also called Rock Paper Scissors Cheerleader.",
+    "sources": [
+      {
+        "title": "Playworks — Roshambo Rockstar",
+        "url": "https://www.playworks.org/game-library/ro-sham-bo-rockstar/"
+      }
+    ],
+    "diagram": "scatter",
+    "spotlight": false
+  },
+  {
+    "id": "parachute-popcorn",
+    "name": "Parachute Popcorn",
+    "aliases": [
+      "Popcorn parachute"
+    ],
+    "family": "together",
+    "tagline": "Everyone owns one tiny piece of the weather.",
+    "region": "Scout groups / cooperative play",
+    "country": "Worldwide",
+    "players": [
+      6,
+      24
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "5+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Play parachute or strong sheet",
+      "Soft lightweight balls"
+    ],
+    "noEquipment": false,
+    "hook": "One person can make a ripple, but a whole circle can make a storm. The balls bounce like popcorn while the group discovers how timing, direction and shared movement change what happens.",
+    "setup": "Spread around a parachute with comfortable spacing, holding its edge near waist height. Place several soft, lightweight balls in the centre.",
+    "steps": [
+      "Practise lifting and lowering the edge together. Agree a clear stop signal.",
+      "On 'Pop!', shake the parachute to bounce the balls. Keep hold of the edge and stay in your place.",
+      "Work together to pop every ball over the edge. Use the parachute rather than your hands to steer them.",
+      "When the final ball leaves, lower the parachute and stop. Only then collect the balls.",
+      "Refill and try another round with a different shared rhythm."
+    ],
+    "win": "The group succeeds when all the popcorn has left the parachute.",
+    "twist": "The only way to control the centre is by coordinating the edge.",
+    "variation": "Use two ball colours: each team tries to pop the other colour off while keeping its own aboard.",
+    "care": "Use soft balls and comfortable arm movements. A seated circle works; do not wrap fabric around hands.",
+    "ruleStatus": "documented",
+    "ruleNote": "Popcorn's goal varies; this is the pop-everything-off version described by Scouts.",
+    "sources": [
+      {
+        "title": "Scouts — 17 Quick and Easy Parachute Games",
+        "url": "https://www.scouts.org.uk/news/2023/november/17-quick-and-easy-parachute-games-to-play/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "human-knot",
+    "name": "Human Knot",
+    "aliases": [
+      "Gordian knot",
+      "Group knot"
+    ],
+    "family": "together",
+    "tagline": "A puzzle where the pieces have opinions.",
+    "region": "Camps / cooperative group challenges",
+    "country": "Worldwide",
+    "players": [
+      6,
+      12
+    ],
+    "minutes": [
+      5,
+      15
+    ],
+    "ages": "8+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "Everyone is connected, but nobody can see the whole solution from where they stand. A successful untangling feels less like winning a race and more like solving a little mystery together.",
+    "setup": "Form a small circle with an even number of willing participants. Agree that anybody can release a grip whenever they need to.",
+    "steps": [
+      "Each person joins right hands with someone who is not next to them, then left hands with a different person.",
+      "Look at the connections together. Propose one movement at a time: a turn, a step through or a carefully lifted pair of hands.",
+      "Try to untangle without changing partners. Move slowly and never pull or twist someone into position.",
+      "The facilitator may allow two 'cuts': briefly release one connection, make a move, then restore the same connection.",
+      "Finish when untangled, or agree why further movement is impossible. Release, discuss and build a fresh knot."
+    ],
+    "win": "Untangle into one or more loops, or explain together why this knot cannot be untied safely.",
+    "twist": "Your own route only works if your neighbours can move with it.",
+    "variation": "Hold short scarves between partners to give everyone extra space and avoid direct hand contact.",
+    "care": "Participation is optional. Release immediately for discomfort; no lifting people or forced ducking.",
+    "ruleStatus": "documented",
+    "ruleNote": "Some knots do not resolve to a single circle; recognizing that is a valid outcome.",
+    "sources": [
+      {
+        "title": "Online Scout Manager — Human Knot",
+        "url": "https://www.onlinescoutmanager.co.uk/programme.php?action=view&id=7176"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "silent-lineup",
+    "name": "Silent Line-Up",
+    "aliases": [
+      "Birthday line-up",
+      "Silent order"
+    ],
+    "family": "together",
+    "tagline": "Find your place without saying a word.",
+    "region": "Scout groups / group icebreakers",
+    "country": "Worldwide",
+    "players": [
+      6,
+      30
+    ],
+    "minutes": [
+      3,
+      8
+    ],
+    "ages": "7+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "It sounds easy until everyone starts inventing a different gesture for September. The group has to agree on a shared language, gather the missing information and spot where the ordering went wrong.",
+    "setup": "Clear room for a line. Choose an ordering everyone is comfortable sharing, such as birthday month and day, without the year.",
+    "steps": [
+      "Announce the order and point out which end comes first. Explain that this round uses gestures rather than speech.",
+      "Players communicate and move into a single line. Nobody can position another person by pulling or pushing them.",
+      "When everyone thinks the line is correct, raise hands to signal completion.",
+      "Read the values aloud from one end to check. If something is out of order, return to gestures and repair the line.",
+      "Try a new criterion, or split into small teams for a second round."
+    ],
+    "win": "Complete one correctly ordered line together.",
+    "twist": "The real challenge is agreeing how to communicate the answer.",
+    "variation": "Use first-name alphabetical order or secret numbered cards instead of birthdays.",
+    "care": "Allow signing, writing or an agreed communication aid. Choose a non-personal criterion when preferred.",
+    "ruleStatus": "documented",
+    "ruleNote": "A cooperative presentation of the documented silent variation of the line-up game.",
+    "sources": [
+      {
+        "title": "Online Scout Manager — The Line Up Game",
+        "url": "https://www.onlinescoutmanager.co.uk/programme.php?action=view&id=50227"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "balloon-bop",
+    "name": "Balloon Bop",
+    "aliases": [
+      "Group keepy-uppy",
+      "Balloon keep-up"
+    ],
+    "family": "together",
+    "tagline": "One balloon. One circle. A shared record to beat.",
+    "region": "Cooperative classroom and group play",
+    "country": "Worldwide",
+    "players": [
+      4,
+      12
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "6+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [
+      "Balloon or lightweight beach ball"
+    ],
+    "noEquipment": false,
+    "hook": "A drifting balloon turns a simple circle into a moving team. Every gentle touch buys a little thinking time, and the group learns that frantic individual saves are not always the best solution.",
+    "setup": "Make a small circle with plenty of clearance. In the linked version, join hands only with everyone's agreement.",
+    "steps": [
+      "Float the balloon into the centre. Together, keep it off the ground with gentle touches.",
+      "Stay linked and move the circle as needed. Use hands, arms or shoulders; do not kick.",
+      "Count each touch aloud. If the balloon lands or the chain breaks, pause and reset the count.",
+      "Plan how to cover a drifting balloon, then start another attempt.",
+      "After a few rounds, finish with one shared target, such as 20 touches."
+    ],
+    "win": "Beat the group's previous record or reach the agreed touch target.",
+    "twist": "The whole circle must respond to one floating object.",
+    "variation": "Unlinked adaptation: stay in assigned spots and call a teammate before sending the balloon towards them.",
+    "care": "Use a latex-free beach ball if needed. No chasing into furniture; stop and reset. Keep burst balloon pieces away from young children.",
+    "ruleStatus": "starter",
+    "ruleNote": "Based on Balloon Bop; this introduction omits head contact and allows an unlinked option.",
+    "sources": [
+      {
+        "title": "Responsive Classroom — Cooperative Games for Younger Students",
+        "url": "https://www.responsiveclassroom.org/cooperative-games-for-younger-students/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "group-juggle",
+    "name": "Group Juggle",
+    "aliases": [
+      "Name juggle",
+      "Pattern ball"
+    ],
+    "family": "together",
+    "tagline": "Remember one pass. Survive five flying objects.",
+    "region": "Team-building workshops / camps",
+    "country": "Worldwide",
+    "players": [
+      6,
+      20
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "7+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [
+      "Three to five soft throwable objects"
+    ],
+    "noEquipment": false,
+    "hook": "Each person has just one simple job: send the ball to the same teammate. Add another ball, then another, and that easy promise becomes a wonderfully busy network of names, timing and trust.",
+    "setup": "Stand or sit in a circle, with soft balls or beanbags ready. Begin with just one object.",
+    "steps": [
+      "Say somebody's name and make a gentle underarm toss to them. They choose someone who has not yet received it.",
+      "Continue until every person has caught once; the last receiver returns it to the starter.",
+      "Repeat exactly that passing order until everyone remembers who sends to them and whom they send to.",
+      "Start the sequence again and introduce a second object behind the first. Add more only when the group is ready.",
+      "A drop pauses that object's journey: retrieve it and resume from the same player. Finish when every object completes its circuit."
+    ],
+    "win": "Complete a circuit with the group's chosen number of objects in motion.",
+    "twist": "A fixed pattern becomes unpredictable when several objects share it.",
+    "variation": "Send one distinctively coloured object around the pattern in reverse.",
+    "care": "Call and check readiness before throwing. Use soft objects; roll them across a table as an alternative.",
+    "ruleStatus": "starter",
+    "ruleNote": "The reset and finish conditions make the documented open-ended activity into a short round.",
+    "sources": [
+      {
+        "title": "Texas Juvenile Justice Department — Group Juggle",
+        "url": "https://www.tjjd.texas.gov/wp-content/uploads/2024/01/group-juggle.pdf"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "giants-wizards-elves",
+    "name": "Giants, Wizards & Elves",
+    "aliases": [
+      "Giants Elves Wizards",
+      "Team rock paper scissors"
+    ],
+    "family": "together",
+    "tagline": "Rock-paper-scissors, performed by your entire team.",
+    "region": "Scout groups / party games",
+    "country": "Worldwide",
+    "players": [
+      6,
+      40
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "5+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "The decision is tiny, but the reveal is magnificent. A whole team becomes growling giants or squeaking elves together, while trying to guess what the equally theatrical people opposite are planning.",
+    "setup": "Make two teams facing each other with a clear gap. Practise three actions: tall giant, spell-casting wizard and pointy-eared elf.",
+    "steps": [
+      "Learn the cycle: giants beat elves, elves beat wizards, and wizards beat giants.",
+      "Each team huddles and secretly agrees on one character. Everyone on that team must reveal the same choice.",
+      "Return to the facing lines. On a shared countdown, perform your chosen action and sound without crossing the gap.",
+      "The winning character earns its team one point. A tie earns neither team a point; huddle and choose again.",
+      "Repeat for seven rounds, changing who leads the huddle each time."
+    ],
+    "win": "Most points after seven rounds wins; tied teams share the win.",
+    "twist": "The bluff is collective, and the reveal uses your whole body.",
+    "variation": "Invent three new characters together, keeping the same circular win relationship.",
+    "care": "Offer small or seated gestures. Keep sounds at a comfortable level and avoid physical 'squashing'.",
+    "ruleStatus": "documented",
+    "ruleNote": "This is the Scouts points version; chase-and-capture versions also circulate.",
+    "sources": [
+      {
+        "title": "Scouts — Play Giants, Wizards and Elves",
+        "url": "https://www.scouts.org.uk/activities/giants-wizards-and-elves"
+      }
+    ],
+    "diagram": "line",
+    "spotlight": false
+  },
+  {
+    "id": "wink-murder",
+    "name": "Wink Murder",
+    "aliases": [
+      "Wink detective",
+      "Wink assassin"
+    ],
+    "family": "together",
+    "tagline": "A detective, a circle, and one suspicious eyelid.",
+    "region": "Camp circles / parlour games",
+    "country": "Worldwide",
+    "players": [
+      7,
+      20
+    ],
+    "minutes": [
+      5,
+      12
+    ],
+    "ages": "8+",
+    "energy": 1,
+    "space": "small",
+    "equipment": [],
+    "noEquipment": true,
+    "hook": "The smallest possible signal sets off the biggest theatrical reaction. The detective watches a circle of apparently innocent faces while the secret winker tries to act without giving themselves away.",
+    "setup": "Sit in a circle. Choose a detective to look away while a facilitator discreetly selects the winker.",
+    "steps": [
+      "The detective returns to the centre. Everyone looks around naturally; nobody announces who the winker is.",
+      "The winker makes eye contact and winks at one player at a time, trying to avoid the detective's attention.",
+      "A winked player pauses briefly, then performs a seated dramatic exit and folds their arms to show they are out of the round.",
+      "The detective has three guesses. A correct guess ends the round; three wrong guesses let the winker win.",
+      "For a short round, also stop after two minutes. Reveal the winker, rotate roles and invite everyone back in."
+    ],
+    "win": "The detective identifies the winker within three guesses and the time limit; otherwise the winker wins.",
+    "twist": "A delayed reaction can protect the person who just put you out.",
+    "variation": "Use a visible hand signal instead of a wink and call it Secret Signal.",
+    "care": "Keep exits seated rather than falling. Agree alternative cues if eye contact or winking is difficult.",
+    "ruleStatus": "starter",
+    "ruleNote": "Three-guess Scouts version with a short timer added to keep spectators involved.",
+    "sources": [
+      {
+        "title": "Scouts — Wink Murder",
+        "url": "https://www.scouts.org.uk/activities/wink-murder/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  },
+  {
+    "id": "big-wind-blows",
+    "name": "The Big Wind Blows",
+    "aliases": [
+      "A Cold Wind Blows",
+      "Move If",
+      "Trainwreck"
+    ],
+    "family": "together",
+    "tagline": "One shared fact rearranges the whole room.",
+    "region": "Group workshops / camp icebreakers",
+    "country": "Worldwide",
+    "players": [
+      8,
+      24
+    ],
+    "minutes": [
+      5,
+      10
+    ],
+    "ages": "7+",
+    "energy": 2,
+    "space": "medium",
+    "equipment": [
+      "Flat floor markers"
+    ],
+    "noEquipment": false,
+    "hook": "An ordinary sentence becomes a sudden map of things you have in common. People change places, a new caller appears, and the circle slowly discovers its unexpected shared tastes and experiences.",
+    "setup": "Arrange a circle with one fewer marked spot than players. One player begins in the middle; keep the centre and paths clear.",
+    "steps": [
+      "The caller says, 'The big wind blows for everyone who…' and adds a light fact that is true about themselves.",
+      "Everyone who shares it walks to a different open spot, more than one position away. The caller also tries to claim a spot.",
+      "The player left without a spot becomes the new caller. Nobody is eliminated; if nobody else moves, the caller tries a new statement.",
+      "If two people reach one spot together, pause and agree who stays; the other becomes caller.",
+      "Continue until several people have called or five minutes have passed, then finish with one thing the group discovered."
+    ],
+    "win": "There is no overall winner; the aim is movement and discovering common ground.",
+    "twist": "A personal detail changes who moves, not who is 'out'.",
+    "variation": "Agree a 'Hurricane!' call that asks everyone to change spots.",
+    "care": "Walk, avoid personal disclosures, and allow a pass. Agree a stationary signal option for anyone who prefers to stay seated.",
+    "ruleStatus": "starter",
+    "ruleNote": "Floor-marker, walking version of the documented workshop game.",
+    "sources": [
+      {
+        "title": "Training for Change — The Big Wind Blows",
+        "url": "https://www.trainingforchange.org/training_tools/the-big-wind-blows/"
+      }
+    ],
+    "diagram": "circle",
+    "spotlight": false
+  }
+]

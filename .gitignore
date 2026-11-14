@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+.sites-runtime/
+.sites-checkout/
+test-results/
+.openai/
+.env*
+/dist/films/.*.tmp.mp4
+/dist/films/.*.tmp.webp
+/dist/films/manifest.json.*.tmp

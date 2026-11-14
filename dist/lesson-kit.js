@@ -1,0 +1,10 @@
+export const INK='#222522',PAPER='#f7f7ef',A='#bbda63',BTEAM='#e9977c',C='#a99bd8',WAIT='#ced2cb';
+const teams={a:A,b:BTEAM,c:C,wait:WAIT,neutral:PAPER};
+export const P=(id,x,y,team='a',label='',extra={})=>({id,kind:'player',x,y,fill:teams[team]||team,r:15,label,...extra});
+export const B=(id,x,y,extra={})=>({id,kind:'ball',x,y,r:9,fill:'#e6cb62',...extra});
+export const O=(id,kind,x,y,extra={})=>({id,kind,x,y,...extra});
+export const Z=(id,x,y,w,h,label='',fill='#e5e9df',extra={})=>({id,kind:'zone',x,y,w,h,label,fill,...extra});
+export const L=(id,x,y,x2,y2,extra={})=>({id,kind:'line',x,y,x2,y2,...extra});
+export const T=(id,x,y,label,extra={})=>({id,kind:'text',x,y,label,...extra});
+export const ring=(id,x,y,r,extra={})=>({id,kind:'ring',x,y,r,...extra});
+export const S=(base,changes={},add=[],remove=[])=>base.filter(n=>!remove.includes(n.id)).map(n=>({...n,...changes[n.id]})).concat(add.map(n=>({...n})));
