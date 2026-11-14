@@ -14,6 +14,12 @@ The current homepage and `presentation.html` use native MP4 video playback, a to
 - An independent static audit resolved **99 HTML, CSS, module, fetch, generated-link and then-completed film references** beneath the GitHub project prefix `/gamessss/`, with no missing targets or references escaping that prefix. The preserved `/field-guide/` alias also passed query-string and fragment redirect checks.
 - The field guide retains its original content and script; its only HTML change is the navigation label from “Learn games” to “Watch games.” The **72-page PDF is unchanged** from the retained print edition. Its prior text-extraction and layout evidence remains recorded under V1 below. The full browser pass confirms all 72 field-guide entries and ordered print output still work.
 
+### Published website
+
+[GitHub Pages deployment 43655105803](https://github.com/mteyra/gamessss/actions/runs/43655105803) succeeded for website commit [9510397](https://github.com/mteyra/gamessss/commit/9510397a3d0b61521e06d6958798ded2f7a55250). The live URL is **https://mteyra.github.io/gamessss/**.
+
+[cinema-production-check.json](cinema-production-check.json) records a further **50 passing browser checks against that public URL**, including decoding all 72 films, the complete control suite and the preserved field-guide route, with no console errors. Independent HTTP reads returned byte-for-byte matches for `index.html`, the film manifest, `field-guide.html` and the complete PDF. A byte-range request for Islands returned HTTP 206, `video/mp4` and the requested 1,024 bytes, confirming streamed video delivery.
+
 ## V2 — historical self-guided animated learner, 14 November 2026
 
 The learner replaces the first version's homepage and presentation. Both `index.html` and `presentation.html` load `learn.js` and `learn.css`; `atlas.html` provides the separate filterable catalogue. The historical presentation checks below do not establish the behaviour of this replacement.
