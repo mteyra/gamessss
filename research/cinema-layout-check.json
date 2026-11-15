@@ -1,8 +1,59 @@
 {
-  "checkedAt": "2026-11-14T23:06:03.994720+00:00",
+  "checkedAt": "2026-11-15T00:19:47.654Z",
   "status": "passed",
+  "edition": "v4 continuous dark films",
   "frameSource": "tools/film-frame.mjs",
-  "frameSourceSHA256": "7935bfaa7a81b650870c61a38b7ebf1d77b8a2587601e3fe0d211a84f26a557b",
+  "frameSourceSHA256": "a3244e5d57740b5854859a2f3f99b80bbba83e4e11d9402af8b4531e24d64199",
+  "sources": [
+    {
+      "file": "tools/film-frame.mjs",
+      "sha256": "a3244e5d57740b5854859a2f3f99b80bbba83e4e11d9402af8b4531e24d64199"
+    },
+    {
+      "file": "dist/film-timeline.js",
+      "sha256": "edc284baf39ccce4b32d54d8df06300f8ef4119f199fe2c759388f271659b050"
+    },
+    {
+      "file": "dist/film-theme.js",
+      "sha256": "bc7e0dd2976b97bc6395ced6ecd6cf4e609db0ee9d5e9e52fba97af8aa351e5b"
+    },
+    {
+      "file": "dist/core.js",
+      "sha256": "08a5457de7ddd0c8418e4cbc5787d3c17e36e775aa4b7ba33b8dac5cf63cd368"
+    },
+    {
+      "file": "dist/lesson-kit.js",
+      "sha256": "8d250ad0e72a61ea84a46ddb0b000f07f32985302db683ee22f20d1321f5cdb2"
+    },
+    {
+      "file": "dist/lessons.js",
+      "sha256": "b006f988538f4ef73014d9c40212e772be58eea63c74ae90d01082e4d971f501"
+    },
+    {
+      "file": "dist/lessons-chase-dodge.js",
+      "sha256": "201b5183a081992920e57b19d28a66c0189bfdd52c4f0eb4db30e9b7cd7e8c46"
+    },
+    {
+      "file": "dist/lessons-world-target.js",
+      "sha256": "7f125f3b699b0c7ffe76c0da6e6adce2c1a45283312c1b713d887f756cf0fe5d"
+    },
+    {
+      "file": "dist/lessons-team-together.js",
+      "sha256": "75f9eaea8ab4788b2ce02ff4a2167656de1210ad76001f9065c28750a0734ca3"
+    },
+    {
+      "file": "dist/data/chase-dodge.json",
+      "sha256": "4eb191772ba69d7e035d7d42ca9e853e6f1b3d0adabe003d2241e03c735f4cf7"
+    },
+    {
+      "file": "dist/data/world-target.json",
+      "sha256": "707017c2cef9300b927ea00799ebf7b8cd028d8afa8af3e0892bd42ad3b6a9f8"
+    },
+    {
+      "file": "dist/data/team-together.json",
+      "sha256": "2ad0992e1cd72584907be7b9ce3758cec68b6e189ee5aae6fb9eed4e8ce92e2e"
+    }
+  ],
   "frame": {
     "width": 1280,
     "height": 720
@@ -10,705 +61,151 @@
   "coverage": {
     "games": 72,
     "chapters": 467,
-    "textLines": 1744,
+    "legendLabels": 182,
     "maximumCaptionLines": 2,
-    "legendLabels": 182
+    "textLines": 2357,
+    "frames": 1006
   },
   "method": {
-    "horizontal": "Sum of Unicode cmap + hmtx advances from static Manrope TTFs at the rendered font sizes. Intro title sizes read back from renderFrame SVG output.",
-    "vertical": "Baseline plus hhea descent, checked against the next visual region.",
+    "horizontal": "Static TTF cmap+hmtx advances plus SVG letter-spacing and text-anchor; glyph ink bounds use fontTools BoundsPen. Font fallback is measured per glyph.",
+    "vertical": "Transformed baselines, actual glyph ink bounds, and conservative hhea ascent/descent. All chapter entrance and settled offsets plus the opening frame are checked.",
     "fonts": [
       {
         "family": "Manrope",
         "weight": 400,
-        "sha256": "6b0b994a96879b664e454b31f0440bbd5f06af4cc7804fa182d5c96151455338"
+        "sha256": "2b0bc25a8f7f32725622f041f2eadd61ef68dd3efe3d9b73475e0032d4eff2c0"
       },
       {
         "family": "Manrope",
-        "weight": 800,
-        "sha256": "d4d6dd846540829c7f5c7d4fb8de7ebfcc4e6dc3c2a3b91553642f663feb89bd"
+        "weight": 600,
+        "sha256": "ab97c4a7d2a5a4fa42791151e7f8e019b31dfc273bbfa93ccf5e60933b937c20"
+      },
+      {
+        "family": "JetBrains Mono",
+        "weight": 400,
+        "sha256": "c5496a6175dc4a3e1099b80635b9269dad646116b7a6a5a3fa9b8ceb854ddc85"
       },
       {
         "family": "GAMESSSS Symbols",
-        "role": "fallback for 8 missing symbols/macrons",
+        "weight": 400,
+        "fallback": true,
         "sha256": "4a0f9b34c21a38c1bc30ef0963ef4df364e6f5a90ab70bccf800b397e9bc3b09"
       }
     ],
-    "limits": "Advance metrics omit kerning and do not replace rendered visual QA. This audit covers game titles, intro summaries, chapter titles, captions, outro titles and legends; it does not inspect actor text inside the court."
+    "limits": "Advance bounds omit kerning. Pairwise collision checks use glyph-ink bounding rectangles; moving court geometry is excluded and requires separate visual QA."
   },
-  "bounds": {
-    "introTitle": {
-      "left": 74,
-      "right": 1226,
-      "bottom": 480
-    },
-    "summary": {
-      "left": 78,
-      "right": 1226,
-      "bottom": 620
-    },
-    "header": {
-      "left": 74,
-      "right": 1050,
-      "bottom": 85
-    },
-    "outroTitle": {
-      "center": 640,
-      "right": 1226,
-      "bottom": 495
-    },
-    "chapterTitle": {
-      "left": 110,
-      "right": 1226,
-      "bottom": 650
-    },
-    "caption": {
-      "left": 110,
-      "right": 1226,
-      "firstBaseline": 664,
-      "lineGap": 28,
-      "bottom": 705
-    },
-    "legend": {
-      "bottom": 579,
-      "right": "Ten pixels before the next legend allocation; or equivalent final padding."
-    }
+  "lineSpacing": {
+    "minimumCaptionInkGapPx": 6.705000000000041,
+    "fontLineboxPaddingOverlapObservations": 359,
+    "maximumFontLineboxPaddingOverlapPx": 1.002999999999929,
+    "note": "Font hhea boxes include unused ascender/descender padding. Actual caption ink separation, not overlapping blank padding, determines text collisions."
   },
   "byKind": {
-    "intro title": {
-      "lineCount": 76,
-      "maxWidthPx": 1121.51,
-      "minimumRightGapPx": 30.49,
-      "minimumBottomGapPx": 84.36
-    },
-    "summary": {
-      "lineCount": 117,
-      "maxWidthPx": 998.42,
-      "minimumRightGapPx": 149.58,
-      "minimumBottomGapPx": 68.6
-    },
     "header": {
-      "lineCount": 72,
-      "maxWidthPx": 390.29,
-      "minimumRightGapPx": 585.71,
-      "minimumBottomGapPx": 10.6
+      "uniqueTextLines": 72,
+      "observations": 1006,
+      "maximumAdvancePx": 400.7879999999997,
+      "minimumRightGapPx": 787.2120000000002,
+      "minimumBottomGapPx": 3.700000000000003,
+      "minimumInkTopGapPx": 21.355,
+      "tightestHorizontalSpecimen": {
+        "game": "rps-chase",
+        "chapter": 0,
+        "value": "Rock–Paper–Scissors Chase",
+        "advancePx": 400.7879999999997,
+        "rightGapPx": 787.2120000000002
+      }
     },
-    "outro title": {
-      "lineCount": 72,
-      "maxWidthPx": 752.71,
-      "minimumRightGapPx": 209.65,
-      "minimumBottomGapPx": 153.8
+    "family tag": {
+      "uniqueTextLines": 72,
+      "observations": 1006,
+      "maximumAdvancePx": 127.89999999999993,
+      "minimumRightGapPx": 0,
+      "minimumBottomGapPx": 24.85,
+      "minimumInkTopGapPx": 23.2195,
+      "tightestHorizontalSpecimen": {
+        "game": "islands",
+        "chapter": 0,
+        "value": "CHASE & ESCAPE",
+        "advancePx": 105.09999999999995,
+        "rightGapPx": 0
+      }
     },
-    "chapter title": {
-      "lineCount": 467,
-      "maxWidthPx": 609.45,
-      "minimumRightGapPx": 506.55,
-      "minimumBottomGapPx": 11.6
-    },
-    "caption": {
-      "lineCount": 758,
-      "maxWidthPx": 986.93,
-      "minimumRightGapPx": 129.07,
-      "minimumBottomGapPx": 6.7
+    "header sequence": {
+      "uniqueTextLines": 467,
+      "observations": 1006,
+      "maximumAdvancePx": 42,
+      "minimumRightGapPx": 0,
+      "minimumBottomGapPx": 5,
+      "minimumInkTopGapPx": 42.7,
+      "tightestHorizontalSpecimen": {
+        "game": "islands",
+        "chapter": 0,
+        "value": "01 / 07",
+        "advancePx": 42,
+        "rightGapPx": 0
+      }
     },
     "legend": {
-      "lineCount": 182,
-      "maxWidthPx": 227.79,
-      "minimumRightGapPx": 1.41,
-      "minimumBottomGapPx": 12.8
-    }
-  },
-  "reading": {
-    "minimumFilmSeconds": 48.27,
-    "maximumFilmSeconds": 71.37,
-    "maximumTitleAndCaptionWordsPerMinute": 186.79,
-    "minimumSettledHoldSeconds": 2.2
-  },
-  "correctedFinding": {
-    "game": "money-ball",
-    "title": "MONEY BALL DODGEBALL",
-    "previousSizePx": 98,
-    "previousWidthPx": 1203.44,
-    "previousRightEdgePx": 1277.44,
-    "previousRightSafeMarginOverflowPx": 51.44,
-    "correctedSizePx": 76,
-    "verifiedCurrentMeasurement": {
-      "game": "money-ball",
-      "kind": "intro title",
-      "value": "MONEY BALL DODGEBALL",
-      "size": 76,
-      "weight": 800,
-      "x": 74,
-      "y": 290,
-      "right": 1226,
-      "bottom": 480,
-      "width": 933.28,
-      "rightGap": 218.72,
-      "bottomGap": 167.2
-    }
-  },
-  "remainingOverflows": [],
-  "visualReview": {
-    "checkedAt": "2026-11-14T23:13:28.978220+00:00",
-    "status": "passed_corrected_compositions",
-    "scope": "One representative action or scoring chapter per game at normalized progress 0.84, rasterized with the production resvg options and static fonts. Six 4\u00d73 family contact sheets inspected; suspect details rechecked at 1280\u00d7720.",
-    "counts": {
-      "games": 72,
-      "families": 6,
-      "contactSheets": 6,
-      "testsPassed": 23
+      "uniqueTextLines": 180,
+      "observations": 2548,
+      "maximumAdvancePx": 203.38750000000002,
+      "minimumRightGapPx": 354.04999999999995,
+      "minimumBottomGapPx": 16.25,
+      "minimumInkTopGapPx": 2.7562500000000227,
+      "tightestHorizontalSpecimen": {
+        "game": "human-knot",
+        "chapter": 0,
+        "value": "Connection being discussed",
+        "advancePx": 164.67500000000004,
+        "rightGapPx": 354.04999999999995
+      }
     },
-    "contactSheets": [
-      "/tmp/gamessss-visual-review/chase-sheet.png",
-      "/tmp/gamessss-visual-review/dodge-sheet.png",
-      "/tmp/gamessss-visual-review/target-sheet.png",
-      "/tmp/gamessss-visual-review/world-sheet.png",
-      "/tmp/gamessss-visual-review/team-sheet.png",
-      "/tmp/gamessss-visual-review/together-sheet.png"
-    ],
-    "reviewed": [
-      {
-        "id": "islands",
-        "family": "chase",
-        "chapter": 3,
-        "timeSeconds": 22.0567
-      },
-      {
-        "id": "manhunt",
-        "family": "chase",
-        "chapter": 3,
-        "timeSeconds": 22.0567
-      },
-      {
-        "id": "sardines",
-        "family": "chase",
-        "chapter": 3,
-        "timeSeconds": 19.8696
-      },
-      {
-        "id": "blob-tag",
-        "family": "chase",
-        "chapter": 2,
-        "timeSeconds": 12.747
-      },
-      {
-        "id": "octopus",
-        "family": "chase",
-        "chapter": 4,
-        "timeSeconds": 28.7857
-      },
-      {
-        "id": "shadow-tag",
-        "family": "chase",
-        "chapter": 3,
-        "timeSeconds": 21.089
-      },
-      {
-        "id": "line-tag",
-        "family": "chase",
-        "chapter": 4,
-        "timeSeconds": 27.6768
-      },
-      {
-        "id": "everybodys-it",
-        "family": "chase",
-        "chapter": 3,
-        "timeSeconds": 19.8148
-      },
-      {
-        "id": "stuck-in-the-mud",
-        "family": "chase",
-        "chapter": 3,
-        "timeSeconds": 19.2245
-      },
-      {
-        "id": "rps-chase",
-        "family": "chase",
-        "chapter": 4,
-        "timeSeconds": 27.2438
-      },
-      {
-        "id": "dragon-tail",
-        "family": "chase",
-        "chapter": 5,
-        "timeSeconds": 35.9083
-      },
-      {
-        "id": "capture-the-flag",
-        "family": "chase",
-        "chapter": 4,
-        "timeSeconds": 32.6567
-      },
-      {
-        "id": "hoop-rescue",
-        "family": "dodge",
-        "chapter": 3,
-        "timeSeconds": 22.5607
-      },
-      {
-        "id": "noodle-keeper",
-        "family": "dodge",
-        "chapter": 4,
-        "timeSeconds": 32.9793
-      },
-      {
-        "id": "medic-dodgeball",
-        "family": "dodge",
-        "chapter": 5,
-        "timeSeconds": 40.4245
-      },
-      {
-        "id": "gaga",
-        "family": "dodge",
-        "chapter": 4,
-        "timeSeconds": 31.2962
-      },
-      {
-        "id": "four-corners",
-        "family": "dodge",
-        "chapter": 3,
-        "timeSeconds": 21.9155
-      },
-      {
-        "id": "two-pin",
-        "family": "dodge",
-        "chapter": 4,
-        "timeSeconds": 30.903
-      },
-      {
-        "id": "castleball",
-        "family": "dodge",
-        "chapter": 3,
-        "timeSeconds": 21.7341
-      },
-      {
-        "id": "protect-president",
-        "family": "dodge",
-        "chapter": 3,
-        "timeSeconds": 21.7899
-      },
-      {
-        "id": "nationball",
-        "family": "dodge",
-        "chapter": 5,
-        "timeSeconds": 40.6761
-      },
-      {
-        "id": "sprout-ball",
-        "family": "dodge",
-        "chapter": 3,
-        "timeSeconds": 24.3148
-      },
-      {
-        "id": "money-ball",
-        "family": "dodge",
-        "chapter": 4,
-        "timeSeconds": 30.0761
-      },
-      {
-        "id": "rollerball",
-        "family": "dodge",
-        "chapter": 4,
-        "timeSeconds": 31.689
-      },
-      {
-        "id": "flunkyball",
-        "family": "target",
-        "chapter": 4,
-        "timeSeconds": 28.6601
-      },
-      {
-        "id": "kubb",
-        "family": "target",
-        "chapter": 4,
-        "timeSeconds": 31.1698
-      },
-      {
-        "id": "molkky",
-        "family": "target",
-        "chapter": 4,
-        "timeSeconds": 30.2021
-      },
-      {
-        "id": "petanque",
-        "family": "target",
-        "chapter": 4,
-        "timeSeconds": 30.2021
-      },
-      {
-        "id": "bocce",
-        "family": "target",
-        "chapter": 4,
-        "timeSeconds": 27.3859
-      },
-      {
-        "id": "cornhole",
-        "family": "target",
-        "chapter": 3,
-        "timeSeconds": 20.9634
-      },
-      {
-        "id": "kanjam",
-        "family": "target",
-        "chapter": 3,
-        "timeSeconds": 23.4579
-      },
-      {
-        "id": "ladder-toss",
-        "family": "target",
-        "chapter": 3,
-        "timeSeconds": 24.103
-      },
-      {
-        "id": "washer-toss",
-        "family": "target",
-        "chapter": 3,
-        "timeSeconds": 19.9956
-      },
-      {
-        "id": "croquet",
-        "family": "target",
-        "chapter": 3,
-        "timeSeconds": 21.9311
-      },
-      {
-        "id": "disc-golf",
-        "family": "target",
-        "chapter": 4,
-        "timeSeconds": 30.2021
-      },
-      {
-        "id": "gorodki",
-        "family": "target",
-        "chapter": 4,
-        "timeSeconds": 32.1375
-      },
-      {
-        "id": "kho-kho",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 29.2343
-      },
-      {
-        "id": "kabaddi",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 28.9827
-      },
-      {
-        "id": "lagori",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 29.6279
-      },
-      {
-        "id": "peteca",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 28.9117
-      },
-      {
-        "id": "sepak-takraw",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 30.9182
-      },
-      {
-        "id": "ki-o-rahi",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 31.815
-      },
-      {
-        "id": "lippa",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 29.9505
-      },
-      {
-        "id": "bete-ombro",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 30.5246
-      },
-      {
-        "id": "ampe",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 29.0537
-      },
-      {
-        "id": "pilolo",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 29.6279
-      },
-      {
-        "id": "jianzi",
-        "family": "world",
-        "chapter": 4,
-        "timeSeconds": 30.2021
-      },
-      {
-        "id": "dibeke",
-        "family": "world",
-        "chapter": 5,
-        "timeSeconds": 41.1246
-      },
-      {
-        "id": "tchoukball",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 32.9793
-      },
-      {
-        "id": "kin-ball",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 28.7857
-      },
-      {
-        "id": "ultimate",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 28.4632
-      },
-      {
-        "id": "jugger",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 34.2696
-      },
-      {
-        "id": "roundnet",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 29.5019
-      },
-      {
-        "id": "danish-longball",
-        "family": "team",
-        "chapter": 6,
-        "timeSeconds": 47.1535
-      },
-      {
-        "id": "newcomb",
-        "family": "team",
-        "chapter": 3,
-        "timeSeconds": 20.1212
-      },
-      {
-        "id": "endball",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 32.6567
-      },
-      {
-        "id": "speedball",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 32.3341
-      },
-      {
-        "id": "korfball",
-        "family": "team",
-        "chapter": 3,
-        "timeSeconds": 24.9599
-      },
-      {
-        "id": "sitting-volleyball",
-        "family": "team",
-        "chapter": 5,
-        "timeSeconds": 38.1664
-      },
-      {
-        "id": "hooverball",
-        "family": "team",
-        "chapter": 4,
-        "timeSeconds": 29.5019
-      },
-      {
-        "id": "hoop-pass",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 31.0438
-      },
-      {
-        "id": "ninja",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 33.947
-      },
-      {
-        "id": "zip-zap-zop",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 29.7535
-      },
-      {
-        "id": "roshambo-rockstar",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 28.2115
-      },
-      {
-        "id": "parachute-popcorn",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 30.3986
-      },
-      {
-        "id": "human-knot",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 32.9793
-      },
-      {
-        "id": "silent-lineup",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 31.689
-      },
-      {
-        "id": "balloon-bop",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 30.0761
-      },
-      {
-        "id": "group-juggle",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 33.947
-      },
-      {
-        "id": "giants-wizards-elves",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 31.689
-      },
-      {
-        "id": "wink-murder",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 32.4051
-      },
-      {
-        "id": "big-wind-blows",
-        "family": "together",
-        "chapter": 4,
-        "timeSeconds": 32.9793
+    "chapter cue": {
+      "uniqueTextLines": 467,
+      "observations": 1006,
+      "maximumAdvancePx": 59.79999999999998,
+      "minimumRightGapPx": 1127.2,
+      "minimumBottomGapPx": 102.29999999999995,
+      "minimumInkTopGapPx": 15.529999999999973,
+      "tightestHorizontalSpecimen": {
+        "game": "islands",
+        "chapter": 0,
+        "value": "01  /  07",
+        "advancePx": 59.79999999999998,
+        "rightGapPx": 1127.2
       }
-    ],
-    "findings": [
-      {
-        "id": "font-coverage",
-        "status": "fixed",
-        "detail": "Eight missing characters affected labels or titles in 37 games. The original encoded Blob Tag film visibly showed a replacement box in FOUR \u2192 SPLIT. The new bundled fallback covers all eight; the encoder now preflights every title/chapter/outro for glyph coverage.",
-        "missingBefore": [
-          {
-            "codepoint": "U+012A",
-            "char": "\u012a",
-            "name": "LATIN CAPITAL LETTER I WITH MACRON"
-          },
-          {
-            "codepoint": "U+012B",
-            "char": "\u012b",
-            "name": "LATIN SMALL LETTER I WITH MACRON"
-          },
-          {
-            "codepoint": "U+2192",
-            "char": "\u2192",
-            "name": "RIGHTWARDS ARROW"
-          },
-          {
-            "codepoint": "U+2194",
-            "char": "\u2194",
-            "name": "LEFT RIGHT ARROW"
-          },
-          {
-            "codepoint": "U+21BB",
-            "char": "\u21bb",
-            "name": "CLOCKWISE OPEN CIRCLE ARROW"
-          },
-          {
-            "codepoint": "U+2260",
-            "char": "\u2260",
-            "name": "NOT EQUAL TO"
-          },
-          {
-            "codepoint": "U+2264",
-            "char": "\u2264",
-            "name": "LESS-THAN OR EQUAL TO"
-          },
-          {
-            "codepoint": "U+2713",
-            "char": "\u2713",
-            "name": "CHECK MARK"
-          }
-        ],
-        "missingAfter": [],
-        "affectedGames": [
-          "blob-tag",
-          "noodle-keeper",
-          "gaga",
-          "two-pin",
-          "sprout-ball",
-          "rollerball",
-          "roundnet",
-          "newcomb",
-          "endball",
-          "sitting-volleyball",
-          "hooverball",
-          "hoop-pass",
-          "ninja",
-          "zip-zap-zop",
-          "parachute-popcorn",
-          "human-knot",
-          "silent-lineup",
-          "balloon-bop",
-          "group-juggle",
-          "wink-murder",
-          "kho-kho",
-          "kabaddi",
-          "peteca",
-          "sepak-takraw",
-          "ki-o-rahi",
-          "bete-ombro",
-          "ampe",
-          "pilolo",
-          "dibeke",
-          "flunkyball",
-          "kubb",
-          "molkky",
-          "petanque",
-          "bocce",
-          "kanjam",
-          "ladder-toss",
-          "croquet"
-        ],
-        "originalEncodedEvidence": "/tmp/gamessss-visual-review/blob-tag-encoded-symbol.png",
-        "correctedEncodedEvidence": "/tmp/gamessss-visual-review/blob-tag-encoded-symbol-fixed.png",
-        "correctedMacronEvidence": "/tmp/gamessss-visual-review/ki-o-rahi.png"
-      },
-      {
-        "id": "jianzi-rule-label",
-        "status": "fixed_and_encoded",
-        "detail": "Moved the persistent NO HANDS / ARMS label from y220 to y35, above the playing circle, so the shuttle no longer crosses it. No actor geometry or tracks changed.",
-        "evidence": "/tmp/gamessss-visual-review/jianzi.png",
-        "newProcessReencodeRequired": false,
-        "encodedEvidence": "/tmp/jianzi-final.png"
-      },
-      {
-        "id": "capture-flag-held-labels",
-        "status": "fixed_and_encoded",
-        "detail": "Moved CORAL HELD and GREEN HELD labels above their holding boxes with labelY:-10. Player A2 no longer covers GREEN HELD. No actor geometry or tracks changed.",
-        "evidence": "/tmp/gamessss-visual-review/capture-the-flag.png",
-        "newProcessReencodeRequired": false,
-        "encodedEvidence": "/tmp/capture-flag-final.png"
+    },
+    "chapter title": {
+      "uniqueTextLines": 467,
+      "observations": 1006,
+      "maximumAdvancePx": 551.7495000000002,
+      "minimumRightGapPx": 636.2504999999998,
+      "minimumBottomGapPx": 62.89999999999998,
+      "minimumInkTopGapPx": 37.15499999999997,
+      "tightestHorizontalSpecimen": {
+        "game": "nationball",
+        "chapter": 0,
+        "value": "Give each team a lane behind the opponents",
+        "advancePx": 551.7495000000002,
+        "rightGapPx": 636.2504999999998
       }
-    ],
-    "remainingCompositionIssues": [],
-    "limits": "This is a sampled composition review. Complete timeline, endpoint and route checks cover all 467 chapters separately. Both label fixes were confirmed against decoded frames from the final Capture the Flag and Jianzi MP4s."
-  }
+    },
+    "caption": {
+      "uniqueTextLines": 632,
+      "observations": 1365,
+      "maximumAdvancePx": 1112.043000000001,
+      "minimumRightGapPx": 75.95699999999897,
+      "minimumBottomGapPx": 5.850000000000023,
+      "minimumInkTopGapPx": 73.735107421875,
+      "tightestHorizontalSpecimen": {
+        "game": "group-juggle",
+        "chapter": 0,
+        "value": "A says someone’s name and checks they are ready before an underarm toss. Each receiver chooses someone who has",
+        "advancePx": 1112.043000000001,
+        "rightGapPx": 75.95699999999897
+      }
+    }
+  },
+  "remainingOverflows": []
 }

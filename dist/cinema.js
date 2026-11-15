@@ -5,7 +5,7 @@ import {timecode, clamp} from './film-timeline.js';
 const $=s=>document.querySelector(s), video=$('#game-film');
 const navigator=$('#film-navigator'), transcript=$('#transcript-dialog'), help=$('#film-help-dialog');
 const storage={get(key,fallback){try{return localStorage.getItem(key)??fallback;}catch{return fallback;}},set(key,value){try{localStorage.setItem(key,value);}catch{}}};
-let games=[],records=new Map(),pool=[],game,film,browseFamily='chase',loadToken=0,pendingSeek=0,customPool=false;
+let games=[],records=new Map(),pool=[],game,film,browseFamily='chase',loadToken=0,pendingSeek=0,customPool=false,frameRate=30;
 let modalResume=false,hiddenResume=false,hideTimer,frameRequest,captionKey='',seekActive=false;
 let autoNext=storage.get('gamessss-auto-next','true')==='true';
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -29,6 +29,9 @@ async function play(){
  catch(error){if(token!==loadToken||error.name==='AbortError')return;if(video.error){showError('The video could not load. Reload this page, or open the field guide above.');return;}$('#start-film').hidden=false;$('#film-loading').hidden=true;reveal();}
 }
 function togglePlay(){if(video.paused)play();else video.pause();}
+// A chapter can begin between encoded frames. Seek just past its first frame,
+// so pausing a chapter link displays that chapter's embedded caption too.
+const chapterSeekTime=chapter=>(Math.ceil(chapter.start*frameRate)+.01)/frameRate;
 function seekTo(seconds){
  if(!film)return;
  pendingSeek=clamp(seconds,0,Number.isFinite(video.duration)?video.duration:film.duration);
@@ -42,15 +45,14 @@ function updateClock(){
  if(!seekActive)$('#film-seek').value=Math.round(time/duration*1000);
  $('#film-seek').style.setProperty('--played',`${time/duration*100}%`);
  $('#film-seek').setAttribute('aria-valuetext',`${timecode(time)} of ${timecode(duration)}`);
- const chapter=film.chapters.find(c=>time>=c.start&&time<c.end);
- const phase=chapter?`chapter-${chapter.index}`:time<film.chapters[0].start?'opening':'ending';
- const key=`${game.id}:${phase}`;
+ const chapter=film.chapters.find(c=>time>=c.start&&time<c.end)||(time<film.chapters[0].start?film.chapters[0]:film.chapters.at(-1));
+ const key=`${game.id}:chapter-${chapter.index}`;
  if(key!==captionKey){
   captionKey=key;
-  $('#chapter-label').textContent=chapter?`${chapter.index+1} / ${film.chapters.length} · ${chapter.title}`:phase==='opening'?'Opening':'Ready to play';
-  $('[data-caption-number]').textContent=chapter?`MOVE ${chapter.index+1} / ${film.chapters.length}`:phase==='opening'?FAMILIES[game.family].name.toUpperCase():'READY TO PLAY';
-  $('[data-caption-title]').textContent=chapter?.title||game.name;
-  $('[data-caption-text]').textContent=chapter?.text||(phase==='opening'?game.tagline:'Find full rules, variations and sources in the field guide.');
+  $('#chapter-label').textContent=`${chapter.index+1} / ${film.chapters.length} · ${chapter.title}`;
+  $('[data-caption-number]').textContent=`MOVE ${chapter.index+1} / ${film.chapters.length}`;
+  $('[data-caption-title]').textContent=chapter.title;
+  $('[data-caption-text]').textContent=chapter.text;
  }
 }
 function clockLoop(){updateClock();if(!video.paused)frameRequest=requestAnimationFrame(clockLoop);}
@@ -65,7 +67,7 @@ function chooseGame(id,{autoplay=true,historyMode='push',time=0}={}){
  $('#film-ended').hidden=true;$('#start-film').hidden=true;$('#film-loading').hidden=false;
  $('#film-loading p').textContent='Preparing the film…';$('#film-loading').classList.remove('has-error');
  if(!pool.some(g=>g.id===id)){pool=games.slice();customPool=false;}
- browseFamily=game.family;document.body.style.setProperty('--family',FAMILIES[game.family].color);
+ browseFamily=game.family;
  $('[data-family-label]').textContent=FAMILIES[game.family].name;$('#film-title').textContent=game.name;
  video.setAttribute('aria-label',`${game.name} · animated explanation`);document.title=`${game.name} · GAMESSSS`;
  $('#film-announcement').textContent=`${game.name}. ${FAMILIES[game.family].name}. Film ${currentIndex()+1} of ${pool.length}.`;
@@ -85,11 +87,11 @@ function closeResume(){
 }
 function openPanel(dialog){suspend();dialog.showModal();}
 function renderNavigator(){
- $('#navigator-families').innerHTML=FAMILY_ORDER.map(key=>`<button data-family="${key}" style="--chip-color:${FAMILIES[key].color}" class="${browseFamily===key?'active':''}" aria-pressed="${browseFamily===key}"><i></i>${esc(FAMILIES[key].short)}</button>`).join('');
+ $('#navigator-families').innerHTML=FAMILY_ORDER.map(key=>`<button data-family="${key}" class="${browseFamily===key?'active':''}" aria-pressed="${browseFamily===key}"><i></i>${esc(FAMILIES[key].short)}</button>`).join('');
  const query=$('#navigator-search').value.trim(),results=searchGames(games,{family:query?'all':browseFamily,query});
  $('#navigator-family-name').textContent=query?'Across all six families':FAMILIES[browseFamily].name;
  $('#navigator-count').textContent=`${results.length} FILM${results.length===1?'':'S'}`;
- $('#navigator-games').innerHTML=results.length?results.map(g=>`<button data-film="${g.id}" ${g.id===game?.id?'aria-current="true"':''}><i class="nav-dot" style="background:${FAMILIES[g.family].color}"></i><span class="nav-game-name">${esc(g.name)}<small>${esc(query?FAMILIES[g.family].name:g.region)}</small></span><em class="nav-game-time">${records.has(g.id)?timecode(records.get(g.id).duration):'—'}</em></button>`).join(''):'<p class="navigator-empty">No games found. Try a different name, place or piece of equipment.</p>';
+ $('#navigator-games').innerHTML=results.length?results.map(g=>`<button data-film="${g.id}" ${g.id===game?.id?'aria-current="true"':''}><i class="nav-dot"></i><span class="nav-game-name">${esc(g.name)}<small>${esc(query?FAMILIES[g.family].name:g.region)}</small></span><em class="nav-game-time">${records.has(g.id)?timecode(records.get(g.id).duration):'—'}</em></button>`).join(''):'<p class="navigator-empty">No games found. Try a different name, place or piece of equipment.</p>';
 }
 function openNavigator(){browseFamily=game.family;$('#navigator-search').value='';renderNavigator();openPanel(navigator);document.body.classList.add('menu-open');$('#category-pill').setAttribute('aria-expanded','true');}
 function fullRules(){suspend();openGame(game.id);}
@@ -120,7 +122,7 @@ navigator.addEventListener('click',e=>{
 });
 $('#navigator-lineup').addEventListener('click',()=>{navigator.close();openLineup();});
 $('#transcript-rules').addEventListener('click',()=>{transcript.close();openGame(game.id);});
-transcript.addEventListener('click',e=>{const chapter=e.target.closest('[data-chapter]');if(chapter){modalResume=false;seekTo(film.chapters[+chapter.dataset.chapter].start);transcript.close();play();}});
+transcript.addEventListener('click',e=>{const chapter=e.target.closest('[data-chapter]');if(chapter){modalResume=false;seekTo(chapterSeekTime(film.chapters[+chapter.dataset.chapter]));transcript.close();play();}});
 for(const dialog of [navigator,transcript,help]){dialog.addEventListener('close',closeResume);dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});}
 new MutationObserver(()=>{$('#dialog-root').querySelectorAll('dialog:not([data-cinema-watched])').forEach(d=>{d.dataset.cinemaWatched='true';d.addEventListener('close',closeResume);});}).observe($('#dialog-root'),{childList:true});
 $('#auto-next').checked=autoNext;$('#auto-next').addEventListener('change',e=>{autoNext=e.target.checked;storage.set('gamessss-auto-next',String(autoNext));});
@@ -148,11 +150,11 @@ function route(historyMode){
  customPool=!!ids;pool=ids?[...new Set(ids)].map(id=>games.find(g=>g.id===id)).filter(Boolean):games.slice();if(!pool.length){pool=games.slice();customPool=false;}
  const selected=pool.find(g=>g.id===params.get('game'))||pool[0];
  const record=records.get(selected.id),step=Number(params.get('step'));
- const time=params.has('time')?Math.max(0,Number(params.get('time'))||0):step>0?record?.chapters[step-1]?.start||0:0;
+ const time=params.has('time')?Math.max(0,Number(params.get('time'))||0):step>0&&record?.chapters[step-1]?chapterSeekTime(record.chapters[step-1]):0;
  chooseGame(selected.id,{autoplay:!reduced,historyMode,time});
 }
 window.addEventListener('popstate',()=>route(false));
 try{
- [games,records]=await Promise.all([loadGames(),fetch('films/manifest.json').then(r=>{if(!r.ok)throw new Error('Film index unavailable');return r.json();}).then(m=>new Map(m.films.map(f=>[f.id,f])))]);
+ [games,records]=await Promise.all([loadGames(),fetch('films/manifest.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('Film index unavailable');return r.json();}).then(m=>{frameRate=m.fps||30;return new Map(m.films.map(f=>{const revision=f.sourceFingerprint?.slice(0,16);return[f.id,revision?{...f,src:`${f.src}?v=${revision}`,poster:`${f.poster}?v=${revision}`}:f];}));})]);
  initDialogs(games);video.controls=false;route('replace');document.body.dataset.ready='true';
 }catch(error){video.controls=true;showError('The film library could not load. Reload this page, or open the field guide above.');console.error(error);}

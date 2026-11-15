@@ -1,664 +1,747 @@
 {
-  "checkedAt": "2026-11-14T23:47:14.106Z",
+  "checkedAt": "2026-11-15T01:12:18.477Z",
+  "manifestVersion": 2,
+  "sourceRevision": "94469dc718c75e829b110690b93f82abfff03ae2303565aacd069d36ff924772",
+  "scope": "release",
   "films": 72,
   "width": 1280,
   "height": 720,
-  "fps": 24,
+  "fps": 30,
+  "encoding": {
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "profile": "main",
+    "preset": "fast",
+    "crf": 20,
+    "rasterizer": "@resvg/resvg-js@2.6.2"
+  },
   "codec": "H.264",
   "pixelFormat": "yuv420p",
   "fastStart": true,
   "fullyDecoded": true,
-  "seconds": 4275.913738,
-  "bytes": 68078678,
+  "seconds": 3372.9333300000008,
+  "bytes": 106990469,
   "chapters": 467,
   "files": [
     {
       "id": "islands",
-      "decodedFrames": 1467,
-      "duration": 61.125,
-      "bytes": 848098,
-      "frames": 1467,
+      "sourceFingerprint": "fe657dd232c4ba57149f72b5441e29927d5c29eba0777171bd67e5a09bbcb219",
+      "decodedFrames": 1437,
+      "duration": 47.9,
+      "bytes": 1025581,
+      "frames": 1437,
       "chapters": 7,
-      "sha256": "3f9c54398c01abadee467047c626b70257cac7256591b1b11bbf0b74727c30c8"
+      "sha256": "09a15648ca5a8e40385e17e1ad503b1f0b5723138c29bbd6fc312bed207d788a"
     },
     {
       "id": "manhunt",
-      "decodedFrames": 1520,
-      "duration": 63.333008,
-      "bytes": 1010968,
-      "frames": 1520,
+      "sourceFingerprint": "f482803bada8cc1e20c0d0906d09ce63335ce27ec21c109bb02cf3a33c06c0b7",
+      "decodedFrames": 1515,
+      "duration": 50.5,
+      "bytes": 1393088,
+      "frames": 1515,
       "chapters": 7,
-      "sha256": "414b9217365a3a88784b44785bbf77e43134ccbef2edc9a9a985626dd5ce84c5"
+      "sha256": "b253943996ee116afaa194c5b17efd1dc3e5928bc3ca8de0ab9abc9b724f9c4a"
     },
     {
       "id": "sardines",
-      "decodedFrames": 1168,
-      "duration": 48.666667,
-      "bytes": 776947,
-      "frames": 1168,
+      "sourceFingerprint": "1b23d1a1e1352e63a01aaed469db85bf6012ddc2e2ba22e3a16b9489763c98bc",
+      "decodedFrames": 1120,
+      "duration": 37.333333,
+      "bytes": 1070123,
+      "frames": 1120,
       "chapters": 6,
-      "sha256": "eb585b3b2e1869097aa8a6399777bd293eac7bb0fee0e809b64dad4183ab2043"
+      "sha256": "440ba9aa69cd5649c289b422647c68f38e3b320625e35cf3f0d5117d267178fd"
     },
     {
       "id": "blob-tag",
-      "decodedFrames": 1178,
-      "duration": 49.083333,
-      "bytes": 601314,
-      "frames": 1178,
+      "sourceFingerprint": "fd0e725af6b408451ec664eee300dd2c56325f6abc36a888eeadaaf2286ef3bf",
+      "decodedFrames": 1102,
+      "duration": 36.733333,
+      "bytes": 831880,
+      "frames": 1102,
       "chapters": 6,
-      "sha256": "cdeb8abb358caea54032367831361e956a9caea9634153ece08830d43c6e6293"
+      "sha256": "c6659a367abada10b0efc44a348fdb8f81d0141e683417e1ffa3893c1c4a63fe"
     },
     {
       "id": "octopus",
-      "decodedFrames": 1236,
-      "duration": 51.5,
-      "bytes": 779069,
-      "frames": 1236,
+      "sourceFingerprint": "49c50192626550fb467d4b10866bb8f3fd8428fbfeda38cf777fdab7de1f6b73",
+      "decodedFrames": 1198,
+      "duration": 39.933333,
+      "bytes": 1014321,
+      "frames": 1198,
       "chapters": 6,
-      "sha256": "814b3ecd481c6c5475b9ec88c12d8878b6c87e6aee140c6e60c312a9d6a88e3b"
+      "sha256": "04241f57d5762c9f548f5d9097ba2fad7177737306fa95979c781a70c2144b2e"
     },
     {
       "id": "shadow-tag",
-      "decodedFrames": 1185,
-      "duration": 49.375,
-      "bytes": 613073,
-      "frames": 1185,
+      "sourceFingerprint": "88430282cbcaaad168aa80b5cfd3ef38764f3b2c362cb2e910d6b8bd5cfc7185",
+      "decodedFrames": 1129,
+      "duration": 37.633333,
+      "bytes": 699470,
+      "frames": 1129,
       "chapters": 6,
-      "sha256": "717dd8e3bfe9af0328e54863167627f6d6e00e99c2205979ffff6770479d5cd5"
+      "sha256": "0abaa95daa2b8a45451bc8acea85118676516434d443b988d8d3313fc8ecc448"
     },
     {
       "id": "line-tag",
-      "decodedFrames": 1205,
-      "duration": 50.208333,
-      "bytes": 750305,
-      "frames": 1205,
+      "sourceFingerprint": "ed84698cbdad7bb7b08be8f2501ca2ac7e3680be22e84eab2f6d329b5f3ecb73",
+      "decodedFrames": 1146,
+      "duration": 38.2,
+      "bytes": 731533,
+      "frames": 1146,
       "chapters": 6,
-      "sha256": "ca19d1a3c5ecd22e3848508d03b93893f1be811d5fcf100a3e8e92e4e88f1f5f"
+      "sha256": "7101fdd31c51fcafaf369dbd145ea5339e4773494d0635220fd1a93a04b56a57"
     },
     {
       "id": "everybodys-it",
-      "decodedFrames": 1159,
-      "duration": 48.291667,
-      "bytes": 632534,
-      "frames": 1159,
+      "sourceFingerprint": "232be3d9737952923caadacdd9335d16439e949562c389a296ce609700a9f962",
+      "decodedFrames": 1094,
+      "duration": 36.466667,
+      "bytes": 727517,
+      "frames": 1094,
       "chapters": 6,
-      "sha256": "3125096087591ebd8e208ad8c6eb041da9962d47ac268fe2a77cb6d420ecd174"
+      "sha256": "e730dd46415b5a60c2f59984fb15403700924acde0068866e2702fdd84b3206b"
     },
     {
       "id": "stuck-in-the-mud",
-      "decodedFrames": 1362,
-      "duration": 56.75,
-      "bytes": 703384,
-      "frames": 1362,
+      "sourceFingerprint": "fca71f806fdf74d91a3007b17befcef917d2327aa19f930fd75ebeb3b5ca732a",
+      "decodedFrames": 1306,
+      "duration": 43.533333,
+      "bytes": 729188,
+      "frames": 1306,
       "chapters": 7,
-      "sha256": "c3c7238399a7d254fc3d2bdd42685c55eed7541055beb098a07f6e077b67f9c0"
+      "sha256": "21f5db76ffc666942ae7e80a0c6ab816b08751c8b9eb608852a567734c539c48"
     },
     {
       "id": "rps-chase",
-      "decodedFrames": 1228,
-      "duration": 51.166667,
-      "bytes": 827556,
-      "frames": 1228,
+      "sourceFingerprint": "bf2312e2c24bc0c20ae88d3bbf89819d0b83a8379cd236e964f514e3e3aabe4f",
+      "decodedFrames": 1198,
+      "duration": 39.933333,
+      "bytes": 801492,
+      "frames": 1198,
       "chapters": 6,
-      "sha256": "e2b0501a9d0ded21ab3a9f9cc0d6faba4762f4a4e1ffb4aa97d6f404116b59f1"
+      "sha256": "dfb883764477dbe84e5adbdfcbfe840f6ad8ac93ee4556b08b3b75ee0daef35c"
     },
     {
       "id": "dragon-tail",
-      "decodedFrames": 1238,
-      "duration": 51.583333,
-      "bytes": 652642,
-      "frames": 1238,
+      "sourceFingerprint": "009692ab68a6e0d3751051a19f005d1359e520bfde295c509be6e0d18c2e6c6b",
+      "decodedFrames": 1176,
+      "duration": 39.2,
+      "bytes": 739986,
+      "frames": 1176,
       "chapters": 6,
-      "sha256": "8029077fd90af51268c43de8d92ec3559da09659c5f6a6defbbebce365afc8c3"
+      "sha256": "cd99fbdd837cc7f855abeb0717aa957343ab374a0c32cb2b7dbcee69c8443917"
     },
     {
       "id": "capture-the-flag",
-      "decodedFrames": 1582,
-      "duration": 65.916667,
-      "bytes": 1205245,
-      "frames": 1582,
+      "sourceFingerprint": "6b2af5a9d63a245be6b39bdaf57f55a2b480fac286e6ce9f268097b37e761944",
+      "decodedFrames": 1584,
+      "duration": 52.8,
+      "bytes": 1585072,
+      "frames": 1584,
       "chapters": 7,
-      "sha256": "dc0e2bb4550f684eb8e77bd8ba0344596618a9e0974382631c123619fe69ab14"
+      "sha256": "09b714bef8b0be808b37adcf71a607050bb01c083206f449c8cba11de3659898"
     },
     {
       "id": "hoop-rescue",
-      "decodedFrames": 1529,
-      "duration": 63.708008,
-      "bytes": 1393427,
-      "frames": 1529,
+      "sourceFingerprint": "e4a522e60f0217cd68c0293b21d11e018469395235b25badcae465eb0c7d1ba8",
+      "decodedFrames": 1506,
+      "duration": 50.2,
+      "bytes": 2632512,
+      "frames": 1506,
       "chapters": 7,
-      "sha256": "54560230680be5287016697f738904b299c70422b46367a840254f4255c7dfe5"
+      "sha256": "02e00b84f5b58bc55a7c6ffb6c37f27ad7bcee11e04050f3791c66c48d59fa5b"
     },
     {
       "id": "noodle-keeper",
-      "decodedFrames": 1582,
-      "duration": 65.916667,
-      "bytes": 1342651,
-      "frames": 1582,
+      "sourceFingerprint": "3b7b85a3eec23317c7cd5f46abd05b0f4811ccd96bc355a16f80ff7921afc86d",
+      "decodedFrames": 1584,
+      "duration": 52.8,
+      "bytes": 2225169,
+      "frames": 1584,
       "chapters": 7,
-      "sha256": "b8100fe3ca9c842b79d221c12c1f9bfba2e6a127cb8bc19743b05101f5ecd129"
+      "sha256": "89a3986ca8a332196588bf119c6ce3454540941bb3c28fd95fd597336b7b616f"
     },
     {
       "id": "medic-dodgeball",
-      "decodedFrames": 1608,
-      "duration": 67,
-      "bytes": 1145572,
-      "frames": 1608,
+      "sourceFingerprint": "9566bbe229ef1ee9ace48e1882057945df466c30f39c6a33d710ba955ae94403",
+      "decodedFrames": 1584,
+      "duration": 52.8,
+      "bytes": 2034977,
+      "frames": 1584,
       "chapters": 7,
-      "sha256": "7b17766db62f1703390a2195c0c02d04fcce853952275ae09df3d499cbed4de0"
+      "sha256": "815d4b92180056655b75caeac6a0a0f40418b222358f88a4fb3bbaa70763a2de"
     },
     {
       "id": "gaga",
-      "decodedFrames": 1622,
-      "duration": 67.583333,
-      "bytes": 977262,
-      "frames": 1622,
+      "sourceFingerprint": "b5360ffe3950f8879d38c9f423b342b8d54490b8d856d90a02cddf62c8791109",
+      "decodedFrames": 1602,
+      "duration": 53.4,
+      "bytes": 1487872,
+      "frames": 1602,
       "chapters": 7,
-      "sha256": "18d94f61e89ad367ec8fa4a39d1945f8eda4a4ed6ffd24a307e40ec5fffcd37f"
+      "sha256": "4a8b2a85228d31545a6c11b2caad27954298b6b232362791733da53886aa0de8"
     },
     {
       "id": "four-corners",
-      "decodedFrames": 1343,
-      "duration": 55.958008,
-      "bytes": 926996,
-      "frames": 1343,
+      "sourceFingerprint": "cc429350d0aebac3d39edb66cb13eea86a3f02ede05317875eb2009000a12508",
+      "decodedFrames": 1329,
+      "duration": 44.3,
+      "bytes": 1465645,
+      "frames": 1329,
       "chapters": 6,
-      "sha256": "e642efe982940ea88e9f1d627cb16d1629b6385c9da31daa8d356e682b3ec2f9"
+      "sha256": "99035daaad0f926bb2e5d9cfd8383e847655cd739753ffeb5fd5fc6e1b4f5c85"
     },
     {
       "id": "two-pin",
-      "decodedFrames": 1509,
-      "duration": 62.875,
-      "bytes": 1400044,
-      "frames": 1509,
+      "sourceFingerprint": "355f19199b5a9f2c40f552725fddefc393c535e6d8a6e355650cb7939b398518",
+      "decodedFrames": 1454,
+      "duration": 48.466667,
+      "bytes": 2433837,
+      "frames": 1454,
       "chapters": 7,
-      "sha256": "a6811d44af16151f6818a106881874c8a925866ce27bf8abf6390486fe8a6c8d"
+      "sha256": "4e89d0086a3b677a443746ba0d73fa23935a637cc4dde623545c18a67e6bbdac"
     },
     {
       "id": "castleball",
-      "decodedFrames": 1467,
-      "duration": 61.125,
-      "bytes": 1072535,
-      "frames": 1467,
+      "sourceFingerprint": "e6b927ec3cb60061e411d7f919c81f0cac0e35c20c4949dd697a502828780be4",
+      "decodedFrames": 1445,
+      "duration": 48.166667,
+      "bytes": 2002146,
+      "frames": 1445,
       "chapters": 7,
-      "sha256": "d5a671634b5c781df960658a97bfee1034ea18574f94f41de4039f158fa9d5a8"
+      "sha256": "c4280c77ef2e0483206ffeb4ef7d523c58b9dbe12b2ffcef81dbfc85c00c658a"
     },
     {
       "id": "protect-president",
-      "decodedFrames": 1321,
-      "duration": 55.041667,
-      "bytes": 1114096,
-      "frames": 1321,
+      "sourceFingerprint": "8b0deeb082a69af3be3d8f54e51a81061158c1a629a8fde5aab17c60720e4b8c",
+      "decodedFrames": 1294,
+      "duration": 43.133333,
+      "bytes": 2011416,
+      "frames": 1294,
       "chapters": 6,
-      "sha256": "daa091a5a7c1ede736fb5baac6bd5ff49197c45c52d7677cb9fb2f37ae53df4f"
+      "sha256": "e7679e87650aff77a18f89d2a65bac747885263d920b98ca80d6c565d5f1e4ff"
     },
     {
       "id": "nationball",
-      "decodedFrames": 1566,
-      "duration": 65.25,
-      "bytes": 1395640,
-      "frames": 1566,
+      "sourceFingerprint": "2893a861356ff23f92f4c6711c6b7e62719f1528f30aa760f84414cf437c7e19",
+      "decodedFrames": 1576,
+      "duration": 52.533333,
+      "bytes": 2794686,
+      "frames": 1576,
       "chapters": 7,
-      "sha256": "faaa84cfcc32b837b86191f7fd9a3259bf765736a75d96725f563ef4b101aa6d"
+      "sha256": "73288192e4c511745712623f3754f6ddb0ba4b3ac55d99f89e1e76f3ed09959a"
     },
     {
       "id": "sprout-ball",
-      "decodedFrames": 1713,
-      "duration": 71.375,
-      "bytes": 1020561,
-      "frames": 1713,
+      "sourceFingerprint": "f0213876de57996c9c2fb39950972408a4e23ad58439ed1fde555542feeee8a2",
+      "decodedFrames": 1732,
+      "duration": 57.733333,
+      "bytes": 2157282,
+      "frames": 1732,
       "chapters": 7,
-      "sha256": "24aa2b27b930fa4d8209aced73534f3c6955b29ac9477b97b163813430e090c3"
+      "sha256": "fe1a2c0c39ca50293effbea8acbf434888795ef35ec506b856a786ff3e8725cc"
     },
     {
       "id": "money-ball",
-      "decodedFrames": 1481,
-      "duration": 61.708008,
-      "bytes": 1225114,
-      "frames": 1481,
+      "sourceFingerprint": "26fd1d351535d4f5764d470c8e1a3656ba90ea3fdb43afc12b837cdd1ace5d7c",
+      "decodedFrames": 1471,
+      "duration": 49.033333,
+      "bytes": 2357687,
+      "frames": 1471,
       "chapters": 7,
-      "sha256": "695099d223f2a7a05e13aefc0f23cb65419c21b4355cb25b62b0cf1d1c83f0d6"
+      "sha256": "df575839a3b0968b0152f10afcd646352636d68cdf4afa2600326a94732bc108"
     },
     {
       "id": "rollerball",
-      "decodedFrames": 1320,
-      "duration": 55,
-      "bytes": 815430,
-      "frames": 1320,
+      "sourceFingerprint": "1734e8105263e631b9afe0a78315ef67f0d5ec77373e4a736b4fdd7ba3872e39",
+      "decodedFrames": 1302,
+      "duration": 43.4,
+      "bytes": 1442368,
+      "frames": 1302,
       "chapters": 6,
-      "sha256": "13e917a25ba926c30ded4ab596bf02504d2095ba333a5ae9f5e4b670e1805a60"
+      "sha256": "20ff51a77d2836aaa5376c8fc3bc78f25f3cebc108ac4e7f7574dd54d6e11dfb"
     },
     {
       "id": "flunkyball",
-      "decodedFrames": 1508,
-      "duration": 62.833333,
-      "bytes": 1106299,
-      "frames": 1508,
+      "sourceFingerprint": "ecc2745a320435372dc24abfbc33df4ba53478de43ceade0823b639b27220c8e",
+      "decodedFrames": 1471,
+      "duration": 49.033333,
+      "bytes": 1161020,
+      "frames": 1471,
       "chapters": 7,
-      "sha256": "75e9a561a7e3692bada264eeda32ac490082c31dfa7653f8ec23c997180a6e2e"
+      "sha256": "c6e5ca27800561d19224438ee8172a9e29268b00fa4acc498e496d1c171885f4"
     },
     {
       "id": "kubb",
-      "decodedFrames": 1397,
-      "duration": 58.208333,
-      "bytes": 834732,
-      "frames": 1397,
+      "sourceFingerprint": "e82d73a42805784ef6d4cec5d460b662e57be7070d2da0deb5eaf559cdf489cc",
+      "decodedFrames": 1389,
+      "duration": 46.3,
+      "bytes": 785461,
+      "frames": 1389,
       "chapters": 6,
-      "sha256": "e7e980fcd9862dd09aeb0fd5821a63f9002b9e77cd188f920b88373f3254a7ce"
+      "sha256": "b87073c7f190435fc9984e5e445032726bfc9809db7e1a409c3f356145e1289e"
     },
     {
       "id": "molkky",
-      "decodedFrames": 1504,
-      "duration": 62.666667,
-      "bytes": 1130543,
-      "frames": 1504,
+      "sourceFingerprint": "dc2c97a30b5c473490e5c396eec8cec537e4ba052b124049f78dbbd50204905a",
+      "decodedFrames": 1497,
+      "duration": 49.9,
+      "bytes": 1060782,
+      "frames": 1497,
       "chapters": 7,
-      "sha256": "ed06029c66f7a9130d22cefbef612a7a50809481c4297c907d0e13ce0e624292"
+      "sha256": "5e23a81a49d1a01f946fc7c4797dcb1dd70275a486280e1b382e3f3ad64f1922"
     },
     {
       "id": "petanque",
-      "decodedFrames": 1335,
-      "duration": 55.625,
-      "bytes": 828172,
-      "frames": 1335,
+      "sourceFingerprint": "9e9b3605ce456636b495f17d0208dc9ce55718af87fc955059d475c47ef04e8e",
+      "decodedFrames": 1320,
+      "duration": 44,
+      "bytes": 1751910,
+      "frames": 1320,
       "chapters": 6,
-      "sha256": "d822b66173edc33b5579743cfc8bc28fdb6dbeeb005e84e81fdf0d1edd97aeac"
+      "sha256": "c8174e3d04262b6766a80adbe6e06f2c1069a9bedecc8152ef1c4d9ceeb39ffb"
     },
     {
       "id": "bocce",
-      "decodedFrames": 1392,
-      "duration": 58,
-      "bytes": 963898,
-      "frames": 1392,
+      "sourceFingerprint": "021a672f60ed96fc9703ac5a2c84feb14938a1e759ac41614d0d0e652125a892",
+      "decodedFrames": 1341,
+      "duration": 44.7,
+      "bytes": 1849584,
+      "frames": 1341,
       "chapters": 7,
-      "sha256": "d42c0db9426139fdb06257b4afb4e95fc3391775d74d64fb4b82e8065769117e"
+      "sha256": "3fab04f68d03789e133fcf15b93d4b2c42abce26e0e147df2d71fcf599b11bca"
     },
     {
       "id": "cornhole",
-      "decodedFrames": 1354,
-      "duration": 56.416667,
-      "bytes": 904543,
-      "frames": 1354,
+      "sourceFingerprint": "cf17e481dbef242c313b2631c7d7f38d85b4534e8853d3b363a4f2271cba76fc",
+      "decodedFrames": 1337,
+      "duration": 44.566667,
+      "bytes": 886955,
+      "frames": 1337,
       "chapters": 6,
-      "sha256": "94676f10094c0814ae2e8fa8d011f95f2aa9b133af2848a77229afb5100886cb"
+      "sha256": "868ff45e28165b3809a5de4830f0bc568cb6d0142e03b293de9c8235d609e104"
     },
     {
       "id": "kanjam",
-      "decodedFrames": 1644,
-      "duration": 68.5,
-      "bytes": 1100166,
-      "frames": 1644,
+      "sourceFingerprint": "d6a14413f26a2303260f8390db8cfa7f0e41e31dc5ff4985bd5642d5dcf9c1bb",
+      "decodedFrames": 1654,
+      "duration": 55.133333,
+      "bytes": 2356207,
+      "frames": 1654,
       "chapters": 7,
-      "sha256": "791108e00eb11a3bc891fc2c7ea3533c16a5d12885026b63a4d17a5f85b031a2"
+      "sha256": "5a528f960bae9d0d12272794e3445c4ac1e0db635f009aa6a5638d74a5339899"
     },
     {
       "id": "ladder-toss",
-      "decodedFrames": 1451,
-      "duration": 60.458333,
-      "bytes": 981349,
-      "frames": 1451,
+      "sourceFingerprint": "8049e3f2960b8c76438a68cd554e9a2e98988d7a27559a5ba01b1b730ca8b35c",
+      "decodedFrames": 1450,
+      "duration": 48.333333,
+      "bytes": 1759164,
+      "frames": 1450,
       "chapters": 6,
-      "sha256": "2a0ce95113930126c2c43d0005b0b1194c46b3e37030e509d2e4e4b62788dd2e"
+      "sha256": "a8d11d50d0e5692a7d09ceb77f8fa5d4508eb236a018ef8b6e1dc07dcf7a9e5d"
     },
     {
       "id": "washer-toss",
-      "decodedFrames": 1277,
-      "duration": 53.208333,
-      "bytes": 826367,
-      "frames": 1277,
+      "sourceFingerprint": "6f805f4bb0e40c872a293dbf5e412ddf758bfc3e0ef2d5fd4752ca418b46e451",
+      "decodedFrames": 1233,
+      "duration": 41.1,
+      "bytes": 789318,
+      "frames": 1233,
       "chapters": 6,
-      "sha256": "4bcf822b18ff2d8d32b7b3d660e5611dec43d04c3fa8a47ee543e805e42bded5"
+      "sha256": "faef8f2ca51cd1b06003f4fec0364ba37bdb76cfd631e304c20a77a4295143a7"
     },
     {
       "id": "croquet",
-      "decodedFrames": 1352,
-      "duration": 56.333333,
-      "bytes": 1084645,
-      "frames": 1352,
+      "sourceFingerprint": "890b850969e65729dd0e207c8e5fab8e1530cf4563ead5b5def5fc7ec12016d0",
+      "decodedFrames": 1311,
+      "duration": 43.7,
+      "bytes": 2166435,
+      "frames": 1311,
       "chapters": 6,
-      "sha256": "79541516ed3020b86f8bd90709c747cd7d22ae48a9e9a73122ff8662f7665b55"
+      "sha256": "c47c4838b675642c78b78fd37b901a645f3c5973cfb77b960849acaaa3017a0d"
     },
     {
       "id": "disc-golf",
+      "sourceFingerprint": "03926d6b16984860c0fde3fcfb7a5de966d34399bedc653fe6a304e66a26c48b",
       "decodedFrames": 1558,
-      "duration": 64.916667,
-      "bytes": 894031,
+      "duration": 51.933333,
+      "bytes": 1629835,
       "frames": 1558,
       "chapters": 7,
-      "sha256": "3061981147a0bb16b4ef4d68ff73f6020ae0223a112b6b72eac3e1291639d4aa"
+      "sha256": "c2300ca529afb3e941cf85eece9ada5fd1c5eb360e6ffc623d11632b3eb0ddaf"
     },
     {
       "id": "gorodki",
+      "sourceFingerprint": "d32e031c46a310f18e002c154a51665f240dd75f456411ef86ec6472b5acb6b1",
       "decodedFrames": 1558,
-      "duration": 64.916667,
-      "bytes": 949720,
+      "duration": 51.933333,
+      "bytes": 1019948,
       "frames": 1558,
       "chapters": 7,
-      "sha256": "768cf9f402aea66659c97e5dfbece8ecb53c1537fe2824dcaaeb6e5a1544ccf0"
+      "sha256": "b86325113d1a9d7682211d876a657bb851d412980f3ab657b30c161f6caa1472"
     },
     {
       "id": "kho-kho",
-      "decodedFrames": 1376,
-      "duration": 57.333333,
-      "bytes": 881969,
-      "frames": 1376,
+      "sourceFingerprint": "c36b521fc63ad1a8aaacb071578769fac48516599843756b7404bd38b9da69b8",
+      "decodedFrames": 1332,
+      "duration": 44.4,
+      "bytes": 1132537,
+      "frames": 1332,
       "chapters": 7,
-      "sha256": "1abc4089f48a9d30e2e84e73bae47f2029070018940079587540b30e1abfc892"
+      "sha256": "d3759ff87b50a18442bad4c3d509a40e819d4c1f452f0733d59839a8d2a65c92"
     },
     {
       "id": "kabaddi",
-      "decodedFrames": 1469,
-      "duration": 61.208008,
-      "bytes": 993799,
-      "frames": 1469,
+      "sourceFingerprint": "783d521bfcf703c2e8027a15aa135389a0880e9745c553b96828148fcd74f2f5",
+      "decodedFrames": 1445,
+      "duration": 48.166667,
+      "bytes": 1387180,
+      "frames": 1445,
       "chapters": 7,
-      "sha256": "13ccc58fbf44f631af90ef0a3d7385ddb5befe6a55d98b680488bf946cd28b96"
+      "sha256": "687c549d6a3c08f0c34a90c9bdb6bda292f969a9b165b3d8957605fc23c0a00a"
     },
     {
       "id": "lagori",
-      "decodedFrames": 1321,
-      "duration": 55.041667,
-      "bytes": 878826,
-      "frames": 1321,
+      "sourceFingerprint": "5158e060110bf73f899861a8afd739ee2b978827a8be4d06b5b4a06f76298aad",
+      "decodedFrames": 1302,
+      "duration": 43.4,
+      "bytes": 1379417,
+      "frames": 1302,
       "chapters": 6,
-      "sha256": "3a5f9ead35238daf35fa8eb9da09103062c20bedd3482e81739d279e2a91cfe3"
+      "sha256": "9bca0a97f9dd71c731bda89f44fd1398ed9c3223cb804c8d011074ba9d0d7b85"
     },
     {
       "id": "peteca",
-      "decodedFrames": 1312,
-      "duration": 54.666667,
-      "bytes": 775813,
-      "frames": 1312,
+      "sourceFingerprint": "6a655ba460f553e9067b2405768bde0df9eb6f85a2dcf16aaa983eadca56f6a6",
+      "decodedFrames": 1294,
+      "duration": 43.133333,
+      "bytes": 1493656,
+      "frames": 1294,
       "chapters": 6,
-      "sha256": "118d818bf0cc49939f208aebf23915c2ce640923ddd75214880ffaf47ee5ff6e"
+      "sha256": "a443c4e00cbd15880fe951038f9af63590dceff472ffa3c77e784b10c9cfdcf2"
     },
     {
       "id": "sepak-takraw",
-      "decodedFrames": 1508,
-      "duration": 62.833008,
-      "bytes": 990707,
-      "frames": 1508,
+      "sourceFingerprint": "9cad7f3a8b75bb01e49322e61352f9301256695e3c1c64402b37c4f6af47e983",
+      "decodedFrames": 1515,
+      "duration": 50.5,
+      "bytes": 1804703,
+      "frames": 1515,
       "chapters": 7,
-      "sha256": "0bd6d0212f9440a406b5d70fab138c98382ecfd174c60c1d9b532c63768b252c"
+      "sha256": "b866a2ca3d3b15ef161b16384a885928cfe7a3a257dfef40c9154255e8d21fbe"
     },
     {
       "id": "ki-o-rahi",
-      "decodedFrames": 1636,
-      "duration": 68.166667,
-      "bytes": 1246956,
-      "frames": 1636,
+      "sourceFingerprint": "b227226cf8699bc03cac9985ffa8abac972d483d3a017fa4b957eabfb7c79db1",
+      "decodedFrames": 1654,
+      "duration": 55.133333,
+      "bytes": 2192738,
+      "frames": 1654,
       "chapters": 7,
-      "sha256": "94c84cbdbce6e0dbd3518d1a3534602665c2c6d65b6ecbe3b6ca2764ab2a686b"
+      "sha256": "b689396af6a25ae306064ae9c737b67ddeb6c6976c986f8a85a81cb1dcd46ff0"
     },
     {
       "id": "lippa",
-      "decodedFrames": 1298,
-      "duration": 54.083333,
-      "bytes": 895036,
-      "frames": 1298,
+      "sourceFingerprint": "1981446b9bab416acc44d6f9ceeb662261f852210abcf9d8870aa3c486cb05ab",
+      "decodedFrames": 1259,
+      "duration": 41.966667,
+      "bytes": 907388,
+      "frames": 1259,
       "chapters": 6,
-      "sha256": "0c926711f8684cdadc392aa2335c7125e9cec2b65baf243a9f8067bb371ffd67"
+      "sha256": "ccaf7faad5f35bc6e6383a18d3dc0c21cdff6db2b0c2feb2cbe824381af1478f"
     },
     {
       "id": "bete-ombro",
-      "decodedFrames": 1343,
-      "duration": 55.958333,
-      "bytes": 909374,
-      "frames": 1343,
+      "sourceFingerprint": "2371d3dc589b89116af7a55c5e77869e8d7163a89cdf5626535e3331ed6745ac",
+      "decodedFrames": 1329,
+      "duration": 44.3,
+      "bytes": 1497874,
+      "frames": 1329,
       "chapters": 6,
-      "sha256": "5cfee5522d278ec4a6ba1c034767bfbe867e1cfa703af434499728065397eed8"
+      "sha256": "e66fb38f2e792b4b00ec4393d0be4b6f694b2e40adaa22dc3d75a0d8e49ef788"
     },
     {
       "id": "ampe",
-      "decodedFrames": 1331,
-      "duration": 55.458333,
-      "bytes": 689181,
-      "frames": 1331,
+      "sourceFingerprint": "6a1cfc6a20af116263d07718587c1bdfc6e880815e32d7bc7b2936a980d4d5f7",
+      "decodedFrames": 1268,
+      "duration": 42.266667,
+      "bytes": 649628,
+      "frames": 1268,
       "chapters": 6,
-      "sha256": "d34ddc552cc528c2608435225624de5896a87a9e9a57910fcfc50562942b852e"
+      "sha256": "5a9f1fd17ecfe118240b513c8341a1642916c5157d0091b1b469678f35790a3d"
     },
     {
       "id": "pilolo",
-      "decodedFrames": 1337,
-      "duration": 55.708333,
-      "bytes": 853902,
-      "frames": 1337,
+      "sourceFingerprint": "30d518af28ea81b20ce2c50de81a48d01d45c7a26fc59c5d9b34e14a29f90ed9",
+      "decodedFrames": 1302,
+      "duration": 43.4,
+      "bytes": 1290789,
+      "frames": 1302,
       "chapters": 6,
-      "sha256": "5f4a21468cabc1ca5d4b87f34c1fa0681b201aead4c7c24e1449a64658ba6d5c"
+      "sha256": "feef919ea635db9275f12543e57d29d69b0ed685e3f9531df2f008343c8f6524"
     },
     {
       "id": "jianzi",
-      "decodedFrames": 1358,
-      "duration": 56.583333,
-      "bytes": 829178,
-      "frames": 1358,
+      "sourceFingerprint": "e65dd515ba00f3c00c29a4489a1b738e547748dd354e1c307c4f151dcbd39f60",
+      "decodedFrames": 1346,
+      "duration": 44.866667,
+      "bytes": 1594077,
+      "frames": 1346,
       "chapters": 6,
-      "sha256": "07ec730f679ee63509c02756b0b7879ced4c193beec6217212a2ce99d9b310fb"
+      "sha256": "7c7e6927a4771e6e7f6b334d9653ba5df9eb339cec676afee1690bad4b258244"
     },
     {
       "id": "dibeke",
-      "decodedFrames": 1667,
-      "duration": 69.458333,
-      "bytes": 1039115,
-      "frames": 1667,
+      "sourceFingerprint": "0886be43bc25d2eed48d23a0a983c23894ae69df87700c34145fa34f51f4ed46",
+      "decodedFrames": 1680,
+      "duration": 56,
+      "bytes": 1655747,
+      "frames": 1680,
       "chapters": 7,
-      "sha256": "352497e259f45dc03f3a69ccae51787a4ed97e255b2cd1bc70888ea8f192a179"
+      "sha256": "080125bd28eae4d1fb208257b376a5fc6418d3921ff98a0007383cbffd39c4db"
     },
     {
       "id": "tchoukball",
-      "decodedFrames": 1613,
-      "duration": 67.208333,
-      "bytes": 1247011,
-      "frames": 1613,
+      "sourceFingerprint": "69173469c61a4d18b5e82abaee139a75dc9151ffef5b3313f43ebb093cf0734d",
+      "decodedFrames": 1619,
+      "duration": 53.966667,
+      "bytes": 3077756,
+      "frames": 1619,
       "chapters": 7,
-      "sha256": "55bdd37e53ef943eaf203f918650ea87418f05dda3333daa07a336f3a249c918"
+      "sha256": "6b075cff2e46514b88c4d7bded6fe7ee108aa41ce0de7108a503c3bb8812028a"
     },
     {
       "id": "kin-ball",
-      "decodedFrames": 1450,
-      "duration": 60.416667,
-      "bytes": 1154519,
-      "frames": 1450,
+      "sourceFingerprint": "485c8726a39207d8878d313df787f3ef91a79b830e42198106185e1aab90c7bd",
+      "decodedFrames": 1437,
+      "duration": 47.9,
+      "bytes": 1930403,
+      "frames": 1437,
       "chapters": 7,
-      "sha256": "a5fdd01e17cd215b23f38f8bf8952eff789d8de6611a77676ac30a0319344503"
+      "sha256": "75dc2aa1822e997ff7eae17394aa305f32882321f6f0264f236f3dbc661bc275"
     },
     {
       "id": "ultimate",
-      "decodedFrames": 1252,
-      "duration": 52.166667,
-      "bytes": 794130,
-      "frames": 1252,
+      "sourceFingerprint": "92520e38031f8f8991b315488668a3760b5117c4a01edea34ed77642e81660bb",
+      "decodedFrames": 1216,
+      "duration": 40.533333,
+      "bytes": 1289863,
+      "frames": 1216,
       "chapters": 6,
-      "sha256": "156d8e16e73f1859ac61eefd6327cabcb1ce2c1a676505550c07ed1b58144fc8"
+      "sha256": "ba7d4bdd2e04a844ae02687c6fe1ada42af9717d6bf494ea245f9a1913da4b86"
     },
     {
       "id": "jugger",
-      "decodedFrames": 1474,
-      "duration": 61.416667,
-      "bytes": 869241,
-      "frames": 1474,
+      "sourceFingerprint": "47b4d289f93b01634c3a234ff00c4958c7af85c1cc00fca0b5646e0f33027101",
+      "decodedFrames": 1476,
+      "duration": 49.2,
+      "bytes": 1481656,
+      "frames": 1476,
       "chapters": 6,
-      "sha256": "4cfdbe3522ccd362f684608c03b82dcd8dc6dcceee69fa2e39d53d3386ac499c"
+      "sha256": "1fed111b5cdfd685e4a2e239d51ba8cdc57ac0c5834d5a2a2e1405ef97a72fbc"
     },
     {
       "id": "roundnet",
-      "decodedFrames": 1360,
-      "duration": 56.666667,
-      "bytes": 843578,
-      "frames": 1360,
+      "sourceFingerprint": "b35418cf780cf6c26ca59516bfc0865abaa22417f1efe0d586fed46960036607",
+      "decodedFrames": 1329,
+      "duration": 44.3,
+      "bytes": 1781522,
+      "frames": 1329,
       "chapters": 6,
-      "sha256": "1f2d14ac58e8ccb17dccd6eb36feb59c74d63e220133ffe1d0f568e9eb858588"
+      "sha256": "2880c5b66c2a1fa539d51cb66b082983fdbef3c0a125c4ac7710badb6b9b3071"
     },
     {
       "id": "danish-longball",
-      "decodedFrames": 1568,
-      "duration": 65.333008,
-      "bytes": 956814,
-      "frames": 1568,
+      "sourceFingerprint": "bfc42476c097de2bfd7071f8d3cd286316f661e11238e3db3e28eff2408c609d",
+      "decodedFrames": 1567,
+      "duration": 52.233333,
+      "bytes": 1462939,
+      "frames": 1567,
       "chapters": 7,
-      "sha256": "c958b544ea0b3ab07921e0f560d0b437b273aa5b9cd9c7acbf252ae3ae34c49f"
+      "sha256": "1d1cd80db388a4d1a7d8d20074735e037f5a43d7e10deac7f5e83bb1cfcc05bf"
     },
     {
       "id": "newcomb",
-      "decodedFrames": 1337,
-      "duration": 55.708333,
-      "bytes": 758973,
-      "frames": 1337,
+      "sourceFingerprint": "4b1a3883f09d4de432bb785bf9ac21e67eb85fea3cbe3ddb84851eb4fc40cb04",
+      "decodedFrames": 1320,
+      "duration": 44,
+      "bytes": 1429260,
+      "frames": 1320,
       "chapters": 6,
-      "sha256": "d48b5105ba61356ed0e12567f5fc308555a41519597710e497922063bba03385"
+      "sha256": "8b79ac033662bfc038b18fd32e80ce4f47a58c81b7439737f5fefffdd7e91945"
     },
     {
       "id": "endball",
-      "decodedFrames": 1343,
-      "duration": 55.958333,
-      "bytes": 859138,
-      "frames": 1343,
+      "sourceFingerprint": "a63da787d20545402d67db16a283c9b3f947e14f16e2e64d7b81f666ec08307b",
+      "decodedFrames": 1329,
+      "duration": 44.3,
+      "bytes": 1448431,
+      "frames": 1329,
       "chapters": 6,
-      "sha256": "fcbb320f57db0df14db32d41d5cdddd3de2235e009eea6071d437b76e74a0df7"
+      "sha256": "638c012e6cead5a90ff2c0c6e1141d78d534cbae4e35c724f2456f5e8528208b"
     },
     {
       "id": "speedball",
-      "decodedFrames": 1484,
-      "duration": 61.833333,
-      "bytes": 1035231,
-      "frames": 1484,
+      "sourceFingerprint": "8a91afffb857a58f408dbf2fd75eeef767d04feca68e1128c5c6a5711ca71e82",
+      "decodedFrames": 1440,
+      "duration": 48,
+      "bytes": 1722285,
+      "frames": 1440,
       "chapters": 7,
-      "sha256": "035f7abe41d5d8b0c48e7efa3d23ca0cf573225438ccba9e361bcd64636cba30"
+      "sha256": "ff52cf6c796cc35caafeaf9702b70074dfacf5f8260c5b646ceb87185895afad"
     },
     {
       "id": "korfball",
-      "decodedFrames": 1568,
-      "duration": 65.333333,
-      "bytes": 1081659,
-      "frames": 1568,
+      "sourceFingerprint": "656275d556d25b58691342e29073974dffe4d77659dd8801e95a7f28503e8cd0",
+      "decodedFrames": 1567,
+      "duration": 52.233333,
+      "bytes": 1964036,
+      "frames": 1567,
       "chapters": 7,
-      "sha256": "526e95e55e95ea09f243aecb26894593673d1979c05d3d0e4dd14fbe19bb426e"
+      "sha256": "81845def2b380b2174e64e744b997f5b7f64449f51191c0c4296fe3d4fce4575"
     },
     {
       "id": "sitting-volleyball",
-      "decodedFrames": 1360,
-      "duration": 56.666667,
-      "bytes": 930745,
-      "frames": 1360,
+      "sourceFingerprint": "efca9bea00dcb01d089c79e2fb63666a790231fae12ba921a45beff66497abe0",
+      "decodedFrames": 1337,
+      "duration": 44.566667,
+      "bytes": 2188134,
+      "frames": 1337,
       "chapters": 6,
-      "sha256": "3517eade198561acc203e330c822cf0fae4ac92923c368cf4f1162817cfc48a5"
+      "sha256": "0cc3de44c61d778af6dfb008e818116974eca529f78e33f4b7a18dd70f4f6665"
     },
     {
       "id": "hooverball",
-      "decodedFrames": 1375,
-      "duration": 57.291667,
-      "bytes": 941261,
-      "frames": 1375,
+      "sourceFingerprint": "df36f47b7c5f0b2fcc084bada4a654390983d222db612cb83c5702bf489b854d",
+      "decodedFrames": 1363,
+      "duration": 45.433333,
+      "bytes": 1834731,
+      "frames": 1363,
       "chapters": 6,
-      "sha256": "ea5a0f50c538583721e9983f48b2d784068ea191413c49204352148e1ad2458e"
+      "sha256": "b50e834d344dda7688f9331dfc69d771dd445cfbd9aad57ce58a8412936ef491"
     },
     {
       "id": "hoop-pass",
-      "decodedFrames": 1543,
-      "duration": 64.291667,
-      "bytes": 781459,
-      "frames": 1543,
+      "sourceFingerprint": "49b1ba2140a15ca036878387c3b366e3f9386bde2768ba4d4ccffaa1f56fc3d9",
+      "decodedFrames": 1541,
+      "duration": 51.366667,
+      "bytes": 779332,
+      "frames": 1541,
       "chapters": 7,
-      "sha256": "f7397608e889746625690042e2810115f7c14eb49ae65090bf64a6b16af1a418"
+      "sha256": "0b35187c328c9d79514b6b2521522d8448c23ba0c68615959efd7d488c03b23e"
     },
     {
       "id": "ninja",
-      "decodedFrames": 1360,
-      "duration": 56.666667,
-      "bytes": 696705,
-      "frames": 1360,
+      "sourceFingerprint": "aa920c86d7bec5abbe1695c7f90c80dbe33e538d932abb52015154b8c2d6f664",
+      "decodedFrames": 1346,
+      "duration": 44.866667,
+      "bytes": 1193062,
+      "frames": 1346,
       "chapters": 6,
-      "sha256": "b3c564a740cd002756135ba554fe50a1aa7616d48379612e86997cfaf13ed168"
+      "sha256": "d8e11f9cd5c3eb38965a2a9786e805f0b7a42b25fb00b6ac3d8dcba93084bc8c"
     },
     {
       "id": "zip-zap-zop",
-      "decodedFrames": 1283,
-      "duration": 53.458333,
-      "bytes": 739289,
-      "frames": 1283,
+      "sourceFingerprint": "15a2a76767f4d11f08a8d6398b82b2b114fbf2d28559408cbdd7400982721afa",
+      "decodedFrames": 1259,
+      "duration": 41.966667,
+      "bytes": 824347,
+      "frames": 1259,
       "chapters": 6,
-      "sha256": "8e879aa9e387700eba5cb903ab58be67bfd010b3e26a2e2585190f7aece0a6a4"
+      "sha256": "c0be5bd33d80623fd93625f23d304c69261a790daeb1f2584605ee2a16df4208"
     },
     {
       "id": "roshambo-rockstar",
-      "decodedFrames": 1430,
-      "duration": 59.583333,
-      "bytes": 1071013,
-      "frames": 1430,
+      "sourceFingerprint": "740a143dd6b48e2bdb7fb20c3f6365312c5a4e964eebbf59a7d16c70a658fe1c",
+      "decodedFrames": 1384,
+      "duration": 46.133333,
+      "bytes": 1281862,
+      "frames": 1384,
       "chapters": 7,
-      "sha256": "d2823295989f0675a7654dd916c1e8588fb7ff8b47b61ad58aef834ed4a9740e"
+      "sha256": "21de2639c527a22fb1d79116f66aeb36065f9aeb53111dbda684736573bb9bde"
     },
     {
       "id": "parachute-popcorn",
-      "decodedFrames": 1304,
-      "duration": 54.333008,
-      "bytes": 872010,
-      "frames": 1304,
+      "sourceFingerprint": "96fca0c04c2b62b12a659f99cbbf43cb7684653351dba51d98ac0f8ca32951e1",
+      "decodedFrames": 1285,
+      "duration": 42.833333,
+      "bytes": 1410668,
+      "frames": 1285,
       "chapters": 6,
-      "sha256": "34a6d215ada02ff390c99bafcc81f7f0bf11375ef110f482d89c1c56b1b02e01"
+      "sha256": "c4fa755902a6ab9731b3eade94578cd69a58b5357decbf7ffcd92769fed175cb"
     },
     {
       "id": "human-knot",
-      "decodedFrames": 1659,
-      "duration": 69.125,
-      "bytes": 1026921,
-      "frames": 1659,
+      "sourceFingerprint": "49fca7410f8c2afca597fb66f0c6f3d2c56673dcb03b97b16e7be18d128eb3b9",
+      "decodedFrames": 1671,
+      "duration": 55.7,
+      "bytes": 1094923,
+      "frames": 1671,
       "chapters": 7,
-      "sha256": "ebc9166f58979a8b42b83ed4b8101a742b69fe719318a4cb52be8b483438ef29"
+      "sha256": "166828ea0f415f9855055d2f9a26ad8d5dba9b4fae9f7211ac4c124013141067"
     },
     {
       "id": "silent-lineup",
-      "decodedFrames": 1397,
-      "duration": 58.208333,
-      "bytes": 760091,
-      "frames": 1397,
+      "sourceFingerprint": "444eebd628fa6275106fc961de8bbf732eefcb16a98ec5d3409f9748bf1838b6",
+      "decodedFrames": 1389,
+      "duration": 46.3,
+      "bytes": 980009,
+      "frames": 1389,
       "chapters": 6,
-      "sha256": "f208afe56053034ca19de709f42599bacbddd54506d745ba79249a74f19e1b9e"
+      "sha256": "72753ab3694a89f602aa0e5967fce42e5366c88ab85732c13fa73e8a9bc60ba3"
     },
     {
       "id": "balloon-bop",
-      "decodedFrames": 1343,
-      "duration": 55.958333,
-      "bytes": 825058,
-      "frames": 1343,
+      "sourceFingerprint": "b549ba6248b4239ae5754470ae57d84435d504ade2d6054bfd670d7928d40192",
+      "decodedFrames": 1329,
+      "duration": 44.3,
+      "bytes": 1702018,
+      "frames": 1329,
       "chapters": 6,
-      "sha256": "d3ae5ab9f3fec1da18989f333fa888e4817e028770da6a8743da5f3a49ef5f35"
+      "sha256": "3e082e9727c2500ad02a3772075299501e136bb69ee775fad6d42e9a373e466c"
     },
     {
       "id": "group-juggle",
-      "decodedFrames": 1636,
-      "duration": 68.166667,
-      "bytes": 906990,
-      "frames": 1636,
+      "sourceFingerprint": "73e26da7c5c133085c4a6b87fa5856e485344cf455b2a3be2f976feba3f072e2",
+      "decodedFrames": 1645,
+      "duration": 54.833333,
+      "bytes": 2076218,
+      "frames": 1645,
       "chapters": 7,
-      "sha256": "8ec1f0b0411937d5ef2d25d76f145e455e0cf6c112a4be86528efc8902af1ecb"
+      "sha256": "8d2466c91dd1b7af108d25cf62059ce68b649ba5769487e787e10467e81396d0"
     },
     {
       "id": "giants-wizards-elves",
-      "decodedFrames": 1543,
-      "duration": 64.291667,
-      "bytes": 1120083,
-      "frames": 1543,
+      "sourceFingerprint": "895e7d5d250c8d5e59a48c8847ec0e8a266e8383e239138223315a651798b689",
+      "decodedFrames": 1541,
+      "duration": 51.366667,
+      "bytes": 1276472,
+      "frames": 1541,
       "chapters": 7,
-      "sha256": "c9b34f412edf96aad17fb56acd780c4e37215cdcd392cce6fc31c7aae02567e0"
+      "sha256": "067a4000171083298ab409a368ff4dd42e20ffe65c0ad8aa495b7a4d430aa812"
     },
     {
       "id": "wink-murder",
-      "decodedFrames": 1614,
-      "duration": 67.25,
-      "bytes": 1002287,
-      "frames": 1614,
+      "sourceFingerprint": "5e8cbaa5f9a084aea31eccd44d6187e55b94479d76e63b32789b4e049f5ad2bd",
+      "decodedFrames": 1619,
+      "duration": 53.966667,
+      "bytes": 1077643,
+      "frames": 1619,
       "chapters": 7,
-      "sha256": "9edec212523b2ea416a752c7f2157d87cf8bc30399ec2b55bef247f2ec44aa6b"
+      "sha256": "f05063d73fdef4a5e2d52c053e2f8f3a6fdb3066551315269800dcd5fa639657"
     },
     {
       "id": "big-wind-blows",
-      "decodedFrames": 1451,
-      "duration": 60.458008,
-      "bytes": 985688,
-      "frames": 1451,
+      "sourceFingerprint": "2a681b3c041f0c8b1b37514dcd28592ce8af2eb8f19a545a2e46abaaf789d016",
+      "decodedFrames": 1450,
+      "duration": 48.333333,
+      "bytes": 1085698,
+      "frames": 1450,
       "chapters": 6,
-      "sha256": "42348f5a3b54ef95e6ef789d2f00a6aabdd4b6e3b1a7e077217b7370b4ba1b46"
+      "sha256": "e2fde638d472a32f64ba30d0f9be1f27cc2cc2cffaa16fb540126e8a66b32b83"
     }
   ]
 }

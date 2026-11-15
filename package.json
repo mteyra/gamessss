@@ -1,6 +1,6 @@
 {
   "name": "gamessss-field-guide",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "private": true,
   "type": "module",
   "description": "Watch 72 captioned animated films teaching physical group games, with an interactive player and complete field guide.",
@@ -11,6 +11,8 @@
     "render-films": "node tools/render-films.mjs",
     "start": "python3 -m http.server 8879 --directory dist --bind 127.0.0.1",
     "browser-check": "node tools/cinema-browser-check.mjs",
-    "check-films": "node tools/validate-films.mjs"
+    "check-films": "node tools/validate-films.mjs",
+    "check-film-layout": "node tools/validate-film-layout.mjs",
+    "check-film-motion": "node tools/validate-film-motion.mjs"
   }
 }

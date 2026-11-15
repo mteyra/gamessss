@@ -1,0 +1,176 @@
+{
+  "checkedAt": "2026-11-15T00:10:23.523Z",
+  "source": "Current compileFilm(game, LESSONS[id]) caption text in actual player DOM; native V3 media not evaluated",
+  "reports": [
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "games": 72,
+      "chapters": 467,
+      "stageBottom": 465,
+      "controlsTop": 481,
+      "stageClearance": 16,
+      "minimumCaptionClearance": 36.29998779296875,
+      "hintTop": 474,
+      "hintBottom": 512,
+      "hintClearsStage": true,
+      "failures": [],
+      "worst": [
+        {
+          "game": "islands",
+          "chapter": 1,
+          "clearance": 36.29998779296875,
+          "failures": []
+        },
+        {
+          "game": "islands",
+          "chapter": 2,
+          "clearance": 36.29998779296875,
+          "failures": []
+        },
+        {
+          "game": "islands",
+          "chapter": 3,
+          "clearance": 36.29998779296875,
+          "failures": []
+        }
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "games": 72,
+      "chapters": 467,
+      "stageBottom": 393,
+      "controlsTop": 409,
+      "stageClearance": 16,
+      "minimumCaptionClearance": 36.29998779296875,
+      "hintTop": 402,
+      "hintBottom": 440,
+      "hintClearsStage": true,
+      "failures": [],
+      "worst": [
+        {
+          "game": "islands",
+          "chapter": 1,
+          "clearance": 36.29998779296875,
+          "failures": []
+        },
+        {
+          "game": "islands",
+          "chapter": 2,
+          "clearance": 36.29998779296875,
+          "failures": []
+        },
+        {
+          "game": "islands",
+          "chapter": 3,
+          "clearance": 36.29998779296875,
+          "failures": []
+        }
+      ]
+    }
+  ],
+  "browser": "Firefox headless, isolated profile on port 9297",
+  "site": "http://127.0.0.1:8878/gamessss/",
+  "method": "Rendered each current compiled chapter title and caption in the actual player DOM with loaded bundled fonts. Measured title/text start positions at zero scroll and final glyph bounds at maximum available scroll against the actual stage and fixed-control bounds. Also checked horizontal overflow and the keyboard hint bounds. This is caption-layout evidence, not full film playback validation.",
+  "nativeMediaReviewed": false,
+  "sourceSha256": {
+    "dist/index.html": "a74d380a6cf2b7c4a153fa8881c3e0bc7467d0537e64a2d6667c7675c94d2355",
+    "dist/cinema.css": "4dc72288a2afb47b569b130de57893ba03230f3b63fe13e86f34c08b1d5eab22",
+    "dist/cinema.js": "e8f6ab05087bf4b912b0cc8cf30504d0d5a00814970ef11487615e34604cc556",
+    "dist/film-timeline.js": "edc284baf39ccce4b32d54d8df06300f8ef4119f199fe2c759388f271659b050",
+    "dist/lessons.js": "b006f988538f4ef73014d9c40212e772be58eea63c74ae90d01082e4d971f501",
+    "dist/lessons-chase-dodge.js": "201b5183a081992920e57b19d28a66c0189bfdd52c4f0eb4db30e9b7cd7e8c46",
+    "dist/lessons-world-target.js": "7f125f3b699b0c7ffe76c0da6e6adce2c1a45283312c1b713d887f756cf0fe5d",
+    "dist/lessons-team-together.js": "75f9eaea8ab4788b2ce02ff4a2167656de1210ad76001f9065c28750a0734ca3",
+    "dist/lesson-kit.js": "8d250ad0e72a61ea84a46ddb0b000f07f32985302db683ee22f20d1321f5cdb2",
+    "dist/assets/fonts/manrope.woff2": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972",
+    "dist/assets/fonts/jetbrains-mono.woff2": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e"
+  },
+  "controlBoundsChecks": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "minimumAdjacentControlGap": 3.0,
+      "allControlsWithinViewport": true,
+      "overlappingControls": false
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "minimumAdjacentControlGap": 3.983,
+      "allControlsWithinViewport": true,
+      "overlappingControls": false
+    },
+    {
+      "viewport": [
+        2560,
+        1080
+      ],
+      "minimumAdjacentControlGap": 12,
+      "allControlsWithinViewport": true,
+      "overlappingControls": false
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "minimumAdjacentControlGap": 8.0,
+      "allControlsWithinViewport": true,
+      "overlappingControls": false
+    }
+  ],
+  "videoCenteringChecks": {
+    "scope": "Player frame positioning only; retained V3 video used as a visible fixture, not new movie quality validation. Sample-row pixel bounds independently confirm the centered contain-fit frame.",
+    "viewports": [
+      {
+        "viewport": [
+          2560,
+          1080
+        ],
+        "sampleRow": 523,
+        "objectPosition": "50% 50%",
+        "actualFrame": {
+          "left": 488.8805881076389,
+          "right": 2071.1028103298613,
+          "top": 78,
+          "bottom": 968
+        },
+        "pixelFrameBoundsAtSampleRow": [
+          489,
+          2071
+        ],
+        "pixelCenterOffset": 0.0
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "sampleRow": 183,
+        "objectPosition": "50% 50%",
+        "actualFrame": {
+          "left": 188.21387566460504,
+          "right": 655.7694312201606,
+          "top": 51,
+          "bottom": 314
+        },
+        "pixelFrameBoundsAtSampleRow": [
+          188,
+          656
+        ],
+        "pixelCenterOffset": 0.0
+      }
+    ]
+  }
+}

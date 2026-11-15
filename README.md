@@ -4,9 +4,9 @@
 
 [Watch on GitHub Pages](https://mteyra.github.io/gamessss/) · [GitHub source](https://github.com/mteyra/gamessss) · [Field guide](https://mteyra.github.io/gamessss/field-guide/) · [Browse the atlas](https://mteyra.github.io/gamessss/atlas.html) · [Complete research report](dist/research-report.md)
 
-Each game is an actual, downloadable **MP4 film** with an opening, five to seven authored chapters and a closing. The films turn **467 authored game states** into continuous animation: players keep their identities, objects move between positions, and short captions explain what changes. Captions are part of the video, so the silent films make sense without a presenter or audio.
+Each game is an actual, downloadable **MP4 film** with five to seven authored chapters. The **V4 design** turns **467 authored game states** into continuous animation: movement spans each chapter, with no added pauses between chapters. The setup caption is visible from the first frame, and the final chapter stays visible through the end. Players keep their identities, objects follow their routes, and short captions explain what changes. Captions are part of the video, so the silent films make sense without a presenter or audio.
 
-The video fills the page. A compact category tag at the top opens the game navigator; controls recede during playback. Skip whole games with the arrow keys, seek within a film, or open its chapter transcript. The original field guide remains available for the complete rules, adaptations and sources.
+The video fills a dark player with crisp white type, muted steel controls and a restrained blue playback highlight. A compact category tag at the top opens the game navigator; controls recede during playback. Skip whole games with the arrow keys, seek within a film, or open its chapter transcript. The original field guide retains its own design and remains available for the complete rules, adaptations and sources.
 
 This is a curated collection with playable introductions and meaningful variations. It does not claim to contain every game worldwide or rank the “best” games.
 
@@ -25,7 +25,11 @@ npm run check    # Validate canonical game data and source URL syntax
 npm test         # Check core behaviour, motion, film rendering and film timelines
 npm run report   # Regenerate the research report from current game data
 npm run check-films  # Decode every frame and validate all 72 MP4s and posters
+npm run check-film-layout  # Measure all film captions and legends
+npm run check-film-motion  # Measure decoded motion inside the court
 ```
+
+Media, layout and motion validation use the authoring dependencies listed under **Generate the films**; serving the committed website does not require them.
 
 The website uses static HTML, CSS, JavaScript modules, JSON, MP4 films and WebP posters. Film generation is a separate, optional authoring step described below.
 
@@ -85,20 +89,26 @@ python3 -m pip install --target /tmp/gamessss-film-deps/python fonttools==4.60.1
 ```sh
 npm run render-films -- --game=islands
 npm run render-films -- --all --jobs=3
-npm run render-films -- --game=islands,flunkyball --force
+npm run render-films -- --game=islands,flunkyball --output=/tmp/game-previews
 ```
 
-The default output is **1280 × 720, 24 fps, H.264 Main, yuv420p, CRF 24**, with fast-start metadata for streaming. Films are silent and captions are rendered into every relevant frame. The pipeline creates one MP4 and WebP poster per game in `dist/films/`, plus `manifest.json` containing durations, sizes and chapter timestamps/text.
+The default output is **1280 × 720, 30 fps, H.264 Main, yuv420p, CRF 20**, with fast-start metadata for streaming. Films are silent and captions are rendered into every relevant frame. The pipeline creates one MP4 and WebP poster per game in `dist/films/`, plus a version 2 `manifest.json` containing source fingerprints, encoding settings, durations, sizes and chapter timestamps/text.
 
-The renderer generates static weights from the bundled variable fonts, samples each game on an absolute timeline, rasterizes the SVG to raw RGBA frames and pipes them to ffmpeg. `ffprobe` checks codec, pixel format, dimensions, frame rate, frame count and duration before the manifest is updated atomically. Valid compatible films are reused when resuming a run. Use **`--force` after changing scenes, captions or timing**, so an existing encode is replaced.
+The V4 timeline includes **1.1 seconds at the start and 1 second at the end** of the moving court scene, with the first and last chapter captions continuing through those intervals. It has no separate title or closing cards. Each chapter uses its full duration for the authored action, while preserving waits that explain a rule. The 72 source timelines total approximately **56 minutes 12 seconds before rounding to video frames**. The finished films total **56 minutes 13 seconds and 102.03 MiB**.
 
-`--game=` accepts comma-separated IDs. Other options include `--width=1280`, `--fps=24`, `--jobs=1` through `3`, and `--deps=/path/to/dependencies`. `GAME_FILM_DEPS`, `PYTHON`, `FFMPEG` and `FFPROBE` can override the corresponding paths. Keep generated dependencies outside the repository; commit the finished films and manifest with the authored changes.
+The renderer generates static weights from the bundled variable fonts, samples each game on an absolute timeline, rasterizes the SVG to raw RGBA frames and pipes them to ffmpeg. `ffprobe` checks codec, pixel format, dimensions, frame rate, frame count and duration before the manifest is updated atomically. Source and encoding fingerprints cover the renderer, fonts, game content and compiled lesson. Resuming reuses films only when those fingerprints and the actual movie, poster and chapter metadata remain valid. Changed content or settings trigger regeneration automatically; **`--force`** also replaces otherwise valid encodes.
+
+`--game=` accepts comma-separated IDs. Other options include `--width=1280`, `--fps=30`, `--crf=20`, `--jobs=1` through `3`, and `--deps=/path/to/dependencies`. Width must be a multiple of 32. `--output=/tmp/game-previews` keeps experimental output separate from the release; `--stills=1,12,24` writes PNG frames at those times instead of encoding a movie. Preview times must fall within each selected film.
+
+`GAME_FILM_DEPS`, `PYTHON`, `FFMPEG` and `FFPROBE` can override the corresponding paths. Keep generated dependencies and previews outside the repository; commit the finished release films and manifest with the authored changes.
 
 **GitHub hosting**
 
 Source lives in [mteyra/gamessss](https://github.com/mteyra/gamessss), and the deployment target is [mteyra.github.io/gamessss](https://mteyra.github.io/gamessss/). The [GitHub Actions workflow](.github/workflows/pages.yml) publishes the complete `dist/` directory through GitHub Pages when website files change on `main`, or when manually dispatched. Set the repository’s Pages source to **GitHub Actions**. The workflow publishes already generated assets; it does not encode films during deployment.
 
 Relative asset links support the GitHub project path. `dist/.nojekyll` is included in the Pages artifact. Local environment files and previous hosting metadata are excluded from the repository.
+
+The player revalidates the manifest and versions movie/poster requests with each film's source fingerprint. Returning visitors receive the rebuilt films instead of a cached earlier edition.
 
 **Where things live**
 
@@ -109,8 +119,9 @@ Relative asset links support the GitHub project path. `dist/.nojekyll` is includ
 | `dist/index.html`, `presentation.html` | Two entry URLs for the same film player |
 | `dist/cinema.js`, `cinema.css` | Video controls, routes, top navigator, transcripts and layout |
 | `dist/films/` | Finished MP4 films, WebP posters and the chapter manifest |
-| `dist/film-timeline.js` | Shared timing, chapter compilation and deterministic frame sampling |
+| `dist/film-timeline.js` | Continuous chapter timing, film-specific labels and deterministic frame sampling |
 | `dist/film-renderer.js` | Animated court composition, camera movement and motion emphasis |
+| `dist/film-theme.js` | Dark film palette, separate from the preserved field-guide design |
 | `dist/lesson-kit.js` | Shared SVG node helpers and colours |
 | `dist/motion-engine.js` | Stable-object interpolation and movement tracks |
 | `dist/lessons.js` | Combined lesson catalogue |
@@ -131,19 +142,23 @@ Relative asset links support the GitHub project path. `dist/.nojekyll` is includ
 
 Read [research/SCHEMA.md](research/SCHEMA.md), then edit the relevant JSON file. This data is the authority for the rules. Keep IDs stable: bookmarks, lessons and saved lineups use them. Each game needs a clear objective, setup, four or five written rule steps, scoring or ending, restart rules, an interesting twist, a practical access note and observed source URLs.
 
-Read [research/ANIMATION-CONTRACT.md](research/ANIMATION-CONTRACT.md) before authoring or changing its lesson. Each game needs five to seven complete visual states in the appropriate lesson module. Preserve object IDs across states; tracks must start at the preceding coordinates and finish at the new coordinates. Captions and visual consequences must agree with the canonical rules. Keep setup, roles, possession, scoring and resets understandable without spoken explanation.
+Read [research/ANIMATION-CONTRACT.md](research/ANIMATION-CONTRACT.md) before authoring or changing its lesson. Each game needs five to seven complete visual states in the appropriate lesson module. These states define the action's endpoints; the V4 film compiler supplies the continuous chapter timing. Preserve object IDs across states; tracks must start at the preceding coordinates and finish at the new coordinates. Captions and visual consequences must agree with the canonical rules. Keep setup, roles, possession, scoring and resets understandable without spoken explanation.
 
 Use an existing `diagram` category for the companion field sketch, or add a specific illustration in `visuals.js`. The static sketch and animated example should describe the same game.
 
-Run `npm run check`, `npm test`, `npm run report` and `npm run check-films` after content changes. Regenerate affected films with `--force` and review their complete playback, captions, chapter transitions, rules, atlas card and print page in a browser. The validator enforces this edition’s 72-game / 12-per-family scope. To expand it, update those checks and visible totals, including this README and the field guide; add a matching authored lesson and render its film. Add a new data file to `loadGames()` and the validator’s file list if needed.
+Run `npm run check`, `npm test` and `npm run report` after content changes. Check typography with `npm run check-film-layout`; this requires the static fonts prepared by the film renderer. Regenerate the affected films, then run `npm run check-films` and `npm run check-film-motion` against the completed release. Review full playback, captions, chapter transitions, rules, atlas cards and print pages in a browser. Source fingerprints prevent a stale encode from passing the media audit. The validator enforces this edition’s 72-game / 12-per-family scope. To expand it, update those checks and visible totals, including this README and the field guide; add a matching authored lesson and render its film. Add a new data file to `loadGames()` and the validator’s file list if needed.
 
 The downloadable PDF is a saved print edition. Regenerate it from `print.html` after changing rules; use A4, 14 mm margins, background graphics and no browser headers/footers.
 
 **Verification**
 
-The current release passed **23 unit tests and 50 browser checks**. All **72 films / 102,622 frames** decoded successfully; the full library provides **71 minutes 16 seconds** of animation in approximately **65 MiB** of MP4 files.
+**All 72 V4 films passed full media validation: 101,188 frames decoded successfully.** The revised source passed **35 unit tests** and catalogue validation for **72 games and 83 source URLs**. The film typography audit covered all **467 chapters**, measuring **2,357 text lines across 1,006 sampled frames**, with no measured overflow. One representative composition per game was visually reviewed.
 
-See [research/QA.md](research/QA.md) for versioned verification evidence. `npm test` runs all `tools/*.test.mjs`, including checks for film rendering and timelines. Encoding additionally validates the actual MP4 streams with `ffprobe`. `npm run check-films` decodes every frame, checks the 72-film release format, compares chapter text and timing with the authored scenes, verifies fast-start headers and posters, and writes `research/film-media-check.json`. Browser playback is checked separately.
+The court-motion audit analyzed every frame and found motion in all 72 films, with no unchanged one-second samples; the longest unchanged stretch was **0.267 seconds**. The final local browser run passed **55 checks**, including loading and decoding every film with matching dimensions and durations, without console errors. **Production verification is pending.** [research/QA.md](research/QA.md) records each check's scope and preserves V3 results as historical evidence.
+
+`npm test` runs all `tools/*.test.mjs`, including checks for film rendering and timelines. Encoding additionally validates the actual MP4 streams with `ffprobe`. `npm run check-films` decodes every frame, checks the 72-film release format and source fingerprints, compares chapter text and timing with the authored scenes, verifies fast-start headers and posters, and writes `research/film-media-check.json`. Browser playback is checked separately.
+
+`npm run check-film-layout` measures film headers, legends, chapter titles and captions using the prepared fonts, including glyph bounds and entrance offsets. Its scope excludes moving objects inside the court. `npm run check-film-motion` analyzes decoded pixels inside the court, excluding the header and captions, and reports unchanged runs and one-second differences. Pixel movement alone does not prove that a rule is clear; visual review remains necessary.
 
 `npm run browser-check` runs the cinema-specific browser suite in `tools/cinema-browser-check.mjs` against a locally served site and its configured browser endpoint. Review real playback as well as controls, routing, dialogs, small-screen captions and chapter seeking. Results for the earlier click-through learner remain historical; they do not count as verification of the film player.
 
