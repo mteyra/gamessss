@@ -41,7 +41,11 @@ No V3 test count, frame total or playback result below establishes V4 quality. T
 
 ### Production verification
 
-**Pending publication and verification on GitHub Pages.** The source, full media decode, court-motion measurement, sampled visual review and final local browser checks above are complete. Deployment status and checks against the public URL will be recorded after publication.
+[GitHub Pages deployment 43662139517](https://github.com/mteyra/gamessss/actions/runs/43662139517) succeeded for release commit [277b868](https://github.com/mteyra/gamessss/commit/277b8689153270d6ea629c7616306bd5b958480b). The V4 website is published at **https://mteyra.github.io/gamessss/**.
+
+[cinema-production-http-check.json](cinema-production-http-check.json) records successful HTTP reads of the public homepage, versioned cinema CSS and JavaScript, film manifest, preserved field-guide HTML and complete PDF. All six responses are byte-identical to the release files. A request to the fingerprinted Islands movie returned **HTTP 206**, `video/mp4`, the requested **1,024 bytes** and a matching release-file prefix, confirming byte-range video delivery. The record identifies the release commit, deployment run, final film source revision and file hashes.
+
+[cinema-production-check.json](cinema-production-check.json) records **55 passing checks against the public GitHub Pages URL**, with `smoke: false` and **no console errors**. All **72 final movies loaded and decoded** with matching dimensions and durations using their fingerprinted URLs. The production run also passed the playback controls, chapter and time links, navigator, dialogs, lineups, phone caption and control geometry, compact desktop, ultrawide centering, preserved field guide, atlas and print checks. The browser process completed successfully. The V4 source, full media decode, court-motion measurement, sampled visual review, local and production browser runs, deployment and production HTTP verification are complete.
 
 ## V3 — historical first film player, 15 November 2026
 

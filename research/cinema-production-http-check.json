@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-11-15T01:15:21.374184+00:00",
+  "site": "https://mteyra.github.io/gamessss/",
+  "releaseCommit": "277b8689153270d6ea629c7616306bd5b958480b",
+  "deploymentRun": 43662139517,
+  "sourceRevision": "94469dc718c75e829b110690b93f82abfff03ae2303565aacd069d36ff924772",
+  "files": [
+    {
+      "path": "index.html",
+      "url": "https://mteyra.github.io/gamessss/",
+      "status": 200,
+      "bytes": 8005,
+      "sha256": "9d0d877b304f844052619866316ce5190ec5b58fd766501a9fc4a90b49eddfd6",
+      "matchesRelease": true
+    },
+    {
+      "path": "cinema.css",
+      "url": "https://mteyra.github.io/gamessss/cinema.css?v=4",
+      "status": 200,
+      "bytes": 31313,
+      "sha256": "4dc72288a2afb47b569b130de57893ba03230f3b63fe13e86f34c08b1d5eab22",
+      "matchesRelease": true
+    },
+    {
+      "path": "cinema.js",
+      "url": "https://mteyra.github.io/gamessss/cinema.js?v=4",
+      "status": 200,
+      "bytes": 15231,
+      "sha256": "1d07c7a510b384acc75beb780dcbcd2f2d771d286f76d26b3edd088fc152614c",
+      "matchesRelease": true
+    },
+    {
+      "path": "films/manifest.json",
+      "url": "https://mteyra.github.io/gamessss/films/manifest.json",
+      "status": 200,
+      "bytes": 158083,
+      "sha256": "180ba29cf4b75de55938fa4598cd98ea2c55c11e216556ba99d2805887f0a30c",
+      "matchesRelease": true
+    },
+    {
+      "path": "field-guide.html",
+      "url": "https://mteyra.github.io/gamessss/field-guide.html",
+      "status": 200,
+      "bytes": 18589,
+      "sha256": "9eb562e1770ad1828f15bbdce874b131850dc2e15b723bdd54363b9cf573e3fe",
+      "matchesRelease": true
+    },
+    {
+      "path": "gamessss-field-guide.pdf",
+      "url": "https://mteyra.github.io/gamessss/gamessss-field-guide.pdf",
+      "status": 200,
+      "bytes": 2175130,
+      "sha256": "2e1278518e1dd49a107326eaefbbf27e61f033c8d1ed8cd46dc4d53966c5e12e",
+      "matchesRelease": true
+    }
+  ],
+  "rangeRequest": {
+    "url": "https://mteyra.github.io/gamessss/films/islands.mp4?v=fe657dd232c4ba57",
+    "status": 206,
+    "contentType": "video/mp4",
+    "contentRange": "bytes 0-1023/1025581",
+    "bytes": 1024,
+    "matchesReleasePrefix": true
+  },
+  "passed": true
+}
