@@ -69,7 +69,7 @@ function chooseGame(id,{autoplay=true,historyMode='push',time=0}={}){
  if(!pool.some(g=>g.id===id)){pool=games.slice();customPool=false;}
  browseFamily=game.family;
  $('[data-family-label]').textContent=FAMILIES[game.family].name;$('#film-title').textContent=game.name;
- video.setAttribute('aria-label',`${game.name} · animated explanation`);document.title=`${game.name} · GAMESSSS`;
+ video.setAttribute('aria-label',`${game.name} · animated explanation`);document.title=`${game.name} · Group Games`;
  $('#film-announcement').textContent=`${game.name}. ${FAMILIES[game.family].name}. Film ${currentIndex()+1} of ${pool.length}.`;
  updatePosition();reveal();
  if(historyMode){const url=new URL(location.href);url.searchParams.set('game',id);url.searchParams.delete('step');if(time>0)url.searchParams.set('time',String(time));else url.searchParams.delete('time');url.searchParams.delete('tour');url.searchParams.delete('set');if(customPool)url.searchParams.set('games',pool.map(g=>g.id).join(','));else url.searchParams.delete('games');history[historyMode==='replace'?'replaceState':'pushState']({},'',url);}
@@ -99,7 +99,7 @@ function openTranscript(){
  if(!film)return;
  $('#transcript-title').textContent=game.name;
  $('#transcript-content').innerHTML=`<p class="transcript-note">Click a chapter to jump to that part of the film.</p><ol>${film.chapters.map(c=>`<li><button class="transcript-chapter" data-chapter="${c.index}"><span>${timecode(c.start)} · CHAPTER ${c.index+1}</span><b>${esc(c.title)}</b><p>${esc(c.text)}</p></button></li>`).join('')}</ol>`;
- $('#download-film').href=film.src;$('#download-film').download=`gamessss-${game.id}.mp4`;openPanel(transcript);
+ $('#download-film').href=film.src;$('#download-film').download=`group-games-${game.id}.mp4`;openPanel(transcript);
 }
 async function fullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{toast('Full screen is unavailable in this browser.');}}
 

@@ -6,6 +6,6 @@ node_modules/
 test-results/
 .openai/
 .env*
-/dist/films/.*.tmp.mp4
-/dist/films/.*.tmp.webp
-/dist/films/manifest.json.*.tmp
+/site/films/.*.tmp.mp4
+/site/films/.*.tmp.webp
+/site/films/manifest.json.*.tmp

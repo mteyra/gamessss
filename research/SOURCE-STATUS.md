@@ -1,6 +1,6 @@
 # Source link status
 
-Checked on 14 November 2026 in one automated pass across the 83 distinct URLs cited by the 72 game entries. The check used GET requests, at most three concurrent requests and a 12-second timeout. Full results are saved in [source-link-check.json](source-link-check.json).
+Checked on 14 November 2026 in one automated pass across the 83 distinct URLs cited by the 72 game entries. The check used GET requests, at most three concurrent requests and a 12-second timeout. Full results are saved in [source-link-check.json](checks/source-link-check.json).
 
 - 75 URLs returned HTTP 200.
 - Seven URLs returned HTTP 403, preventing this automated read.

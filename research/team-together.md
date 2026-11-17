@@ -1,6 +1,6 @@
-# GAMESSSS research: team games and playing together
+# Group Games research: team games and playing together
 
-Research checked 14 November 2026. This file accompanies `dist/data/team-together.json`: 12 team/net/territory games and 12 cooperative, reaction, circle and social games.
+Research checked 14 November 2026. This file accompanies `site/data/team-together.json`: 12 team/net/territory games and 12 cooperative, reaction, circle and social games.
 
 ## Editorial approach
 

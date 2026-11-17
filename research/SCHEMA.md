@@ -1,4 +1,4 @@
-# GAMESSSS research brief
+# Group Games research brief
 Create JSON arrays of 24 well-chosen physical group games per assigned agent, 12 per family. Distinct documented games/variants, broad geographic associations; no invented "official" rules. Practical starter rules not exhaustive competition rules. User memory and designed adaptations labeled. English copy, native names/aliases useful for search. Avoid exoticizing cultures, false origin certainty and arbitrary world-best rankings. No scraped source prose. Read sources, cite actual URLs. Respect source word limits. Suggested counts/time/age are our hosting suggestions, not official.
 
 Each object:

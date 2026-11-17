@@ -1,8 +1,8 @@
-# GAMESSSS — the field guide
+# Group Games — the field guide
 
 **72 ways to get together and play.** Research edition: 14 November 2026.
 
-This companion to the GAMESSSS website collects the complete starter rules, game variations and source links in a portable form. It is a curated introduction to physical group games, not an exhaustive inventory or a ranking of the world’s best games.
+This companion to the Group Games website collects the complete starter rules, game variations and source links in a portable form. It is a curated introduction to physical group games, not an exhaustive inventory or a ranking of the world’s best games.
 
 ## How to use the atlas
 

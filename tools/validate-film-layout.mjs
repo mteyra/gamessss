@@ -5,7 +5,7 @@
  * Requires the build-only fontTools/static fonts prepared by render-films.mjs.
  *   node tools/validate-film-layout.mjs
  *   node tools/validate-film-layout.mjs --output=/tmp/layout-check.json
- * Failures write to --output, or /tmp/gamessss-film-layout-failures.json, keeping
+ * Failures write to --output, or /tmp/group-games-film-layout-failures.json, keeping
  * the last successful release report until the new composition passes.
  * The moving court is intentionally excluded; its geometry has separate QA.
  */
@@ -14,31 +14,31 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawn} from 'node:child_process';
 import {createHash} from 'node:crypto';
-import {LESSONS} from '../dist/lessons.js';
-import {compileFilm,sampleFilm} from '../dist/film-timeline.js';
+import {LESSONS} from '../site/lessons.js';
+import {compileFilm,sampleFilm} from '../site/film-timeline.js';
 import {renderFrame} from './film-frame.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const options={deps:process.env.GAME_FILM_DEPS||'/tmp/gamessss-film-deps',output:null};
+const options={deps:process.env.GAME_FILM_DEPS||'/tmp/group-games-film-deps',output:null};
 for(const arg of process.argv.slice(2)){
  if(arg.startsWith('--deps='))options.deps=path.resolve(arg.slice(7));
  else if(arg.startsWith('--output='))options.output=path.resolve(arg.slice(9));
- else if(arg==='--help'||arg==='-h'){console.log('Usage: node tools/validate-film-layout.mjs [--deps=/tmp/gamessss-film-deps] [--output=/tmp/check.json]');process.exit(0);}
+ else if(arg==='--help'||arg==='-h'){console.log('Usage: node tools/validate-film-layout.mjs [--deps=/tmp/group-games-film-deps] [--output=/tmp/check.json]');process.exit(0);}
  else throw new Error(`Unknown option ${arg}`);
 }
 const fontFiles=[
  {family:'Manrope',weight:400,file:path.join(options.deps,'fonts','manrope-400.ttf')},
  {family:'Manrope',weight:600,file:path.join(options.deps,'fonts','manrope-600.ttf')},
  {family:'JetBrains Mono',weight:400,file:path.join(options.deps,'fonts','jetbrains-mono-400.ttf')},
- {family:'GAMESSSS Symbols',weight:400,file:path.join(root,'dist/assets/fonts/film-symbols.ttf'),fallback:true},
+ {family:'GAMESSSS Symbols',weight:400,file:path.join(root,'site/assets/fonts/film-symbols.ttf'),fallback:true},
 ];
 for(const font of fontFiles){
  try{font.sha256=createHash('sha256').update(await fs.readFile(font.file)).digest('hex');}
  catch{throw new Error(`Missing static font ${font.file}. Prepare fonts first with tools/render-films.mjs --game=islands --stills=1 --output=/tmp/film-font-check.`);}
 }
-const sourceFiles=['tools/film-frame.mjs','dist/film-timeline.js','dist/film-theme.js','dist/core.js','dist/lesson-kit.js','dist/lessons.js','dist/lessons-chase-dodge.js','dist/lessons-world-target.js','dist/lessons-team-together.js',...['chase-dodge','world-target','team-together'].map(name=>`dist/data/${name}.json`)];
+const sourceFiles=['tools/film-frame.mjs','site/film-timeline.js','site/film-theme.js','site/core.js','site/lesson-kit.js','site/lessons.js','site/lessons-chase-dodge.js','site/lessons-world-target.js','site/lessons-team-together.js',...['chase-dodge','world-target','team-together'].map(name=>`site/data/${name}.json`)];
 const sources=await Promise.all(sourceFiles.map(async file=>({file,sha256:createHash('sha256').update(await fs.readFile(path.join(root,file))).digest('hex')})));
-const games=(await Promise.all(['chase-dodge','world-target','team-together'].map(name=>fs.readFile(path.join(root,'dist/data',name+'.json'),'utf8').then(JSON.parse)))).flat();
+const games=(await Promise.all(['chase-dodge','world-target','team-together'].map(name=>fs.readFile(path.join(root,'site/data',name+'.json'),'utf8').then(JSON.parse)))).flat();
 const frames=[],expected={games:games.length,chapters:0,legendLabels:0};
 for(const game of games){
  const film=compileFilm(game,LESSONS[game.id]);expected.chapters+=film.segments.length;expected.legendLabels+=film.lesson.legend.length;
@@ -180,7 +180,7 @@ for(const source of sources){
 for(const font of fontFiles){
  if(createHash('sha256').update(await fs.readFile(font.file)).digest('hex')!==font.sha256)throw new Error(`${font.file} changed during the layout audit; rerun with stable static fonts.`);
 }
-const target=options.output||(report.status==='passed'?path.join(root,'research/cinema-layout-check.json'):'/tmp/gamessss-film-layout-failures.json');
+const target=options.output||(report.status==='passed'?path.join(root,'research/checks/cinema-layout-check.json'):'/tmp/group-games-film-layout-failures.json');
 await fs.mkdir(path.dirname(target),{recursive:true});const temporary=target+`.${process.pid}.tmp`;await fs.writeFile(temporary,JSON.stringify(report,null,2)+'\n');await fs.rename(temporary,target);
 console.log(`${report.status.toUpperCase()}: ${report.coverage.games} headers, ${report.coverage.chapters} chapter titles/captions, ${report.coverage.legendLabels} legends, ${report.coverage.frames} sampled outer frames. ${target}`);
 if(report.remainingOverflows.length){console.log(JSON.stringify(report.remainingOverflows,null,2));process.exitCode=1;}

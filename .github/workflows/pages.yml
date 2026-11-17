@@ -4,7 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - "dist/**"
+      - "site/**"
+      - "tools/**"
+      - "package.json"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -16,8 +18,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  test:
+    name: Check games and run tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v7.0.1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate the games and their sources
+        run: npm run check
+
+      - name: Run the tests
+        run: npm test
+
   deploy:
     name: Publish the static website
+    needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -37,7 +59,7 @@ jobs:
       - name: Upload the static website
         uses: actions/upload-pages-artifact@v5.0.0
         with:
-          path: dist
+          path: site
           include-hidden-files: true
 
       - name: Deploy to GitHub Pages

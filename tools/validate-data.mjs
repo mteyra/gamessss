@@ -9,14 +9,14 @@ import {dirname, resolve, join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const dist = join(root, 'dist');
+const siteDir = join(root, 'site');
 const args = process.argv.slice(2);
 if (args.some(arg => !['--report', '--help'].includes(arg))) {
   console.error('Usage: node tools/validate-data.mjs [--report]');
   process.exit(2);
 }
 if (args.includes('--help')) {
-  console.log('Validates all game data and static game links. --report regenerates dist/research-report.md after validation passes.');
+  console.log('Validates all game data and static game links. --report regenerates site/research-report.md after validation passes.');
   process.exit(0);
 }
 
@@ -51,7 +51,7 @@ const isString = value => typeof value === 'string' && value.trim().length > 0;
 
 for (const file of files) {
   try {
-    const batch = JSON.parse(await readFile(join(dist, 'data', file), 'utf8'));
+    const batch = JSON.parse(await readFile(join(siteDir, 'data', file), 'utf8'));
     check(Array.isArray(batch), `${file}: expected a JSON array`);
     if (!Array.isArray(batch)) continue;
     check(batch.length === 24, `${file}: expected 24 entries, found ${batch.length}`);
@@ -155,9 +155,9 @@ check(games.find(game => game?.id === 'manhunt')?.aliases?.some(alias => normali
 // Check literal game links in authored HTML and JS without evaluating site code.
 // Runtime expressions (${...}) are intentionally ignored.
 let snippetCount = 0;
-for (const filename of await readdir(dist)) {
+for (const filename of await readdir(siteDir)) {
   if (!/\.(html|js)$/u.test(filename)) continue;
-  const content = await readFile(join(dist, filename), 'utf8');
+  const content = await readFile(join(siteDir, filename), 'utf8');
   const patterns = [
     /data-open-game\s*=\s*["']([a-z][a-z0-9-]*)["']/gu,
     /(?:[?&#]game=)([a-z][a-z0-9-]*)/gu,
@@ -212,9 +212,9 @@ if (args.includes('--report')) {
   const houseNames = sorted.filter(game => game.ruleStatus === 'house').map(game => `[${md(game.name)}](#${game.id})`);
   let number = 0;
   const body = [
-    '# GAMESSSS — the field guide',
+    '# Group Games — the field guide',
     '**72 ways to get together and play.** Research edition: 14 November 2026.',
-    'This companion to the GAMESSSS website collects the complete starter rules, game variations and source links in a portable form. It is a curated introduction to physical group games, not an exhaustive inventory or a ranking of the world’s best games.',
+    'This companion to the Group Games website collects the complete starter rules, game variations and source links in a portable form. It is a curated introduction to physical group games, not an exhaustive inventory or a ranking of the world’s best games.',
     '## How to use the atlas',
     'Choose a game that fits the people, space and equipment you actually have. Explain its aim, demonstrate one turn, agree the boundary and stop signal, and try a short round. Change one rule together when it would improve the experience. The game becomes yours through playing it.',
     '## Research and provenance',
@@ -243,10 +243,10 @@ if (args.includes('--report')) {
     ...[...sources.values()].map((source, i) => `${i + 1}. [${md(source.title)}](<${source.url}>) — ${source.games.map(id => `[${md(games.find(game => game.id === id).name)}](#${id})`).join(', ')}`)
   ].join('\n\n');
   const report = [body, ...sections, bibliography].join('\n\n---\n\n') + '\n';
-  const target = join(dist, 'research-report.md');
+  const target = join(siteDir, 'research-report.md');
   await writeFile(`${target}.tmp`, report, 'utf8');
   await rename(`${target}.tmp`, target);
-  console.log(`Generated dist/research-report.md (${number} games, ${sources.size} source URLs).`);
+  console.log(`Generated site/research-report.md (${number} games, ${sources.size} source URLs).`);
 }
 console.log(`Validated ${games.length} unique games: ${Object.entries(familyCounts).map(([family, count]) => `${family} ${count}`).join(', ')}.`);
 console.log(`Validated ${sources.size} source URLs, ${snippetCount} static game-link snippets, all schema fields and ranges.`);

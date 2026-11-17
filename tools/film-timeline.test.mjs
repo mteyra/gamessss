@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {LESSONS} from '../dist/lessons.js';
-import {compileFilm,sampleFilm,timecode} from '../dist/film-timeline.js';
+import {LESSONS} from '../site/lessons.js';
+import {compileFilm,sampleFilm,timecode} from '../site/film-timeline.js';
 
 const names=['chase-dodge','team-together','world-target'];
-const games=(await Promise.all(names.map(name=>readFile(new URL(`../dist/data/${name}.json`,import.meta.url),'utf8').then(JSON.parse)))).flat();
+const games=(await Promise.all(names.map(name=>readFile(new URL(`../site/data/${name}.json`,import.meta.url),'utf8').then(JSON.parse)))).flat();
 const original=JSON.stringify(LESSONS);
 const films=games.map(game=>compileFilm(game,LESSONS[game.id]));
 const epsilon=1e-7;

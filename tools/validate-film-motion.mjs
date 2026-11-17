@@ -11,7 +11,7 @@ import {promisify} from 'node:util';
 import assert from 'node:assert/strict';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),run=promisify(execFile);
-const options={films:path.join(root,'dist/films'),output:null,games:[]};
+const options={films:path.join(root,'site/films'),output:null,games:[]};
 for(const arg of process.argv.slice(2)){
  if(arg.startsWith('--films='))options.films=path.resolve(arg.slice(8));
  else if(arg.startsWith('--output='))options.output=path.resolve(arg.slice(9));
@@ -19,8 +19,8 @@ for(const arg of process.argv.slice(2)){
  else if(arg==='--help'||arg==='-h'){console.log('Usage: node tools/validate-film-motion.mjs [--films=/tmp/previews] [--game=islands,human-knot] [--output=/tmp/motion.json]');process.exit(0);}
  else throw new Error(`Unknown option ${arg}`);
 }
-const production=options.films===path.join(root,'dist/films')&&!options.games.length;
-options.output??=production?path.join(root,'research/cinema-motion-check.json'):path.join(options.films,'motion-check.json');
+const production=options.films===path.join(root,'site/films')&&!options.games.length;
+options.output??=production?path.join(root,'research/checks/cinema-motion-check.json'):path.join(options.films,'motion-check.json');
 const manifest=JSON.parse(await fs.readFile(path.join(options.films,'manifest.json'),'utf8'));
 assert.equal(manifest.width,1280);assert.equal(manifest.height,720);assert.equal(manifest.fps,30);
 for(const id of options.games)assert(manifest.films.some(f=>f.id===id),`No completed movie for ${id}`);

@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {frameAt,pointOnRoute,nodeMarkup} from '../dist/motion-engine.js';
-import {LESSONS} from '../dist/lessons.js';
-const games=['chase-dodge','world-target','team-together'].flatMap(file=>JSON.parse(readFileSync(new URL(`../dist/data/${file}.json`,import.meta.url),'utf8')));
+import {frameAt,pointOnRoute,nodeMarkup} from '../site/motion-engine.js';
+import {LESSONS} from '../site/lessons.js';
+const games=['chase-dodge','world-target','team-together'].flatMap(file=>JSON.parse(readFileSync(new URL(`../site/data/${file}.json`,import.meta.url),'utf8')));
 test('Every catalogue game has an original complete lesson with usable controls',()=>{
  assert.deepEqual(Object.keys(LESSONS).sort(),games.map(g=>g.id).sort());
  for(const game of games){const lesson=LESSONS[game.id];assert.ok(lesson.summary);assert.ok(lesson.legend.length);assert.ok(lesson.steps.length>=5&&lesson.steps.length<=7,game.id);

@@ -1,7 +1,7 @@
 // Run against an isolated Firefox instance, never an existing user browser.
-// firefox --headless --no-remote --profile /tmp/gamessss-qa --remote-debugging-port 9296
+// firefox --headless --no-remote --profile /tmp/group-games-qa --remote-debugging-port 9296
 // SITE_URL=http://127.0.0.1:8879 node tools/browser-check.mjs
-// Writes research/learner-browser-check.json and temporary PNG screenshots.
+// Writes research/checks/learner-browser-check.json and temporary PNG screenshots.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 const base=process.env.SITE_URL||'http://127.0.0.1:8879';
@@ -19,7 +19,7 @@ const click=selector=>evaluate(`(()=>{const el=document.querySelector(${JSON.str
 const fill=(selector,value,event='input')=>evaluate(`(()=>{const el=document.querySelector(${JSON.stringify(selector)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event(${JSON.stringify(event)},{bubbles:true}));return true;})()`);
 const key=value=>call('input.performActions',{context,actions:[{type:'key',id:'keyboard',actions:[{type:'keyDown',value},{type:'keyUp',value}]}]});
 const check=(name,actual,expected=true)=>{assert.deepEqual(actual,expected,name);checks.push(name);console.log(`✓ ${name}`);};
-const shot=async name=>{const r=await call('browsingContext.captureScreenshot',{context,origin:'viewport',format:{type:'image/png'}});await fs.writeFile(`/tmp/gamessss-v2-${name}.png`,Buffer.from(r.data,'base64'));};
+const shot=async name=>{const r=await call('browsingContext.captureScreenshot',{context,origin:'viewport',format:{type:'image/png'}});await fs.writeFile(`/tmp/group-games-v2-${name}.png`,Buffer.from(r.data,'base64'));};
 try{
  await call('session.new',{capabilities:{alwaysMatch:{browserName:'firefox'}}});
  await call('session.subscribe',{events:['log.entryAdded']});({context}=await call('browsingContext.create',{type:'tab'}));
@@ -79,5 +79,5 @@ try{
  await navigate('/field-guide.html');await ready('document.querySelectorAll(".source-entry").length===72');check('All 72 field-guide entries remain',await evaluate('document.querySelectorAll(".source-entry").length'),72);
  await navigate('/print.html?games=islands,flunkyball,hoop-pass');await ready('document.querySelectorAll(".print-page").length===3');check('Printable lineup keeps its order',await evaluate('[...document.querySelectorAll(".print-page h1")].map(el=>el.textContent)'),['Islands','Flunkyball · token edition','Hoop Pass']);
  const errors=logs.filter(m=>m.method==='log.entryAdded'&&m.params.level==='error').map(m=>m.params.text);check('No browser console errors',errors,[]);
- await fs.writeFile(new URL('../research/learner-browser-check.json',import.meta.url),JSON.stringify({checkedAt:new Date().toISOString(),browser:'Firefox headless, isolated profile',states:audit.states,checks,consoleErrors:errors},null,2)+'\n');console.log(`${checks.length} browser checks passed.`);
+ await fs.writeFile(new URL('../research/checks/learner-browser-check.json',import.meta.url),JSON.stringify({checkedAt:new Date().toISOString(),browser:'Firefox headless, isolated profile',states:audit.states,checks,consoleErrors:errors},null,2)+'\n');console.log(`${checks.length} browser checks passed.`);
 }finally{try{await call('session.end');}catch{}ws.close();}

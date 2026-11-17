@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {deriveCamera,sceneMarkup,filmFrameAt,filmEase,filmPointOnRoute,routeGeometry} from '../dist/film-renderer.js';
-import {FILM_THEME,filmColor,legendColor} from '../dist/film-theme.js';
-import {LESSONS} from '../dist/lessons.js';
+import {deriveCamera,sceneMarkup,filmFrameAt,filmEase,filmPointOnRoute,routeGeometry} from '../site/film-renderer.js';
+import {FILM_THEME,filmColor,legendColor} from '../site/film-theme.js';
+import {LESSONS} from '../site/lessons.js';
 
 const near=(a,b,detail='')=>assert.ok(Math.abs(a-b)<1e-7,`${detail}: ${a} ≠ ${b}`);
 const samePoint=(a,b,detail='')=>{near(a[0],b[0],detail);near(a[1],b[1],detail);};

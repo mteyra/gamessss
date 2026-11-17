@@ -1,5 +1,5 @@
 // Run against an isolated Firefox instance, never an existing user browser.
-// firefox --headless --no-remote --profile /tmp/gamessss-qa --remote-debugging-port 9296
+// firefox --headless --no-remote --profile /tmp/group-games-qa --remote-debugging-port 9296
 // SITE_URL=http://127.0.0.1:8879 node tools/browser-check.mjs
 // Writes a research report and temporary PNG screenshots.
 // CINEMA_REPORT=cinema-production-check.json keeps a deployment check separate.
@@ -20,7 +20,7 @@ const click=selector=>evaluate(`(()=>{const el=document.querySelector(${JSON.str
 const fill=(selector,value,event='input')=>evaluate(`(()=>{const el=document.querySelector(${JSON.stringify(selector)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event(${JSON.stringify(event)},{bubbles:true}));return true;})()`);
 const key=value=>call('input.performActions',{context,actions:[{type:'key',id:'keyboard',actions:[{type:'keyDown',value},{type:'keyUp',value}]}]});
 const check=(name,actual,expected=true)=>{assert.deepEqual(actual,expected,name);checks.push(name);console.log(`✓ ${name}`);};
-const shot=async name=>{const r=await call('browsingContext.captureScreenshot',{context,origin:'viewport',format:{type:'image/png'}});await fs.writeFile(`/tmp/gamessss-v4-${name}.png`,Buffer.from(r.data,'base64'));};
+const shot=async name=>{const r=await call('browsingContext.captureScreenshot',{context,origin:'viewport',format:{type:'image/png'}});await fs.writeFile(`/tmp/group-games-v4-${name}.png`,Buffer.from(r.data,'base64'));};
 const smoke=process.env.CINEMA_SMOKE==='1';
 try{
  await call('session.new',{capabilities:{alwaysMatch:{browserName:'firefox'}}});await call('session.subscribe',{events:['log.entryAdded']});({context}=await call('browsingContext.create',{type:'tab'}));

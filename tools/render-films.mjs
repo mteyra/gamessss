@@ -4,8 +4,8 @@
  *
  * Prerequisites: Node.js 22+, Python 3, ffmpeg/ffprobe with libx264 and libwebp.
  * Keep build-only native dependencies outside the deployed website:
- *   npm install --prefix /tmp/gamessss-film-deps @resvg/resvg-js@2.6.2 wawoff2@2.0.1
- *   uv pip install --target /tmp/gamessss-film-deps/python fonttools==4.60.1
+ *   npm install --prefix /tmp/group-games-film-deps @resvg/resvg-js@2.6.2 wawoff2@2.0.1
+ *   uv pip install --target /tmp/group-games-film-deps/python fonttools==4.60.1
  * (Or use python3 -m pip install --target with the same arguments.)
  *
  *   node tools/render-films.mjs --game=islands
@@ -14,13 +14,13 @@
  *   node tools/render-films.mjs --game=islands --output=/tmp/game-previews
  *   node tools/render-films.mjs --game=islands --stills=1,12,24 --output=/tmp/game-stills
  *
- * --deps=/path overrides /tmp/gamessss-film-deps (also GAME_FILM_DEPS).
+ * --deps=/path overrides /tmp/group-games-film-deps (also GAME_FILM_DEPS).
  * --force regenerates even when current source fingerprints match.
  * Without --force, only matching v2 entries are probed and reused.
  * A custom --output directory is independent of the production media directory.
  * WOFF2 fonts are decompressed and instanced to static weights locally, because
  * SVG rasterizers use a variable font's default outlines. Original OFL notices
- * remain in dist/assets/fonts/LICENSES.txt. A bundled DejaVu symbol subset has
+ * remain in site/assets/fonts/LICENSES.txt. A bundled DejaVu symbol subset has
  * its own adjacent license. PYTHON overrides python3 if needed.
  * Frames stream as lossless RGBA, avoiding a redundant PNG encode/decode.
  */
@@ -34,7 +34,7 @@ import {createHash} from 'node:crypto';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export const FILM_RELEASE=Object.freeze({version:2,width:1280,height:720,fps:30,crf:20});
-const fontSources=['manrope.woff2','jetbrains-mono.woff2','film-symbols.ttf'].map(name=>`dist/assets/fonts/${name}`);
+const fontSources=['manrope.woff2','jetbrains-mono.woff2','film-symbols.ttf'].map(name=>`site/assets/fonts/${name}`);
 const sha256=value=>createHash('sha256').update(value).digest('hex');
 function stableJSON(value){
  if(Array.isArray(value))return `[${value.map(stableJSON).join(',')}]`;
@@ -60,7 +60,7 @@ async function moduleGraph(entrypoints){
 export async function getFilmProvenance({width=FILM_RELEASE.width,height=width*9/16,fps=FILM_RELEASE.fps,crf=FILM_RELEASE.crf}={}){
  const encoding={codec:'h264',pixelFormat:'yuv420p',profile:'main',preset:'fast',crf,rasterizer:'@resvg/resvg-js@2.6.2'};
  // Resolved game/lesson objects belong in each film fingerprint, not this graph.
- const sources=await moduleGraph(['tools/render-films.mjs','tools/film-frame.mjs','dist/film-timeline.js',...fontSources]);
+ const sources=await moduleGraph(['tools/render-films.mjs','tools/film-frame.mjs','site/film-timeline.js',...fontSources]);
  return{sourceRevision:sha256(stableJSON({version:2,width,height,fps,encoding,sources})),encoding};
 }
 export function filmFingerprint(sourceRevision,game,lesson,film){
@@ -70,8 +70,8 @@ export function filmChapters(film){
  return film.segments.map(segment=>({index:segment.index,start:segment.start,end:segment.end,title:segment.current.title,text:segment.current.text}));
 }
 async function main(){
-const argv=process.argv.slice(2),options={...FILM_RELEASE,jobs:3,force:false,all:false,games:[],stills:null,output:path.join(root,'dist','films'),deps:process.env.GAME_FILM_DEPS||'/tmp/gamessss-film-deps'};
-const usage=()=>console.log('Usage: node tools/render-films.mjs --game=islands | --all [--jobs=3] [--width=1280] [--fps=30] [--crf=20] [--output=/tmp/previews] [--stills=1,12,24] [--force] [--deps=/tmp/gamessss-film-deps]');
+const argv=process.argv.slice(2),options={...FILM_RELEASE,jobs:3,force:false,all:false,games:[],stills:null,output:path.join(root,'site','films'),deps:process.env.GAME_FILM_DEPS||'/tmp/group-games-film-deps'};
+const usage=()=>console.log('Usage: node tools/render-films.mjs --game=islands | --all [--jobs=3] [--width=1280] [--fps=30] [--crf=20] [--output=/tmp/previews] [--stills=1,12,24] [--force] [--deps=/tmp/group-games-film-deps]');
 for(const arg of argv){
  if(arg==='--help'||arg==='-h'){usage();process.exit(0);}
  if(arg==='--all')options.all=true;
@@ -135,7 +135,7 @@ const fontDir=path.join(options.deps,'fonts');await fs.mkdir(fontDir,{recursive:
 const fontFiles=[];
 let prepareInstances=false;
 for(const [name,weights] of [['manrope',[400,600,800]],['jetbrains-mono',[400,700]]]){
- const source=path.join(root,'dist','assets','fonts',name+'.woff2'),target=path.join(fontDir,name+'.ttf');
+ const source=path.join(root,'site','assets','fonts',name+'.woff2'),target=path.join(fontDir,name+'.ttf');
  const sourceBytes=await fs.readFile(source),identity=sha256(sourceBytes),stamp=path.join(fontDir,name+'.source-sha256');
  let regenerate=true;try{regenerate=(await fs.readFile(stamp,'utf8')).trim()!==identity;await fs.access(target);}catch{regenerate=true;}
  if(regenerate){
@@ -179,15 +179,15 @@ for filename,family,weights in [('manrope','Manrope',[400,600,800]),('jetbrains-
  try{await run(python,['-c',instanceFonts,path.join(options.deps,'python'),fontDir]);}
  catch(error){throw new Error(`Static film fonts could not be generated. Run: uv pip install --target ${path.join(options.deps,'python')} fonttools==4.60.1\n${error.message}`);}
 }
-fontFiles.push(path.join(root,'dist','assets','fonts','film-symbols.ttf'));
+fontFiles.push(path.join(root,'site','assets','fonts','film-symbols.ttf'));
 const provenance=await getFilmProvenance(options);
 const [{LESSONS},{compileFilm,sampleFilm},{renderFrame}]=await Promise.all([
- import(pathToFileURL(path.join(root,'dist','lessons.js'))),
- import(pathToFileURL(path.join(root,'dist','film-timeline.js'))),
+ import(pathToFileURL(path.join(root,'site','lessons.js'))),
+ import(pathToFileURL(path.join(root,'site','film-timeline.js'))),
  import(pathToFileURL(path.join(root,'tools','film-frame.mjs')))
 ]);
 const families=['chase','dodge','target','world','team','together'];
-const games=(await Promise.all(['chase-dodge','world-target','team-together'].map(async file=>JSON.parse(await fs.readFile(path.join(root,'dist','data',file+'.json'),'utf8'))))).flat().sort((a,b)=>families.indexOf(a.family)-families.indexOf(b.family));
+const games=(await Promise.all(['chase-dodge','world-target','team-together'].map(async file=>JSON.parse(await fs.readFile(path.join(root,'site','data',file+'.json'),'utf8'))))).flat().sort((a,b)=>families.indexOf(a.family)-families.indexOf(b.family));
 const ids=new Set(games.map(g=>g.id));for(const id of options.games)if(!ids.has(id))throw new Error(`Unknown game: ${id}`);
 const selected=options.all?games:[...new Set(options.games)].map(id=>games.find(g=>g.id===id));
 const films=new Map(games.map(game=>[game.id,compileFilm(game,LESSONS[game.id])]));
@@ -221,7 +221,7 @@ async function assertCurrentSource(){
  }
 }
 await assertCurrentSource();
-const output=options.output,production=output===path.join(root,'dist','films');await fs.mkdir(output,{recursive:true});
+const output=options.output,production=output===path.join(root,'site','films');await fs.mkdir(output,{recursive:true});
 const assetPath=(id,extension)=>`${production?'films/':''}${id}.${extension}`;
 const manifestPath=path.join(output,'manifest.json');let entries=new Map();
 try{

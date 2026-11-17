@@ -1,9 +1,9 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {searchGames,escapeHTML,gameMarkdown,readSaved,writeSaved} from '../dist/core.js';
-import {gameArt,islandsArt} from '../dist/visuals.js';
-const data=(await Promise.all(['chase-dodge','world-target','team-together'].map(name=>readFile(new URL(`../dist/data/${name}.json`,import.meta.url),'utf8').then(JSON.parse)))).flat();
+import {searchGames,escapeHTML,gameMarkdown,readSaved,writeSaved} from '../site/core.js';
+import {gameArt,islandsArt} from '../site/visuals.js';
+const data=(await Promise.all(['chase-dodge','world-target','team-together'].map(name=>readFile(new URL(`../site/data/${name}.json`,import.meta.url),'utf8').then(JSON.parse)))).flat();
 test('remembered names and accents find the actual game',()=>{
  assert.equal(searchGames(data,{query:'one touch touch all'})[0]?.id,'manhunt');
  assert.equal(searchGames(data,{query:'flankyball'})[0]?.id,'flunkyball');

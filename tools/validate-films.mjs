@@ -9,12 +9,12 @@ import assert from 'node:assert/strict';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {createHash} from 'node:crypto';
-import {LESSONS} from '../dist/lessons.js';
-import {compileFilm} from '../dist/film-timeline.js';
+import {LESSONS} from '../site/lessons.js';
+import {compileFilm} from '../site/film-timeline.js';
 import {FILM_RELEASE,getFilmProvenance,filmFingerprint,filmChapters} from './render-films.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),run=promisify(execFile);
-const options={output:path.join(root,'dist','films'),report:null,games:[]};
+const options={output:path.join(root,'site','films'),report:null,games:[]};
 for(const arg of process.argv.slice(2)){
  if(arg==='--help'||arg==='-h'){console.log('Usage: node tools/validate-films.mjs [--output=/tmp/previews] [--game=islands,flunkyball] [--report=/tmp/check.json]');process.exit(0);}
  else if(arg.startsWith('--output='))options.output=path.resolve(arg.slice(9));
@@ -22,10 +22,10 @@ for(const arg of process.argv.slice(2)){
  else if(arg.startsWith('--game='))options.games.push(...arg.slice(7).split(',').filter(Boolean));
  else throw new Error(`Unknown option ${arg}`);
 }
-const production=options.output===path.join(root,'dist','films');
+const production=options.output===path.join(root,'site','films');
 if(production&&options.games.length)throw new Error('Production validation requires all 72 films; use --output for an isolated preview.');
-options.report??=production?path.join(root,'research','film-media-check.json'):path.join(options.output,'media-check.json');
-const games=(await Promise.all(['chase-dodge','world-target','team-together'].map(name=>fs.readFile(path.join(root,'dist','data',name+'.json'),'utf8').then(JSON.parse)))).flat();
+options.report??=production?path.join(root,'research','checks','film-media-check.json'):path.join(options.output,'media-check.json');
+const games=(await Promise.all(['chase-dodge','world-target','team-together'].map(name=>fs.readFile(path.join(root,'site','data',name+'.json'),'utf8').then(JSON.parse)))).flat();
 const manifest=JSON.parse(await fs.readFile(path.join(options.output,'manifest.json'),'utf8'));
 assert.equal(games.length,72);assert.equal(manifest.version,FILM_RELEASE.version,'A v2 manifest is required; old videos must be regenerated.');
 assert(Number.isInteger(manifest.width)&&manifest.width>=320&&manifest.width<=2560&&manifest.width%32===0);

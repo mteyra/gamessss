@@ -26,4 +26,4 @@ try{
  $('game-search').addEventListener('input',renderGames);['players-filter','space-filter','gear-filter'].forEach(id=>$(id).addEventListener('change',renderGames));
  $('clear-filters').addEventListener('click',clearFilters);$('reset-empty').addEventListener('click',clearFilters);$('atlas-random').addEventListener('click',()=>randomGame(filtered));
  document.body.addEventListener('click',e=>{if(e.target.closest('dialog'))return;const b=e.target.closest('[data-open-lineup],[data-save]');if(!b)return;if(b.hasAttribute('data-open-lineup'))openLineup();else if(b.dataset.save)toggleSave(b.dataset.save);});
-}catch(error){console.error(error);$('results-count').textContent='The atlas could not load.';$('game-grid').innerHTML='<p>Reload, or open the <a href="gamessss-field-guide.pdf">complete field guide PDF</a>.</p>';}
+}catch(error){console.error(error);$('results-count').textContent='The atlas could not load.';$('game-grid').innerHTML='<p>Reload, or open the <a href="group-games-field-guide.pdf">complete field guide PDF</a>.</p>';}

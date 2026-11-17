@@ -1,6 +1,6 @@
-import {sceneMarkup} from '../dist/film-renderer.js';
-import {FILM_THEME as T,legendColor} from '../dist/film-theme.js';
-import {FAMILIES,escapeHTML as esc} from '../dist/core.js';
+import {sceneMarkup} from '../site/film-renderer.js';
+import {FILM_THEME as T,legendColor} from '../site/film-theme.js';
+import {FAMILIES,escapeHTML as esc} from '../site/core.js';
 
 const clamp=v=>Math.max(0,Math.min(1,v));
 const out=t=>1-(1-clamp(t))**3;

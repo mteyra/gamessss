@@ -1,6 +1,6 @@
 # World & tradition / Aim & throw — research notes
 
-Research date: 14 November 2026. Dataset: `dist/data/world-target.json`, 24 entries, 12 per family.
+Research date: 14 November 2026. Dataset: `site/data/world-target.json`, 24 entries, 12 per family.
 
 This is a practical selection of physical games, not a ranking of cultures or a claim to contain every tradition. Places describe strong associations. They do not establish where a game was first invented. Native names and aliases are retained where useful for further discovery. Suggested ages, durations, headcounts and space categories are editorial hosting estimates, not federation prescriptions.
 
